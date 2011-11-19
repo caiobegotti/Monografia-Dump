@@ -9,28 +9,28 @@
 \makeatletter	% Para que ele entenda o @
 
 % CAPA
-\renewcommand{\capa} {
-\begin{titlepage}
-	\espaco{1.1}
-	
-	\begin{center}
-		\large\ABNTchapterfont\ABNTautordata
-	\end{center}
-	
-	\vspace{7.5cm}
-	
-	\begin{center}
-		\large\ABNTchapterfont\ABNTtitulodata\par
-	\end{center}
-	
-	\vfill
-	
-	\begin{center}
-		\textbf{\ABNTlocaldata}\par
-		\textbf{\ABNTdatadata}
-	\end{center}
-\end{titlepage}
-}
+%\renewcommand{\capa} {
+%\begin{titlepage}
+%	\espaco{1.1}
+%	
+%	\begin{center}
+%		\large\ABNTchapterfont\ABNTautordata
+%	\end{center}
+%	
+%	\vspace{7.5cm}
+%	
+%	\begin{center}
+%		\large\ABNTchapterfont\ABNTtitulodata\par
+%	\end{center}
+%	
+%	\vfill
+%	
+%	\begin{center}
+%		\textbf{\ABNTlocaldata}\par
+%		\textbf{\ABNTdatadata}
+%	\end{center}
+%\end{titlepage}
+%}
 
 % FOLHA DE ROSTO
 \newcommand{\esporient}[2] {
@@ -221,13 +221,13 @@
 \begin{document}
 
 \autor{CAIO ESDRAS DE BRITO BEGOTTI}
-\titulo{MÉTODO PARA CRIAÇÃO E ANÁLISE DE CORPORA LINGUÍSTICOS EM LATIM UTILIZANDO NLTK}
+\titulo{MÉTODO PARA CRIAÇÃO E ANÁLISE DE CORPORA LINGUÍSTICOS EM LATIM CLÁSSICO UTILIZANDO NLTK}
 \orientador{Alessandro Rolim de Moura}
 
 % Se tiver co-orientador
-\coorientador{Co-orientador 1\protect\\Co-orientador 2}
+%\coorientador{Co-orientador 1\protect\\Co-orientador 2}
 
-\comentario{Monografia apresentada como requisito parcial à obtenção do bacharel em Minha Área, pelo Programa de Pós-Graduação, Setor, Universidade Federal do Paraná.}
+\comentario{Projeto de Monografia apresentado à disciplina Orientação Monográfica I do Curso de Letras (Bacharelado em Estudos Linguísticos), do Setor de Ciências Humanas, Letras e Artes da Universidade Federal do Paraná.}
 
 \local{CURITIBA}
 
@@ -237,84 +237,84 @@
 \folhaderosto
 
 % TERMO DE APROVAÇÃO
-\begin{titlepage}
-	\espaco{1.1}
-	
-	\begin{center}
-		\Large\textbf{{Termo de Aprovação}}
-	\end{center}
-	
-	\vspace{0.75cm}
-	
-	\begin{center}
-		\large\ABNTautordata
-	\end{center}
-	
-	\vspace{1cm}
-	
-	\begin{center}
-		\large\ABNTtitulodata
-	\end{center}
-	
-	\vspace{1cm}
-	
-	\noindent Dissertação aprovada como requisito parcial para obtenção do grau de Mestre/Doutor em Minha Área, pelo Programa de Pós-Graduação, Setor, Universidade Federal do Paraná, pela seguinte banca examinadora:
-	
-	\setlength{\ABNTsignthickness}{0.4pt}
-	\setlength{\ABNTsignskip}{2cm}
-	
-	\vspace{-0.5cm}
-	\assinatura{Prof. Dr. Meu Orientador\\Universidade Federal do Paraná}
-	
-	\vspace{-0.5cm}
-	\assinatura{Prof. Dr. Meu Co-orientador\\Universidade Federal do Paraná}
-	
-	\vspace{-0.5cm}
-	\assinatura{Prof. Dr. Convidado\\Universidade} 
-	
-	\vspace{-0.5cm}
-	\assinatura{Prof. Dr. Convidado \\Universidade}
-	
-	\vfill
-	
-	\begin{center}
-		Curitiba, XX de ZZ de YYYY
-	\end{center}
-
-\end{titlepage}
+%\begin{titlepage}
+%	\espaco{1.1}
+%	
+%	\begin{center}
+%		\Large\textbf{{Termo de Aprovação}}
+%	\end{center}
+%	
+%	\vspace{0.75cm}
+%	
+%	\begin{center}
+%		\large\ABNTautordata
+%	\end{center}
+%	
+%	\vspace{1cm}
+%	
+%	\begin{center}
+%		\large\ABNTtitulodata
+%	\end{center}
+%	
+%	\vspace{1cm}
+%	
+%	\noindent Dissertação aprovada como requisito parcial para obtenção do grau de Mestre/Doutor em Minha Área, pelo Programa de Pós-Graduação, Setor, Universidade Federal do Paraná, pela seguinte banca examinadora:
+%	
+%	\setlength{\ABNTsignthickness}{0.4pt}
+%	\setlength{\ABNTsignskip}{2cm}
+%	
+%	\vspace{-0.5cm}
+%	\assinatura{Prof. Dr. Meu Orientador\\Universidade Federal do Paraná}
+%	
+%	\vspace{-0.5cm}
+%	\assinatura{Prof. Dr. Meu Co-orientador\\Universidade Federal do Paraná}
+%	
+%	\vspace{-0.5cm}
+%	\assinatura{Prof. Dr. Convidado\\Universidade} 
+%	
+%	\vspace{-0.5cm}
+%	\assinatura{Prof. Dr. Convidado \\Universidade}
+%	
+%	\vfill
+%	
+%	\begin{center}
+%		Curitiba, XX de ZZ de YYYY
+%	\end{center}
+%
+%\end{titlepage}
 
 % Deve ser adicionado ao contador de páginas um, referente a folha de rosto.
 % A folha de aprovação não recebe número, nem é contada.
 \addtocounter{page}{1}
 
-\pretextualchapter{Dedicatória}
-
-\vspace{12cm}
-\hspace{.3\textwidth}
-\begin{minipage}{.6\textwidth}
-	\par A quem eu dedico,
-	\par $\phantom{linha em branco}$
-	\par Por muito que fizeram, eu fiz tudo, só agradeço por educação...
-\end{minipage}
+%\pretextualchapter{Dedicatória}
+%
+%\vspace{12cm}
+%\hspace{.3\textwidth}
+%\begin{minipage}{.6\textwidth}
+%	\par A quem eu dedico,
+%	\par $\phantom{linha em branco}$
+%	\par Por muito que fizeram, eu fiz tudo, só agradeço por educação...
+%\end{minipage}
 
 \newpage
 
-\pretextualchapter{Agradecimentos}
+%\pretextualchapter{Agradecimentos}
+%
+%\vspace{12cm}
+%\hspace{.3\textwidth}
+%\begin{minipage}{.6\textwidth}
+%	\par A todos que, direta ou indiretamente, contribuíram para a realização e divulgação deste trabalho.
+%\end{minipage}
 
-\vspace{12cm}
-\hspace{.3\textwidth}
-\begin{minipage}{.6\textwidth}
-	\par A todos que, direta ou indiretamente, contribuíram para a realização e divulgação deste trabalho.
-\end{minipage}
-
-\pretextualchapter{Epígrafe}
-
-\vspace*{12cm}
-\hspace{.3\textwidth}
-\begin{minipage}{.6\textwidth}
-	\par Uma pequena prosa que esteja relacionada com o trabalho.
-	\par Obs.: A forma como uma prosa é escrita é importante.
-\end{minipage}
+%\pretextualchapter{Epígrafe}
+%
+%\vspace*{12cm}
+%\hspace{.3\textwidth}
+%\begin{minipage}{.6\textwidth}
+%	\par Uma pequena prosa que esteja relacionada com o trabalho.
+%	\par Obs.: A forma como uma prosa é escrita é importante.
+%\end{minipage}
 
 \sumario
 
@@ -331,20 +331,20 @@
 %\listadesimbolos
 
 % RESUMO
-\begin{resumo}
-	$\phantom{linha em branco}$\\
-	Escreva aqui o texto de seu resumo...\\
-	$\phantom{linha em branco}$\\
-	Palavras-chave: Escreva; Aqui; Suas; Palavras-chave.
-\end{resumo}
+%\begin{resumo}
+%	$\phantom{linha em branco}$\\
+%	Escreva aqui o texto de seu resumo...\\
+%	$\phantom{linha em branco}$\\
+%	Palavras-chave: Escreva; Aqui; Suas; Palavras-chave.
+%\end{resumo}
 
 % ABSTRACT
-\begin{abstract}
-	$\phantom{linha em branco}$\\
-	Write here the English version of your `Resumo'...\\
-	$\phantom{linha em branco}$\\
-	Key-words: Write; Here; Your; Key-words.
-\end{abstract}
+%\begin{abstract}
+%	$\phantom{linha em branco}$\\
+%	Write here the English version of your `Resumo'...\\
+%	$\phantom{linha em branco}$\\
+%	Key-words: Write; Here; Your; Key-words.
+%\end{abstract}
 
 % A parte textual deve conter:
 % 1 - Introdução
@@ -355,6 +355,114 @@
 % 6 - Conclusão
 
 \chapter{Introdução}
+\par O projeto de monografia no qual pretendo trabalhar foca na construção de corpora linguísticos de textos do período clássico do latim e em uma análise computacional desses corpora, para que possamos melhorar metódos de ensino em latim e permitir uma melhor compreensão dessa língua, de uma forma menos artificial, ao menos no que tange o uso de vocabulários pré-determinados sem embasamento linguístico e estatístico.
+
+\par Para tal, me basearei no projeto NLTK (Natural Language Toolkit), um conjunto de rotinas de programação de computador, em forma de kit de ferramentas, para processamento de linguagem natural. Com a ajuda do NLTK e à luz da Linguística de Corpus procurarei evidenciar os usos mais comuns do latim por autores do período clássico e irei sugerir uma abordagem para uso disso em sala de aula.
+
+\par Cícero, por melhor representar esse período, tanto pela enorme produção e variedade de seus textos quanto pela sua enorme influência intelectual após a Renascença, será o escolhido para montar tais corpora para análise.
+
+\par Espero com esse trabalho contribuir para o ainda pequeno grupo de linguistas computacionais, especialmente os que apreciam e trabalham com o latim. A exemplo do que já foi feito com o inglês de forma semelhante, pode-se ganhar bastante em sala de aula e pesquisa com tal abordagem (Sardinha, 2000).
+
+\chapter{Justificativa}
+\par Atualmente o ensino de latim, além de ainda se dar de forma bastante limitada em escolas e universidades brasileiras, tende a ser ensinado somente de cima para baixo, ou seja, dos professores aos alunos, pois os primeiros são uma fonte natural de conhecimento e autoridade.
+
+\par Porém, alunos de latim com frequência simplesmente tem que confiar na capacidade de julgamento de mestres na escolha do melhor material a ser estudado, o que de fato faz sentido pois os professors sabem avaliar a melhor linha de aprendizado, embora isso faça surgir uma possibilidade de bloqueio aos alunos pois o que um professor escolhe não necessariamente apresenta a melhor relação custo benefício ao aluno (tempo de aprendizado e qualidade de aprendizado).
+
+\par Por si só isso não representa um problema. Entretanto, por ser uma língua sem falantes nativos ? logo, poucos podem julgar se o que está sendo estudado de fato representaria a realidade dos falantes e letrados de uma língua há dois mil anos ? ninguém na realidade sabe dizer com total certeza se, por exemplo, a seleção de textos e a escolha de determinado vocabulário de estudo é ou não adequado, ou se ele é suficientemente representativo para os alunos ganharem proficiência mais rapidamente.
+
+\par Isso é até aceitável em línguas estrangeiras modernas (afinal o aluno tem mais contato com elas e pode sair de um beco sem saída com mais facilidade), mas com línguas clássicas como latim, e até grego, o prejuízo pode se tornar maior ao aluno que se dispõe de tanto tempo e então percebe que tomou um caminho de estudo não muito bom e perdeu uma oportunidade de aprendizado de verdade.
+
+\par Em uma situação limite, um estudante de latim poderia estar aprendendo um vocabulário que outrora pertencia a um texto menor, senão inútil para um usuário nativo da língua ? que na maioria dos casos acadêmicos seria um usuário letrado cujos textos chegaram até nós, não exatamente contendo a língua falada passada para um texto, que embora seja de igual importância, não costuma ser o foco de classes de língua latina.
+
+\par Parece que isso ocorre pela falta de um catálogo linguístico cientificamente montado com as palavras verdadeiramente mais usadas da língua. Já houve tentativas de se fazer isso para o latim, porém em uma época cujos poderes da análise linguística feita pelo computador ainda não eram conhecidos (Diederich, 1939), ou foram tentativas focadas em outras línguas, como o inglês (Almeida, 1997) e o espanhol (Jacobi, 2001). Embora os resultados tenham sido utilizados de maneira distinta ao que aqui se propõe, a motivação é similar.
+
+\par Criando hoje corpora linguísticos do latim em um formato conhecido por linguistas computacionais, utilizando métodos documentados e comprovadamente eficientes para análise linguistica, é possível melhorarmos o ensino de latim em escolas e universidades, além de permitir ao aluno (independente ou aconselhado) que tome o ensino da língua nas suas próprias mãos, em uma conexão direta com os usuários da língua do passado.
+
+\par Ainda que existam diversos modelos, bases de dados e programas de computador para a análise de corpora em latim, muitos são fechados e proprietários ou requerem licenciamentos, ou seja, não permitem o uso barato e completo deles por parte dos usuários, que em muitos casos sofrem restrições de uso e até distribuição do resultados de suas pesquisas, seja dentro ou fora da universidade. Além disso, alguns são bastante caros (o que é compreensível dada a dificuldade de catalogar e organizar bases enormes), fugindo da realidade da universidade brasileira ainda carente de recursos para latinistas . 
+
+\par Logo, uma solução aberta, sem restrições e barata se faz necessária, e que deve ainda aproveitar a possibilidade de utilizar textos sem amarras de direito autoral como no caso de textos clássicos em latim. Não está sendo proposto aqui uma revolução no jeito de trabalhar o latim com computação, mas simplesmente oferecendo uma alternativa viável, barata e eficiente para alunos, pesquisadores e entusiastas brasileiros.
+
+\par A busca pelo domínio da leitura em uma segunda língua é um dos maiores objetivos de qualquer interessado em línguas, e isso não é diferente para olatim. Esse trabalho se propõe a ajudar nisso. A motivação inicial para esse trabalho veio através de um projeto similar focado na língua inglesa na UNICAMP. Hoje transformado em livro e guia de estudo, o projeto começou como um mero catálogo das palavras mais comuns do inglês, e desencadeou novas formas de estudar a língua que poderiam beneficiar também o latim (Almeida, 2003).
+
+\par Dessa maneira, poderíamos encontrar respostas, que não são facilmente comprováveis sem métodos como o proposto nesse trabalho, para perguntas como: que grupo lexical devemos aprender primeiro? Que vocabulário é mais adequado para determinados alunos ou pesquisadores de latim? Dos estilos de textos clássicos em latim, qual se sobresaía mais? Que tipo de palavreado era mais comum em textos oficiais, e qual era mais comum em textos informais (como em cartas)? Quais seriam as palavras mais comuns do latim clássico, muito possivelmente sendo as mais úteis para um início mais veloz do aprendizado?
+
+\chapter{Fundamentação Teórica}
+\section{Linguística Aplicada e Computacional}
+\par Todo esse trabalho se sustenta sobre os princípios da linguística aplicada, ou seja, o uso de ferramentas linguísticas destinado à resolução ou análise de problemas reais das línguas, ou seja, é o estudo prático e não teórico delas. Particularmente, o subcampo da linguística aplicada mais em voga atualmente é o da linguística computacional, que de forma simplificada é um campo de estudo que envolve diversas áreas, como ciência da computação, matemática, neurologia e a própria linguística, para citar os mais populares.
+
+\par A história da linguística computacional está, naturalmente, totalmente ligada ao surgimento dos primeiros computadores, logo após a segunda guerra mundial. Muitos problemas linguísticos hoje envolvem resolver algorítimos ou modelar dados, com frequência em grande escala, e foi exatamente para estes tipos de tarefas que os computadores foram criados. Logo, não é surpresa alguma que ambas as áreas estejam hoje tão próximas (no mundo privado ao menos, pois na academia brasileira tenho a impressão que ainda não chegamos lá).
+
+\par Do contato da linguística e da computação, então, chegamos ao processamento de linguagem natural ? comumente aparecendo simplesmente como PLN, ou como NLP de natural language processing, em inglês ?, que basicamente foca em problemas como análise automática de discurso, tradução por máquinas, análises morfo-sintáticas, reconhecimento ou geração de fala, segmentação de anunciados, stemming (redução de palavras até se encontrar raízes comuns), gramática categorial, análises estatísticas, entre diversos outros. A cada dia surgem novas aplicações possíveis, que acabam estreitando a diferença de significado entre linguística computacional e processamento de linguagem natural, que para alguns se distinguem somente como uma sendo o campo teórico e outra o prático da língua dentro da computação.
+
+\section{Linguística de Corpus}
+\par Dentro da linguística computacional encontramos afinal a linguística de corpus, campo da linguística que estuda a língua como objeto vivo através de modelos estatísticos e amostragens de dados reais da língua, não representações idealizadas dela. 
+
+\par Para os aderentes à essa linha teórica, a língua deve se expressar por si mesma, pelos textos e discursos que surgem naturalmente de seus usuários, e daí o linguista pode aferir fatos e analisá-la. A linguística de corpus, dessa maneira, evita trabalhar com textos criados artificialmente, e seus modelos são modelos de dados e não modelos teóricos de representação da língua; podem ser textos escritos ou falas transcritas, organizados em um dado formato e com categorização padronizada, além de poderem ser manualmente mapeados para um processamento posterior.
+
+\par Antigamente a linguística de corpus se encontrava em um estado bastante primitivo, muitas vezes sendo trabalhada por formas manuais. Hoje em dia ela é primariamente um campo de estudo que anda junto com a linguística computacional, dado o poder de processamento e automatização de um computador a serviço do linguista, comparado a um linguista solitário com papel e lápis.
+
+\par Somente nas últimas décadas a linguística de corpus tomou o palco das ciências das línguas (por exemplo, foi somente nos anos 70 que o primeiro corpus de língua falada foi montado e analisado digitalmente). Portanto, não é de surpreender que tão pouco a utilizem ainda e, particularmente no Brasil, exista certa falta de tradição nesse ramo da linguística aplicada.
+
+\par Virtualmente todas as ferramentas digitais de tradução, análise linguística e construção de dicionários utilizam a linguística de corpus como base. Grandes empresas, como Google e IBM, utilizam de seu poder computacional para, com trilhões de fontes de textos disponíveis na Internet (um amontoado de corpora de domínio público esperando para ser analisado), construir conversores de texto para fala, analisadores sintáticos e tradutores automáticos.
+
+\par No caso dos tradutores automáticos, é graças à linguística de corpus que recentemente o serviço Google Translate passou a traduzir textos em diversas línguas do e para o latim, por exemplo, o que corrobora a importância dessa área da linguística para quem estuda línguas de forma séria. Embora os resultados de ferramentas como o Google Translate não pareçam muito ?profissionais? ainda, o fato é que traduções baseadas em estatísticas de corpora tendem a apresentar melhores resultados que as baseadas em regras linguísticas fixas (Och, 2005). É por isso que muitas vezes, por exemplo, textos de um serviços como o do Google ainda demonstrem uma sintaxe estranha, mas é tudo uma questão dos corpora usados. Quanto maiores e mais abrangentes forem, melhores serão os resultados.
+
+\chapter{Objetivos}
+\par O objetivo primordial desse trabalho é permitir uma maior compreensão de textos clássicos em latim para os estudantes dessa língua através da criação de vocabulários específicos e automatizados por processamento de linguagem natural, cujas fontes serão textos de Cícero, do período clássico do latim.
+ 
+\par Através desses resultados, formatados, alunos e professores poderão focar no aprendizado dos textos em si, não disperdiçando tempo em decorar vocábularios sem necessidade, assim como já foi feito para outras línguas, como o inglês.
+
+\par Indiretamente, teremos um objetivo secundário que deriva do propósito anterior: a criação de corpora e um catálogo de stopwords do latim. Os corpora poderão ser utilizados para processamento de linguagem natural por terceiros, da mesma forma que serão utilizados nesse trabalho. O catálogo de stopwords poderá também ser utilizado por terceiros, e tentará ser abrangente, pois atualmente não se tem um catálogo completo para o latim assim como se tem para outras línguas.
+
+\chapter{Metodologia}
+\section{NLTK}
+\par 	Nesse trabalho será utilizado o NLTK, ou Natural Language Toolkit, um conjunto de ferramentas de programação voltado ao processamento de linguagem natural através de computação. Atualmente o NLTK é um dos projetos de maior sucesso para esse fim, pois, além de ser livre de licenças e custos, é bastante abrangente e cobre diversas línguas oficialmente e é disponibilizado já com diversos corpora para testes. O projeto possui livros e publicações sobre seu funcionamento, tem mais de dez anos de desenvolvimento e é utilizado em universidades já há algum tempo, tornando-o ideal para uso pois está em constante evolução acompanhando novas descobertas no campo de processamento de linguagem natural (Bird, 2009). O fato de existirem trabalhos sobre seu funcionamento, ele ter mais de uma década de existência e ser um projeto de software livre, portanto com alta expectativa de evolução e manutenção, o NLTK se mostra seguro para linguistas experimentarem-no.
+
+\section{Corpora}
+\par O escopo dos textos escolhido para compor os corpora desse trabalho abrange o período clássico da literatura latina, de qual Cícero é um dos maiores (senão o maior) expoentes. A escolha de Cícero se deu pelo fato de que sua produção foi bastante variada, tendo escrito desde tratados até cartas mais informais, de textos processuais até filosofia.
+
+\par Cícero teve uma grande influência no pensamento moderno, e é ainda um dos autores mais estudados em cursos de latim, o que o torna ideal para uma análise linguística abrangente em latim. Será estudado uma das grandes características de Cícero, que é a chamada elegantia, que se traduz não como elegância simplesmente mas como um refinamento e na perfeita escolha de vocabulário para expressar uma idéia (Palmer, 1988). Portanto, nada mais adequado do que tentar enxergar como isso de dava utilizando a linguística de corpus.
+
+\par Suas coleções e períodos ainda estão sendo estudados e serão definidos em breve, mas sempre tentando construir os corpora utilizando fontes abertas ou livres de restrição, a fim de que outros possam utilizar os corpora gerados por esse trabalho sem dificuldades.
+
+\par Os corpora de Cícero serão trabalhados de acordo com as regras de formatação e organização de outros corpora encontrados no projeto NLTK; atualmente beirando quarenta corpora amplamente utilizados. Isso facilitará bastante o processamento dos textos e também contribuirá com o projeto, para aumentar ? criar, na realidade ? sua base de textos em latim. Tentaremos, se o tempo do projeto permitir, iniciar o etiquetamento gramatical (também conhecido simplesmente como tagging) dos corpora, mesmo que de forma rudimentar.
+
+\section{Stopwords}
+\par O catálogo de stopwords é uma dependência natural dos corpora pois é ele que filtra resultados indesejados ou que poderiam eventualmente poluir os dados; stopwords, para um computador, nada mais são que termos que interrompem o processamento da linguagem e pula para o próximo termo. Toda língua possui uma lista de stopwords para processamento, porém o latim ainda não conta com uma verdadeiramente usável.
+
+\par Embora pudessem ter sua criação automatizada por algorítimos de textos, catálogos de stopwords geralmente são construídos manualmente por linguistas. Logo, não existe um catálogo definitive ou verdadeiramente completo para uma determinada língua, somente os mais abrangentes e os menos abrangentes, a depende do uso que será dado a eles.
+
+\par Em computação, stopwords não são utilizadas somente para filtrar resultados indesejados ou que não são o foco da pesquisa linguística, muitas vezes são termos repetitivos que levam a uma pior performance de um sistema e que se não forem ignorados diminuem a legibilidade dos resultados. Por exemplo, é bastante comum filtrar-se preposições, conjunções e pronomes, uma vez que eles pouco influenciam na maioria das análises computacionais de um texto e representam um conjunto de termos funcionais ? sem muita significância ? que podem poluir os dados do ponto de vista linguístico (Sardinha, 1998) e dificultar a análise computacional (Makrehchi e Kamel, 2008).
+
+\par Para o latim será criado, sob orientação, um catálogo geral de stopwords (no modelo clássico, uma lista finita de termos), e catálogos menores, onde se encontrará somente preposições, ou somente pronomes e assim por diante, para que os alunos e pesquisadores possam refinar melhor o uso de stopwords em latim.
+
+\section{Python}
+\par Tanto o NLTK quanto ferramentas auxiliares desse trabalho serão feitos utilizando a linguagem de programação Python. A escolha dessa linguagem de programação se dá, além pelo fato do NLTK utilizá-la internamente para processar línguas naturais, também pela facilidade de leitura dos códigos escritos nela por parte de pessoas que não são da área de computação e por ser uma linguagem de alto nível, ou seja, de alta abstração, o que leva a um desenvolvimento mais rápido do projeto ao mesmo tempo que permite que ele seja menos críptico para terceiros.
+
+\section{Análise de Frequência}
+\par Será usado o método de análise de frequência estatística como forma básica de obter os resultados de vocabulários dos corpora. Análise de frequência é uma forma de, através de pequenos experimentos automáticos (através de programação, tentar obter matches de um termo em um texto, por exemplo), descobrir a proporção de uso de uma palavra qualquer em relação ao todo de um corpus específico.
+
+\par Para chegar ao ponto de usar uma análise de frequência, é preciso antes passar pela montagem dos corpora, da criação de filtros e estipular outros parâmetros do processamento. Porém, uma vez que isso é feito, a análise de frequência se mostra relativamente simples e bastante proveitosa. Embora ela seja base da linguística quantitativa, não é preciso entrar em muitos detalhes dessa subarea da linguística.
+
+\chapter{Cronograma}
+\par As tarefas necessárias para a conclusão do trabalho devem ser divididas em etapas sequenciais, visto que uma depende da outra. Muito provavelmente as etapas serão repassadas após uma primeira "rodada" para afinar os resultados e aparar problemas encontrados durante o caminho, antes da conclusão total da monografia.
+
+\par 	As etapas e seus tempos de conclusão serão divididas como a seguir:
+
+\section{Definição}
+\par Definir o escopo do projeto e o que se pretende fazer. Especificar limites para não perder o foco dos objetivos nem se perder em superficialidade. Este projeto de monografia propriamente dito. Tempo estimado: Set-Out 2011. Complexidade: média.
+
+\section{Coleta}
+\par Agregação do material para montagem dos corpora, pensando já na relevância dos textos, utilidade deles e abrangência linguística. Será preciso orientação próxima para que o material coletado seja relevante e representativo. Tempo estimado: Out-Nov 2011. Complexidade: média.
+
+\section{Montagem}
+\par A construção efetiva dos corpora de acordo com os formatos esperados pelo projeto NLTK e uma categorização básica dos textos para facilitar análise futura. Nessa etapa serão disponibilizados os corpora do trabalho para que outros do setor e departamento também possam utilizá-lo. Tempo estimado: Nov-Dez 2011. Complexidade: baixa.
+
+\section{Filtragem}
+\par Especificação de certos filtros a serem utilizados em análises dos corpora (como a necessidade de se catalogar stopwords da língua, por exemplo). Essa etapa também precisará de orientação próxima, pois um conhecimento profundo do latim será necessário para que os dados não fiquem poluídos. Tempo estimado: Mar 2012. Complexidade: baixa.
+
+\section{Análise}
+\par Etapa final da análise de todo o material organizado, bem como obtenção de dados estatísticos da língua para uso futuro em saula de aula ou pesquisa acadêmica. Gerar um modelo de uso do material resultante desse trabalho. Tempo estimado: Abr-Jun 2012. Complexidade: alta.
 
 % Existem ainda: abbrv, acm, alpha, amsalpha, amsplain
 \bibliographystyle{abnt-alf}	
