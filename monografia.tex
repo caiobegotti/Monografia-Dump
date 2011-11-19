@@ -14,6 +14,7 @@
 \usepackage[latin1]{inputenc}
 \usepackage{abnt-alf}
 \usepackage{graphicx}														%Package para figuras
+\usepackage[alf]{abntcite}
 
 %%
 %%	Ainda em teste
@@ -405,7 +406,7 @@ Key-words: Write; Here; Your; Key-words.
 % 6 - Conclusão
 
 \chapter{Figuras}
-\par Ei-lo um exemplo de como citar a figura \ref{fig:f01}, na página \pageref{fig:f01}, mostrada esta abaixo.
+\par Ei-lo um \citeonline{fulano} exemplo de como citar a figura \ref{fig:f01}, na página \pageref{fig:f01}, mostrada esta abaixo.
 
 \begin{figure}[htb]
 	\begin{center}
@@ -439,28 +440,20 @@ Key-words: Write; Here; Your; Key-words.
 	\end{center}
 \end{table}
 
-\chapter{Entrada de Símbolos e Siglas}
-\par Para fazer a entrada de um símbolo, $\backslash$símbolo\{\simbolo{$\sigma$}{Descrição}\} \{Descriçao\} é a forma correta. E, para definir uma sigla, $\backslash$sigla\{\sigla{ABNT}{Associação Brasileira de Normas Técnicas}\} \{Descrição\} deve ser utilizado.
-\par Obs.: Quando a sigla ou o símbolo aparecerem novamente no texto, não repita o comando, para que a sigla ou símbolo não se repita na lista correspondente.
+%\chapter{Entrada de Símbolos e Siglas}
+%\par Para fazer a entrada de um símbolo, $\backslash$símbolo\{\simbolo{$\sigma$}{Descrição}\} \{Descriçao\} é a forma correta. E, para definir uma sigla, $\backslash$sigla\{\sigla{ABNT}{Associação Brasileira de Normas Técnicas}\} \{Descrição\} deve ser utilizado.
+%\par Obs.: Quando a sigla ou o símbolo aparecerem novamente no texto, não repita o comando, para que a sigla ou símbolo não se repita na lista correspondente.
 
-% ********** REFERÊNCIAS **********
-\bibliographystyle{abnt-alf}	% Este é um estilo que determina como a bibliografia vai aparecer
-															% Existem ainda: abbrv, acm, alpha, amsalpha, amsplain
+% Existem ainda: abbrv, acm, alpha, amsalpha, amsplain
+\bibliographystyle{abnt-alf}	
+\bibliography{monografia}
 
-\bibliography{refer}					% o nome do arquivo .bib com as referências
+%\apendice
+%\chapter{Primeiro apêndice}
+%\par Apêndices são textos elaborados pelo autor a fim de complementar sua argumentação.
 
-% *********** APÊNDICES ***********
-% ** Condicionados à necessidade **
-\apendice
-\chapter{Primeiro apêndice}
-\par Apêndices são textos elaborados pelo autor a fim de complementar sua argumentação.
-
-% ************ ANEXOS *************
-% ** Condicionados à necessidade **
-\anexo
-\chapter{Primeiro anexo}
-\par Anexos são documentos não elaborados pelo autor, que servem de fundamentação, comprovação ou ilustração.
+%\anexo
+%\chapter{Primeiro anexo}
+%\par Anexos são documentos não elaborados pelo autor, que servem de fundamentação, comprovação ou ilustração.
 
 \end{document}
-
-% Quando o número de apêndices ou anexos vier a ser suficiente, é recomendado fazer um sumário separado para os apêndices, localizados imediatamente antes dos apêndices ou anexos. Nesse caso, no sumário principal, apenas é feito referência a este sumário específico.
