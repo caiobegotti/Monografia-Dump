@@ -6,6 +6,11 @@
 \usepackage{abnt-alf}
 \usepackage{graphicx}
 \usepackage{url}
+\usepackage{remreset}
+
+\makeatletter
+\@removefromreset{footnote}{chapter}
+\makeatother
 
 \makeatletter	% Para que ele entenda o @
 
@@ -402,13 +407,15 @@ A força que instiga esse trabalho a responder essas questões é muito bem explica
 \par Do contato da linguística e da computação, então, chegamos ao Processamento de Linguagem Natural (\sigla{PLN}{Processamento de Linguagem Natural}) --- ou \sigla{NLP}{Natural Language Processing} de Natural Language Processing, como costuma aparecer em bibliografias em inglês ---, que basicamente foca em problemas como análise automática de discurso, tradução por máquina, análises morfo-sintáticas, reconhecimento ou geração de fala\footnote{Speech-to-text e text-to-speech}, segmentação de anunciados\footnote{Tagging}, lematização de palavras\footnote{Word stemming}, gramática categorial, prosódia semântica de textos\footnote{Sentiment analysis}, análises estatísticas, entre  outros. Pelas duas áreas de pesquisa andarem quase sempre juntas atualmente, poucos conseguem distinguir diferenças entre elas. A cada dia surgem novas aplicações possíveis além das listadas e convencionou-se chamar tudo isso simplesmente de processamento de linguagem natural.
 
 \section{Linguística de Corpus}
-\par Dentro da linguística computacional encontramos afinal a linguística de corpus, campo da linguística que estuda a língua como objeto vivo através de modelos estatísticos e amostragens de dados reais da língua, não representações idealizadas dela. 
+\subsection{Histórico}
+\par Dentro da linguística computacional encontramos afinal a Linguística de Corpus (\sigla{LC}{Linguística de Corpus}), campo da linguística que estuda a língua como objeto vivo através de modelos estatísticos e amostragens de dados reais da língua, não representações idealizadas dela. É um campo da linguística totalmente empirista.
 
-\par Para os aderentes à essa linha teórica, a língua deve se expressar por si mesma, pelos textos e discursos que surgem naturalmente de seus usuários, e daí o linguista pode aferir fatos e analisá-la. A linguística de corpus, dessa maneira, evita trabalhar com textos criados artificialmente, e seus modelos são modelos de dados e não modelos teóricos de representação da língua; podem ser textos escritos ou falas transcritas, organizados em um dado formato e com categorização padronizada, além de poderem ser manualmente mapeados para um processamento posterior.
+\par Para os aderentes a essa linha teórica, a língua deve se expressar por si mesma, pelos textos e discursos que surgem naturalmente de seus usuários, e daí o linguista pode aferir fatos e analisá-la. A linguística de corpus, dessa maneira, evita trabalhar com textos criados artificialmente, e seus modelos são modelos de dados e não modelos teóricos de representação da língua; podem ser textos escritos ou falas transcritas, organizados em um dado formato e com categorização padronizada, além de poderem ser manualmente mapeados para um processamento posterior.
 
-\par Antigamente a linguística de corpus se encontrava em um estado bastante primitivo, muitas vezes sendo trabalhada por formas manuais. Hoje em dia ela é primariamente um campo de estudo que anda junto com a linguística computacional, dado o poder de processamento e automatização de um computador a serviço do linguista \cite{sinclair}, comparado a um linguista solitário com papel e lápis.
+\par Antigamente a Linguística de Corpus se encontrava em um estado bastante primitivo, muitas vezes sendo trabalhada por formas manuais. Hoje em dia ela é um campo de estudo que anda junto com a linguística computacional, dado o poder de processamento e automatização de um computador a serviço do linguista \cite{sinclair}, comparado a um linguista solitário com papel e lápis.
 
-\par Somente nas últimas décadas a linguística de corpus tomou o palco das ciências das línguas (por exemplo, foi somente nos anos 70 que o primeiro corpus de língua falada foi montado e analisado digitalmente). Portanto, não é de surpreender que tão pouco a utilizem ainda e, particularmente no Brasil, exista certa falta de tradição nesse ramo da linguística aplicada.
+\subsection{Casos de uso}
+\par Somente nas últimas décadas a linguística de corpus tomou o palco das ciências das línguas. Por exemplo, foi somente por volta dos anos 70 que os primeiros corpora de línguas faladas foram montados e analisados digitalmente\footnote{Os dicionários Collins COBUILD English Language Dictionary e The American Heritage Dictionary of the English Language foram os primeiros a utilizar a LC em sua construção}. Portanto, não é de surpreender que tão pouco a utilizem ainda e, particularmente no Brasil, exista certa falta de tradição nesse ramo da linguística aplicada.
 
 \par Virtualmente todas as ferramentas digitais de tradução, análise linguística e construção de dicionários utilizam a linguística de corpus como base. Grandes empresas, como Google e IBM, utilizam de seu poder computacional para, com trilhões de fontes de textos disponíveis na Internet (um amontoado de corpora de domínio público esperando para ser analisado), construir conversores de texto para fala, analisadores sintáticos e tradutores automáticos.
 
