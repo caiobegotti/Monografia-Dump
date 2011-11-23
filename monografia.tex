@@ -437,9 +437,13 @@ A força que instiga esse trabalho a responder essas questões é muito bem explica
 
 \section{Corpora}
 
+\subsection{Especificação}
+
 \par Os corpora de Cícero serão construídos de acordo com as regras de formatação e organização de outros corpora encontrados no projeto NLTK, que atualmente possui cerca de quarenta corpora prontos para uso. Isso facilitará bastante o processamento dos textos e também contribuirá com o projeto, para aumentar --- criar, na realidade --- sua base de textos em latim. Tentaremos também, se o tempo permitir, iniciar o etiquetamento gramatical dos corpora, mesmo que de forma rudimentar.
 
 \par O escopo dos textos escolhido para compor os corpora desse trabalho abrange o período clássico da literatura latina, da qual Cícero é um dos maiores expoentes, senão o maior. A escolha de Cícero se deu por sua produção ter sido bastante variada, tendo ele escrito desde tratados até cartas pessoais, de textos jurídicos até filosofia. Cícero teve uma grande influência no pensamento moderno, e é ainda um dos autores mais estudados em cursos de latim, o que o torna ideal para uma análise linguística do latim.
+
+\par Quanto ao tamanho dos corpora, que indiretamente determina a utilidade deles, em um teste preliminar chegou-se a marca de 80.000 palavras. No teste, apenas alguns textos de Cícero facilmente encontráveis publicamente foram processados, sem muito método. De acordo com estimativas de \citeonline{sardinha-wordsmith}, isso já garante a esse trabalho corpora de tamanhos razoáveis. O tamanho final dos corpora deverá ser muito maior que esse número, porém.
 
 \subsection{Por que Cícero?}
 
@@ -461,7 +465,9 @@ A força que instiga esse trabalho a responder essas questões é muito bem explica
 \par Para o latim será criado, sob orientação, um catálogo geral de stopwords (no modelo clássico, uma lista finita de termos), e catálogos menores onde se encontrará somente preposições, ou somente pronomes e assim por diante, para que os alunos e pesquisadores possam refinar melhor o uso de stopwords em latim.
 
 \section{Python}
-\par Tanto o NLTK quanto ferramentas auxiliares desse trabalho serão feitos utilizando a linguagem de programação Python. A escolha dessa linguagem de programação se dá, além pelo fato do NLTK utilizá-la internamente para processar línguas naturais \cite{perkins}, também pela facilidade de leitura dos códigos escritos nela por parte de pessoas que não são da área de computação e por ser uma linguagem de alto nível, ou seja, de alta abstração, o que leva a um desenvolvimento mais rápido do projeto ao mesmo tempo que permite que ele seja menos críptico para terceiros.
+\par Tanto o NLTK quanto ferramentas auxiliares desse trabalho serão feitos utilizando a linguagem de programação Python. A escolha dessa linguagem de programação se dá, entre outros motivos, pelo fato do NLTK utilizá-la internamente para processar línguas naturais. Também, a facilidade de leitura dos código-fonte da linguagem por pessoas que não são da área de computação é um fator chave \cite{perkins}. Por Python ser uma linguagem de alto nível, ou seja, de alta abstração ao se programar com ela, o desenvolvimento de progras é mais rápido com ela e permite que ele seja menos críptico para terceiros que precisem analisá-lo.
+
+\par A escolha de Python junto com o NLTK vai permitir uma autonomia muito grande para se criar, analisar e trabalhar de forma geral os corpora de latim clássico. Algumas alternativas para análise linguística de corpora\footnote{Há uma lista mais completa em http://linguistlist.org/sp/GetWRListings.cfm?WRAbbrev=Software} incluem os programas WordSmith Tools, Perseus Hopper (a versão web do projeto Perseus), Diogenes, Wmatrix, LanguageWare da IBM e LIWC. Infelizmente, quase todos esses programas possuem limitações tecnológicas, quando não de preço também. Utilizando a linguagem Python junto com o NLTK se tem uma possibilidade de desenvolvimento, customização e aprendizado muito grande. Digamos que se precise corrigir algum componente interno de um desses softwares, seja porque o erro é aparente ou porque o pesquisador suspeita do seu comportamento. Isso não é possível com eles, mas é com Python e o NLTK, tornando estes até mesmo mais cientificamente confiáveis.
 
 \section{Análise de Frequência}
 \par Será usado o método de análise de frequência estatística como forma básica de obter os resultados de vocabulários dos corpora. Análise de frequência é uma forma de, através de pequenos experimentos automáticos (através de programação, tentar obter matches de um termo em um texto, por exemplo), descobrir a proporção de uso de uma palavra qualquer em relação ao todo de um corpus específico. Essa é uma das atividades primordiais da linguística de corpus, muitas vezes chamada simplesmente de estatística lexical por aderentes da linguística quantitativa, e tende a focar nas resoluções das leis de Zipf para determinados corpora \cite{tesitelova}.
