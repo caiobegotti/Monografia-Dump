@@ -228,7 +228,7 @@
 \begin{document}
 
 \autor{CAIO ESDRAS DE BRITO BEGOTTI}
-\titulo{MÉTODO PARA CRIAÇÃO E ANÁLISE DE CORPORA LINGUÍSTICOS EM LATIM CLÁSSICO UTILIZANDO NLTK}
+\titulo{O LATIM CLÁSSICO DE CÍCERO À LUZ DA LINGUÍSTICA DE CORPUS: DESCRIÇÃO E IMPLEMENTAÇÃO DE MÉTODO COM NLTK}
 \orientador{Alessandro Rolim de Moura}
 
 % Se tiver co-orientador
@@ -407,6 +407,8 @@ A força que instiga esse trabalho a responder a essas questões é muito bem expli
 
 \par A história da linguística computacional está, naturalmente, ligada ao surgimento dos primeiros computadores logo após a II Guerra Mundial. Muitos problemas linguísticos hoje envolvem resolver algorítimos ou modelar dados --- com frequência em grande escala --- e foi exatamente para estes tipos de tarefas que os computadores foram criados. Dessa forma, não é surpresa alguma que ambas as áreas estejam hoje tão próximas; no mundo privado ao menos, pois na academia brasileira tenho a impressão de que ainda não alcançamos massa crítica de pesquisa ainda \cite{ladeira}.
 
+\par TODO: CNPq_oficial CNPq Deseja encontrar um grupo de pesquisa brasileiro? Procure aqui: http://t.co/jTwLBNZ9 falar que tem grupos mas sao raros e nao retornaram contato, exclusivos... e tal
+
 \par Do contato da linguística e da computação, então, chegamos ao Processamento de Linguagem Natural (\sigla{PLN}{Processamento de Linguagem Natural}) --- ou \sigla{NLP}{Natural Language Processing} de Natural Language Processing, como costuma aparecer na literatura especializada em inglês ---, que basicamente foca em problemas como análise automática de discurso, tradução por máquina, análises morfo-sintáticas, reconhecimento ou geração de fala\footnote{Speech-to-text e text-to-speech}, etiquetamento de anunciados\footnote{Tagging}, lematização de palavras\footnote{Word stemming}, gramática categorial, prosódia semântica de textos\footnote{Sentiment analysis}, análises estatísticas, entre  outros. Pelo fato da linguística computacional e PLN serem áreas que atualmete quase sempre andam juntas, poucos conseguem distinguir diferenças entre elas. A cada dia surgem novas aplicações possíveis além das listadas e convencionou-se chamar tudo isso simplesmente de processamento de linguagem natural.
 
 \section{Linguística de Corpus}
@@ -417,12 +419,18 @@ A força que instiga esse trabalho a responder a essas questões é muito bem expli
 
 \par Antigamente a Linguística de Corpus se encontrava em um estado bastante primitivo, muitas vezes sendo trabalhada por formas manuais. Hoje em dia ela é um campo de estudo que anda junto com a linguística computacional, dado o poder de processamento e automatização de um computador a serviço do linguista \cite{sinclair}, comparado a um linguista solitário com papel e lápis.
 
+\par TODO: prever possiveis criticas e contextualizar historica ruim da LC: http://norvig.com/chomsky.html
+
+\par TODO: falar da abordagem que dao pra linguistica historica tambem, clackson e filogenia
+
 \subsection{Casos de uso}
 \par Somente nas últimas décadas a linguística de corpus tomou o palco das ciências das línguas. Por exemplo, foi somente por volta dos anos 70 que os primeiros \textit{corpora} de línguas faladas foram montados e analisados digitalmente\footnote{Os dicionários Collins COBUILD English Language Dictionary e The American Heritage Dictionary of the English Language foram os primeiros a utilizar a LC em sua construção}. Portanto, não é de surpreender que tão pouco a utilizem ainda e, particularmente no Brasil, exista certa falta de tradição nesse ramo da linguística aplicada.
 
 \par Hoje, virtualmente todas as ferramentas digitais de tradução, análise linguística e construção de dicionários utilizam a LC como base. Grandes empresas, como Google e IBM, utilizam seu poder computacional e infra-estruturas gigantescas para, através de trilhões de fontes de textos disponíveis na Internet --- um amontoado de \textit{corpora} de domínio público esperando para ser analisado ---, construir conversores de texto para fala, analisadores sintáticos, tradutores automáticos etc.
 
 \par No caso dos tradutores automáticos, por exemplo, é graças à linguística de corpus que recentemente o serviço Google Translate passou a suportar a tradução de textos em diversas línguas do e para o latim, já que seria quase impossível implementar de forma fixa todas as regras gramaticais do latim em um tradutor automático. Embora os resultados de ferramentas como o Google Translate ainda não pareçam muito profissionais, o fato é que traduções baseadas em estatísticas de \textit{corpora} tendem a apresentar melhores resultados que as baseadas em regras linguísticas fixas \cite{och}. A qualidade dos resultados está diretamente relacionada ao volume de dados a serem processados. É por isso que muitas vezes textos de serviços como o do Google ainda mostram ter uma sintaxe estranha. Quanto maiores e mais abrangentes forem os \textit{corpora}, melhores serão as traduções\footnote{Uma das formas mais populares para avaliação de traduções automáticas baseadas em estatísticas de \textit{corpora} é a pontuação \sigla{BLEU}{Bilingual Evaluation Understudy}, proposta pela IBM, que indica o grau de inteligibilidade de um texto traduzido por um computador comparando-o a um traduzido por um ser humano, atestando sua qualidade}
+
+\par TODO: mencionar ausencia de corpora pra analise de linguas que nao o ingles outras mainstream, latim praticamente nao tem nada pronto pra pesquisa imediata, linguas africanas e asiaticas idem, linguistica de corpus, ou linguisticamente computacional nao pode ser sinonima de pesquisa em lingua inglesa somente, embora o ingles que lidere e abre caminhos para as outras atualmente (ref: http://www.resourcebook.eu./LreMap/faces/views/resourceMap.xhtml)
 
 \chapter{Objetivos}
 \par O objetivo primordial desse trabalho é permitir uma maior compreensão de textos clássicos em latim para os estudantes dessa língua através da criação de vocabulários específicos e automatizados por processamento de linguagem natural, cujas fontes serão textos de Cícero, do período clássico do latim. De forma análoga a \citeonline{almeida-livro}, esperamos que alunos de latim consigam se beneficiar do mesmo modelo de aprendizado, comprovado para o inglês. Dessa maneira, poderemos encontrar respostas para perguntas que não são facilmente comprováveis sem métodos como os propostos nesse trabalho, como por exemplo:
@@ -433,12 +441,22 @@ A força que instiga esse trabalho a responder a essas questões é muito bem expli
 
 \par Indiretamente, teremos um objetivo secundário que deriva do propósito anterior: a criação de \textit{corpora} e um catálogo de \textit{stopwords} do latim. Os \textit{corpora} poderão ser utilizados para processamento de linguagem natural por terceiros, da mesma forma que serão utilizados nesse trabalho. O catálogo de \textit{stopwords} poderá também ser utilizado por terceiros, e tentará ser abrangente, pois atualmente não se tem um catálogo completo para o latim assim como se tem para outras línguas.
 
+\par TODO: citar que a geracao de rankings de palavras mais comuns com collocations (extrato de um texto, geralmente curto ou uma linha, contendo o termo procurado alinhado verticalmente com todas as suas ocorrencias em um corpus, estando o contexto onde foi encontrado a sua direita e esquerda) pode ajudar nao soh no ganho de vocabulario dos alunos mas tambem na imediata visualizacao de uso dessas palavras respeitando regras gramaticais classicas de forma natural, comparando-as com o que se encontra em textos reais de cicero.
+
 \chapter{Metodologia}
+
+\par TODO: Nature Editorial: If you want reproducible science, the software needs to be open source -> http://arstechnica.com/science/news/2012/02/science-code-should-be-open-source-according-to-editorial.ars
+
+\par TODO: http://br-linux.org/2012/estudo-aponta-qualidade-superior-no-codigo-open-source/
 
 \section{NLTK}
 \par 	Nesse trabalho será utilizado o NLTK, um conjunto de ferramentas de programação voltado ao processamento de linguagem natural através de computação. Atualmente o NLTK é um dos projetos de maior sucesso para esse fim, pois, além de ser livre de licenças e custos, é bastante abrangente, cobre diversas línguas oficialmente e é disponível já com diversos \textit{corpora} para testes. O projeto possui livros e publicações sobre seu funcionamento, tem mais de dez anos de desenvolvimento e é utilizado em universidades há algum tempo, tornando-o ideal para uso, uma vez que se provou estar em constante evolução acompanhando novas descobertas no campo de processamento de linguagem natural \cite{bird}.
 
 \section{Corpora}
+
+\par TODO-A-seguir-eh-analisada-a-definicao-de-corpus-destacando-alguns-criterios-necessarios-para-que-um-conjunto-de-dados-linguisticos-possa-ser-considerado-um-corpus-a-origem-os-dados-devem-ser-autenticos-e-escritos-por-falantes-nativos-a-menos-que-recebam-o-titulo-de-corpora-de-aprendizes-que-sao-aqueles-cujos-dados-sao-textos-de-falantes-nao-nativos-o-proposito-os-dados-devem-ser-objeto-de-estudo-linguistico-a-composicao-os-dados-devem-ser-escolhidos-e-colhidos-com-criterio-a-formatacao-os-dados-devem-ser-legiveis-por-computadores-a-representatividade-os-dados-devem-ser-representativos-de-uma-lingua-ou-de-uma-variedade-linguistica-o-que-na-pratica-significa-dizer-que-o-corpus-deve-ser-o-maior-possivel-e-a-extensao-o-material-deve-ser-vasto-para-ser-representativo
+
+\par TODO: falar da criacao do https://github.com/caio1982/Nuntii-Latini como prototipo e tal
 
 \subsection{Especificação}
 
@@ -457,6 +475,12 @@ A força que instiga esse trabalho a responder a essas questões é muito bem expli
 \par Será estudada uma das grandes características de Cícero, a chamada \textit{elegantia}. \textit{Elegantia} se traduz não simplesmente por elegância como seria de se esperar pela aparência de cognato, mas como um refinamento lexical e uma perfeita escolha de palavras para expressar uma idéia. \textit{Elegantia} é saber utilizar a palavra certa, no momento certo, de maneira adequada \cite{palmer}. \citeonline{kennedy} também lembram elogios do próprio Cícero a César pelo uso exemplar de vocabulário que César demonstra em seu \textit{De Analogia}. Cícero declara que a escolha precisa de palavras ao falar e escrever é um dos vários requisitos para alguém ser um cidadão romano. Portanto, nada mais adequado do que tentar enxergar como isso de dava utilizando a linguística de corpus.
 
 \par A lista de textos a serem analisados ainda não está totalmente definida, mas os \textit{corpora} serão construídos sempre que possível utilizando fontes abertas ou livres de restrição, a fim de que outros possam sem dificuldades utilizar os \textit{corpora} gerados por esse trabalho. Embora já se tenha visto \textit{corpora} de latim clássico (cobrindo alguns textos e discursos de Cícero, inclusive), pesquisadores e alunos até hoje somente formularam conclusões a respeito da estilística desses \textit{corpora}, e não desenvolveram pesquisas computacionais além disso. Vale notar ainda que, segundo \citeonline{brill} a respeito dos famosos bancos de dados de latim do Packard Humanities Institute (\sigla{PHI}{Packard Humanities Institute})\footnote{O mesmo parece se aplicar aos \textit{corpora} de latim clássico do projeto Perseus, da Tufts University}, \textit{citation of this resource has now become commonplace in any article touching upon Ciceronian word usage. Perhaps because the ease of retrieval of these data makes conclusions drawn from them less prized, publication of specifically computer-based work on Ciceronian vocabulary and usage is still in the future}.
+
+\par TODO: citar de oratore paragrafo 42: sobre sotaque as pessoas do interior (o trabalho nao vai tratar nem mesmo de oratoria no sentido que cicero e seus companheiros pensavam, e sim do ponto de visto quase clinico, do que efetivamente passaram ate nos, seus textos, por mais que priorizassem a oratoria como uma atividade presencial, em alto som e para um publico, nao uma leitura solitaria sobre o que eles falavam. entretanto, a busca por um vocabulario (logo, de um lexico que aqui estuda-se) era sempre uma preocupacao e motivo ate de angustia as vezes (paragrafo 33 de oratore).
+
+\par TODO: paragrafo 49 de oratore: sobre employin words in costumary use that indicate literally the meanng that we desire to be conveye and made clear
+
+\par TODO: paragrafo 74 de oratore: valores de boa oratoria resumidos: um orador precisa ter cultura abrangemente (que de uma forma ou de outra se mostra no texto em riqueza de vocabulario, ja que nao eh possivel discutir e esgotar todos os assuntos e temas com um universao lexical muito pequeno).
 
 \subsection{Escopo}
 \par Introdução do escopo\footnote{A lista final de obras foi extensamente comparada a outras ditas completas com a obra de Cícero, principalmente com a Loeb Classical Library, atualmente editada e publicada pela Harvard University Press.}.
@@ -599,7 +623,7 @@ A força que instiga esse trabalho a responder a essas questões é muito bem expli
 \item Devo arrumar ortografias de 'v' para 'u' e de 'j' para 'i'? Importante pras analises estatisticas!
 \item Melhor limpar ou considerar macron? Acho que limpar ja que nao ta nos originais?
 \item Seria bom botar o verbo ser todo declinado nas stopwords?
-\item A lista de stopwords ta exagerada? (tem que testar o modelo, deve estar sim)
+\item A lista de stopwords ta exagerada? (tem que testar o modelo, deve estar sim, chodchod é interessante por exemplo)
 \end{itemize}
 
 % Existem ainda: abbrv, acm, alpha, amsalpha, amsplain
