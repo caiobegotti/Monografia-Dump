@@ -1,20 +1,20 @@
-Ad Marcum Brutum Orator
+OK Ad Marcum Brutum Orator
 Brutus
-Cato Maior De Senectute
+OK Cato Maior De Senectute
 Consolatio
-De Amicitia
+OK De Amicitia
 De Consulatu Suo
-De Divinatione
-De Fato
-De Finibus Bonorum Et Malorum
+OK De Divinatione
+OK De Fato
+OK De Finibus Bonorum Et Malorum
 De Inventione
 De Legibus
-De Natura Deorum
-De Officiis
-De Optimo Genere Oratorum
-De Oratore
-De Partitione Oratoria
-De Re Publica
+OK De Natura Deorum
+OK De Officiis
+OK De Optimo Genere Oratorum
+OK De Oratore
+OK De Partitione Oratoria
+OK De Re Publica
 De Temporibus Suis
 Divinatio In Caecilium
 Hortensius
@@ -54,12 +54,12 @@ OK Pro Rege Deiotaro
 OK Pro Sestio
 OK Pro Sexto Roscio Amerino
 OK Pro Valerio Flacco
-Paradoxa Stoicorum
+OK Paradoxa Stoicorum
 Post Reditum In Quirites
 Post Reditum In Senatu
 Pro Gaio Antonio
 Pro Lege Manilia
 Pro Publio Sulla
 Rhetorica Ad Herennium
-Topica
-Tusculanae Quaestiones
+OK Topica
+OK Tusculanae Quaestiones
