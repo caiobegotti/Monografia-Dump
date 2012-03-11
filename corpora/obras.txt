@@ -1,65 +1,65 @@
-In Vatinium
-In Verrem
-Pro Aemilio Scauro
-Pro Archia Poeta
-Pro Aulo Caecina
-Pro Aulo Cluentio Habito
-Pro Cornelio Balbo
-Pro Gaio Antonio
-Pro Gaio Rabirio
-Pro Gnaeo Plancio
-Pro Ligario
-Pro Lucio Murena
-Pro Marcello
-Pro Marco Caelio
-Pro Marco Fonteio
-Pro Marco Tullio
-Pro Milone
-Pro Publio Quinctio
-Pro Publio Sulla
-Pro Quinto Roscio Comoedo
-Pro Rabirio Postumo
-Pro Rege Deiotaro
-Pro Sestio
-Pro Sexto Roscio Amerino
-Pro Valerio Flacco
-De Domo Sua
-De Haruspicum Responsis
-De Lege Agraria
-De Provinciis Consularibus
-In Catilinam
-In Philippicae
-In Pisonem
-Post Reditum In Quirites
-Post Reditum In Senatu
-Pro Lege Manilia
 Ad Marcum Brutum Orator
 Brutus
+Cato Maior De Senectute
+Consolatio
+De Amicitia
 De Consulatu Suo
+De Divinatione
+De Fato
+De Finibus Bonorum Et Malorum
 De Inventione
 De Legibus
+De Natura Deorum
+De Officiis
 De Optimo Genere Oratorum
 De Oratore
 De Partitione Oratoria
 De Re Publica
 De Temporibus Suis
 Divinatio In Caecilium
+Hortensius
+In Verrem
+OK Academica Posteriora
+OK Academica Priora
+OK De Domo Sua
+OK De Haruspicum Responsis
+OK De Lege Agraria
+OK De Provinciis Consularibus
+OK Epistulae Ad Atticum
+OK Epistulae Ad Brutum
+OK Epistulae Ad Familiares
+OK Epistulae Ad Quintum Fratrem
+OK In Catilinam
+OK In Philippicae
+OK In Pisonem
+OK In Vatinium
+OK Pro Aemilio Scauro
+OK Pro Archia Poeta
+OK Pro Aulo Caecina
+OK Pro Aulo Cluentio Habito
+OK Pro Cornelio Balbo
+OK Pro Gaio Rabirio
+OK Pro Gnaeo Plancio
+OK Pro Ligario
+OK Pro Lucio Murena
+OK Pro Marcello
+OK Pro Marco Caelio
+OK Pro Marco Fonteio
+OK Pro Marco Tullio
+OK Pro Milone
+OK Pro Publio Quinctio
+OK Pro Quinto Roscio Comoedo
+OK Pro Rabirio Postumo
+OK Pro Rege Deiotaro
+OK Pro Sestio
+OK Pro Sexto Roscio Amerino
+OK Pro Valerio Flacco
 Paradoxa Stoicorum
+Post Reditum In Quirites
+Post Reditum In Senatu
+Pro Gaio Antonio
+Pro Lege Manilia
+Pro Publio Sulla
 Rhetorica Ad Herennium
 Topica
-Academica Priora
-Academica Posteriora
-Cato Maior De Senectute
-Consolatio
-De Amicitia
-De Divinatione
-De Fato
-De Finibus Bonorum Et Malorum
-De Natura Deorum
-De Officiis
-Hortensius
 Tusculanae Quaestiones
-Epistulae Ad Atticum
-Epistulae Ad Brutum
-Epistulae Ad Familiares
-Epistulae Ad Quintum Fratrem
