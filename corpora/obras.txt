@@ -7,7 +7,7 @@ De Consulatu Suo
 OK De Divinatione
 OK De Fato
 OK De Finibus Bonorum Et Malorum
-De Inventione
+OK De Inventione
 De Legibus
 OK De Natura Deorum
 OK De Officiis
