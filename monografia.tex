@@ -439,22 +439,22 @@ Entretanto, os maiores casos de uso da LC ainda são em língua inglesa. Ocorre qu
 
 \par Além de responder as perguntas acima e de chegar a alguns resultados indiretos já citados, será possível gerar uma lista ordenada de palavras mais comuns do latim clássico de Cícero que possam ser utilizadas em \textit{collocations}. Chama-se de \textit{collocations} os extratos de um ou mais textos, geralmente de uma única linha, contendo uma palavra procurada alinhada verticalmente com todas as suas ocorrências nos \textit{corpora}. O uso disso permite ajudar não só em um ganho de vocabulário por estudantes do latim, mas também para pesquisadores que precisa de uma boa e imediata visualização do uso dessas palavras em textos reais.
 
-\par TODO: http://www.bibsonomy.org/tag/LatinWordStoplist
+% TODO: http://www.bibsonomy.org/tag/LatinWordStoplist
 
 \chapter{Metodologia}
 
-\par TODO: Nature Editorial: If you want reproducible science, the software needs to be open source -> http://arstechnica.com/science/news/2012/02/science-code-should-be-open-source-according-to-editorial.ars
+% TODO: Nature Editorial: If you want reproducible science, the software needs to be open source -> http://arstechnica.com/science/news/2012/02/science-code-should-be-open-source-according-to-editorial.ars
 
-\par TODO: http://br-linux.org/2012/estudo-aponta-qualidade-superior-no-codigo-open-source/
+% TODO: http://br-linux.org/2012/estudo-aponta-qualidade-superior-no-codigo-open-source/
 
 \section{NLTK}
 \par 	Nesse trabalho será utilizado o NLTK, um conjunto de ferramentas de programação voltado ao processamento de linguagem natural através de computação. Atualmente o NLTK é um dos projetos de maior sucesso para esse fim, pois, além de ser livre de licenças e custos, é bastante abrangente, cobre diversas línguas oficialmente e é disponível já com diversos \textit{corpora} para testes. O projeto possui livros e publicações sobre seu funcionamento, tem mais de dez anos de desenvolvimento e é utilizado em universidades há algum tempo, tornando-o ideal para uso, uma vez que se provou estar em constante evolução acompanhando novas descobertas no campo de processamento de linguagem natural \cite{bird}.
 
 \section{Corpora}
 
-\par TODO-A-seguir-eh-analisada-a-definicao-de-corpus-destacando-alguns-criterios-necessarios-para-que-um-conjunto-de-dados-linguisticos-possa-ser-considerado-um-corpus-a-origem-os-dados-devem-ser-autenticos-e-escritos-por-falantes-nativos-a-menos-que-recebam-o-titulo-de-corpora-de-aprendizes-que-sao-aqueles-cujos-dados-sao-textos-de-falantes-nao-nativos-o-proposito-os-dados-devem-ser-objeto-de-estudo-linguistico-a-composicao-os-dados-devem-ser-escolhidos-e-colhidos-com-criterio-a-formatacao-os-dados-devem-ser-legiveis-por-computadores-a-representatividade-os-dados-devem-ser-representativos-de-uma-lingua-ou-de-uma-variedade-linguistica-o-que-na-pratica-significa-dizer-que-o-corpus-deve-ser-o-maior-possivel-e-a-extensao-o-material-deve-ser-vasto-para-ser-representativo
+% TODO-A-seguir-eh-analisada-a-definicao-de-corpus-destacando-alguns-criterios-necessarios-para-que-um-conjunto-de-dados-linguisticos-possa-ser-considerado-um-corpus-a-origem-os-dados-devem-ser-autenticos-e-escritos-por-falantes-nativos-a-menos-que-recebam-o-titulo-de-corpora-de-aprendizes-que-sao-aqueles-cujos-dados-sao-textos-de-falantes-nao-nativos-o-proposito-os-dados-devem-ser-objeto-de-estudo-linguistico-a-composicao-os-dados-devem-ser-escolhidos-e-colhidos-com-criterio-a-formatacao-os-dados-devem-ser-legiveis-por-computadores-a-representatividade-os-dados-devem-ser-representativos-de-uma-lingua-ou-de-uma-variedade-linguistica-o-que-na-pratica-significa-dizer-que-o-corpus-deve-ser-o-maior-possivel-e-a-extensao-o-material-deve-ser-vasto-para-ser-representativo
 
-\par TODO: falar da criacao do https://github.com/caio1982/Nuntii-Latini como prototipo e tal
+% TODO: falar da criacao do https://github.com/caio1982/Nuntii-Latini como prototipo e tal
 
 \subsection{Especificação}
 
@@ -474,11 +474,11 @@ Entretanto, os maiores casos de uso da LC ainda são em língua inglesa. Ocorre qu
 
 \par A lista de textos a serem analisados ainda não está totalmente definida, mas os \textit{corpora} serão construídos sempre que possível utilizando fontes abertas ou livres de restrição, a fim de que outros possam sem dificuldades utilizar os \textit{corpora} gerados por esse trabalho. Embora já se tenha visto \textit{corpora} de latim clássico --- alguns, como o do Packard Humanities Institute (\sigla{PHI}{Packard Humanities Institute}), cobrindo todos os textos e discursos de Cícero ---, pesquisadores e alunos até então somente formularam conclusões a respeito da estilística desses \textit{corpora}, e não parecem ter desenvolvido pesquisas computacionais além disso; ou seja, processamento de linguagem natural que conseguisse chegar a conclusões a partir de análises estatísticas dos textos e que fosse útil, por exemplo, em sala de aula. Vale notar ainda que, segundo \citeonline{brill} a respeito dos famosos bancos de dados de latim do PHI\footnote{O mesmo parece se aplicar aos \textit{corpora} de latim clássico do projeto Perseus, da Tufts University.}, ``citar o PHI se tornou banal em qualquer artigo trabalhando com o uso de palavras ciceriano. Talvez a facilidade em obter dados do PHI faça com que conclusões retiradas deles sejam menos valorizadas, e ainda não se vê a publicação de trabalhos sobre o vocabulário ciceriano, e seu uso, feitos especificamente com a ajuda de computadores''\footnote{Tradução livre do autor. No original, em inglês ``citation of this resource has now become commonplace in any article touching upon Ciceronian word usage. Perhaps because the ease of retrieval of these data makes conclusions drawn from them less prized, publication of specifically computer-based work on Ciceronian vocabulary and usage is still in the future''.}.
 
-\par TODO: citar de oratore paragrafo 42: sobre sotaque as pessoas do interior (o trabalho nao vai tratar nem mesmo de oratoria no sentido que cicero e seus companheiros pensavam, e sim do ponto de visto quase clinico, do que efetivamente passaram ate nos, seus textos, por mais que priorizassem a oratoria como uma atividade presencial, em alto som e para um publico, nao uma leitura solitaria sobre o que eles falavam. entretanto, a busca por um vocabulario (logo, de um lexico que aqui estuda-se) era sempre uma preocupacao e motivo ate de angustia as vezes (paragrafo 33 de oratore).
+% TODO: citar de oratore paragrafo 42: sobre sotaque as pessoas do interior (o trabalho nao vai tratar nem mesmo de oratoria no sentido que cicero e seus companheiros pensavam, e sim do ponto de visto quase clinico, do que efetivamente passaram ate nos, seus textos, por mais que priorizassem a oratoria como uma atividade presencial, em alto som e para um publico, nao uma leitura solitaria sobre o que eles falavam. entretanto, a busca por um vocabulario (logo, de um lexico que aqui estuda-se) era sempre uma preocupacao e motivo ate de angustia as vezes (paragrafo 33 de oratore).
 
-\par TODO: paragrafo 49 de oratore: sobre employin words in costumary use that indicate literally the meanng that we desire to be conveye and made clear
+% TODO: paragrafo 49 de oratore: sobre employin words in costumary use that indicate literally the meanng that we desire to be conveye and made clear
 
-\par TODO: paragrafo 74 de oratore: valores de boa oratoria resumidos: um orador precisa ter cultura abrangemente (que de uma forma ou de outra se mostra no texto em riqueza de vocabulario, ja que nao eh possivel discutir e esgotar todos os assuntos e temas com um universao lexical muito pequeno).
+% TODO: paragrafo 74 de oratore: valores de boa oratoria resumidos: um orador precisa ter cultura abrangemente (que de uma forma ou de outra se mostra no texto em riqueza de vocabulario, ja que nao eh possivel discutir e esgotar todos os assuntos e temas com um universao lexical muito pequeno).
 
 \subsection{Escopo}
 \par Introdução do escopo\footnote{A lista final de obras foi extensamente comparada a outras ditas completas com a obra de Cícero, principalmente com a Loeb Classical Library, atualmente editada e publicada pela Harvard University Press.}.
@@ -590,7 +590,7 @@ Entretanto, os maiores casos de uso da LC ainda são em língua inglesa. Ocorre qu
 \item Timaeus
 \end{itemize}
 
-\par TODO: escrever um scrapper para os textos que faltam do PHI5: uma fundação reivindica direitos sobre textos de 2k anos que ela mesma bota online sob "fair use" - scrapping disso é ilegal? PHI5 e http://perseus.uchicago.edu/latin.html
+% TODO: escrever um scrapper para os textos que faltam do PHI5: uma fundação reivindica direitos sobre textos de 2k anos que ela mesma bota online sob "fair use" - scrapping disso é ilegal? PHI5 e http://perseus.uchicago.edu/latin.html
 
 \section{Stopwords}
 \par O catálogo de \textit{stopwords} é uma dependência natural dos \textit{corpora} pois é ele que filtra resultados indesejados ou que poderiam eventualmente poluir os dados. \textit{Stopwords}, do ponto de vista de um computador, nada mais são que palavras ou agrupamentos\footnote{A linguística computacional também se refere a isso como \textit{n-grams}, uma sequência de \textit{n} termos textuais a serem processados conjuntamente e não individualmente.}  de palavras que interrompem o processamento da linguagem e modificam esse processamento de acordo com alguma regra pré-estabelecida. Toda língua possui uma lista de \textit{stopwords} para processamento, porém o latim ainda não conta com uma verdadeiramente utilizável.
