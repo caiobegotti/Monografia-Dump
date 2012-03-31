@@ -30,7 +30,7 @@ for param in refs:
    
     filename = title.replace(' ', '_') + '.xml'
     w = XMLWriter(filename, encoding='utf-8')
-    xml = w.start("text")
+    xml = w.start("document")
     
     w.element("author", 'marcus tullius cicero')
     w.element("title", title) 
@@ -40,6 +40,9 @@ for param in refs:
         lines = []
         section = source + str(x)
         reference = base + 'loc/474/' + str(x) + '/0'
+
+        print '     lendo pagina-------------- ' + section
+
         try:
             page = etree.parse(section, etree.HTMLParser(encoding='utf-8'))
         except Exception, err:
@@ -55,8 +58,11 @@ for param in refs:
             else:
                 lines.append(''.join(m))
         paragraph = ' '.join(lines)
+        w.start("page", id=str(x))
         w.element("paragraph", paragraph)
+        w.end("page")
         if len(matches) == 0:
+            print 'EOF: ' + str(x)
             break
         time.sleep(5)
     w.close(xml)
