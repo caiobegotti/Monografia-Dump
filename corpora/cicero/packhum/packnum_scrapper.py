@@ -7,7 +7,6 @@ from elementtree.SimpleXMLWriter import XMLWriter
 
 refs = []
 urls = []
-lines = []
 
 base = 'http://latin.packhum.org/'
 browse = base + 'author/474'
@@ -16,13 +15,12 @@ try:
 except Exception, err:
     print 'Browse Error: ' + str(err)
 
-#matches = page.xpath("//span[@class='wnam']//text()")
-matches = ['pro quinctio oratio']
+matches = page.xpath("//span[@class='wnam']//text()")
 
 num = 1
 for entry in matches:
     refs.append((base + 'dx/text/474/%s/' % str(num), entry.lower()))
-    #num += 1
+    num += 1
 
 for param in refs:
     source = param[0]
@@ -39,19 +37,25 @@ for param in refs:
     w.element("source", base) 
     
     for x in range(0, 500):
+        lines = []
         section = source + str(x)
         reference = base + 'loc/474/' + str(x) + '/0'
         try:
             page = etree.parse(section, etree.HTMLParser(encoding='utf-8'))
         except Exception, err:
             print 'Text Error: ' + str(err)
-        matches = page.xpath("//tr/td[1]//text()")
+        try:
+            matches = page.xpath("//tr/td[1]//text()")
+        except Exception, err:
+            print 'Match Error: ' + str(err)
         empty = u'\xa0\xa0'
         for m in matches:
             if m.startswith(empty):
-                print ''.join(m.replace(empty,'<paragraph>'))
+                lines.append(''.join(m.replace(empty,'')))
             else:
-                print ''.join(m)
+                lines.append(''.join(m))
+        paragraph = ' '.join(lines)
+        w.element("paragraph", paragraph)
         if len(matches) == 0:
             break
         time.sleep(5)
