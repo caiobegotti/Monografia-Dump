@@ -27,7 +27,7 @@ for param in refs:
     source = param[0]
     title = param[1]
    
-    print 'processando-------------------- ' + title
+    print '[%s]' % title
    
     filename = title.replace(' ', '_')
     w = XMLWriter(filename + '.xml', encoding='utf-8')
@@ -43,7 +43,7 @@ for param in refs:
         section = source + str(x)
         reference = base + 'loc/474/' + str(x) + '/0'
 
-        print '     lendo pagina-------------- ' + section
+        print '\t<%s>' % section
 
         try:
             page = etree.parse(section, etree.HTMLParser(encoding='utf-8'))
