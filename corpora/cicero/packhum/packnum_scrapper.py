@@ -57,7 +57,7 @@ for param in refs:
             f.write('\nMatch Error: ' + str(err) + ' [missing] ' + section)
             f.close()
         empty = u'\xa0\xa0'
-        if not entry:
+        if 'No text' in entry:
             print 'EOF: ' + str(x)
             break
         if len(entry) > 0:
