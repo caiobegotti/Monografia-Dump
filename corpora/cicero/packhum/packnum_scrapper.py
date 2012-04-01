@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import time
+import codecs
 from lxml import etree
 from elementtree.SimpleXMLWriter import XMLWriter
 
@@ -28,8 +29,8 @@ for param in refs:
    
     print 'processando-------------------- ' + title
    
-    filename = title.replace(' ', '_') + '.xml'
-    w = XMLWriter(filename, encoding='utf-8')
+    filename = title.replace(' ', '_')
+    w = XMLWriter(filename + '.xml', encoding='utf-8')
     xml = w.start("document")
     
     w.element("author", 'marcus tullius cicero')
@@ -48,20 +49,28 @@ for param in refs:
         except Exception, err:
             print 'Text Error: ' + str(err)
         try:
-            matches = page.xpath("//tr/td[1]//text()")
+            entry = page.xpath("//tr/td[1]//text()")
         except Exception, err:
             print 'Match Error: ' + str(err)
+            f = codecs.open("file.txt", "a", "utf8")
+            f.write('\nMatch Error: ' + str(err) + ' [missing] ' + section)
+            f.close()
         empty = u'\xa0\xa0'
-        for m in matches:
-            if m.startswith(empty):
-                lines.append(''.join(m.replace(empty,'')))
-            else:
-                lines.append(''.join(m))
+        if len(entry) > 0:
+            for e in entry:
+                if e.startswith(empty):
+                    lines.append(''.join(e.replace(empty,'')))
+                else:
+                    lines.append(''.join(e))
         paragraph = ' '.join(lines)
         w.start("page", id=str(x))
-        w.element("paragraph", paragraph)
+        w.element("paragraph")
+        path = 'ready/' + filename + '-' + str(x) + '.txt'
+        y = codecs.open(path, "w", "utf8")
+        y.write(paragraph)
+        y.write
         w.end("page")
-        if len(matches) == 0:
+        if len(entry) == 0:
             print 'EOF: ' + str(x)
             break
         time.sleep(5)
