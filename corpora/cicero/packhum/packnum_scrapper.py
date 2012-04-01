@@ -55,6 +55,7 @@ for param in refs:
             f = codecs.open("file.txt", "a", "utf8")
             f.write('\nMatch Error: ' + str(err) + ' [missing] ' + section)
             f.close()
+            break
         empty = u'\xa0\xa0'
         if len(entry) > 0:
             for e in entry:
