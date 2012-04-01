@@ -39,6 +39,7 @@ for param in refs:
     
     for x in range(0, 500):
         lines = []
+        entry = []
         section = source + str(x)
         reference = base + 'loc/474/' + str(x) + '/0'
 
@@ -49,30 +50,29 @@ for param in refs:
         except Exception, err:
             print 'Text Error: ' + str(err)
         try:
-            entry = page.xpath("//tr/td[1]//text()")
+            entry = page.xpath("//tr/td[1]//text() | //h3//text()")
         except Exception, err:
             print 'Match Error: ' + str(err)
-            f = codecs.open("file.txt", "a", "utf8")
+            f = codecs.open("log.txt", "a", "utf8")
             f.write('\nMatch Error: ' + str(err) + ' [missing] ' + section)
             f.close()
-            break
         empty = u'\xa0\xa0'
+        if not entry:
+            print 'EOF: ' + str(x)
+            break
         if len(entry) > 0:
             for e in entry:
                 if e.startswith(empty):
                     lines.append(''.join(e.replace(empty,'')))
                 else:
                     lines.append(''.join(e))
-        paragraph = ' '.join(lines)
-        w.start("page", id=str(x))
-        w.element("paragraph")
-        path = 'ready/' + filename + '-' + str(x) + '.txt'
-        y = codecs.open(path, "w", "utf8")
-        y.write(paragraph)
-        y.write
-        w.end("page")
-        if len(entry) == 0:
-            print 'EOF: ' + str(x)
-            break
+            paragraph = ' '.join(lines)
+            w.start("page", id=str(x))
+            w.element("paragraph")
+            path = 'ready/' + filename + '-' + str(x) + '.txt'
+            y = codecs.open(path, "w", "utf8")
+            y.write(paragraph)
+            y.write
+            w.end("page")
         time.sleep(5)
     w.close(xml)
