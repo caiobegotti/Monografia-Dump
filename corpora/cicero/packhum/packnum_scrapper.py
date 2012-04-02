@@ -3,6 +3,9 @@
 
 import time
 import codecs
+
+from os.path import exists
+
 from lxml import etree
 from elementtree.SimpleXMLWriter import XMLWriter
 
@@ -42,8 +45,12 @@ for param in refs:
         entry = []
         section = source + str(x)
         reference = base + 'loc/474/' + str(x) + '/0'
-
+        
         print '\t<%s>' % section
+
+        path = 'ready/' + filename + '-' + str(x) + '.txt'
+        if exists(path):
+            break
 
         try:
             page = etree.parse(section, etree.HTMLParser(encoding='utf-8'))
@@ -69,7 +76,6 @@ for param in refs:
             paragraph = ' '.join(lines)
             w.start("page", id=str(x))
             w.element("paragraph")
-            path = 'ready/' + filename + '-' + str(x) + '.txt'
             y = codecs.open(path, "w", "utf8")
             y.write(paragraph)
             y.write
