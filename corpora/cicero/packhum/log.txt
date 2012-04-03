@@ -3,3 +3,6 @@ Match Error: ElementTree not initialized, missing root [missing] http://latin.pa
 Match Error: ElementTree not initialized, missing root [missing] http://latin.packhum.org/dx/text/474/5/219
 Match Error: ElementTree not initialized, missing root [missing] http://latin.packhum.org/dx/text/474/49/70
 Match Error: ElementTree not initialized, missing root [missing] http://latin.packhum.org/dx/text/474/56/159
+Match Error: ElementTree not initialized, missing root [missing] http://latin.packhum.org/dx/text/474/5/219
+Match Error: ElementTree not initialized, missing root [missing] http://latin.packhum.org/dx/text/474/55/85
+Match Error: ElementTree not initialized, missing root [missing] http://latin.packhum.org/dx/text/474/72/9
