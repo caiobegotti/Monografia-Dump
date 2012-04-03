@@ -49,36 +49,35 @@ for param in refs:
         print '\t<%s>' % section
 
         path = 'ready/' + filename + '-' + str(x) + '.txt'
-        if exists(path):
-            break
 
-        try:
-            page = etree.parse(section, etree.HTMLParser(encoding='utf-8'))
-        except Exception, err:
-            print 'Text Error: ' + str(err)
-        try:
-            entry = page.xpath("//tr/td[1]//text() | //h3//text()")
-        except Exception, err:
-            print 'Match Error: ' + str(err)
-            f = codecs.open("log.txt", "a", "utf8")
-            f.write('\nMatch Error: ' + str(err) + ' [missing] ' + section)
-            f.close()
-        empty = u'\xa0\xa0'
-        if 'No text' in entry:
-            print 'EOF: ' + str(x)
-            break
-        if len(entry) > 0:
-            for e in entry:
-                if e.startswith(empty):
-                    lines.append(''.join(e.replace(empty,'')))
-                else:
-                    lines.append(''.join(e))
-            paragraph = ' '.join(lines)
-            w.start("page", id=str(x))
-            w.element("paragraph")
-            y = codecs.open(path, "w", "utf8")
-            y.write(paragraph)
-            y.write
-            w.end("page")
+        if not exists(path):
+            try:
+                page = etree.parse(section, etree.HTMLParser(encoding='utf-8'))
+            except Exception, err:
+                print 'Text Error: ' + str(err)
+            try:
+                entry = page.xpath("//tr/td[1]//text() | //h3//text()")
+            except Exception, err:
+                print 'Match Error: ' + str(err)
+                f = codecs.open("log.txt", "a", "utf8")
+                f.write('\nMatch Error: ' + str(err) + ' [missing] ' + section)
+                f.close()
+            empty = u'\xa0\xa0'
+            if 'No text' in entry:
+                print 'EOF: ' + str(x)
+                break
+            if len(entry) > 0:
+                for e in entry:
+                    if e.startswith(empty):
+                        lines.append(''.join(e.replace(empty,'')))
+                    else:
+                        lines.append(''.join(e))
+                paragraph = ' '.join(lines)
+                w.start("page", id=str(x))
+                w.element("paragraph")
+                y = codecs.open(path, "w", "utf8")
+                y.write(paragraph)
+                y.write
+                w.end("page")
         time.sleep(5)
     w.close(xml)
