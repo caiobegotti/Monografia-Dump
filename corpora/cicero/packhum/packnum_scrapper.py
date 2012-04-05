@@ -104,12 +104,15 @@ for param in refs:
                         lines.append(''.join(e))
 
                 paragraph = ' '.join(lines)
-                w.start("page", id=str(x))
-                w.element("paragraph")
                 y = codecs.open(path, "w", "utf8")
                 y.write(paragraph)
                 y.write
-                w.end("page")
+        else:
+            paragraph = codecs.open(path, "r", "utf8")
+            w.start("page", id=str(x))
+            w.element("paragraph", paragraph)
+            w.end("page")
+
         # give the PHI server some time until the next fetch
         time.sleep(5)
     # generates the output file
