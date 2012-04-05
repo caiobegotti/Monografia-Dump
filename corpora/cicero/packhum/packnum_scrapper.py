@@ -13,6 +13,7 @@ import time
 
 # to avoid charsetting mess with UTF-8 strings
 import codecs
+import string
 
 # to check if a text was already fetched
 from os.path import exists
@@ -112,13 +113,19 @@ for param in refs:
                 y.write(paragraph)
                 y.write
         else:
-            # if text has been fetched ok, append it to corpus file
+            # if text has been fetched ok, process it
             paragraph = codecs.open(path, "r", "utf8")
+            strings = paragraph.read()
+            strings = strings.replace("- ", "")
+            strings = strings.replace("v","u")
+            strings = strings.replace("j","i")
+
+            # finally writes the new content to the corpus file
             w.start("page", id=str(x))
-            w.element("paragraph", paragraph.read())
+            w.element("paragraph", strings)
             w.end("page")
 
         # give the PHI server some time until the next fetch
-        time.sleep(5)
+        # time.sleep(5)
     # generates the output file
     w.close(xml)
