@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>xvi Kal<span class="snum">.</span> Iun<span class="snum">.</span> <span class="snum">45</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Hirti librum, ut facis, divulga. de Philotimo idem et ego</td><td>12.48.1.1</td></tr><tr><td>arbitrabar. domum tuam pluris video futuram vicino Caesare.</td><td></td></tr><tr><td>tabellarium meum hodie exspectamus. nos de Pilia et Attica</td><td></td></tr><tr><td>certiores faciet. </td><td></td></tr><tr><td>  Domi te libenter esse facile credo. sed velim scire quid tibi</td><td>2.1</td></tr><tr><td>restet aut iamne confeceris. ego te in Tusculano exspecto</td><td></td></tr><tr><td>eoque magis quod Tironi statim te venturum scripsisti et</td><td></td></tr><tr><td>addidisti te putare opus esse.</td><td></td></tr>
+        </table>

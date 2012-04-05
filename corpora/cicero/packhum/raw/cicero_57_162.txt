@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>iv Id<span class="snum">.</span> Febr<span class="snum">.</span> <span class="snum">49</span> Luceriae</td><td></td></tr><tr class="title last  "><td>CN. MAGNVS PROCOS. S. D. M. CICERONI IMP.</td><td></td></tr><tr><td>Q. Fabius ad me venit a. d. <span class="caps">iiii</span> Id. Febr. is nuntiat L.</td><td>8.11a.1.1</td></tr><tr><td>Domitium cum suis cohortibus <span class="caps">xi</span>&lt;<span class="caps">i</span>&gt; et cum cohortibus <span class="caps">xiiii</span></td><td></td></tr><tr><td>quas Vibullius adduxit ad me iter habere; habuisse in animo </td><td></td></tr><tr><td>proficisci Corfinio a. d. <span class="caps">v</span> Id. Febr.; C. Hirrum cum <span class="caps">v</span></td><td></td></tr><tr><td>cohortibus subsequi. censeo ad nos Luceriam venias; nam</td><td>5</td></tr><tr><td>te hic tutissime puto fore.</td><td></td></tr>
+        </table>

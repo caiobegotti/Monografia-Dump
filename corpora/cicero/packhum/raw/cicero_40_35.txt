@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr><td>  'Qua tempestate Paris Helenam' et quae secuntur.</td><td>164.4</td></tr><tr><td>immo vero ista sequamur asperitatemque fugiamus:</td><td>5</td></tr><tr><td>'Habeo ego istam perterricrepam' itemque: 'Versutilo-</td><td></td></tr><tr><td>quas malitias.' </td><td></td></tr>
+        </table>

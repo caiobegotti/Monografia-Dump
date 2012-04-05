@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  "><td>COMMENTARII CAVSARVM</td><td></td></tr><tr class="title last  citat"><td>Hieron<span class="snum">.</span> <span class="citref">Contra Rufinum</span> <span class="snum">2.11</span></td><td></td></tr><tr><td>Ego cum omnes amicitias tuendas semper</td><td>1</td></tr><tr><td>putaui summa religione et fide, tum eas maxime quae</td><td></td></tr><tr><td>essent ex inimicitiis reuocatae in gratiam; propterea quod</td><td></td></tr><tr><td>integris amicitiis officium praetermissum imprudentiae uel</td><td></td></tr><tr><td>—ut grauius interpretemur—neglegentiae excusatione</td><td>5</td></tr><tr><td>defenditur; post reditum in gratiam, si quid est commis-</td><td></td></tr><tr><td>sum, id non neglectum, sed uiolatum putatur, nec impru-</td><td></td></tr><tr><td>dentiae, sed perfidiae adsignari solet.</td><td></td></tr>
+        </table>

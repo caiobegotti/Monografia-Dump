@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td><span class="snum">44(?)</span> Romae</td><td></td></tr><tr class="title last  "><td>CICERO TREBATIO S.</td><td></td></tr><tr><td>Illuseras heri inter scyphos, quod dixeram controversiam</td><td>7.22.1.1</td></tr><tr><td>esse, possetne heres, quod furtum antea factum esset, furti</td><td></td></tr><tr><td>recte agere. itaque, etsi domum bene potus seroque redieram,</td><td></td></tr><tr><td>tamen id caput ubi haec controversia est notavi et descriptum</td><td></td></tr><tr><td>tibi misi, ut scires id quod tu neminem sensisse dicebas Sex.</td><td>5</td></tr><tr><td>Aelium, M'. Manilium, M. Brutum sensisse. ego tamen</td><td></td></tr><tr><td>Scaevolae et Testae adsentior. </td><td></td></tr>
+        </table>

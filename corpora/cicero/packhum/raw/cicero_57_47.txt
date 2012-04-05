@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>c<span class="snum">.</span> ix Kal<span class="snum">.</span> Apr<span class="snum">.(?)</span> <span class="snum">58</span> in itinere</td><td></td></tr><tr class="title last  "><td>CICERO ATTICO SAL.</td><td></td></tr><tr><td>Vtinam illum diem videam cum tibi agam gratias quod me</td><td>3.3.1.1</td></tr><tr><td>vivere coëgisti! adhuc quidem valde me paenitet. sed te oro ut</td><td></td></tr><tr><td>ad me Vibonem statim venias, quo ego multis de causis con-</td><td></td></tr><tr><td>verti iter meum. sed eo si veneris, de toto itinere ac fuga mea</td><td></td></tr><tr><td>consilium capere potero. si id non feceris, mirabor; sed confido</td><td>5</td></tr><tr><td>te esse facturum. </td><td></td></tr>
+        </table>

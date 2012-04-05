@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>Quint<span class="snum">.</span> <span class="snum">46(?)</span> in Tusculano</td><td></td></tr><tr class="title last  "><td>TULLIUS TIRONI SUO S.</td><td></td></tr><tr><td>Exspecto tuas litteras de multis rebus, te ipsum multo magis.</td><td>16.19.1.1</td></tr><tr><td>Demetrium redde nostrum, et aliud si quid potest boni. de</td><td></td></tr><tr><td>Aufidiano nomine nihil te hortor. scio tibi curae esse, sed</td><td></td></tr><tr><td>confice. et si ob eam rem moraris, accipio causam; si id te</td><td></td></tr><tr><td>non tenet, advola. litteras tuas valde exspecto. </td><td>5</td></tr><tr><td>  Vale. </td><td></td></tr>
+        </table>

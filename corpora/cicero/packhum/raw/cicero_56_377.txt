@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>xii Kal<span class="snum">.</span> Quint<span class="snum">.</span> <span class="snum">47</span> Brundisii</td><td></td></tr><tr class="title last  "><td>TULLIUS S. D. TERENTIAE</td><td></td></tr><tr><td>Si vales, bene est. </td><td>14.15.1.1</td></tr><tr><td>  Constitueramus, ut ad te antea scripseram, obviam</td><td></td></tr><tr><td>Ciceronem Caesari mittere; sed mutavimus consilium quia </td><td></td></tr><tr><td>de illius adventu nihil audiebamus. de ceteris rebus, etsi</td><td></td></tr><tr><td>nihil erat novi, tamen quid velimus et quid hoc tempore</td><td>5</td></tr><tr><td>putemus opus esse ex Sicca poteris cognoscere. Tulliam</td><td></td></tr><tr><td>adhuc mecum teneo. valetudinem tuam cura diligenter. </td><td></td></tr><tr><td>  Vale.</td><td></td></tr><tr><td> XII Kal. Quint.</td><td></td></tr>
+        </table>

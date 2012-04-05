@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  "><td>DE VIRTUTIBUS</td><td></td></tr><tr class="title last  citat"><td>Char<span class="snum">.</span> <span class="citref">GL</span> <span class="snum">1.208</span>K</td><td></td></tr><tr><td>illud neutiquam probantes.</td><td>11.2.1</td></tr><tr class="title first  "><td>CHOROGRAPHIA</td><td></td></tr><tr class="title last  citat"><td>Prisc<span class="snum">.</span> <span class="citref">GL</span> <span class="snum">2.267</span>K</td><td></td></tr><tr><td>Ibi quercorum rami ad terram iacent,</td><td>12.1.1</td></tr><tr><td>ut sues quasi caprae ex ramis glande pascantur.</td><td></td></tr>
+        </table>

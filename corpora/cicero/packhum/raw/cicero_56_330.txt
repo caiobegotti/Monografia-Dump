@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>incerto</td><td></td></tr><tr class="title last  "><td>CICERO SILIO S.</td><td></td></tr><tr><td>Quid ego tibi commendem eum quem tu ipse diligis? sed</td><td>13.47.1.1</td></tr><tr><td>tamen ut scires eum a me non diligi solum verum etiam</td><td></td></tr><tr><td>amari, ob eam rem tibi haec scribo. omnium tuorum</td><td></td></tr><tr><td>officiorum, quae et multa et magna sunt, mihi gratissimum</td><td></td></tr><tr><td>fuerit si ita tractaris Egnatium ut sentiat et se a me et me a te</td><td>5</td></tr><tr><td>amari. hoc te vehementer etiam atque etiam rogo. </td><td></td></tr><tr><td>  Illa nostra scilicet ceciderunt. utamur igitur vulgari con-</td><td></td></tr><tr><td>solatione, 'quid si hoc melius?' sed haec coram. tu fac quod</td><td></td></tr><tr><td>facis, ut me ames teque amari a me scias.</td><td></td></tr>
+        </table>

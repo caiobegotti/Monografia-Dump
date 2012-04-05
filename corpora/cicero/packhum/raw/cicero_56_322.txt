@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first last  "><td>&lt;CICERO ACILIO PRO COS. S.&gt;</td><td></td></tr><tr><td>Cum familia Titurnia necessitudo mihi intercedit vetus; ex</td><td>13.39.1.1</td></tr><tr><td>qua reliquus est M. Titurnius Rufus, qui mihi omni diligentia</td><td></td></tr><tr><td>atque officio est tuendus. est igitur in tua potestate ut ille in</td><td></td></tr><tr><td>me satis sibi praesidi putet esse. quapropter eum tibi</td><td></td></tr><tr><td>commendo in maiorem modum et abs te peto efficias ut is</td><td>5</td></tr><tr><td>commendationem hanc intellegat sibi magno adiumento</td><td></td></tr><tr><td>fuisse. erit mihi vehementer gratum.</td><td></td></tr>
+        </table>

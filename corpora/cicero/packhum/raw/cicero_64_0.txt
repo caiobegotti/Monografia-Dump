@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  "><td>FRAGMENTA EPISTVLARVM</td><td></td></tr><tr class="title  "><td>AD M. TITINIVM</td><td></td></tr><tr class="title last  citat"><td>Suet<span class="snum">.</span> <span class="citref">Rhet</span><span class="snum"><span class="citref">.</span></span><span class="citref"></span> <span class="snum">26</span></td><td></td></tr><tr><td>Equidem memoria</td><td>1.1.1</td></tr><tr><td>teneo pueris nobis primum Latine docere coepisse Plotium</td><td></td></tr><tr><td>quendam. Ad quem cum fieret concursus et studiosissimus</td><td></td></tr><tr><td>quisque apud eum exerceretur, dolebam mihi idem non licere;</td><td></td></tr><tr><td>continebar autem doctissimorum hominum auctoritate, qui</td><td>5</td></tr><tr><td>existimabant Graecis exercitationibus ali melius ingenia posse.</td><td></td></tr>
+        </table>

@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>xi Kal<span class="snum">.</span> Iun<span class="snum">.</span> <span class="snum">45</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Ego, etsi nihil habeo quod ad te scribam, scribo tamen quia</td><td>12.53.1.1</td></tr><tr><td>tecum loqui videor. hic nobiscum sunt Nicias et Valerius.</td><td></td></tr><tr><td>hodie tuas litteras exspectabamus matutinas. erunt fortasse</td><td></td></tr><tr><td>[alteras notasse] alterae postmeridianae, nisi te Epiroticae</td><td></td></tr><tr><td>litterae impedient, quas ego non interpello. misi ad te epistulas</td><td>5</td></tr><tr><td>ad Marcianum et ad Montanum. eas in eundem fasciculum</td><td></td></tr><tr><td>velim addas, nisi forte iam dedisti.</td><td></td></tr>
+        </table>

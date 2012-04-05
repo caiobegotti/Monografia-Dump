@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr><td>  Visne igitur, Brute, totum hunc locum accuratius </td><td>174.1</td></tr><tr><td>etiam explicemus quam illi ipsi qui et haec et alia</td><td></td></tr><tr><td>nobis tradiderunt, an iis contenti esse quae ab illis</td><td></td></tr><tr><td>dicta sunt possumus? sed quid quaero velisne, cum</td><td></td></tr><tr><td>litteris tuis eruditissime scriptis te id vel maxume velle</td><td>5</td></tr><tr><td>perspexerim? primum ergo origo, deinde causa, post</td><td></td></tr><tr><td>natura, tum ad extremum usus ipse explicetur ora-</td><td></td></tr><tr><td>tionis aptae atque numerosae. </td><td></td></tr>
+        </table>

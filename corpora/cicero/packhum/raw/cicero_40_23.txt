@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr><td>  Nec vero a dialecticis modo sit instructus sed</td><td>118.1</td></tr><tr><td>habeat omnis philosophiae notos ac tractatos locos.</td><td></td></tr><tr><td>nihil enim de religione nihil de more nihil de pietate</td><td></td></tr><tr><td>nihil de caritate patriae nihil de bonis rebus aut malis</td><td></td></tr><tr><td>nihil de virtutibus aut vitiis nihil de officio nihil de</td><td>5</td></tr><tr><td>dolore nihil de voluptate nihil de perturbationibus</td><td></td></tr><tr><td>animi et erroribus, quae saepe cadunt in causas et </td><td></td></tr><tr><td>ieiunius aguntur, nihil, inquam, sine ea scientia quam</td><td></td></tr><tr><td>dixi graviter ample copiose dici et explicari potest. </td><td></td></tr>
+        </table>

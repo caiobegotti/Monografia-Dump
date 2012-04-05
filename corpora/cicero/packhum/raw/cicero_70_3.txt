@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  "><td>DE AUGURIIS</td><td></td></tr><tr class="title last  citat"><td>Char<span class="snum">.</span> <span class="citref">GL</span> <span class="snum">1.122</span>K</td><td></td></tr><tr><td>omnibus avi incerta.</td><td>4.3.1</td></tr><tr class="title first last  citat"><td>Char<span class="snum">.</span> <span class="citref">GL</span> <span class="snum">1.105</span>K</td><td></td></tr><tr><td>oscen</td><td>4a.1</td></tr><tr class="title first last  citat"><td>Char<span class="snum">.</span> <span class="citref">GL</span> <span class="snum">1.139</span>K</td><td></td></tr><tr><td>oscinis</td><td>4b.1</td></tr>
+        </table>

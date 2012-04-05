@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first last  "><td>&lt;CICERO ACILIO PRO COS. S.&gt;</td><td></td></tr><tr><td>Avitum mihi hospitium est cum Lysone, Lysonis filio,</td><td>13.34.1.1</td></tr><tr><td>Lilybitano, valdeque ab eo observor cognovique dignum et</td><td></td></tr><tr><td>patre et avo; est enim nobilissima familia. quapropter</td><td></td></tr><tr><td>commendo tibi maiorem in modum rem domumque eius</td><td></td></tr><tr><td>magnoque opere abs te peto cures ut is intellegat meam</td><td>5</td></tr><tr><td>commendationem maximo sibi apud te et adiumento et</td><td></td></tr><tr><td>ornamento fuisse. </td><td></td></tr>
+        </table>

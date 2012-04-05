@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>parte priore Nov<span class="snum">.(?)</span> <span class="snum">45</span></td><td></td></tr><tr class="title last  "><td>&lt;VATINIUS CICERONI SUO S.&gt;</td><td></td></tr><tr><td>Caesar adhuc mi iniuriam facit. de meis supplicationibus et</td><td>5.10c.1.1</td></tr><tr><td>rebus gestis Dalmaticis adhuc non refert, quasi vero non</td><td></td></tr><tr><td>iustissimi triumphi in Dalmatia res gesserim. nam si hoc</td><td></td></tr><tr><td>exspectandum est, dum totum bellum conficiam, viginti</td><td></td></tr><tr><td>oppida sunt Dalmatiae antiqua, quae ipsi sibi adsciverunt</td><td>5</td></tr><tr><td>amplius sexaginta. haec nisi omnia expugno si mihi suppli-</td><td></td></tr><tr><td>cationes non decernuntur, longe alia condicione ego sum ac</td><td></td></tr><tr><td>ceteri imperatores. </td><td></td></tr>
+        </table>

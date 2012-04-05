@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>v Kal<span class="snum">.</span> Nov<span class="snum">.</span> <span class="snum">58</span></td><td></td></tr><tr class="title last  "><td>CICERO ATTICO SAL.</td><td></td></tr><tr><td>Triginta dies erant ipsi cum has dabam litteras per quos nullas</td><td>3.21.1.1</td></tr><tr><td>a vobis acceperam. mihi autem erat in animo iam, ut antea ad</td><td></td></tr><tr><td>te scripsi, ire in Epirum et ibi omnem casum potissimum ex-</td><td></td></tr><tr><td>spectare. te oro ut si quid erit quod perspicias quamcumque in</td><td></td></tr><tr><td>partem quam planissime ad me scribas et meo nomine, ut</td><td>5</td></tr><tr><td>scribis, litteras quibus putabis opus esse ut des. data <span class="caps">v</span> Kal.</td><td></td></tr><tr><td>Nov. </td><td></td></tr>
+        </table>

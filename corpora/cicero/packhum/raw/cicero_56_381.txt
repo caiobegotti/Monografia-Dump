@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>iv Kal<span class="snum">.</span> Dec<span class="snum">.</span> <span class="snum">48</span> Brundisii</td><td></td></tr><tr class="title last  "><td>TULLIUS TERENTIAE SUAE S. D.</td><td></td></tr><tr><td>In maximis meis doloribus excruciat me valetudo Tulliae</td><td>14.19.1.1</td></tr><tr><td>nostrae, de qua nihil est quod ad te plura scribam; tibi enim</td><td></td></tr><tr><td>aeque magnae curae esse certo scio. quod me propius vultis</td><td></td></tr><tr><td>accedere, video ita esse faciendum et iam ante fecissem, sed</td><td></td></tr><tr><td>me multa impediverunt, quae ne nunc quidem expedita sunt. </td><td>5</td></tr><tr><td>sed a Pomponio exspecto litteras, quas ad me quam primum</td><td></td></tr><tr><td>perferendas cures velim. </td><td></td></tr><tr><td>  Da operam ut valeas.</td><td></td></tr>
+        </table>

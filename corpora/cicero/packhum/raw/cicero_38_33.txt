@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr><td>  C.F. Ego vero, ac magno quidem studio, mi pater;</td><td>140.9</td></tr><tr><td>multisque ex tuis praeclarissimis muneribus nullum</td><td>10</td></tr><tr><td>maius exspecto. </td><td></td></tr>
+        </table>

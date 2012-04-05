@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>c<span class="snum">.</span> xiv Kal<span class="snum">.</span> Dec<span class="snum">.</span> <span class="snum">46</span> Asturae<span class="snum">(?)</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Male mehercule de Athamante. tuus autem dolor humanus is</td><td>12.10.1.1</td></tr><tr><td>quidem, sed magno opere moderandus. consolationum autem</td><td></td></tr><tr><td>multae viae, sed illa rectissima: impetret ratio quod dies im-</td><td></td></tr><tr><td>petratura est. Alexim vero curemus, imaginem Tironis, quem</td><td></td></tr><tr><td>aegrum Romam remisi, et, si quid habet collis ἐπιδήμιον, ad</td><td>5</td></tr><tr><td>me cum Tisameno transferamus. tota domus superior vacat, ut</td><td></td></tr><tr><td>scis. hoc puto valde ad rem pertinere.</td><td></td></tr>
+        </table>

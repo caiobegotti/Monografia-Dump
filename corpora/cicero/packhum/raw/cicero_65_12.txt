@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  "><td>FRAGMENTA INCERTAE SEDIS </td><td></td></tr><tr class="title last  citat"><td>Non<span class="snum">.</span> <span class="snum">297</span>M</td><td></td></tr><tr><td>  praeter ceteros nostra extulit civitas </td><td>inc1.1</td></tr><tr class="title first last  citat"><td>Non<span class="snum">.</span> <span class="snum">338</span>M</td><td></td></tr><tr><td>  qui cum publicas iniurias lente tulisset, suam non</td><td>inc2.1</td></tr><tr><td>tulit </td><td></td></tr><tr class="title first last  citat"><td>Non<span class="snum">.</span> <span class="snum">356</span>M</td><td></td></tr><tr><td>  et paulum agelli occupavisse </td><td>inc3.1</td></tr>
+        </table>

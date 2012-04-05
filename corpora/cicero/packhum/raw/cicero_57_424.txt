@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>vii vel vi Kal<span class="snum">.</span> Quint<span class="snum">.</span> <span class="snum">44</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Tabellarius quem ad Brutum miseram ex itinere rediit <span class="caps">vii</span> Kal.</td><td>15.24.1.1</td></tr><tr><td>ei Servilia dixit eo die Brutum H. <span class="caps">ii s</span> profectum. sane dolui </td><td></td></tr><tr><td>meas litteras redditas non esse. Silius ad me non venerat.</td><td></td></tr><tr><td>causam composui; eum libellum tibi misi. te quo die exspectem</td><td></td></tr><tr><td>velim scire.</td><td>5</td></tr>
+        </table>

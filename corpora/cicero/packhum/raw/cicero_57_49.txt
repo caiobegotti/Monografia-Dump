@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>viii Id<span class="snum">.</span> Apr<span class="snum">.</span> <span class="snum">58</span> Thuriis</td><td></td></tr><tr class="title last  "><td>CICERO ATTICO SAL.</td><td></td></tr><tr><td>Terentia tibi et saepe et maximas agit gratias. id est mihi</td><td>3.5.1.1</td></tr><tr><td>gratissimum. ego vivo miserrimus et maximo dolore conficior.</td><td></td></tr><tr><td>ad te quid scribam nescio. si enim es Romae, iam me adsequi</td><td></td></tr><tr><td>non potes; sin es in via, cum eris me adsecutus, coram agemus</td><td></td></tr><tr><td>quae erunt agenda. tantum te oro ut, quoniam me ipsum</td><td>5</td></tr><tr><td>semper amasti, ut eodem amore sis; ego enim idem sum.</td><td></td></tr><tr><td>inimici mei mea mihi, non me ipsum ademerunt. cura ut</td><td></td></tr><tr><td>valeas. data <span class="caps">viii</span> Id. Apr. Thuri.</td><td></td></tr>
+        </table>

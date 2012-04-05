@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  "><td>PRO NEGOTIATORIBUS ACHAEIS </td><td></td></tr><tr class="title last  citat"><td>Non<span class="snum">.</span> <span class="snum">225</span>M</td><td></td></tr><tr><td>  syngraphas quas nostra voluntate conscripsimus. </td><td>18.1.1</td></tr>
+        </table>

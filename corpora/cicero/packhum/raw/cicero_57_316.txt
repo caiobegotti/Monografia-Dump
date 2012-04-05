@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>ix Kal<span class="snum">.</span> Iun<span class="snum">.</span> <span class="snum">45</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Gratior mihi celeritas tua quam ipsa res. quid enim indignius?</td><td>13.2.1.1</td></tr><tr><td>sed iam ad ista obduruimus et humanitatem omnem exuimus.</td><td></td></tr><tr><td>tuas litteras hodie exspectabam, nihil equidem ut ex iis novi;</td><td></td></tr><tr><td>quid enim? verum tamen.</td><td></td></tr>
+        </table>

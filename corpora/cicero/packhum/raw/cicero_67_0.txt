@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  "><td>DE IVRE CIVILI IN ARTEM REDIGENDO</td><td></td></tr><tr class="title last  citat"><td>Gel<span class="snum">.</span> <span class="citref">N</span><span class="snum"><span class="citref">.</span></span><span class="citref">A</span><span class="snum"><span class="citref">.</span></span><span class="citref"></span> <span class="snum">1.22.7</span></td><td></td></tr><tr><td>Nec uero scientia iuris maioribus suis Q. Aelius Tubero</td><td>1.1</td></tr><tr><td>defuit, doctrina etiam superfuit.</td><td></td></tr><tr class="title first last  citat"><td>Char<span class="snum">.</span> <span class="citref">GL</span> <span class="snum">1.138</span>K</td><td></td></tr><tr><td>Aliquo excellente ac nobile uiro.</td><td>2.1</td></tr>
+        </table>

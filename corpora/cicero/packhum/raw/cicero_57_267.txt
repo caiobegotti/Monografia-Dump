@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>c<span class="snum">.</span> xv Kal<span class="snum">.</span> Dec<span class="snum">.</span> <span class="snum">46</span> Asturae</td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Ne ego essem hic libenter atque id cottidie magis, ni esset ea</td><td>12.9.1.1</td></tr><tr><td>causa quam tibi superioribus litteris scripsi. nihil hac solitudine </td><td></td></tr><tr><td>iucundius, nisi paulum interpellasset Amyntae filius. ὢ</td><td></td></tr><tr><td>ἀπεραντολογίας ἀηδοῦς! cetera noli putare amabiliora fieri</td><td></td></tr><tr><td>posse villa, litore, prospectu maris, tum his rebus omnibus. sed</td><td>5</td></tr><tr><td>neque haec digna longioribus litteris nec erat quid scriberem, et</td><td></td></tr><tr><td>somnus urgebat.</td><td></td></tr>
+        </table>

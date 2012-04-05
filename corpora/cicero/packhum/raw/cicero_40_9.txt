@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr><td>  Quoniam tria videnda sunt oratori: quid dicat et</td><td>43.1</td></tr><tr><td>quo quidque loco et quo modo, dicendum omnino est</td><td></td></tr><tr><td>quid sit optumum in singulis, sed aliquanto secus at-</td><td></td></tr><tr><td>que in tradenda arte dici solet. nulla praecepta po-</td><td></td></tr><tr><td>nemus—neque enim id suscepimus—sed excellentis</td><td>5</td></tr><tr><td>eloquentiae speciem et formam adumbrabimus; nec</td><td></td></tr><tr><td>quibus rebus ea paretur exponemus, sed qualis nobis</td><td></td></tr><tr><td>esse videatur. ac duo breviter prima; sunt enim non</td><td>44.1</td></tr><tr><td>tam insignia ad maxumam laudem quam necessaria et</td><td></td></tr><tr><td>tamen cum multis paene communia.  </td><td></td></tr>
+        </table>

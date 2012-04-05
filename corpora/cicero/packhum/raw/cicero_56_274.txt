@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td><span class="snum">44</span> vel <span class="snum">43</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO CORNIFICIO S.&gt;</td><td></td></tr><tr><td>T. Pinarium, familiarissimum meum, tanto tibi studio</td><td>12.24a.1.1</td></tr><tr><td>commendo ut maiore non possim. cui cum propter omnis</td><td></td></tr><tr><td>virtutes tum etiam propter studia communia sum amicissi-</td><td></td></tr><tr><td>mus. is procurat rationes negotiaque Dionysi nostri, quem et</td><td></td></tr><tr><td>tu multum amas et ego omnium plurimum. ea tibi ego non</td><td>5</td></tr><tr><td>debeo commendare, sed commendo tamen. facies igitur ut</td><td></td></tr><tr><td>ex Pinari, gratissimi hominis, litteris tuum et erga illum et</td><td></td></tr><tr><td>erga Dionysium studium perspiciamus.</td><td></td></tr>
+        </table>

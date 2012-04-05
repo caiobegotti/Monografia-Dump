@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>xi Kal<span class="snum">.</span> Mai<span class="snum">.</span> <span class="snum">59</span> Appi Fori</td><td></td></tr><tr class="title last  "><td>CICERO ATTICO SAL.</td><td></td></tr><tr><td>Volo ames meam constantiam. ludos Anti spectare non placet.</td><td>2.10.1.1</td></tr><tr><td>est enim ὑποσόλοικον, cum velim vitare omnium deliciarum</td><td></td></tr><tr><td>suspicionem, repente ἀναφαίνεσθαι non solum delicate sed etiam</td><td></td></tr><tr><td>inepte peregrinantem. qua re usque ad Non. Mai. te in For-</td><td></td></tr><tr><td>miano exspectabo. nunc fac ut sciam quo die te visuri simus.</td><td>5</td></tr><tr><td>ab Appi Foro hora quarta. dederam aliam paulo ante a Tribus</td><td></td></tr><tr><td>Tabernis.</td><td></td></tr>
+        </table>

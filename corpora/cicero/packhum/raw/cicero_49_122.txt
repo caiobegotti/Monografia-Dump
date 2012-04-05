@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr><td>  Sed quoniam mane est eundum, has quinque die-</td><td>5.121.1</td></tr><tr><td>rum disputationes memoria comprehendamus. equi-</td><td></td></tr><tr><td>dem me etiam conscripturum arbitror—ubi enim me-</td><td></td></tr><tr><td>lius uti possumus hoc, cuicuimodi est, otio?—, ad</td><td></td></tr><tr><td>Brutumque nostrum hos libros alteros quinque mit-</td><td>5</td></tr><tr><td>temus, a quo non modo inpulsi sumus ad philosophiae </td><td></td></tr><tr><td>scriptiones, verum etiam lacessiti. in quo quantum ce-</td><td></td></tr><tr><td>teris profuturi simus, non facile dixerim, nostris qui-</td><td></td></tr><tr><td>dem acerbissimis doloribus variisque et undique cir-</td><td></td></tr><tr><td>cumfusis molestiis alia nulla potuit inveniri levatio. </td><td>10</td></tr>
+        </table>

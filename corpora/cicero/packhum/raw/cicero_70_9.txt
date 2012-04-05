@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  "><td>EDICTUM L. RACILI TR. PL.</td><td></td></tr><tr class="title last  citat"><td><span class="citref">Sch</span><span class="snum"><span class="citref">.</span></span><span class="citref"> Bob</span><span class="snum"><span class="citref">.</span></span><span class="citref"> Cic</span><span class="snum"><span class="citref">.</span></span><span class="citref"> Planc</span><span class="snum"><span class="citref">.</span></span><span class="citref"></span> <span class="snum">268</span>B</td><td></td></tr><tr><td>Edictum Luci Racili tribuni plebi.</td><td>14.1.1</td></tr>
+        </table>

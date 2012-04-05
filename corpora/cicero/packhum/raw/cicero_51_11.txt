@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr><td>  Haec habui de senectute quae dicerem; ad quam uti-</td><td>85.14</td></tr><tr><td>nam perveniatis, ut ea quae ex me audistis, re experti</td><td>15</td></tr><tr><td>probare possitis! </td><td></td></tr>
+        </table>

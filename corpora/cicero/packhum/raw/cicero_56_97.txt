@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>ex<span class="snum">.</span> Mart<span class="snum">.</span> <span class="snum">44(?)</span> in Sicilia</td><td></td></tr><tr class="title last  "><td>BITHYNICUS CICERONI S.</td><td></td></tr><tr><td>Si mihi tecum non et multae et iustae causae amicitiae</td><td>6.16.1.1</td></tr><tr><td>privatim essent, repeterem initia amicitiae ex parentibus</td><td></td></tr><tr><td>nostris, quod faciendum iis existimo qui paternam amicitiam</td><td></td></tr><tr><td>nullis ipsi officiis prosecuti sunt. itaque contentus ero nostra</td><td></td></tr><tr><td>ipsorum amicitia, cuius fiducia peto a te ut absentem me,</td><td>5</td></tr><tr><td>quibuscumque in rebus opus fuerit, tueare, si nullum</td><td></td></tr><tr><td>officium tuum apud me intermoriturum existimas. </td><td></td></tr><tr><td>  Vale.</td><td></td></tr>
+        </table>

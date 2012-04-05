@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>ex<span class="snum">.</span> interc<span class="snum">.</span> priore <span class="snum">46</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>De Cicerone, multis res placet. comes est idoneus. sed de</td><td>12.8.1.1</td></tr><tr><td>prima pensione ante videamus. adest enim dies, et ille currit.</td><td></td></tr><tr><td>scribe, quaeso, quid referat Celer egisse Caesarem cum candi-</td><td></td></tr><tr><td>datis, utrum ipse in Fenicularium an in Martium campum</td><td></td></tr><tr><td>cogitet. et scire sane velim numquid necesse sit comitiis esse</td><td>5</td></tr><tr><td>Romae. nam et Piliae satis faciendum est et utique Atticae.</td><td></td></tr>
+        </table>

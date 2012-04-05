@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>a<span class="snum">.</span> d<span class="snum">.</span> xiv Kal<span class="snum">.</span> Ian<span class="snum">.</span> <span class="snum">48</span></td><td></td></tr><tr class="title last  "><td>TULLIUS TERENTIAE SUAE S. P.</td><td></td></tr><tr><td>Ad ceteras meas miserias accessit dolor et de Dolabellae</td><td>14.9.1.1</td></tr><tr><td>valetudine et de Tulliae. omnino de omnibus rebus nec quid</td><td></td></tr><tr><td>consili capiam nec quid faciam scio. tu velim tuam et Tulliae</td><td></td></tr><tr><td>valetudinem cures. </td><td></td></tr><tr><td>  Vale.</td><td>5</td></tr>
+        </table>

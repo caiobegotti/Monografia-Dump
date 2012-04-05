@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first last  "><td>&lt;CICERO ACILIO PRO COS. S.&gt;</td><td></td></tr><tr><td>L. Bruttius, eques Romanus, adulescens omnibus rebus</td><td>13.38.1.1</td></tr><tr><td>ornatus, in meis familiarissimis &lt;est&gt; meque observat dili- </td><td></td></tr><tr><td>gentissime; cuius cum patre magna mihi fuit amicitia iam</td><td></td></tr><tr><td>inde a quaestura mea Siciliensi. omnino nunc ipse Bruttius</td><td></td></tr><tr><td>Romae mecum est. sed tamen domum eius et rem familiarem</td><td>5</td></tr><tr><td>et procuratores tibi sic commendo ut maiore studio com-</td><td></td></tr><tr><td>mendare non possim. gratissimum mihi feceris si curaris ut</td><td></td></tr><tr><td>intellegat Bruttius, id quod ei recepi, hanc meam com-</td><td></td></tr><tr><td>mendationem sibi magno adiumento fuisse.</td><td></td></tr>
+        </table>

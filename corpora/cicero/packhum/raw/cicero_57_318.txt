@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>iv Kal<span class="snum">.</span> Iun<span class="snum">.</span> <span class="snum">45</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Cras igitur auctio Peducaei. cum poteris ergo; etsi impediet</td><td>13.2b.1.1</td></tr><tr><td>fortasse Faberius. sed tamen, cum licebit. Dionysius noster</td><td></td></tr><tr><td>graviter queritur, et tamen iure, a discipulis abesse tam diu.</td><td></td></tr><tr><td>multis verbis scripsit ad me, credo item ad te. mihi quidem</td><td></td></tr><tr><td>videtur etiam diutius afuturus. ac nollem; valde enim homi-</td><td>5</td></tr><tr><td>nem desidero. </td><td></td></tr><tr><td>  A te litteras exspectabam, nondum scilicet; nam has mane</td><td></td></tr><tr><td>rescribebam.</td><td></td></tr>
+        </table>

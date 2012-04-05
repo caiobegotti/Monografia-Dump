@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>v Id<span class="snum">.</span> Iun<span class="snum">.</span> <span class="snum">45</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Plane [facturum] nihil erat quod ad te scriberem; modo enim</td><td>13.8.1.1</td></tr><tr><td>discesseras et paulo post triplicis remiseras. velim cures fascicu-</td><td></td></tr><tr><td>lum ad Vestorium deferendum et alicui des negotium qui</td><td></td></tr><tr><td>quaerat Q. Staberi fundus num quis in Pompeiano Nolanove</td><td></td></tr><tr><td>venalis sit. epitomen Bruti Caelianorum velim mihi mittas et</td><td>5</td></tr><tr><td>a Philoxeno Παναιτίου περὶ Προνοίας. te Idibus videbo cum</td><td></td></tr><tr><td>tuis. </td><td></td></tr>
+        </table>

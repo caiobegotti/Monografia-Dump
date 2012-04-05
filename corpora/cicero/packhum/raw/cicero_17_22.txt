@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  "><td>FRAGMENTA </td><td></td></tr><tr class="title last  citat"><td>Arusianus Messius <span class="citref">GL</span> <span class="snum">7.458</span>K</td><td></td></tr><tr><td>  quam benivolum hunc populo</td><td>fr1.1</td></tr><tr><td>Romano, quam fidelem putatis? </td><td></td></tr><tr class="title first last  citat"><td>Hieron<span class="snum">.</span> <span class="citref">Ep</span><span class="snum"><span class="citref">.</span></span><span class="citref"></span> <span class="snum">10.3</span></td><td></td></tr><tr><td>  ingenita levitas et erudita</td><td>fr2.1</td></tr><tr><td>vanitas. </td><td></td></tr>
+        </table>

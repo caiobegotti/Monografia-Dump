@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  "><td>AD M. FILIVM</td><td></td></tr><tr class="title  "><td>LIB. I</td><td></td></tr><tr class="title last  citat"><td>Prisc<span class="snum">.</span> <span class="citref">GL</span> <span class="snum">2.444</span>K</td><td></td></tr><tr><td>Qua re effice et elabora ut excelleas.</td><td>8.1.1</td></tr><tr class="title first  "><td>LIB. II</td><td></td></tr><tr class="title last  citat"><td>Non<span class="snum">.</span> <span class="snum">275</span>M</td><td></td></tr><tr><td>cui ego, quibuscumque</td><td>2.1</td></tr><tr><td>rebus potero, libentissime commodabo.</td><td></td></tr><tr class="title first  "><td>EX LIBRO INCERTO</td><td></td></tr><tr class="title last  citat"><td>Diom<span class="snum">.</span> <span class="citref">GL</span> <span class="snum">1.375</span>K</td><td></td></tr><tr><td>ceris deletis </td><td>3.1</td></tr>
+        </table>

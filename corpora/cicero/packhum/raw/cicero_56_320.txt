@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first last  "><td>&lt;CICERO ACILIO PRO COS. S.&gt;</td><td></td></tr><tr><td>Hippiam, Philoxeni filium, Calactinum, hospitem et neces-</td><td>13.37.1.1</td></tr><tr><td>sarium meum, tibi commendo in maiorem modum. eius bona,</td><td></td></tr><tr><td>quem ad modum ad me delata res est, publice possidentur</td><td></td></tr><tr><td>alieno nomine contra leges Calactinorum. id si ita est, etiam</td><td></td></tr><tr><td>sine mea commendatione ab aequitate tua res ipsa impetrare</td><td>5</td></tr><tr><td>debet ut ei subvenias. quoquo modo autem se res habet, peto</td><td></td></tr><tr><td>a te ut honoris mei causa eum expedias, tantumque ei</td><td></td></tr><tr><td>commodes et in hac re et in ceteris quantum tua fides</td><td></td></tr><tr><td>dignitasque patietur. id mihi vehementer gratum erit.</td><td></td></tr>
+        </table>

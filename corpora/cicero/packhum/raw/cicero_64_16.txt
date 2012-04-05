@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  "><td>AD ATTICVM</td><td></td></tr><tr class="title last  citat"><td>Iul<span class="snum">.</span> Rom<span class="snum">.,</span> Char<span class="snum">.</span> <span class="citref">GL</span> <span class="snum">1.146</span>K</td><td></td></tr><tr><td>Vectigaliorum </td><td>15.1.1</td></tr>
+        </table>

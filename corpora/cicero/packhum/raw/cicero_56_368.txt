@@ -1,0 +1,4 @@
+<table>
+          <script>targetHit=0;</script>
+          <tr class="title first  date"><td>Id<span class="snum">.</span> Quint<span class="snum">.</span> <span class="snum">48</span> in castris Pompei</td><td></td></tr><tr class="title last  "><td>SUIS S. D.</td><td></td></tr><tr><td>Nec saepe est cui litteras demus nec rem habemus ullam</td><td>14.6.1.1</td></tr><tr><td>quam scribere velimus. ex tuis litteris quas proxime accepi </td><td></td></tr><tr><td>cognovi praedium nullum venire potuisse. qua re videatis</td><td></td></tr><tr><td>velim quo modo satis fiat ei cui scitis me satis fieri velle. quod</td><td></td></tr><tr><td>nostra tibi gratias agit, id ego non miror te mereri ut ea tibi</td><td>5</td></tr><tr><td>merito tuo gratias agere possit. Pollicem, si adhuc non est</td><td></td></tr><tr><td>profectus, quam primum fac extrudas. </td><td></td></tr><tr><td>  Cura ut valeas.</td><td></td></tr><tr><td> Id. Quint.</td><td></td></tr>
+        </table>
