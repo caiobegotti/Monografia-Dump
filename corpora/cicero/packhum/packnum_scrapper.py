@@ -3,6 +3,10 @@
 # caio begotti <caio1982@gmail.com>
 # this is under public domain
 
+# prototype in shell script
+# for i in $(seq 1 75); do for x in $(seq 0 $(lynx --source http://latin.packhum.org/loc/474/${i}/0 | sed '/locInfo/!d;s/^.* \[\(.*\).*\]$/\1/g' | tr ',' '\n' | wc -l));
+# do wget -c http://latin.packhum.org/dx/text/474/${i}/${x} -O cicero_${i}_${x}.txt || break; done; done
+
 # to add some sleep time between fetches
 # and not hammer down the server
 import time
