@@ -114,7 +114,7 @@ for param in refs:
         else:
             paragraph = codecs.open(path, "r", "utf8")
             w.start("page", id=str(x))
-            w.element("paragraph", paragraph)
+            w.element("paragraph", paragraph.read())
             w.end("page")
 
         # give the PHI server some time until the next fetch
