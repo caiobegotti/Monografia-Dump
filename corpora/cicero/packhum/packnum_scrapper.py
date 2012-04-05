@@ -112,6 +112,7 @@ for param in refs:
                 y.write(paragraph)
                 y.write
         else:
+            # if text has been fetched ok, append it to corpus file
             paragraph = codecs.open(path, "r", "utf8")
             w.start("page", id=str(x))
             w.element("paragraph", paragraph.read())
