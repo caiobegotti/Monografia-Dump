@@ -115,7 +115,7 @@ for param in refs:
         else:
             # if text has been fetched ok, process it
             paragraph = codecs.open(path, "r", "utf8")
-            strings = paragraph.read()
+            strings = paragraph.read().lower()
             strings = strings.replace("- ", "")
             strings = strings.replace("v","u")
             strings = strings.replace("j","i")
