@@ -3,7 +3,8 @@
 # caio begotti <caio1982@gmail.com>
 # this is under public domain
 
-# reference: http://en.wiktionary.org/wiki/Appendix:Roman_praenomina
+# reference: https://gist.github.com/2307114
+# double-check: http://en.wiktionary.org/wiki/Appendix:Roman_praenomina
 
 import codecs
 import glob
