@@ -25,18 +25,18 @@ def parser():
 def replacer():
     list = parser()
     regex = re.compile("^(.*)\. ")
-    for entry in list:
-        r = regex.search(entry)
-        match = r.group(1)
-        name = re.sub('^' + match, '(' + match + ')', entry)
-        name = name.replace('.', '')
-        for file in glob.glob('./academica.xml'):
+    for file in glob.glob('./academica.xml'):
+        content = codecs.open(file, "w", "utf8")
+        text = content.read()
+        for entry in list:
+            r = regex.search(entry)
+            match = r.group(1)
+            name = re.sub('^' + match, '(' + match + ')', entry)
+            name = name.replace('.', '')
             print 'era -> "' + entry + '" e vai virar -> "' + name + '"' + ' em ' + file
-            content = codecs.open(file, "w", "utf8")
-            text = content.read()
             replaced = re.sub(entry, name, text)
-            content.write(replaced)
-            content.close()
+        content.write(replaced)
+        content.close()
 
 if __name__ == "__main__":
     replacer()
