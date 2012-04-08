@@ -228,7 +228,7 @@
 \begin{document}
 
 \autor{CAIO ESDRAS DE BRITO BEGOTTI}
-\titulo{O LATIM CLÁSSICO DE CÍCERO À LUZ DA LINGUÍSTICA DE CORPUS: DESCRIÇÃO E IMPLEMENTAÇÃO DE MÉTODO COMPUTACIONAL COM NLTK}
+\titulo{O LATIM CLÁSSICO DE CÍCERO À LUZ DA LINGUÍSTICA DE CORPUS: DESCRIÇÃO E IMPLEMENTAÇÃO DE MÉTODO COMPUTACIONAL}
 \orientador{Alessandro Rolim de Moura}
 
 % Se tiver co-orientador
@@ -443,7 +443,7 @@ Entretanto, os maiores casos de uso da LC ainda são em língua inglesa. Ocorre qu
 
 \chapter{Metodologia}
 
-A metodologia desse trabalho se sustenta sobre um pressuposto bastante simples, porém muitas vezes renegado em LC: a reprodutibilidade do método para se chegar aos mesmos dados apresentados. Infelizmente ainda se encontra trabalhos de LC e linguística computacional que simplesmente explicam dados sem detalhar como foram obtidos, como foram processados e com que critérios foram trabalhados.
+A metodologia desse trabalho se sustenta sobre um pressuposto bastante simples, porém muitas vezes renegado em LC: a reprodutibilidade do método para se chegar aos mesmos dados apresentados. Infelizmente ainda se encontra trabalhos de LC e linguística computacional que simplesmente explicam dados sem detalhar como eles foram obtidos, como foram processados e com que critérios foram trabalhados.
 
 Não é fato raro, também, encontrar pesquisas feitas utilizando programas de computador desenvolvidos por terceiros, aos quais nem os pesquisadores que os apresentam tem acesso total (\textit{i.e.} ao código fonte do programa). É um ponto central deste trabalho a crença de que ciência com dados verdadeiramente reproduzíveis é ciência feita com códigos fontes e dados abertos, de uso irrestrito\footnote{É digno de nota um excelente editorial sobre esse tema, originalmente publicado pela revista Nature, reproduzido em http://arstechnica.com/science/news/2012/02/science-code-should-be-open-source-according-to-editorial.ars pelo portal Ars Technica. No editorial é possível encontrar uma forte argumentação para o uso de plataformas \textit{open source} de computação para o trabalho científico.}. Por isso, todo o código desenvolvido para este trabalho será de domínio público, afim de que outros estudantes e pesquisadores possam aprender com o que foi pesquisado e que possam escrutinar o método proposto aqui.
 
@@ -472,7 +472,7 @@ Não é fato raro, também, encontrar pesquisas feitas utilizando programas de comp
 
 \par Será estudada uma das grandes características de Cícero, a chamada \textit{elegantia}. \textit{Elegantia} se traduz não simplesmente por elegância como seria de se esperar pela aparência do cognato, mas como um refinamento lexical e uma perfeita escolha de palavras para expressar uma idéia. \textit{Elegantia} é saber utilizar a palavra certa, no momento certo, de maneira adequada \cite{palmer}. \citeonline{kennedy} também lembram elogios do próprio Cícero a César pelo uso exemplar de vocabulário que César demonstra em seu \textit{De Analogia}. Cícero declara que a escolha precisa de palavras ao falar e escrever é um dos vários requisitos para alguém ser um cidadão romano. Portanto, nada mais adequado do que tentar enxergar como isso de dava utilizando a LC.
 
-\par A lista de textos a serem analisados ainda não está totalmente definida, mas os \textit{corpora} serão construídos sempre que possível utilizando fontes abertas ou livres de restrição, a fim de que outros possam sem dificuldades utilizar os \textit{corpora} gerados por esse trabalho. Embora já se tenha visto \textit{corpora} de latim clássico --- alguns, como o do Packard Humanities Institute (\sigla{PHI}{Packard Humanities Institute}), cobrindo todos os textos e discursos de Cícero ---, pesquisadores e alunos até então somente formularam conclusões a respeito da estilística desses \textit{corpora}, e não parecem ter desenvolvido pesquisas computacionais além disso; ou seja, processamento de linguagem natural que conseguisse chegar a conclusões a partir de análises estatísticas dos textos e que fosse útil, por exemplo, em sala de aula. Vale notar ainda que, segundo \citeonline{brill} a respeito dos famosos bancos de dados de latim do PHI\footnote{O mesmo parece se aplicar aos \textit{corpora} de latim clássico do projeto Perseus, da Tufts University.}, ``citar o PHI se tornou banal em qualquer artigo trabalhando com o uso de palavras ciceriano. Talvez a facilidade em obter dados do PHI faça com que conclusões retiradas deles sejam menos valorizadas, e ainda não se vê a publicação de trabalhos sobre o vocabulário ciceriano, e seu uso, feitos especificamente com a ajuda de computadores''\footnote{Tradução livre do autor. No original, em inglês ``citation of this resource has now become commonplace in any article touching upon Ciceronian word usage. Perhaps because the ease of retrieval of these data makes conclusions drawn from them less prized, publication of specifically computer-based work on Ciceronian vocabulary and usage is still in the future''.}.
+\par A lista de textos a serem analisados ainda não está totalmente definida, mas os \textit{corpora} serão construídos sempre que possível utilizando fontes abertas ou livres de restrição, a fim de que outros possam sem dificuldades utilizar os \textit{corpora} gerados por esse trabalho. Embora já se tenha visto \textit{corpora} de latim clássico --- alguns, como o do Packard Humanities Institute (\sigla{PHI}{Packard Humanities Institute}), cobrindo todos os textos e discursos de Cícero ---, pesquisadores e alunos até então somente formularam conclusões a respeito da estilística desses \textit{corpora}, e não parecem ter desenvolvido pesquisas computacionais além disso; ou seja, processamento de linguagem natural que conseguisse chegar a conclusões a partir de análises estatísticas dos textos e que fosse útil, por exemplo, em sala de aula. Vale notar ainda que, segundo \citeonline{brill} a respeito dos famosos bancos de dados de latim do PHI\footnote{O mesmo parece se aplicar aos \textit{corpora} de latim clássico do projeto Perseus, da Tufts University.}, ``citar o PHI se tornou banal em qualquer artigo trabalhando com o uso de palavras ciceriano. Talvez a facilidade em obter dados do PHI faça com que conclusões retiradas deles sejam menos valorizadas, e ainda não se vê a publicação de trabalhos sobre o vocabulário ciceriano, e seu uso, feitos especificamente com a ajuda de computadores''\footnote{Tradução livre do autor. No original, em inglês ``[...] citation of this resource has now become commonplace in any article touching upon Ciceronian word usage. Perhaps because the ease of retrieval of these data makes conclusions drawn from them less prized, publication of specifically computer-based work on Ciceronian vocabulary and usage is still in the future''.}.
 
 % TODO: citar de oratore paragrafo 42: sobre sotaque as pessoas do interior (o trabalho nao vai tratar nem mesmo de oratoria no sentido que cicero e seus companheiros pensavam, e sim do ponto de visto quase clinico, do que efetivamente passaram ate nos, seus textos, por mais que priorizassem a oratoria como uma atividade presencial, em alto som e para um publico, nao uma leitura solitaria sobre o que eles falavam. entretanto, a busca por um vocabulario (logo, de um lexico que aqui estuda-se) era sempre uma preocupacao e motivo ate de angustia as vezes (paragrafo 33 de oratore).
 
@@ -481,9 +481,12 @@ Não é fato raro, também, encontrar pesquisas feitas utilizando programas de comp
 % TODO: paragrafo 74 de oratore: valores de boa oratoria resumidos: um orador precisa ter cultura abrangemente (que de uma forma ou de outra se mostra no texto em riqueza de vocabulario, ja que nao eh possivel discutir e esgotar todos os assuntos e temas com um universao lexical muito pequeno).
 
 \subsection{Escopo}
-\par Introdução do escopo\footnote{A lista final de obras foi extensamente comparada a outras ditas completas com a obra de Cícero, principalmente com a Loeb Classical Library, atualmente editada e publicada pela Harvard University Press.}.
+\par Nesta seção encontra-se todo o escopo dos corpora para análise deste trabalho. As listas a seguir foram construídas a partir de catálogos populares de obras de Cícero --- como a \textit{Loeb Classical Library}, publicada pela Harvard University Press, e o próprio PHI ---, porém se notará a ausência de alguns textos. Entre estes textos está \textit{Pro Acilio}, \textit{Pro Gaio Antonio}, \textit{De Temporibus Suis} e alguns outros que são desnecessários citar no momento. Tais textos são atribuídos indiretamente à Cícero pois estão completamente perdidos e pode-se somente encontrar referências a eles mas não ao seu conteúdo. É comum encontrar estas obras perdidas sob títulos como \textit{Ciceronis Orationum Deperditarum}, e para mais detalhes recomenda-se ver \citeonline{francais}, \citeonline{scripta} e também \citeonline{temporibus}.
 
-\subsubsection{Discursos jurídicos}
+\subsubsection{Discursos}
+
+Os discursos a seguir incluem tanto discursos de caráter jurídico quanto discursos políticos e de interesse público. Alguns, como \textit{De Domo Sua} (que trata de uma petição pessoal de Cícero a um colegiado), são de difícil categorização pois podem ser interpretados tanto como discursos jurídicos quanto de outra natureza, ao mesmo tempo. Por essa razão, procurou-se evitar divisões excessivas entre os textos.
+
 \begin{itemize}
 \item In Vatinium
 \item In Verrem
@@ -492,7 +495,6 @@ Não é fato raro, também, encontrar pesquisas feitas utilizando programas de comp
 \item Pro Aulo Caecina
 \item Pro Aulo Cluentio Habito
 \item Pro Cornelio Balbo
-\item \sout{Pro Gaio Antonio}\footnote{Aparentemente um texto perdido, ou jamais escrito por Cícero apesar de existirem referências a ele.} 
 \item Pro Gaio Rabirio
 \item Pro Gnaeo Plancio
 \item Pro Ligario
@@ -509,7 +511,8 @@ Não é fato raro, também, encontrar pesquisas feitas utilizando programas de comp
 \item Pro Rege Deiotaro
 \item Pro Sestio
 \item Pro Sexto Roscio Amerino
-\item Pro Valerio Flacco
+\item Pro Lucio Flacco
+\item Divinatio In Caecilium\footnote{Embora seja um texto de caráter claramente jurídico, no qual há um embate para se decidir entre quem será o acusador no caso contra Verres, \citeonline{divinatio} acredita que \textit{Divinatio In Caecilium} pode ser compreendido também como um texto de retórica, principalmente pelo seu gênero de \textit{divinatio} explicitado já no título.} 
 \end{itemize}
 
 \subsubsection{Discursos políticos}
@@ -519,7 +522,7 @@ Não é fato raro, também, encontrar pesquisas feitas utilizando programas de comp
 \item De Lege Agraria
 \item De Provinciis Consularibus
 \item In Catilinam
-\item In Philippicae
+\item Philippicae
 \item In Pisonem
 \item Post Reditum In Quirites
 \item Post Reditum In Senatu
@@ -531,12 +534,9 @@ Não é fato raro, também, encontrar pesquisas feitas utilizando programas de comp
 \item Ad Marcum Brutum Orator
 \item Brutus
 \item De Inventione
-\item De Legibus
 \item De Optimo Genere Oratorum
 \item De Oratore
-\item De Partitione Oratoria\footnote{Aparece com frequência também como De Partitiones Oratoriae, no plural.} 
-\item De Re Publica
-\item Divinatio In Caecilium
+\item De Partitione Oratoria\footnote{Aparece com frequência também como Partitiones Oratoriae, no plural.} 
 \item Rhetorica Ad Herennium\footnote{Autoria disputada, muitos o atribuem a Cícero.} 
 \item Topica
 \end{itemize}
@@ -557,7 +557,9 @@ Não é fato raro, também, encontrar pesquisas feitas utilizando programas de comp
 \item De Divinatione
 \item De Fato
 \item De Finibus Bonorum Et Malorum
+\item De Legibus
 \item De Natura Deorum
+\item De Re Publica
 \item De Officiis
 \item Hortensius
 \item Paradoxa Stoicorum
@@ -597,9 +599,9 @@ Não é fato raro, também, encontrar pesquisas feitas utilizando programas de comp
 
 \par Embora pudessem ter sua criação automatizada por algorítimos de textos, catálogos de \textit{stopwords} geralmente são construídos manualmente por linguistas. Logo, não existe um catálogo definitivo ou verdadeiramente completo para uma determinada língua, somente mais abrangentes e menos abrangentes, a depender do uso que será dado a eles.
 
-\par Em computação, \textit{stopwords} não são utilizadas somente para filtrar resultados indesejados ou que não são o foco da pesquisa linguística. Muitas vezes são termos repetitivos que levam a uma pior performance de um sistema e que se não forem ignorados diminuem a legibilidade dos resultados. Por exemplo, é bastante comum filtrar-se preposições, conjunções e pronomes, uma vez que eles pouco influenciam na maioria das análises computacionais de um texto e representam um conjunto de termos funcionais --- sem muita significância --- que podem não só poluir os dados do ponto de vista linguístico \cite{sardinha-wordsmith} mas também dificultar a análise computacional \cite{makrehchi}. Todavia, é claro que tais filtros podem ser desligados se tais termos funcionais da língua forem de fato o alvo da pesquisa.
+\par Em computação, \textit{stopwords} não são utilizadas somente para filtrar resultados indesejados ou que não são o foco da pesquisa linguística. Muitas vezes são termos repetitivos que levam a uma pior performance de um sistema e que se não forem ignorados diminuem a legibilidade dos resultados. Por exemplo, é bastante comum filtrar-se preposições, conjunções e pronomes, uma vez que eles pouco influenciam na maioria das análises computacionais de um texto e representam um conjunto de termos funcionais --- de pouca relevância na maioria das análises --- que podem não só poluir os dados do ponto de vista linguístico \cite{sardinha-wordsmith} mas também dificultar a análise computacional \cite{makrehchi}. Todavia, é claro que tais filtros podem ser desligados se tais termos funcionais da língua forem de fato o alvo da pesquisa.
 
-\par Para o latim será criado, sob orientação, um catálogo geral de \textit{stopwords} (no modelo clássico, uma lista finita de termos), e catálogos menores onde se encontrarão somente preposições, ou somente pronomes e assim por diante, para que os alunos e pesquisadores possam refinar melhor o uso de \textit{stopwords} em latim. As listas a seguir foram elaboradas pelo autor \cite{lateinische} e \cite{kuhner}, considerando resultados prévios desse trabalho e comparando os filtros com de outros autores\footnote{O projeto Perseus possui um catálogo de stopwords do Latim com cerca de 90 termos, porém os critérios para as escolhas feitas por eles são desconhecidos, além do próprio catálogo parecer incompleto.}.
+\par Para o latim será criado, sob orientação, um catálogo geral de \textit{stopwords} (no modelo clássico, uma lista finita de termos), e catálogos menores onde se encontrarão somente preposições, ou somente pronomes e assim por diante, para que os alunos e pesquisadores possam refinar melhor o uso de \textit{stopwords} em latim. As listas a seguir foram elaboradas pelo autor \cite{lateinische} e \cite{kuhner}, considerando resultados prévios desse trabalho e comparando os filtros com de outros autores\footnote{O projeto Perseus possui um catálogo de stopwords do Latim com cerca de 90 termos, porém os critérios para as escolhas feitas pelos responsáveis pelo projeto são desconhecidos, além de o próprio catálogo parecer incompleto.}.
 
 % TODO: mencionar e listar quais items das stopwords nao foram encontrados nenhuma vez nos corpora de cicero, indicando que estao ali por completude para os outros, entretanto
 
