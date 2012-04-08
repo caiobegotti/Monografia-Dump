@@ -14,7 +14,7 @@ praenomina = []
 for file in glob.glob('./*.xml'):
     content = codecs.open(file, "r", "utf8")
     text = content.read()
-    regex = re.compile("[A-Z]'?\w{0,4}\. [A-Z]{0,}\w{0,}")
+    regex = re.compile("[A-Z]'?\w{0,4}\. [A-Z]{0,}\w{0,} [A-Z]{0,}\w{0,}")
     for entry in regex.findall(text):
         praenomina.append(entry)
 
