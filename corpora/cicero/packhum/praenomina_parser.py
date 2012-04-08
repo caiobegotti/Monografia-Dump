@@ -11,15 +11,20 @@ import glob
 import re
 
 praenomina = []
+
+regex = re.compile("[A-Z]'?\w{0,4}\. [A-Z]{0,}\w{0,} [A-Z]{0,}\w{0,}")
+
 for file in glob.glob('./*.xml'):
     content = codecs.open(file, "r", "utf8")
     text = content.read()
-    regex = re.compile("[A-Z]'?\w{0,4}\. [A-Z]{0,}\w{0,} [A-Z]{0,}\w{0,}")
     for entry in regex.findall(text):
         praenomina.append(entry)
 
 praenomina = sorted(set(praenomina))
-for entry in praenomina:
-    print entry.lower()
 
-print len(praenomina)
+for entry in praenomina:
+    regex = re.compile("(.*)\. ")
+    r = regex.search(entry)
+    match = r.group(1)
+    name = re.sub(match, '(' + match + ')', entry)
+    print name.replace('.', '')
