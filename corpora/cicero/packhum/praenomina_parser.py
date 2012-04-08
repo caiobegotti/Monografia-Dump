@@ -23,8 +23,8 @@ for file in glob.glob('./*.xml'):
 praenomina = sorted(set(praenomina))
 
 for entry in praenomina:
-    regex = re.compile("(.*)\. ")
+    regex = re.compile("^(.*)\. ")
     r = regex.search(entry)
     match = r.group(1)
-    name = re.sub(match, '(' + match + ')', entry)
+    name = re.sub('^' + match, '(' + match + ')', entry)
     print name.replace('.', '')
