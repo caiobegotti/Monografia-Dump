@@ -1,2909 +1,4484 @@
-a. albino
-a. albinum
-a. albinus
-a. allieno
-a. allienus
-a. aternius
-a. atilio
-a. atilius
-a. aurio
-a. aurium
-a. aurius
-a. bivium
-a. caecina
-a. caecinae
-a. clventio
-a. caecina
-a. caecinae
-a. caecinam
-a. claudium
-a. clodius
-a. cluen
-a. cluenti
-a. cluentio
-a. cluentium
-a. cluentius
-a. cornelio
-a. f
-a. furium
-a. ga
-a. gabinio
-a. gabinium
-a. gabinius
-a. hirtivm
-a. hir
-a. hirti
-a. hirtium
-a. hirtius
-a. licini
-a. licinium
-a. licinius
-a. ligurius
-a. plautium
-a. plotio
-a. plotium
-a. plotius
-a. postumio
-a. postumius
-a. postvmio
-a. rupilio
-a. sempronius
-a. sextilio
-a. torquato
-a. terentius
-a. thermus
-a. torquato
-a. torquatum
-a. torquatus
-a. trebonio
-a. trebonium
-a. valentius
-a. varroni
-a. vergini
-a. d
-a. f
-att. 
-acci. ille
-adest. vtinam
-aeli. 
-aelio. his
-albae. quam
-amnis. hic
-an. capito
-antio. nam
-ap. claudii
-ap. claudio
-ap. claudium
-ap. claudius
-app. claudio
-app. claudium
-app. claudius
-app. f
-appio. id
-apr. esse
-ara. 
-aram. 
-aram. hic
-arcum. iam
-arcus. hic
-argo. 
-asia. etiam
-asia. hoc
-asia. itaque
-asia. tuas
-asia. verumtamen
-asini. 
-attio. cominii
-audio. ab
-audio. ne
-baias. 
-balbo. inde
-balbo. miror
-balbo. nil
-balbo. placebat
-balbo. tuas
-brute. etenim
-bruti. 
-bruti. de
-bruto. 
-bruto. quas
-bruto. de
-bruto. familiaris
-bruto. quamquam
-bulbo. itaque
-bursa. ne
-c. 
-c. antonio
-c. antonium
-c. asinius
-c. aculeone
-c. aculeonem
-c. aelio
-c. albani
-c. albanius
-c. albini
-c. alfi
-c. alfium
-c. amafinius
-c. an
-c. ancharius
-c. andronico
-c. anicius
-c. anneum
-c. annio
-c. annium
-c. annivm
-c. antisti
-c. antoni
-c. antonio
-c. antonium
-c. antonius
-c. aquili
-c. aquilio
-c. aquilium
-c. aquilius
-c. aquillius
-c. arrius
-c. ateio
-c. ateium
-c. atinius
-c. atium
-c. aureliorum
-c. aurelios
-c. aurelius
-c. avianio
-c. avianium
-c. avianius
-c. billienus
-c. blossius
-c. caesarem
-c. cassio
-c. cassius
-c. cornelio
-c. curionem
-c. curioni
-c. cvpiennio
-c. cacuri
-c. cae
-c. caecilius
-c. caecio
-c. caelium
-c. caelius
-c. caesar
-c. caesare
-c. caesarem
-c. caesari
-c. caesaris
-c. caesetium
-c. calvisius
-c. camillus
-c. canius
-c. capito
-c. capitonis
-c. car
-c. carbo
-c. carbonem
-c. carbonis
-c. cassi
-c. cassio
-c. cassium
-c. cassius
-c. catium
-c. cato
-c. catone
-c. catonem
-c. catoni
-c. catonis
-c. caudinus
-c. causinius
-c. censorinus
-c. cento
-c. cesti
-c. cestilius
-c. cestius
-c. cethegi
-c. cethego
-c. cethegus
-c. claudi
-c. claudio
-c. claudius
-c. clodi
-c. clodios
-c. clodius
-c. cluvio
-c. coelio
-c. coelium
-c. coelius
-c. considio
-c. coponios
-c. coponium
-c. corneli
-c. cornelio
-c. cornelium
-c. cornelius
-c. cornuti
-c. cosconi
-c. cosconio
-c. cosconium
-c. cosconius
-c. cotta
-c. cottae
-c. cottam
-c. curi
-c. curiatius
-c. curio
-c. curionem
-c. curioni
-c. curionis
-c. curti
-c. curtio
-c. curtius
-c. deciani
-c. decianus
-c. decimius
-c. drusi
-c. drusus
-c. due
-c. duellio
-c. duellium
-c. duroni
-c. eruci
-c. f
-c. fundanio
-c. furnio
-c. fa
-c. fabium
-c. fabrici
-c. fabricio
-c. fabricium
-c. fabricius
-c. fadi
-c. falcidius
-c. fan
-c. fanni
-c. fannii
-c. fannio
-c. fannium
-c. fannius
-c. fi
-c. fibulo
-c. fidiculanius
-c. figuli
-c. figulo
-c. fim
-c. fimbria
-c. fimbriae
-c. fimbriam
-c. flacci
-c. flaccum
-c. flaccus
-c. flamini
-c. flaminio
-c. flaminium
-c. flaminius
-c. flave
-c. flavi
-c. flavio
-c. flavium
-c. flavius
-c. fonteio
-c. fuficium
-c. fulcinio
-c. fundanio
-c. furius
-c. furnio
-c. gabinius
-c. galba
-c. galbam
-c. gali
-c. gallo
-c. gallus
-c. galum
-c. gargonium
-c. getam
-c. glaucia
-c. glauciam
-c. grac
-c. gracchi
-c. graccho
-c. gracchos
-c. gracchum
-c. gracchus
-c. heium
-c. heius
-c. herennio
-c. herennius
-c. hirrum
-c. hirrus
-c. hirtilium
-c. hostili
-c. iuli
-c. iulii
-c. iulio
-c. iulius
-c. iuni
-c. iunio
-c. iunium
-c. iunius
-c. l
-c. licinivm
-c. laeli
-c. laelii
-c. laelio
-c. laelium
-c. laelius
-c. laenati
-c. licini
-c. licinium
-c. licinius
-c. luci
-c. lucilium
-c. lucilius
-c. lusci
-c. lvsci
-c. m
-c. manilio
-c. memmio
-c. munatio
-c. ma
-c. macer
-c. macro
-c. maecenas
-c. maenius
-c. malleolo
-c. manci
-c. mancini
-c. mancinus
-c. manili
-c. manilio
-c. manilium
-c. manlium
-c. mar
-c. marcelle
-c. marcelli
-c. marcello
-c. marcellum
-c. marcellus
-c. marcio
-c. marcium
-c. mari
-c. marii
-c. mario
-c. marium
-c. marius
-c. marivm
-c. masone
-c. mati
-c. matrini
-c. matrinio
-c. megaboccus
-c. memmi
-c. memmio
-c. memmium
-c. memmius
-c. messius
-c. metelli
-c. metello
-c. metellus
-c. mevulanum
-c. mucium
-c. mucius
-c. murenam
-c. mustio
-c. mustius
-c. n
-c. nasen
-c. nerone
-c. neronem
-c. neroni
-c. neronis
-c. nor
-c. norbani
-c. norbanum
-c. norbanus
-c. numitorio
-c. numitorius
-c. octavius
-c. oppiani
-c. orchivi
-c. orchivium
-c. pansam
-c. pansa
-c. pansae
-c. pansam
-c. papirius
-c. peducaeum
-c. persio
-c. piso
-c. pisone
-c. pisonem
-c. pisoni
-c. pisonis
-c. plotio
-c. pomptino
-c. pomptinum
-c. pomptinus
-c. pontio
-c. pontius
-c. popil
-c. popilio
-c. popilius
-c. postumius
-c. postumus
-c. publicium
-c. quincti
-c. quinctius
-c. rabirio
-c. rabiri
-c. rabirio
-c. rabirium
-c. rabirius
-c. rubellinum
-c. rusio
-c. rusius
-c. rusticelius
-c. rutilio
-c. sallvstivm
-c. sextilio
-c. sacer
-c. sacerdos
-c. sacerdote
-c. sacerdotem
-c. sacerdoti
-c. sacerdotis
-c. sal
-c. salinator
-c. sallusti
-c. saufeius
-c. scribonius
-c. selii
-c. sempronios
-c. sempronium
-c. sentio
-c. sentium
-c. septimi
-c. septimium
-c. septimius
-c. sergi
-c. sergio
-c. serranum
-c. serranus
-c. servilium
-c. servilius
-c. sextilius
-c. sextio
-c. sextius
-c. sicinius
-c. sosius
-c. staieni
-c. staienus
-c. sulpici
-c. sulpicium
-c. sulpicius
-c. titio
-c. trebonio
-c. tidio
-c. titius
-c. trebati
-c. trebatium
-c. trebatius
-c. treboni
-c. trebonio
-c. triarius
-c. tuditano
-c. turranius
-c. verrem
-c. va
-c. valerium
-c. valgium
-c. varenus
-c. varro
-c. varroni
-c. vellei
-c. velleio
-c. velleius
-c. vennoni
-c. vennonio
-c. vennonius
-c. vergilio
-c. vergilius
-c. verre
-c. verrem
-c. verres
-c. verri
-c. verris
-c. verruci
-c. vestorio
-c. vibienus
-c. vibium
-c. vibius
-c. visellius
-c. voconium
-c. volcacium
-c. aut
-c. autem
-c. deinde
-c. et
-c. etiam
-c. f
-c. frater
-c. illi
-c. ipsi
-c. ipsum
-c. n
-c. quidem
-c. uero
-c. vero
-cic. 
-cn. f
-cn. magnvs
-cn. plancio
-cn. pompei
-cn. pompeio
-cos. collegae
-cos. desig
-cos. de
-cos. ego
-cos. et
-cos. l
-cos. litterae
-cos. maxime
-cos. q
-cos. quantae
-cos. quoniam
-cos. s
-cos. suo
-cos. svo
-cos. te
-coss. ego
-cxx. leucade
-canai. omnino
-capua. gabinium
-capua. puerile
-cato. 
-cato. maledictum
-cato. atque
-cato. itaque
-cato. nec
-cato. quid
-cato. tamen
-ceio. ennium
-celer. ipse
-celer. o
-certe. 
-certe. quis
-clodi. generumne
-clodi. non
-cn. 
-cn. acer
-cn. aufidio
-cn. aufidius
-cn. caepio
-cn. caepioni
-cn. calidi
-cn. calidio
-cn. calidius
-cn. carbo
-cn. carbone
-cn. carbonem
-cn. carboni
-cn. carbonis
-cn. ciceronem
-cn. corneli
-cn. cornelio
-cn. cornelius
-cn. decidio
-cn. dola
-cn. dolabella
-cn. dolabellae
-cn. dolabellam
-cn. domi
-cn. domiti
-cn. domitio
-cn. domitium
-cn. domitius
-cn. domitivs
-cn. egnati
-cn. egnatium
-cn. fanni
-cn. fannio
-cn. fannius
-cn. flavio
-cn. flavium
-cn. flavius
-cn. heius
-cn. lentu
-cn. lentule
-cn. lentuli
-cn. lentulo
-cn. lentulum
-cn. lentulus
-cn. lucceius
-cn. magium
-cn. magius
-cn. mallio
-cn. mallium
-cn. manli
-cn. minucio
-cn. nerio
-cn. oc
-cn. octa
-cn. octavi
-cn. octavio
-cn. octavium
-cn. octavius
-cn. oppius
-cn. orestes
-cn. otacilio
-cn. papirio
-cn. papirivm
-cn. pi
-cn. pisone
-cn. pisonem
-cn. planci
-cn. plancio
-cn. plancium
-cn. plancius
-cn. plancum
-cn. pom
-cn. pompei
-cn. pompeii
-cn. pompeio
-cn. pompeium
-cn. pompeius
-cn. pomponius
-cn. postumis
-cn. publicio
-cn. pupium
-cn. sallustio
-cn. sallustium
-cn. saturnini
-cn. saturnino
-cn. saturninum
-cn. scipionis
-cn. sergio
-cn. sertium
-cn. servilio
-cn. servilivs
-cn. sicinius
-cn. titinius
-cn. tremellius
-cn. tudici
-cn. varenum
-cn. volusius
-cn. autem
-cn. et
-cn. f
-cn. filios
-cotta. 
-cotta. quid
-credo. 
-curio. 
-curio. nobis
-curio. huic
-cydae. dilectus
-d. 
-d. antonio
-d. appio
-d. antonium
-d. bruto
-d. brutus
-d. bru
-d. bruti
-d. bruto
-d. brutum
-d. brutus
-d. c
-d. caesari
-d. ciceroni
-d. cn
-d. cos
-d. coss
-d. carfulenum
-d. cum
-d. et
-d. etsi
-d. iii
-d. iiii
-d. id
-d. l
-d. laeli
-d. laelio
-d. laelium
-d. m
-d. matrinium
-d. mirificam
-d. non
-d. nos
-d. pr
-d. q
-d. quod
-d. si
-d. silani
-d. silano
-d. silanus
-d. tertiam
-d. tullius
-d. turranium
-d. vii
-d. viii
-d. verberavi
-d. vide
-d. xi
-d. xiii
-d. a
-d. prid
-d. se
-desig. cum
-desig. di
-desig. et
-desig. eo
-desig. etsi
-desig. lupus
-desig. narro
-desig. s
-desig. tris
-dic. caesar
-dic. recte
-dec. 
-dec. narona
-dione. de
-dixi. 
-doce. num
-drusi. accessi
-e. h
-ep. corneli
-epp. caesaris
-epp. calvi
-eros. 
-erote. 
-f. accepi
-f. actio
-f. age
-f. cedo
-f. cognita
-f. cognovi
-f. cur
-f. ego
-f. expone
-f. extrema
-f. habeo
-f. illud
-f. in
-f. mihi
-f. nempe
-f. num
-f. omnibusne
-f. paulo
-f. perge
-f. plane
-f. quae
-f. quas
-f. quibus
-f. quid
-f. quomodo
-f. quonam
-f. quoniam
-f. quos
-f. quot
-f. reliquum
-f. scire
-f. semperne
-f. sunt
-f. tironi
-f. teneo
-f. testimoniorum
-f. visne
-fab. ahenobarbus
-fab. metellus
-fanni. largitus
-fanni. quid
-febr. discedens
-febr. haec
-febr. si
-grai. hic
-h. 
-h. s
-hs. 
-hs. quid
-heius. cum
-hydra. 
-hydra. at
-i. 
-i. ii
-ii. 
-iii. 
-ilius. studeo
-imp. ciceroni
-imp. cos
-imp. cum
-imp. etsi
-imp. iter
-imp. paeto
-imp. periucundae
-imp. q
-imp. quod
-imp. s
-imp. sal
-imp. vt
-iv. 
-ian. d
-id. 
-id. apr
-id. bruto
-id. capuam
-id. corcyram
-id. dec
-id. febr
-id. fundis
-id. ian
-id. iun
-id. lanuvio
-id. mai
-id. mart
-id. nov
-id. oct
-id. quint
-id. sept
-id. sext
-id. a
-id. ad
-id. ait
-id. arbitror
-id. aut
-id. cum
-id. currens
-id. datae
-id. domi
-id. duas
-id. erant
-id. ex
-id. exspectabatur
-id. h
-id. hora
-id. ibi
-id. illinc
-id. litteras
-id. mane
-id. morati
-id. neque
-id. nobis
-id. praesto
-id. profectus
-id. ut
-id. velim
-id. veni
-id. venit
-id. vero
-id. videre
-idus. o
-iouis. 
-iovem. cic
-iovem. totum
-iovis. non
-iovis. atque
-iun. cypro
-iun. eunti
-iunia. pro
-iuno. ergo
-k. duilio
-kal. 
-kal. apr
-kal. axio
-kal. caesarem
-kal. capua
-kal. capuae
-kal. dec
-kal. febr
-kal. formi
-kal. h
-kal. ian
-kal. iun
-kal. mai
-kal. mart
-kal. nov
-kal. novembris
-kal. oct
-kal. quint
-kal. sept
-kal. sext
-kal. accepi
-kal. ad
-kal. ambae
-kal. cave
-kal. cena
-kal. cum
-kal. datae
-kal. de
-kal. dederas
-kal. doloremque
-kal. duas
-kal. e
-kal. ei
-kal. esse
-kal. exemplum
-kal. exspectabam
-kal. exspectabo
-kal. fore
-kal. haec
-kal. hic
-kal. hoc
-kal. ibi
-kal. igitur
-kal. in
-kal. inter
-kal. interea
-kal. litteras
-kal. mane
-kal. nundinae
-kal. omnis
-kal. perge
-kal. profectus
-kal. quam
-kal. quippe
-kal. satis
-kal. sed
-kal. ut
-kal. venturum
-kal. vesperi
-kal. videbo
-kal. volumus
-l. 
-l. accio
-l. accium
-l. acilium
-l. acilius
-l. adducor
-l. aelii
-l. aelio
-l. aelium
-l. aelius
-l. aemilio
-l. aemilius
-l. afrani
-l. afranio
-l. afranium
-l. afranius
-l. agri
-l. ain
-l. albius
-l. alenus
-l. annium
-l. antistius
-l. antoni
-l. antonio
-l. antonium
-l. antonius
-l. appuleium
-l. appuleius
-l. arruntio
-l. ateius
-l. atilius
-l. aurifex
-l. bellieni
-l. bestia
-l. bestiam
-l. bibulus
-l. bru
-l. bruti
-l. bruto
-l. bruttius
-l. brutum
-l. brutus
-l. calpvrnivm
-l. catilinam
-l. cornelio
-l. culleolo
-l. caeci
-l. caecili
-l. caecilio
-l. caecilium
-l. caecilius
-l. caelius
-l. caesar
-l. caesare
-l. caesarem
-l. caesari
-l. caesaris
-l. caesius
-l. caesu
-l. caleni
-l. caleno
-l. calenus
-l. calpurnio
-l. calpurnius
-l. camillo
-l. canuleio
-l. canuleium
-l. capitone
-l. carpinatius
-l. carteius
-l. cassi
-l. cassio
-l. cassium
-l. cassius
-l. cassivs
-l. castrinio
-l. cati
-l. catilina
-l. catilinae
-l. catilinam
-l. cato
-l. caulius
-l. censorinum
-l. cice
-l. cincio
-l. cinna
-l. cinnae
-l. cinnam
-l. claudius
-l. clodio
-l. clodium
-l. clodius
-l. coelius
-l. cominiis
-l. considio
-l. corfi
-l. corfidius
-l. corneli
-l. cornelio
-l. cornelium
-l. cornelius
-l. cossinio
-l. cossinius
-l. cotta
-l. cottae
-l. cottam
-l. cras
-l. crassi
-l. crasso
-l. crassum
-l. crassus
-l. credo
-l. curidio
-l. diadematus
-l. dicam
-l. do
-l. domi
-l. domiti
-l. domitii
-l. domitio
-l. domitium
-l. domitius
-l. eas
-l. egnati
-l. egnatio
-l. egnatius
-l. egnatuleio
-l. ego
-l. eppi
-l. est
-l. et
-l. f
-l. flacco
-l. fabatum
-l. fabricii
-l. fadio
-l. fadius
-l. fannio
-l. figulus
-l. flacci
-l. flacco
-l. flaccum
-l. flaccus
-l. flamininum
-l. flavi
-l. flavium
-l. flavius
-l. fufidium
-l. fufii
-l. fufio
-l. fufius
-l. furio
-l. furium
-l. furius
-l. gavio
-l. gelli
-l. gellio
-l. gellius
-l. genucilio
-l. habonio
-l. herenni
-l. herennium
-l. hortensius
-l. immo
-l. ista
-l. istos
-l. iuli
-l. iulio
-l. iulium
-l. iulius
-l. iunio
-l. iunius
-l. iustissimus
-l. l
-l. lentvlo
-l. lucceio
-l. lucceius
-l. labeoni
-l. laetili
-l. lamia
-l. lamiam
-l. len
-l. lentuli
-l. lentulo
-l. lentulum
-l. lentulus
-l. libo
-l. libone
-l. licinio
-l. licinius
-l. liguri
-l. liguris
-l. ligus
-l. lollio
-l. lu
-l. luc
-l. luccei
-l. lucceium
-l. lucili
-l. lucilio
-l. lucilius
-l. lucul
-l. luculle
-l. luculli
-l. lucullo
-l. lucullum
-l. lucullus
-l. lvccei
-l. m
-l. mescinio
-l. mvrena
-l. magio
-l. mamilium
-l. mancino
-l. manlio
-l. manlius
-l. marcio
-l. marcium
-l. marcius
-l. masso
-l. me
-l. memmius
-l. mescinio
-l. metelli
-l. metello
-l. metellum
-l. metellus
-l. metellvs
-l. mihi
-l. minime
-l. minuci
-l. mummi
-l. mummio
-l. mummium
-l. mummius
-l. murcum
-l. murena
-l. murenae
-l. murenam
-l. n
-l. natta
-l. nihil
-l. ninnio
-l. ninnius
-l. non
-l. novi
-l. octavi
-l. octavio
-l. octavius
-l. octavivs
-l. opi
-l. opimi
-l. opimium
-l. opimius
-l. oppi
-l. oppium
-l. oppius
-l. oreste
-l. otho
-l. planco
-l. pa
-l. papinio
-l. papirio
-l. papirium
-l. papirius
-l. papirivs
-l. pau
-l. pauli
-l. paullo
-l. paullus
-l. paulo
-l. paulum
-l. paulus
-l. peducaeum
-l. phi
-l. philip
-l. philippe
-l. philippi
-l. philippo
-l. philippum
-l. philippus
-l. philo
-l. philoni
-l. piso
-l. pisone
-l. pisonem
-l. pisoni
-l. pisonis
-l. plaetorius
-l. planci
-l. planco
-l. plancus
-l. plotium
-l. pontio
-l. pontium
-l. pontius
-l. populi
-l. porcio
-l. prudentem
-l. publicium
-l. quaenam
-l. quin
-l. quincti
-l. quinctio
-l. quinctium
-l. quinctius
-l. quippe
-l. quo
-l. racili
-l. racili
-l. racilium
-l. raecio
-l. raecium
-l. reguli
-l. roscio
-l. rubri
-l. rubrio
-l. rubrius
-l. rutili
-l. sabellio
-l. satur
-l. saturnini
-l. saturnino
-l. saturninum
-l. saturninus
-l. saufeio
-l. saufeium
-l. scipio
-l. scipione
-l. scipioni
-l. scipionis
-l. scribonio
-l. sempronio
-l. sergium
-l. servilium
-l. sesti
-l. sestium
-l. sestius
-l. si
-l. sic
-l. sisenna
-l. sisennae
-l. sisennam
-l. statilium
-l. statilius
-l. statio
-l. suettium
-l. suettius
-l. sulla
-l. sullae
-l. sullam
-l. tarquinius
-l. tarquitio
-l. terentium
-l. tillius
-l. titio
-l. titium
-l. torqua
-l. torquate
-l. torquati
-l. torquato
-l. torquatum
-l. torquatus
-l. trebelli
-l. trebellius
-l. triario
-l. tubero
-l. tuberone
-l. tuberonis
-l. tubulo
-l. tubulum
-l. tullium
-l. tullius
-l. turius
-l. turseli
-l. turselio
-l. turselius
-l. valerio
-l. vareno
-l. valerio
-l. valerium
-l. valerius
-l. varenus
-l. varium
-l. vero
-l. vettium
-l. vettius
-l. veturio
-l. vi
-l. vibium
-l. video
-l. vil
-l. villius
-l. vinicius
-l. volcacio
-l. volcatio
-l. volcatium
-l. volteio
-l. volusenum
-l. vulcati
-l. vulcatius
-l. autem
-l. enim
-l. erat
-l. et
-l. etiam
-l. f
-l. filio
-l. filios
-l. filium
-l. frater
-l. fratrem
-l. ille
-l. ipse
-l. non
-l. qui
-l. quidem
-l. vero
-leg. pro
-leg. s
-lib. i
-lib. ii
-lib. iii
-lib. ix
-lib. v
-lib. vii
-lib. viii
-liber. 
-lvtem. si
-lael. 
-laeli. saepe
-laeli. sed
-laida. 
-largi. ille
-lepus. hic
-locri. sed
-lupus. 
-lurco. quid
-lydia. vtrum
-m'. acilio
-m'. acilius
-m'. aquili
-m'. aquilio
-m'. aquilium
-m'. aquilius
-m'. cu
-m'. curi
-m'. curio
-m'. curium
-m'. curius
-m'. glabrio
-m'. glabrione
-m'. glabrionem
-m'. glabrioni
-m'. glabrionis
-m'. lepidi
-m'. lepido
-m'. lepidum
-m'. lepidus
-m'. ma
-m'. manilio
-m'. manilium
-m'. manilius
-m'. tullio
-m'. que
-m'. quidem
-m'. vero
-m. 
-m. antonio
-m. antonivm
-m. aebu
-m. aelium
-m. aemili
-m. aemilio
-m. aemilium
-m. aemilius
-m. alliennium
-m. an
-m. annei
-m. anneio
-m. anneium
-m. anneius
-m. anni
-m. annio
-m. annium
-m. annius
-m. antistio
-m. antius
-m. anto
-m. antoni
-m. antonii
-m. antonio
-m. antonium
-m. antonius
-m. apuleio
-m. asellium
-m. atilio
-m. atilium
-m. atilius
-m. atius
-m. aurelio
-m. aurelius
-m. aurium
-m. aurius
-m. bruti
-m. brutum
-m. brvtvm
-m. baebio
-m. baebius
-m. bambalionis
-m. basilus
-m. bibuli
-m. bibulo
-m. bibulum
-m. bibulus
-m. bolanum
-m. bolanus
-m. bruti
-m. bruto
-m. brutum
-m. brutus
-m. buculeius
-m. caelio
-m. cato
-m. catoni
-m. cicero
-m. ciceroni
-m. curtio
-m. caecilium
-m. caeli
-m. caelio
-m. caelium
-m. caelius
-m. caeparius
-m. caesi
-m. caesio
-m. caesium
-m. caesius
-m. caesonius
-m. calenius
-m. calidi
-m. calidio
-m. calidium
-m. camillum
-m. camurti
-m. canuleio
-m. carbones
-m. cascelli
-m. cassio
-m. castricium
-m. cato
-m. catone
-m. catonem
-m. catoni
-m. catonis
-m. ceparium
-m. cicero
-m. cicerone
-m. ciceronem
-m. cincius
-m. cispium
-m. cispius
-m. claudium
-m. clavdivs
-m. cluvio
-m. coelio
-m. coelium
-m. considio
-m. coponio
-m. cornelio
-m. cornelius
-m. cornutum
-m. cornutus
-m. cossutium
-m. cossutius
-m. cot
-m. cotta
-m. cras
-m. crassi
-m. crasso
-m. crassum
-m. crassus
-m. crepereius
-m. curtio
-m. curtius
-m. cusini
-m. cutius
-m. druse
-m. drusi
-m. druso
-m. drusum
-m. drusus
-m. duronio
-m. eppium
-m. eppius
-m. f
-m. fabio
-m. filivm
-m. fonteio
-m. fabio
-m. fabium
-m. fabius
-m. fanni
-m. faucium
-m. favonio
-m. feridium
-m. flaccus
-m. fon
-m. fontei
-m. fonteio
-m. fonteium
-m. fonteius
-m. fulcinium
-m. fulcinius
-m. fulvi
-m. fulvio
-m. fulvius
-m. furium
-m. furius
-m. gallius
-m. gratidio
-m. gratidius
-m. herennio
-m. herennius
-m. ho
-m. horatii
-m. horatius
-m. iunio
-m. iunium
-m. iunius
-m. iuventius
-m. lepidus
-m. licinio
-m. laberio
-m. laecae
-m. laecam
-m. laeni
-m. laenio
-m. laenium
-m. laevino
-m. laterensem
-m. laterensis
-m. le
-m. lepide
-m. lepidi
-m. lepido
-m. lepidum
-m. lepidus
-m. liguri
-m. lollium
-m. lollius
-m. lu
-m. lucretium
-m. luculli
-m. lucullo
-m. lucullum
-m. lucullus
-m. lurco
-m. lutatio
-m. marcello
-m. mario
-m. manli
-m. manlius
-m. mar
-m. marcelle
-m. marcelli
-m. marcello
-m. marcellum
-m. marcellus
-m. marcilium
-m. mari
-m. marium
-m. marius
-m. mes
-m. messalae
-m. messalam
-m. messalla
-m. messallae
-m. metelli
-m. metello
-m. metellum
-m. mihi
-m. mindio
-m. mindium
-m. minime
-m. modium
-m. mummium
-m. n
-m. nihil
-m. nobiliori
-m. nonium
-m. octavii
-m. octavio
-m. octavium
-m. octavius
-m. orfium
-m. paccius
-m. pacilius
-m. paconio
-m. pacuvi
-m. palicanum
-m. papiri
-m. papirium
-m. pennus
-m. perpenna
-m. perpennae
-m. perperna
-m. perpernam
-m. petilium
-m. petrei
-m. pilio
-m. pinari
-m. piso
-m. pisone
-m. pisonem
-m. pisoni
-m. pisonis
-m. plaetori
-m. plaetorio
-m. plaetorium
-m. plaetorius
-m. plani
-m. pomponium
-m. pomponius
-m. pontidius
-m. popilli
-m. postumius
-m. pupio
-m. quam
-m. rutilio
-m. regulum
-m. regulus
-m. scavro
-m. satrium
-m. scaptio
-m. scaptium
-m. scaure
-m. scauri
-m. scauro
-m. scaurum
-m. scaurus
-m. seio
-m. seium
-m. servilio
-m. servilium
-m. servilius
-m. silano
-m. silanum
-m. silanus
-m. titinivm
-m. tulli
-m. tullio
-m. tullium
-m. tullius
-m. tvllio
-m. taurum
-m. terentium
-m. terentius
-m. terpolius
-m. titurnius
-m. trebellium
-m. tuccium
-m. tuditano
-m. tugionem
-m. tulli
-m. tullio
-m. tullium
-m. tullius
-m. tuscilio
-m. tvlli
-m. tvllio
-m. tvllivs
-m. varroni
-m. vacci
-m. valerio
-m. valerium
-m. varisidium
-m. varisidius
-m. varro
-m. varrone
-m. varronis
-m. vehilius
-m. vergilius
-m. vigellius
-m. volusius
-m. ad
-m. autem
-m. enim
-m. enius
-m. et
-m. f
-m. fili
-m. filius
-m. fratre
-m. ille
-m. illi
-m. illius
-m. illum
-m. quidem
-m. vero
-mai. brundisio
-mai. et
-mai. ex
-maia. hae
-mam. aemilio
-mart. ex
-me. quodnam
-milo. 
-milo. dedit
-n. aurios
-n. cluentio
-n. magium
-n. autem
-narib. luc
-nauem. obruitur
-navii. nihil
-nemo. atqui
-nemo. hic
-nemo. illi
-nemo. num
-nemo. quid
-nemo. senator
-nepai. arctophylax
-nicia. 
-nodum. andromedae
-non. 
-non. apr
-non. dec
-non. febr
-non. frustra
-non. ian
-non. iun
-non. mai
-non. mart
-non. nov
-non. oct
-non. quint
-non. romae
-non. sept
-non. sext
-non. thermitanum
-non. conscendens
-non. darem
-non. iam
-non. profectus
-non. tua
-non. venturus
-non. vesperi
-nonas. tuas
-nov. decedat
-nulla. addictus
-nullo. cur
-oct. athenas
-oct. epheso
-oct. in
-p. 
-p. ac
-p. admodum
-p. aeli
-p. aelius
-p. afri
-p. africani
-p. africano
-p. africanum
-p. africanus
-p. albinovanus
-p. anni
-p. annio
-p. annius
-p. antistius
-p. aponio
-p. apuleius
-p. argumentationem
-p. argumentis
-p. asicius
-p. attio
-p. attius
-p. auditorum
-p. aut
-p. autronius
-p. avi
-p. bagienni
-p. c
-p. caesio
-p. clodium
-p. clodivm
-p. caelius
-p. caese
-p. caesen
-p. caesennius
-p. caesetius
-p. caesium
-p. calpurnius
-p. cannu
-p. cannutio
-p. cannutius
-p. cervium
-p. cethego
-p. cethegus
-p. claudio
-p. claudium
-p. claudius
-p. clo
-p. clodi
-p. clodii
-p. clodio
-p. clodium
-p. clodius
-p. cominium
-p. communia
-p. confitentur
-p. consequentia
-p. considerandum
-p. cornelio
-p. cornelium
-p. cornelius
-p. cottii
-p. cras
-p. crassi
-p. crasso
-p. crassum
-p. crassus
-p. cum
-p. curtium
-p. cuspio
-p. cuspius
-p. dolabellae
-p. deci
-p. decii
-p. decio
-p. decium
-p. decius
-p. delectationem
-p. didium
-p. divinum
-p. dolabella
-p. dolabellam
-p. duo
-p. eos
-p. est
-p. f
-p. figulo
-p. fabi
-p. fabii
-p. fabius
-p. faciam
-p. facilior
-p. flacco
-p. fonteius
-p. fulvi
-p. furium
-p. gabinium
-p. gabinius
-p. galba
-p. galbam
-p. gavio
-p. gavium
-p. geminus
-p. globulum
-p. granium
-p. habeo
-p. helvidium
-p. illa
-p. immo
-p. in
-p. infinitam
-p. ita
-p. iuni
-p. iunius
-p. lentulo
-p. lentulus
-p. len
-p. lentule
-p. lentuli
-p. lentulo
-p. lentulum
-p. lentulus
-p. lentvlo
-p. licini
-p. licinio
-p. licinius
-p. loco
-p. luccio
-p. luccium
-p. lupum
-p. magio
-p. magius
-p. matinio
-p. matinium
-p. memmius
-p. messienum
-p. mu
-p. muci
-p. mucii
-p. mucio
-p. mucium
-p. mucius
-p. mummium
-p. murena
-p. naevio
-p. nasica
-p. nasicae
-p. nasicam
-p. naso
-p. nigidio
-p. nigidium
-p. nihil
-p. non
-p. numeri
-p. octavio
-p. omnia
-p. orbius
-p. papirii
-p. pinarius
-p. popili
-p. popilio
-p. popilium
-p. popilius
-p. popillium
-p. postumius
-p. primum
-p. principia
-p. probabile
-p. qvinctio
-p. quae
-p. quattuor
-p. quia
-p. quid
-p. quincti
-p. quinctili
-p. quinctio
-p. quinctium
-p. quinctius
-p. quintilius
-p. quoniam
-p. r
-p. recte
-p. rulle
-p. rulli
-p. rullo
-p. rullum
-p. rullus
-p. rupili
-p. rupilio
-p. rupilium
-p. rupilius
-p. rutili
-p. rutilii
-p. rutilio
-p. rutilium
-p. rutilius
-p. s
-p. servilio
-p. servilivm
-p. sestio
-p. silio
-p. sittio
-p. sulpicio
-p. svlla
-p. sallustio
-p. sane
-p. saturi
-p. saturius
-p. scae
-p. scaeuolae
-p. scaevola
-p. scaevolae
-p. scaevolam
-p. scandilius
-p. scapulae
-p. scipio
-p. scipione
-p. scipionem
-p. scipiones
-p. scipioni
-p. scipionibus
-p. scipionis
-p. septimi
-p. septimio
-p. septimius
-p. ser
-p. servili
-p. servilio
-p. servilium
-p. servilius
-p. servilivs
-p. sesti
-p. sestio
-p. sestium
-p. sestius
-p. sextilio
-p. sextius
-p. silio
-p. siser
-p. sitti
-p. sulla
-p. sullae
-p. sullam
-p. sulpici
-p. sulpicii
-p. sulpicio
-p. sulpicium
-p. sulpicius
-p. tadio
-p. tadius
-p. terentio
-p. terentius
-p. tettius
-p. titio
-p. titius
-p. trebonius
-p. tuditano
-p. tullioni
-p. unum
-p. ut
-p. vatinio
-p. vatinivm
-p. valeri
-p. valerio
-p. valerium
-p. valerius
-p. varinio
-p. vario
-p. varium
-p. vatini
-p. vatinius
-p. vedio
-p. ventidium
-p. ventidius
-p. vetilius
-p. vetti
-p. vettio
-p. vmbrenum
-p. volumni
-p. autem
-p. enim
-p. et
-p. etiam
-p. f
-p. fratre
-p. hic
-p. ille
-p. quidem
-pater. an
-ph. nihil
-ph. quaesierat
-pl. senatui
-pont. max
-pr. ciceroni
-pr. cum
-pr. desig
-pr. et
-pr. nero
-pr. non
-pr. officium
-pr. s
-pr. t
-pr. tr
-pr. urb
-pansa. modo
-pilia. 
-piso. 
-piso. ac
-piso. itaque
-plato. 
-plato. quem
-plato. cum
-pom. annalis
-pom. curio
-prid. id
-prid. kal
-prid. non
-pup. hirrus
-q. 
-q. anchario
-q. axivm
-q. acutio
-q. aelio
-q. aelius
-q. anchari
-q. annium
-q. apronio
-q. apronium
-q. arri
-q. arrio
-q. arrium
-q. arrius
-q. axius
-q. baebium
-q. caecilio
-q. caecilivm
-q. cicero
-q. ca
-q. cae
-q. caecili
-q. caecilium
-q. caecilius
-q. caelius
-q. caepio
-q. caepione
-q. caepionem
-q. caepioni
-q. caepionibus
-q. caepionis
-q. calidio
-q. calidius
-q. cassi
-q. cassio
-q. cassium
-q. cassius
-q. cati
-q. catule
-q. catuli
-q. catulo
-q. catulum
-q. catulus
-q. catvlo
-q. celeris
-q. cicero
-q. cicerone
-q. ciceronem
-q. ciceroni
-q. ciceronis
-q. claudia
-q. con
-q. consi
-q. considio
-q. considium
-q. cornelio
-q. cornelius
-q. cornificio
-q. cornificium
-q. cornificius
-q. crispum
-q. crotonis
-q. cum
-q. curtium
-q. d
-q. dionem
-q. ennium
-q. ennius
-q. f
-q. frater
-q. fabi
-q. fabio
-q. fabium
-q. fabius
-q. fabri
-q. fabricio
-q. fabricius
-q. fadi
-q. fadio
-q. flacci
-q. flaccus
-q. flavio
-q. flavius
-q. fufi
-q. fufidium
-q. fufio
-q. fufium
-q. fufius
-q. fulvi
-q. fulvium
-q. fvlvio
-q. gallio
-q. gallio
-q. granio
-q. hippio
-q. hor
-q. horten
-q. hortensi
-q. hortensio
-q. hortensium
-q. hortensius
-q. iunium
-q. l
-q. ligario
-q. labienum
-q. leptam
-q. ligari
-q. ligario
-q. ligarium
-q. ligarius
-q. litteras
-q. lol
-q. lollio
-q. lollium
-q. lu
-q. lucceius
-q. lucretium
-q. lucretius
-q. lutatio
-q. lutatius
-q. m
-q. metelli
-q. metello
-q. metellus
-q. maelius
-q. mamercium
-q. manli
-q. manlium
-q. marcio
-q. marcium
-q. marcius
-q. maximi
-q. maximo
-q. maximum
-q. maximus
-q. maxumo
-q. maxumus
-q. me
-q. metel
-q. metelle
-q. metelli
-q. metellis
-q. metello
-q. metellum
-q. metellus
-q. minucio
-q. minucium
-q. minucius
-q. muci
-q. mucio
-q. mucius
-q. muttone
-q. muttonis
-q. naso
-q. nobiliorem
-q. numitorio
-q. opimi
-q. opimio
-q. opimium
-q. opimius
-q. pater
-q. philippo
-q. pro
-q. papirius
-q. pedio
-q. petili
-q. philippo
-q. pilius
-q. pom
-q. pompei
-q. pompeio
-q. pompeium
-q. pompeius
-q. pu
-q. publici
-q. roscio
-q. regis
-q. rosci
-q. roscio
-q. roscium
-q. roscius
-q. rubrium
-q. rubrius
-q. s
-q. salasso
-q. sanga
-q. scaevola
-q. scaevolae
-q. scaevolam
-q. seio
-q. selicio
-q. septicio
-q. sergi
-q. sertorium
-q. servilio
-q. servilius
-q. sestullium
-q. sosius
-q. staberi
-q. tadi
-q. tadio
-q. tadius
-q. terentius
-q. thermus
-q. titini
-q. titinio
-q. titinius
-q. tremuli
-q. tubero
-q. tuberone
-q. tuberonem
-q. tuberoni
-q. tuberonis
-q. turi
-q. turius
-q. valerio
-q. vale
-q. valeri
-q. vari
-q. vario
-q. varium
-q. varius
-q. velo
-q. verrem
-q. vettius
-q. vo
-q. voconium
-q. volusio
-q. volusium
-q. egi
-q. enim
-q. et
-q. etiam
-q. f
-q. filiae
-q. frater
-q. fratre
-q. illa
-q. ille
-q. pupillum
-q. quidem
-q. tu
-q. ue
-q. vero
-qq. tironi
-quint. 
-quint. veni
-r. 
-r. numantiam
-r. auctore
-r. factum
-r. imperium
-r. iustitia
-r. minus
-r. natus
-r. non
-r. posset
-r. profuerint
-r. superati
-r. temptare
-r. tuae
-rimus. 
-rocos. a
-rocos. cum
-rocos. litterae
-rocos. litteras
-rocos. s
-rocos. valde
-regio. 
-rhodi. kal
-roma. voco
-romae. 
-romae. cum
-romae. quid
-romae. verum
-romae. cura
-romae. etenim
-romae. nam
-romae. si
-romae. sin
-romae. utrum
-romam. etiam
-romam. facile
-romam. quod
-romam. sed
-rosea. vixi
-s. 
-s. a
-s. accepi
-s. aegypta
-s. ain
-s. alia
-s. amabilior
-s. andricus
-s. asclapone
-s. atque
-s. auget
-s. binas
-s. brevitas
-s. c
-s. caerelliae
-s. cedo
-s. certe
-s. cum
-s. cur
-s. d
-s. de
-s. dederam
-s. delectarunt
-s. democritus
-s. duabus
-s. ecquando
-s. ego
-s. ergo
-s. estne
-s. et
-s. etsi
-s. ex
-s. exspecto
-s. finem
-s. gratulabor
-s. gratulor
-s. hagesaretus
-s. hiemem
-s. ille
-s. illuseras
-s. imitemur
-s. invideo
-s. ita
-s. l
-s. lepidus
-s. libentissime
-s. licet
-s. m
-s. magnam
-s. meum
-s. nihil
-s. non
-s. nondum
-s. nos
-s. num
-s. o
-s. omnia
-s. p
-s. plurimum
-s. post
-s. postea
-s. praeposteros
-s. probas
-s. pudet
-s. qua
-s. quae
-s. quam
-s. quamquam
-s. quanto
-s. quasi
-s. qui
-s. quia
-s. quid
-s. quin
-s. quo
-s. quod
-s. recte
-s. s
-s. sane
-s. scelus
-s. si
-s. sili
-s. sollicitat
-s. spero
-s. sub
-s. t
-s. tanti
-s. tantum
-s. tibi
-s. tu
-s. tum
-s. vehementer
-s. vel
-s. vellem
-s. venio
-s. vide
-s. video
-s. vides
-s. videsne
-s. vix
-s. t
-s. v
-sal. 
-sal. a
-sal. accepi
-sal. acta
-sal. actium
-sal. ad
-sal. ain
-sal. anicato
-sal. ante
-sal. antea
-sal. apud
-sal. asiam
-sal. attici
-sal. avere
-sal. beneventum
-sal. breviloquentem
-sal. brundisium
-sal. cenantibus
-sal. cenato
-sal. cephalio
-sal. commodum
-sal. confectus
-sal. cottidie
-sal. crebras
-sal. cum
-sal. cupio
-sal. cura
-sal. de
-sal. dederam
-sal. delectarunt
-sal. deverti
-sal. diligenter
-sal. dionysium
-sal. dionysius
-sal. domiti
-sal. duas
-sal. egnatius
-sal. ego
-sal. ephesum
-sal. epistulam
-sal. et
-sal. etsi
-sal. ex
-sal. exanimatus
-sal. exspectationem
-sal. facile
-sal. facinus
-sal. fecisti
-sal. gaudeo
-sal. gratae
-sal. hui
-sal. iam
-sal. ignosce
-sal. in
-sal. itineris
-sal. iucundissimas
-sal. kal
-sal. laodiceam
-sal. lippitudinis
-sal. litterae
-sal. magna
-sal. maximis
-sal. me
-sal. mihi
-sal. miseriae
-sal. multa
-sal. multas
-sal. narro
-sal. negent
-sal. negotium
-sal. nihil
-sal. nimium
-sal. non
-sal. nos
-sal. nudius
-sal. numquam
-sal. numquid
-sal. nunc
-sal. o
-sal. obsignaram
-sal. obsignata
-sal. occupationum
-sal. omnia
-sal. omnis
-sal. plur
-sal. patrem
-sal. pedem
-sal. periucundus
-sal. petitionis
-sal. philotimi
-sal. plane
-sal. post
-sal. prid
-sal. primum
-sal. properantibus
-sal. prorsus
-sal. puto
-sal. quae
-sal. quaeris
-sal. quaeso
-sal. quam
-sal. quantam
-sal. quantis
-sal. quantum
-sal. quas
-sal. quid
-sal. quintus
-sal. quoad
-sal. quod
-sal. quoniam
-sal. rure
-sal. saepius
-sal. sane
-sal. saturnalibus
-sal. scripseram
-sal. sollicitum
-sal. spero
-sal. subito
-sal. tarentum
-sal. tarsum
-sal. te
-sal. terentia
-sal. totum
-sal. tranquillae
-sal. trebatium
-sal. triginta
-sal. tris
-sal. tu
-sal. vestorius
-sal. vnam
-sal. vndecimo
-sal. vnum
-sal. volo
-sal. vt
-sal. vtinam
-sal. iii
-sal. iiii
-sal. v
-sal. xvii
-sc. li
-ser. sulpicio
-sex. roscio
-seio. sed
-ser. claudius
-ser. fulvio
-ser. fulvius
-ser. galba
-ser. galbae
-ser. galbam
-ser. naevio
-ser. sulpici
-ser. sulpicio
-ser. sulpicium
-ser. sulpicius
-serv. sullam
-sex. aebuti
-sex. aeli
-sex. aelium
-sex. aelius
-sex. albesium
-sex. albio
-sex. alfeni
-sex. alfenum
-sex. alfenus
-sex. atilio
-sex. atilius
-sex. aufidium
-sex. aufidius
-sex. caesar
-sex. caesium
-sex. clodi
-sex. clodio
-sex. clodium
-sex. clodius
-sex. cloeli
-sex. cloelio
-sex. cloelium
-sex. co
-sex. f
-sex. fadio
-sex. iulio
-sex. iulius
-sex. lucilium
-sex. marius
-sex. naevi
-sex. naevio
-sex. naevium
-sex. naevius
-sex. peducaei
-sex. peducaeo
-sex. peducaeum
-sex. pedvcaeo
-sex. pompei
-sex. pompeio
-sex. pompeium
-sex. pompeius
-sex. properti
-sex. quinctili
-sex. rosci
-sex. roscio
-sex. roscium
-sex. roscius
-sex. saltio
-sex. serrano
-sex. servilio
-sex. statio
-sex. stloga
-sex. tarquinius
-sex. titi
-sex. titio
-sex. titium
-sex. titius
-sex. varo
-sex. vennonio
-sex. vibium
-sex. villium
-sex. enim
-sex. f
-sex. filius
-sex. frater
-sex. qui
-sext. dyrrachio
-sexto. 
-silus. 
-sosis. is
-sp. albi
-sp. albinum
-sp. albinus
-sp. antio
-sp. carvilio
-sp. cassi
-sp. cassio
-sp. cassium
-sp. cassius
-sp. lucretium
-sp. maecius
-sp. maeli
-sp. maelium
-sp. maelius
-sp. mummii
-sp. mummium
-sp. oppius
-sp. postu
-sp. postumius
-sp. tarpeius
-sp. thorius
-stel. eodem
-syria. qui
-syria. quas
-t. annio
-t. accium
-t. agusius
-t. albu
-t. albucio
-t. albucium
-t. albucius
-t. ampi
-t. ampio
-t. ampium
-t. ampius
-t. an
-t. anicius
-t. anni
-t. annio
-t. annium
-t. annius
-t. antistius
-t. atti
-t. attio
-t. attius
-t. aufidio
-t. aufidius
-t. betutius
-t. brocchi
-t. broccho
-t. caelio
-t. caelium
-t. capitonis
-t. carrinate
-t. catienus
-t. claudium
-t. coponius
-t. crispinum
-t. didi
-t. didium
-t. didius
-t. f
-t. fadio
-t. fadio
-t. fadius
-t. flami
-t. flaminini
-t. flamininum
-t. flamininus
-t. flaminio
-t. furfanio
-t. furfano
-t. gavi
-t. herennio
-t. herennius
-t. hordeonio
-t. iunius
-t. iuventius
-t. labie
-t. labiene
-t. labienus
-t. larcius
-t. ligari
-t. ligarius
-t. manili
-t. manlium
-t. manlius
-t. mario
-t. matrinius
-t. munati
-t. pomponium
-t. patinam
-t. pinarium
-t. pinarius
-t. planco
-t. plancum
-t. plancus
-t. pomponi
-t. pomponio
-t. pomponius
-t. ponti
-t. quintio
-t. rosci
-t. roscii
-t. roscio
-t. roscium
-t. roscius
-t. serti
-t. titio
-t. tatio
-t. tincam
-t. titium
-t. torquato
-t. torquatus
-t. vetti
-t. vettium
-t. veturius
-t. vibi
-t. volturcium
-t. autem
-t. erit
-t. et
-t. f
-t. quidem
-ticum. 
-tr. pl
-tr. pleb
-tauri. quem
-tauri. factum
-teani. mirifica
-teani. probata
-ter. 
-ti. 
-ti. cannu
-ti. co
-ti. coruncani
-ti. coruncanio
-ti. coruncanium
-ti. coruncanius
-ti. grac
-ti. gracchi
-ti. graccho
-ti. gracchum
-ti. gracchus
-ti. guttae
-ti. guttam
-ti. nero
-ti. nerone
-ti. neronem
-ti. numicius
-ti. et
-ti. fratrem
-tib. gracchi
-tib. graccho
-tib. gracchum
-tib. gracchus
-tib. quidem
-tiro. quoniam
-tite. 
-tulli. sed
-undus. 
-uxor. similis
-v. 
-va. 
-vi. 
-vale. 
-varro. nam
-verre. dic
-verre. iste
-vetat. verum
-virgo. at
-virgo. cedit
-virgo. lactant
+a. albino bene
+a. albino conlega
+a. allieno legato
+a. allienus eduxerat
+a. allienus ex
+a. aternius consules
+a. atilio calatino
+a. atilius et
+a. aurio melino
+a. aurium cuius
+a. aurium occiderat
+a. aurius is
+a. bivium quendam
+a. caecina oratio
+a. caecinae quotienscumque
+a. caecinae vereor
+a. clventio oratio
+a. caecina sex
+a. caecina ne
+a. caecina posse
+a. caecina possederit
+a. caecina possideret
+a. caecinae 
+a. caecinae causa
+a. caecinae essemus
+a. caecinae fundus
+a. caecinae nupsit
+a. caecinam cum
+a. clodius vocatur
+a. cluenti defendere
+a. cluenti et
+a. cluenti non
+a. cluenti nunc
+a. cluenti proprium
+a. cluenti quem
+a. cluentio ac
+a. cluentio quosdam
+a. cluentio veneno
+a. cluentium constituere
+a. cluentium vi
+a. cluentius habitus
+a. cluentius iudicium
+a. cluentius sententiam
+a. cluentius viderit
+a. furium poetam
+a. gabinio consociare
+a. gabinio consule
+a. gabinium contigit
+a. gabinium iudices
+a. gabinius cn
+a. hirtivm lib
+a. hirti fuisse
+a. hirtium aut
+a. hirtium consules
+a. hirtius consul
+a. licini videtis
+a. licinium non
+a. licinius aristoteles
+a. licinius fructum
+a. plotius dicat
+a. postumio aedem
+a. postumius dictator
+a. postvmio 
+a. rupilio quo
+a. sempronius cum
+a. sextilio dicit
+a. torquato etsi
+a. torquato novi
+a. torquato peto
+a. torquato superioribus
+a. torquato profectus
+a. torquatum amantissime
+a. torquatus in
+a. trebonium fratrem
+a. trebonium illum
+a. valentius est
+a. vergini familiaritate
+acci. ille brutum
+adest. vtinam sederet
+aelio. his enim
+albae. quam potuit
+amnis. hic equus
+ampi. vidisti quam
+antio. nam ibi
+ap. claudii libidini
+ap. claudium senatui
+app. claudius augur
+appio. id me
+apr.  venit
+apr. beneventi mansurum
+apr. capuae fore
+apr. dyrrachio datas
+apr. scaptio litteris
+apr. ad hs
+apr. advolat mane
+apr. ante lucem
+apr. cum omnibus
+apr. de pomptino
+apr. esse desponsam
+apr. fecit abundare
+apr. in senatu
+apr. litterae mihi
+apr. mane mihi
+apr. mihi est
+apr. quas cephalio
+apr. senatus consulto
+apr. sponsalia crassipedi
+apr. ut aut
+apr. veni ad
+aram.  hic
+aram. hic sese
+arcum. iam supera
+arcus. hic tribus
+argo.  inde
+arrio. quorum ego
+asia. etiam illud
+asia. hoc ipsum
+asia. itaque exercitum
+asia. tuas litteras
+asia. verumtamen venit
+asini.  neque
+attio. cominii dicebant
+audio. ab alia
+audio. ne in
+baias.  habes
+balbo. inde ambulavit
+balbo. miror te
+balbo. nil liberalius
+balbo. placebat 
+balbo. tuas igitur
+brute. etenim istius
+bruti.  in
+bruti.  pompeium
+bruti. magisne quam
+bruti. nam si
+bruti. de buthrotiis
+bruto.  de
+bruto. de regina
+bruto. familiaris habet
+bruto. quamquam nicias
+bulbo. itaque minime
+bursa. ne tu
+c.  annio
+c.  fonteio
+c.  fonteivm
+c.  verrvcio
+c. antonio m
+c. antonium et
+c. asinius pollio
+c. aculeone propinquo
+c. aelio staieno
+c. albani senatoris
+c. albanius proximus
+c. alfi de
+c. alfium praeteritum
+c. alfium quem
+c. amafinius extitit
+c. ancharius rufus
+c. andronico puteolano
+c. annio bellieno
+c. annium senos
+c. annivm leg
+c. antisti magi
+c. antisti magistrorum
+c. antoni scelere
+c. antonio decernerem
+c. antonio qui
+c. antonius 
+c. antonius hac
+c. antonius quod
+c. antonius reus
+c. antonius voluitne
+c. aquili apud
+c. aquili vosque
+c. aquilio gallo
+c. aquilium aut
+c. aquilium consulebamus
+c. aquilius de
+c. aquillius familiaris
+c. arrius proximus
+c. ateio capitone
+c. ateium notavit
+c. atinius patrum
+c. atium paelignum
+c. avianio evandro
+c. avianio flacco
+c. avianium flaccum
+c. avianium hammonium
+c. avianius philoxenus
+c. avianius igitur
+c. avianius in
+c. billienus homo
+c. blossius cumanus
+c. caesarem oratio
+c. cassio etsi
+c. cassio longior
+c. cassio pro
+c. cassio puto
+c. cassius pro
+c. cassius q
+c. cassius s
+c. coelio l
+c. cornelio i
+c. curionem 
+c. curioni epistularum
+c. curioni haec
+c. curioni nondum
+c. curioni rupae
+c. curioni tr
+c. caecilius fuit
+c. caecio mandata
+c. caelium vidimus
+c. caelius iudex
+c. caesar 
+c. caesar ab
+c. caesar abest
+c. caesar adulescens
+c. caesar deorum
+c. caesar egisset
+c. caesar fuisset
+c. caesar ineunte
+c. caesar intellegit
+c. caesar pecuniam
+c. caesar primo
+c. caesar pro
+c. caesar qui
+c. caesar senatui
+c. caesare duce
+c. caesare fortis
+c. caesare imperatore
+c. caesare leges
+c. caesare magistratus
+c. caesare missas
+c. caesare reducit
+c. caesare societatem
+c. caesare vivo
+c. caesarem auctorem
+c. caesarem con
+c. caesarem cui
+c. caesarem hostem
+c. caesarem non
+c. caesarem nuper
+c. caesarem pro
+c. caesarem secuti
+c. caesarem senatus
+c. caesarem talem
+c. caesari pompeius
+c. caesari adulescentulo
+c. caesari belli
+c. caesari et
+c. caesari ex
+c. caesari lata
+c. caesari meritos
+c. caesari nos
+c. caesari omnia
+c. caesari qui
+c. caesari succedendum
+c. caesari supplicationes
+c. caesari umquam
+c. caesaris auctoritatem
+c. caesaris commentariis
+c. caesaris commotum
+c. caesaris consilia
+c. caesaris cum
+c. caesaris efficere
+c. caesaris et
+c. caesaris exercitum
+c. caesaris exercitus
+c. caesaris filio
+c. caesaris fortissimorum
+c. caesaris ita
+c. caesaris iudicium
+c. caesaris laudibus
+c. caesaris longe
+c. caesaris nomine
+c. caesaris omnia
+c. caesaris oppugnari
+c. caesaris partibus
+c. caesaris pecuniarum
+c. caesaris pro
+c. caesaris qui
+c. caesaris res
+c. caesaris summa
+c. caesaris summo
+c. caesaris sunt
+c. caesaris virtutes
+c. caesaris visa
+c. calvisius africam
+c. capito cum
+c. capito obtineat
+c. capitonis praesto
+c. carbo c
+c. carbo consul
+c. carbo et
+c. carbo fuit
+c. carbo interemisset
+c. carbonem nostrum
+c. carbonem quem
+c. carbonem umquam
+c. carbonis eloquentia
+c. cassi et
+c. cassi pro
+c. cassium censorem
+c. cassium consules
+c. cassium et
+c. cassium pro
+c. cassium profectum
+c. cassium reliqui
+c. cassium sibi
+c. cassium tribunum
+c. cassius aut
+c. cassius censor
+c. cassius in
+c. cassius pro
+c. catium vestinum
+c. cato africani
+c. cato contionatus
+c. cato contra
+c. cato legem
+c. catonem a
+c. catoni tarracone
+c. causinius schola
+c. censorinus graecis
+c. cento prodisset
+c. cestius repudiavit
+c. cethegi furiosam
+c. cethego atque
+c. claudio caeci
+c. claudio consule
+c. claudio senatore
+c. claudius app
+c. claudius appi
+c. claudius c
+c. claudius pulcher
+c. claudius cum
+c. claudius etsi
+c. clodi filio
+c. coelio dixerim
+c. coelio quaestori
+c. coelium huc
+c. coelius tabellam
+c. considio profectus
+c. coponium ad
+c. coponium praetores
+c. corneli an
+c. cornelio q
+c. cornelium stel
+c. cornelium non
+c. cornelium qui
+c. cornelius 
+c. cornuti summa
+c. cosconi litteris
+c. cosconio pro
+c. cosconium calidianum
+c. cotta p
+c. cotta filio
+c. cotta tantum
+c. cottae consulibus
+c. cottae fuerunt
+c. cottam consulem
+c. cottam familiarem
+c. curiatius in
+c. curio l
+c. curio m
+c. curio petiit
+c. curionem facere
+c. curionem te
+c. curti causa
+c. curti rem
+c. curtio ab
+c. curtius mithres
+c. deciani naufragium
+c. decimius mihi
+c. drusi domum
+c. drusus frater
+c. duellio parem
+c. duellium m
+c. duroni sententia
+c. fundanio 
+c. furnio lectis
+c. fabium nescio
+c. fabrici senectutem
+c. fabricio p
+c. fabricio consule
+c. fabricium conscium
+c. fabricium quem
+c. fabricium quod
+c. fabricius a
+c. fabricius eum
+c. fadi filia
+c. fanni chaerea
+c. fanni annalibus
+c. fannii c
+c. fannio marci
+c. fannio ipso
+c. fannio quae
+c. fannium chaeream
+c. fannium et
+c. fannius m
+c. fannius accepti
+c. fannius et
+c. fibulo atrato
+c. fidiculanius falcula
+c. figuli sepulcro
+c. figulo consul
+c. fimbria temporibus
+c. fimbriam et
+c. fimbriam neque
+c. flacci patrui
+c. flaccum imperatorem
+c. flaccus l
+c. flamini inter
+c. flaminio tri
+c. flaminium coelius
+c. flaminium atque
+c. flaminium qui
+c. flaminius c
+c. flaminius con
+c. flavi officio
+c. flavium tractes
+c. flavius 
+c. fuficium duci
+c. fulcinio qui
+c. fundanio pecuniam
+c. furius de
+c. furnio legato
+c. furnio poteris
+c. gabinius unus
+c. galbam sacerdotem
+c. gali etiam
+c. gallo dicere
+c. gallus senator
+c. galum familiarem
+c. glaucia laudabat
+c. glaucia praetor
+c. glauciam de
+c. gracchi 
+c. gracchi autem
+c. gracchi capite
+c. gracchi etiam
+c. gracchi expulsum
+c. gracchi frumentaria
+c. gracchi nece
+c. graccho contra
+c. graccho fratris
+c. graccho usque
+c. gracchum conlegam
+c. gracchum pau
+c. gracchus ad
+c. gracchus de
+c. gracchus eam
+c. gracchus factus
+c. gracchus ferebat
+c. gracchus legem
+c. gracchus omnis
+c. gracchus quod
+c. gracchus tulit
+c. heius est
+c. herennius quidam
+c. hirrum cum
+c. hirrus mecum
+c. hirtilium sisenna
+c. hostili mancini
+c. iuli caput
+c. iuli illam
+c. iulii p
+c. iulio contendit
+c. iulio fratre
+c. iulius l
+c. iulius fecerit
+c. iulius in
+c. iulius omnibus
+c. iuni fili
+c. iunio iudici
+c. iunium qui
+c. iunius condemnatus
+c. iunius conflagravit
+c. iunius quae
+c. iunius qui
+c. licinivm calvvm
+c. laeli aut
+c. laeli et
+c. laeli gener
+c. laeli publicanos
+c. laeli soceri
+c. laelii unum
+c. laelio accepimus
+c. laelio comior
+c. laelio cum
+c. laelio multa
+c. laelio scribi
+c. laelio so
+c. laelium p
+c. laelium augurem
+c. laelium diceres
+c. laelium et
+c. laelius et
+c. laelius homo
+c. licini crassi
+c. licinium calvum
+c. licinius nerva
+c. licinius sacerdos
+c. lucilium scripsit
+c. lucilius c
+c. lucilius saepe
+c. lusci ocreae
+c. lvsci ocreae
+c. manilio 
+c. marcello c
+c. marcello collegae
+c. marcello cos
+c. marcello l
+c. memmio etsi
+c. macer auctoritate
+c. macro obiectum
+c. macro transegimus
+c. maenius gemellus
+c. malleolo occiso
+c. mancini consulis
+c. manilio dedit
+c. marcelli debitum
+c. marcelli statua
+c. marcelli statuam
+c. marcello cognovi
+c. marcello consule
+c. marcello potius
+c. marcellum consulem
+c. marcellum habemus
+c. marcellum iudicem
+c. marcellus quasi
+c. marcellus qui
+c. marcellus se
+c. marcellus tutor
+c. marcio figulo
+c. marcium consules
+c. mari et
+c. mari factum
+c. mari familiaritatem
+c. mari fugam
+c. mari invicto
+c. mari nomen
+c. mari sed
+c. mari ut
+c. mari vim
+c. marii clades
+c. marii sitas
+c. mario c
+c. mario l
+c. mario adfini
+c. mario audiendum
+c. mario consule
+c. mario et
+c. mario fuit
+c. mario iudicatus
+c. mario paene
+c. mario qui
+c. mario scilicet
+c. mario spes
+c. mario tulerat
+c. marium cum
+c. marium e
+c. marium fecisse
+c. marius l
+c. marius q
+c. marius aut
+c. marius civitate
+c. marius dedit
+c. marius et
+c. marius fe
+c. marius impudico
+c. marius in
+c. marius maerorem
+c. marius periculisque
+c. marius quem
+c. marius qui
+c. marius splendidior
+c. marius tum
+c. marivm cn
+c. masone civis
+c. matrinio absente
+c. megaboccus ex
+c. memmi publicis
+c. memmio et
+c. memmium creditum
+c. memmium occidit
+c. memmius 
+c. memmius l
+c. memmius candidatus
+c. memmius praetor
+c. memmius tribunus
+c. messius et
+c. metellus censorius
+c. mucium inpulit
+c. mucius solus
+c. murenam fratrem
+c. mustius habuit
+c. nerone esse
+c. neronem in
+c. neroni fuit
+c. norbani decu
+c. norbani decvmae
+c. octavius iucundissimus
+c. orchivi peculatus
+c. pansam lib
+c. pansa a
+c. pansa consul
+c. pansa egit
+c. pansa mihi
+c. pansa tr
+c. pansae a
+c. pansam a
+c. pansam aut
+c. pansam consules
+c. papirius nu
+c. peducaeum et
+c. persio litterato
+c. piso 
+c. piso est
+c. piso gener
+c. pisone venissem
+c. pisonem posse
+c. pisoni l
+c. pisoni domo
+c. plotio senatore
+c. pomptinum praetores
+c. pomptinus 
+c. pomptinus legatus
+c. pontio samnite
+c. pontius samnis
+c. popilius apud
+c. postumius haruspex
+c. publicium solitum
+c. quincti fuit
+c. quinctius p
+c. quinctius fuit
+c. quinctius qui
+c. rabirio perdvellionis
+c. rabirio postvmo
+c. rabiri postumi
+c. rabiri iudicio
+c. rabiri manu
+c. rabiri nomine
+c. rabiri proponenda
+c. rabirio l
+c. rabirio macer
+c. rabirio faciendum
+c. rabirio perduellionis
+c. rabirium arma
+c. rabirium culpa
+c. rabirium defendendum
+c. rabirium desciscere
+c. rabirium facere
+c. rabirius fraudem
+c. rabirius multorum
+c. rabirius quos
+c. rabirius sed
+c. rabirius totius
+c. rusio quidem
+c. rusticelius bononiensis
+c. rutilio rufo
+c. sallvstivm crispvm
+c. sextilio rufo
+c. sacerdos adhibito
+c. sacerdos et
+c. sacerdote absolutum
+c. sacerdote hereditas
+c. sacerdote prae
+c. sacerdote praetore
+c. sacerdotem praetorem
+c. sacerdoti fuerant
+c. sacerdotis et
+c. scribonius c
+c. sempronium rufum
+c. sentio praetore
+c. sentium vidimus
+c. septimius t
+c. sergi oratae
+c. sergio oratae
+c. servilium nominis
+c. servilium praetorem
+c. servilius ahala
+c. servilius glaucia
+c. sextius calvinus
+c. sicinius igitur
+c. sosius praetor
+c. staieni vitam
+c. subernius calenus
+c. sulpici gali
+c. sulpicium gallum
+c. sulpicium audimus
+c. sulpicium prae
+c. sulpicius galus
+c. sulpicius olympus
+c. trebonio 
+c. trebonio et
+c. tidio strabone
+c. trebatium cogitaram
+c. treboni libertus
+c. treboni non
+c. trebonio cepisse
+c. trebonio ego
+c. tuditano enim
+c. verrem actio
+c. verrem secvndae
+c. valerium flaccum
+c. valgium hippianum
+c. vellei usque
+c. velleio senatore
+c. velleius adferre
+c. vennoni factum
+c. vennonius domum
+c. vergilius legatus
+c. verre 
+c. verre ex
+c. verre insidiae
+c. verre litterae
+c. verre pr
+c. verre praetore
+c. verre pretio
+c. verre prohibitos
+c. verrem hs
+c. verrem ab
+c. verrem abstulisse
+c. verrem altera
+c. verrem contra
+c. verrem decerneretur
+c. verrem in
+c. verrem insimulat
+c. verrem praeturam
+c. verrem quam
+c. verrem quod
+c. verrem sustulisse
+c. verres 
+c. verres hs
+c. verres p
+c. verres ab
+c. verres ex
+c. verres fecit
+c. verres in
+c. verres iniuriam
+c. verres non
+c. verres per
+c. verres posset
+c. verres praetor
+c. verres reperietur
+c. verres sua
+c. verri communicata
+c. verri decreta
+c. verri ex
+c. verri fraudi
+c. verris ad
+c. verris concitatura
+c. verris demoliendas
+c. verris in
+c. verris laederetur
+c. verris nefariam
+c. verris neque
+c. verris per
+c. verris statuam
+c. verris statuas
+c. verruci permultis
+c. vibienus senator
+c. vibium capacem
+c. vibius pansa
+c. visellius varro
+c. aut appi
+c. autem gracchum
+c. deinde piso
+c. et l
+c. etiam iulius
+c. frater aliquantum
+c. frater nunc
+c. illi mario
+c. ipsi pomptino
+c. ipsum carbonem
+c. quidem antoni
+c. quidem caesar
+c. quidem cassium
+c. quidem marius
+c. uero gracchi
+c. vero gracchus
+c. vero marium
+cn. magno procos
+cn. magnvs procos
+cn. plancio binas
+cn. plancio oratio
+cn. pompei ad
+cn. pompeio cn
+cos. collegae s
+cos. ego omni
+cos. et te
+cos. quoniam id
+cos. suo sal
+cos. svo antea
+cos. svo sal
+coss. ego quod
+cxx. leucade aut
+canai. omnino si
+capua. gabinium denique
+capua. puerile hoc
+cato.  est
+cato.  extremum
+cato.  faciam
+cato.  rem
+cato.  sic
+cato. atque etiam
+cato. itaque nunc
+cato. nec vero
+cato. quid multa
+cato. tamen illius
+ceio. ennium esse
+celer. ipse fugi
+celer. o rem
+certe.  ergo
+certe. quis erat
+clodi. tota familia
+clodi. generumne nostrum
+clodi. non te
+clodi. tamquam reum
+cn.  pompeio
+cn.  pompeium
+cn. aufidius praetorius
+cn. calidi cum
+cn. calidio non
+cn. calidius est
+cn. carbo fuit
+cn. carbone esses
+cn. carbone sortem
+cn. carbonem con
+cn. carbonem et
+cn. carbonem fuit
+cn. carbonem oderint
+cn. carbonem reliquerit
+cn. carbonem spoliatum
+cn. carboni consuli
+cn. carbonis mortui
+cn. carbonis pecunia
+cn. carbonis seditione
+cn. ciceronem appel
+cn. corneli possessionem
+cn. cornelio l
+cn. decidio samniti
+cn. dolabella c
+cn. dolabella consulari
+cn. dolabella damnationem
+cn. dolabella denique
+cn. dolabella efflagitasset
+cn. dolabella in
+cn. dolabella postea
+cn. dolabella voluntatem
+cn. dolabellae hs
+cn. dolabellae iudicio
+cn. dolabellae pr
+cn. dolabellae principium
+cn. dolabellae provincia
+cn. dolabellam accusavit
+cn. domiti animum
+cn. domitio censoribus
+cn. domitio tribuno
+cn. domitium in
+cn. domitium legatum
+cn. domitium non
+cn. domitium scimus
+cn. domitium venit
+cn. domitius sincaius
+cn. domitius adulescens
+cn. domitius et
+cn. domitius ille
+cn. domitius reum
+cn. domitivs l
+cn. egnati patris
+cn. egnatium quem
+cn. fanni testimonivm
+cn. fannio dicenti
+cn. fannio et
+cn. flavio primum
+cn. flavium scribam
+cn. heius pari
+cn. lentuli aut
+cn. lentulo censori
+cn. lentulum p
+cn. lentulum vatiam
+cn. lentulum consulem
+cn. lentulus mar
+cn. lentulus marcellinus
+cn. lentulus censor
+cn. lentulus et
+cn. lentulus in
+cn. magium et
+cn. magium fratrem
+cn. magius est
+cn. nerio pupinia
+cn. octavio conlega
+cn. octavio fuit
+cn. octavium m
+cn. octavius consul
+cn. octavius est
+cn. oppius socer
+cn. orestes facti
+cn. otacilio nasone
+cn. papirio consuli
+cn. pisone initum
+cn. pisonem et
+cn. planci erga
+cn. planci honore
+cn. planci litteras
+cn. planci res
+cn. planci salus
+cn. planci salutem
+cn. plancio custodia
+cn. plancio dicendum
+cn. plancio diceret
+cn. plancio gratias
+cn. plancio quae
+cn. plancio se
+cn. plancium fuisse
+cn. plancium nominabat
+cn. plancium non
+cn. plancium suis
+cn. plancius is
+cn. plancum defenderet
+cn. pompei basilisci
+cn. pompei magni
+cn. pompei amicitiam
+cn. pompei animum
+cn. pompei atque
+cn. pompei auctoritas
+cn. pompei bella
+cn. pompei beneficium
+cn. pompei bonis
+cn. pompei castra
+cn. pompei coniun
+cn. pompei cum
+cn. pompei decreto
+cn. pompei decretum
+cn. pompei dignitas
+cn. pompei dignitate
+cn. pompei divino
+cn. pompei domum
+cn. pompei etiam
+cn. pompei exercitum
+cn. pompei filium
+cn. pompei filius
+cn. pompei gratiam
+cn. pompei gravitas
+cn. pompei imperiis
+cn. pompei iudicaturos
+cn. pompei liberi
+cn. pompei liberos
+cn. pompei litteris
+cn. pompei locum
+cn. pompei manu
+cn. pompei maximus
+cn. pompei memoriam
+cn. pompei meritis
+cn. pompei missu
+cn. pompei nec
+cn. pompei necessitudine
+cn. pompei nimium
+cn. pompei non
+cn. pompei peristromatis
+cn. pompei praesidium
+cn. pompei quae
+cn. pompei sedente
+cn. pompei sic
+cn. pompei singulari
+cn. pompei sunt
+cn. pompei triumphis
+cn. pompei virtutem
+cn. pompei vivere
+cn. pompei volun
+cn. pompei voluntate
+cn. pompeii laudes
+cn. pompeio 
+cn. pompeio mithridate
+cn. pompeio absolutus
+cn. pompeio accusando
+cn. pompeio adiutore
+cn. pompeio adsentior
+cn. pompeio aliter
+cn. pompeio atque
+cn. pompeio auctore
+cn. pompeio carus
+cn. pompeio civitate
+cn. pompeio communicatam
+cn. pompeio con
+cn. pompeio consilio
+cn. pompeio duce
+cn. pompeio exercitus
+cn. pompeio in
+cn. pompeio ista
+cn. pompeio legati
+cn. pompeio loquar
+cn. pompeio mortuo
+cn. pompeio nefarium
+cn. pompeio omnia
+cn. pompeio omnium
+cn. pompeio petenti
+cn. pompeio plurima
+cn. pompeio polliceremur
+cn. pompeio praesertim
+cn. pompeio referente
+cn. pompeio sententiam
+cn. pompeio socius
+cn. pompeio summa
+cn. pompeium 
+cn. pompeium ad
+cn. pompeium an
+cn. pompeium censes
+cn. pompeium circumsedendum
+cn. pompeium circumsedet
+cn. pompeium constet
+cn. pompeium constituitur
+cn. pompeium consulem
+cn. pompeium de
+cn. pompeium delaturos
+cn. pompeium detulerunt
+cn. pompeium domum
+cn. pompeium et
+cn. pompeium fecisse
+cn. pompeium ferro
+cn. pompeium foro
+cn. pompeium ignorasse
+cn. pompeium imitati
+cn. pompeium imperatorem
+cn. pompeium in
+cn. pompeium interficiendum
+cn. pompeium interimendum
+cn. pompeium legatum
+cn. pompeium mittet
+cn. pompeium nec
+cn. pompeium neque
+cn. pompeium non
+cn. pompeium omne
+cn. pompeium principem
+cn. pompeium quod
+cn. pompeium senatum
+cn. pompeium studio
+cn. pompeium terruerit
+cn. pompeium tum
+cn. pompeium umquam
+cn. pompeium vidissent
+cn. pompeius theodorus
+cn. pompeius adiunxerit
+cn. pompeius captis
+cn. pompeius constituit
+cn. pompeius copiosa
+cn. pompeius cum
+cn. pompeius depelleretur
+cn. pompeius dubitabimus
+cn. pompeius est
+cn. pompeius et
+cn. pompeius excellat
+cn. pompeius excipitur
+cn. pompeius eximia
+cn. pompeius extrema
+cn. pompeius facturus
+cn. pompeius fuit
+cn. pompeius habuerit
+cn. pompeius idem
+cn. pompeius ignoravit
+cn. pompeius invitissimis
+cn. pompeius ipse
+cn. pompeius ita
+cn. pompeius multis
+cn. pompeius non
+cn. pompeius omnibus
+cn. pompeius omnium
+cn. pompeius pater
+cn. pompeius princeps
+cn. pompeius privatus
+cn. pompeius probavit
+cn. pompeius qui
+cn. pompeius rogatione
+cn. pompeius vir
+cn. pomponius lateribus
+cn. publicio menandro
+cn. saturninum adulescentem
+cn. scipionis fuisset
+cn. sicinius homo
+cn. tudici senatoris
+cn. varenum vulnerandum
+cn. autem len
+cn. autem lentulus
+cn. autem octavi
+cn. autem octavius
+cn. et l
+cn. et p
+cn. et q
+cn. filios non
+cotta. quid tam
+cotta. si nihil
+curio.  iniecta
+curio. nobis quoque
+curio. huic plausus
+cydae. dilectus autem
+d. acilio sumpsi
+d. allieno pro
+d. antonio cos
+d. appio pulchro
+d. accubueram hora
+d. bruto cum
+d. bruto exspectanti
+d. bruto imp
+d. brutus bruto
+d. brutus cos
+d. brutus imp
+d. brutus s
+d. bruti adventu
+d. bruti auguris
+d. bruti conservandi
+d. bruti conveniendi
+d. bruti exercitu
+d. bruti imperatoris
+d. bruti iudicium
+d. bruti nutum
+d. bruti praestantissimum
+d. bruti privatum
+d. bruti quod
+d. bruti salus
+d. bruti salute
+d. bruti sanguine
+d. bruti una
+d. bruto c
+d. bruto hs
+d. bruto beneficium
+d. bruto consulari
+d. bruto decrevi
+d. bruto et
+d. bruto faveo
+d. bruto futurum
+d. bruto liberato
+d. bruto positum
+d. bruto provincia
+d. bruto qui
+d. bruto subveniremus
+d. brutum 
+d. brutum egressum
+d. brutum liberandum
+d. brutum nonne
+d. brutum obsident
+d. brutum obsidione
+d. brutum omnibus
+d. brutum optime
+d. brutus m
+d. brutus contenderet
+d. brutus de
+d. brutus emitteretur
+d. brutus imperator
+d. brutus liberaretur
+d. brutus oppugnatur
+d. brutus sceleratum
+d. caesari imp
+d. ciceroni facere
+d. ciceroni imp
+d. ciceroni s
+d. ciceroni si
+d. cornificio collegae
+d. curio memini
+d. curioni gravi
+d. curioni quamquam
+d. cum brutum
+d. cum essem
+d. dubitanti mihi
+d. et cicero
+d. et q
+d. ego vero
+d. et litteris
+d. etsi mihi
+d. etsi non
+d. etsi opportunitatem
+d. furnio si
+d. facile perspexi
+d. gallo cum
+d. iii kal
+d. iii non
+d. iiii kal
+d. iiii non
+d. in maximis
+d. lentulo imp
+d. laelio ad
+d. laelio mandaram
+d. magnae nobis
+d. minime mirum
+d. mirificam mi
+d. nec saepe
+d. nos a
+d. omnis tibi
+d. paeto cum
+d. paeto tamen
+d. parmensis miserrimos
+d. permagni interest
+d. quod mecum
+d. quod nos
+d. rufum istum
+d. si ipsa
+d. si tu
+d. si vos
+d. silani qui
+d. silano eman
+d. silanus consul
+d. terentiae et
+d. terentiae suae
+d. terentiae si
+d. tironi suo
+d. titio etsi
+d. trebatio adeone
+d. trebatio in
+d. trebatio legi
+d. trebiano dolabellam
+d. tantae mihi
+d. tertiam ad
+d. vii id
+d. viii kal
+d. volumnio quod
+d. valerii sorani
+d. verberavi te
+d. vide quam
+d. vide quanta
+d. xi kal
+d. xiii kal
+d. se brutus
+desig. cum adhibuisset
+desig. di isti
+desig. et d
+desig. eo tempore
+desig. etsi ex
+desig. etsi mihi
+desig. lupus noster
+desig. maxima sum
+desig. narro tibi
+desig. tris uno
+dic. caesar nobis
+dic. recte auguraris
+dec.  haec
+dec. aeculanum veni
+dec. milo ante
+dec. a pontio
+dec. ab illo
+dec. et postridie
+dec. eumque studiose
+dec. laudavit pater
+dec. servus cn
+dec. tantum vel
+dec. tris epistulas
+dec. usi tua
+dec. vesperi venisset
+dec. video te
+dione. de quo
+doce. num locum
+drusi. accessi num
+ep. corneli nepotis
+epp. caesaris ad
+epp. calvi et
+eros.  veniendum
+erote.  ariarathes
+f. accepi ista
+f. actio igitur
+f. age sis
+f. celer pro
+f. celeri pro
+f. cicero pro
+f. cicero q
+f. cicero s
+f. crasso quantum
+f. cedo quas
+f. cognita igitur
+f. cognovi iam
+f. coram me
+f. cur igitur
+f. ego vero
+f. expone deinceps
+f. extrema tibi
+f. habeo de
+f. habeo ista
+f. illud equidem
+f. in quo
+f. magno imperatori
+f. mihi vero
+f. nempe ea
+f. non oblivione
+f. num quidnam
+f. orcae legato
+f. orcae pro
+f. omnibusne igitur
+f. omnis amor
+f. pomponiano attico
+f. pro cos
+f. pro q
+f. paulo facilius
+f. perge igitur
+f. plane istuc
+f. quae sunt
+f. quamquam ipsa
+f. quas res
+f. quibus rebus
+f. quid est
+f. quid faciendum
+f. quid habes
+f. quid insita
+f. quid sequitur
+f. quomodo igitur
+f. quonam tandem
+f. quoniam de
+f. quoniam et
+f. quoniam igitur
+f. quoniam unde
+f. quos vocas
+f. quot in
+f. rufo pr
+f. reliquum est
+f. scire mihi
+f. semperne igitur
+f. sunt exposita
+f. tironi suo
+f. teneo istam
+f. testimoniorum quae
+f. varie sum
+f. visne igitur
+f. familiarem meum
+f. iunctum putat
+fab. metellus pius
+fanni. largitus est
+fanni. quid tu
+febr. capua profectus
+febr. capuam c
+febr. capuam calibus
+febr. corfinio proficisci
+febr. discedens in
+febr. laenius mihi
+febr. laodiceae ad
+febr. milo adfuit
+febr. nonis febr
+febr. princeps rogationis
+febr. sestius ab
+febr. ante lucem
+febr. contra rem
+febr. cum in
+febr. dederas hoc
+febr. dixi pro
+febr. eoque ipso
+febr. esse volebam
+febr. haec scripsi
+febr. interim reiectis
+febr. is nuntiat
+febr. iterum mihi
+febr. legationes in
+febr. mane accepi
+febr. mane cum
+febr. mulieres nostrae
+febr. per legem
+febr. plenum formidinis
+febr. senatus ad
+febr. senatus consultum
+febr. te tamen
+febr. tu velim
+febr. usque ad
+febr. vesperi a
+galba. sine fuco
+grai. hic pressu
+h.  ii
+h.  iii
+h.  vi
+h.  vii
+h.  viii
+h.  xii
+hs.  xii
+hs. quid ergo
+hs. quid est
+heius. cum quaesissem
+hydra.  inde
+hydra. at caput
+i. ii 
+imp. ciceroni imp
+imp. ciceroni suo
+imp. cum et
+imp. etsi statueram
+imp. paeto summum
+ian.  manserit
+ian. romae essem
+ian. ad urbem
+ian. agi posse
+ian. compitalicius dies
+ian. confirmandi senatus
+ian. cum agere
+ian. de attributione
+ian. denique cognovi
+ian. erit fortasse
+ian. esset quae
+ian. et litteras
+ian. fundamenta ieci
+ian. haberentque in
+ian. in chersonesum
+ian. in pansa
+ian. in senatu
+ian. magni tumultus
+ian. nihil opus
+ian. non venire
+ian. obviam mihi
+ian. senatus 
+ian. sic cum
+ian. suavem habuit
+ian. tribuni pl
+ian. ubicumque erimus
+ian. usus es
+ian. vix tamen
+id.  nov
+id.  philotimum
+id. bruto ita
+id. capuam profectus
+id. corcyram bellissime
+id. fundis accepi
+id. hortensius ad
+id. lanuvio datas
+id. a te
+id. ad ceo
+id. ait enim
+id. arbitror romae
+id. aut aquini
+id. cum ante
+id. currens ad
+id. domi clodius
+id. duas epistulas
+id. erant autem
+id. ex arpinati
+id. exspectabatur sed
+id. hora fere
+id. ibi brutus
+id. illinc profecti
+id. litteras dederam
+id. litteras tuas
+id. mane in
+id. morati sumus
+id. neque tibi
+id. nobis ac
+id. praesto fuit
+id. ut ibi
+id. velim conficias
+id. veni ad
+id. venit noster
+id. vero et
+idus. o magistrum
+iovem. cic 
+iovem. totum omnino
+iovis. non pudet
+iovis. atque haec
+iun. antonium de
+iun. brundisi futurus
+iun. brundisium cum
+iun. brundisium venturum
+iun. cularone ex
+iun. cypro a
+iun. roma profectus
+iun. ab isara
+iun. atque ibi
+iun. civem illum
+iun. cognovi ex
+iun. cuius summa
+iun. deque tua
+iun. dilata est
+iun. eunti mihi
+iun. ex castris
+iun. futuram multo
+iun. ibi me
+iun. omnis copias
+iun. puerum 
+iun. quod pomptinum
+iun. statuere posse
+iun. subrostrani 
+iun. te aut
+iun. tractanda et
+iun. traiecit sese
+iun. usque ad
+iunia. pro di
+iuno. ergo alia
+kal. axio dederam
+kal. caesarem sinuessae
+kal. capua dedi
+kal. accepi 
+kal. accepi a
+kal. accepi litteras
+kal. ad lavernium
+kal. ambae datae
+kal. cave aliter
+kal. cena apud
+kal. cum pilia
+kal. de puteolano
+kal. doloremque quem
+kal. duas a
+kal. e sinuessano
+kal. ei servilia
+kal. esse venturum
+kal. esse volo
+kal. exemplum epistulae
+kal. exspectabam roma
+kal. exspectabo tuas
+kal. haec ego
+kal. hic enim
+kal. hoc igitur
+kal. ibi pompeium
+kal. ibi eum
+kal. igitur ad
+kal. in cumanum
+kal. in deversoriolo
+kal. in portum
+kal. interea qui
+kal. litteras ad
+kal. mane accepi
+kal. omnis oderitis
+kal. perge reliqua
+kal. profectus erat
+kal. quam te
+kal. satis multis
+kal. sed misi
+kal. ut inde
+kal. venturum arbitrabar
+kal. vesperi balbus
+kal. volumus esse
+l.  antonius
+l. accio poeta
+l. accium po
+l. acilium apud
+l. aelii nostri
+l. aelius 
+l. aelius lamia
+l. aelius scripsit
+l. aemilio nec
+l. aemilius et
+l. afranius poeta
+l. ain vero
+l. albius sex
+l. alenus fecit
+l. antistius accusaret
+l. antoni clientela
+l. antoni horribilis
+l. antoni statuam
+l. antonio a
+l. antonio cum
+l. antonio male
+l. antonio mille
+l. antonios m
+l. antonium alpis
+l. antonium aspicere
+l. antonium contionatum
+l. antonium per
+l. antonium praemissum
+l. antonius in
+l. antonius produxit
+l. appuleium esse
+l. appuleius satur
+l. ateius l
+l. atilius et
+l. aurifex brevior
+l. bellieni domus
+l. bestia bonis
+l. bestiam c
+l. bibulus quam
+l. bruti esse
+l. bruti imaginem
+l. bruto fortasse
+l. bruto illi
+l. bruto liberatam
+l. brutum qui
+l. brutus esset
+l. brutus patriam
+l. brutus qui
+l. brutus regem
+l. calpvrnivm pisonem
+l. catilinam competitores
+l. catilinam emisit
+l. catilinam oratio
+l. cornelio balbo
+l. culleolo pro
+l. caecili ex
+l. caecilio metello
+l. caecilium nonne
+l. caecilium pietas
+l. caecilius egit
+l. caecilius privatim
+l. caelius antipater
+l. caelius non
+l. caepasii fratres
+l. caesar firmus
+l. caesar mandata
+l. caesar optime
+l. caesar quae
+l. caesar ut
+l. caesar valeret
+l. caesare consule
+l. caesare cum
+l. caesare filio
+l. caesarem et
+l. caesarem fortem
+l. caesarem vidi
+l. caesari videbatur
+l. caesaris legationem
+l. caleno furti
+l. calenus ageret
+l. camillo ap
+l. canuleio missos
+l. cassi adipes
+l. cassio datus
+l. cassio esse
+l. cassio ferebatur
+l. cassio tribuno
+l. cassium q
+l. cassium dixerunt
+l. cassium qui
+l. cassius lepido
+l. cassius ex
+l. cassius ille
+l. cassius multum
+l. cassivs cn
+l. castrinio paeto
+l. castronius paetus
+l. catilina consiliis
+l. catilina cum
+l. catilina rem
+l. catilinae floribus
+l. catilinae quam
+l. catilinam caedem
+l. catilinam conantem
+l. catilinam ducere
+l. catilinam et
+l. catilinam non
+l. caulius mergus
+l. censorinum eum
+l. cincio hs
+l. cinna crudelis
+l. cinna loquar
+l. cinnae dominatum
+l. claudius rex
+l. clodio mandasse
+l. clodium corcyrae
+l. clodius noster
+l. coelius antipater
+l. considio et
+l. corfidius in
+l. corneli aut
+l. corneli benivolentiam
+l. corneli causa
+l. corneli quam
+l. cornelio gaditanos
+l. cornelio quam
+l. cornelio tum
+l. cornelium de
+l. cornelium praesens
+l. cornelium responderem
+l. cornelius chrysogonus
+l. cornelius condemnari
+l. cossinio ad
+l. cossinio dedi
+l. cossinius anchialus
+l. cossinius tiburs
+l. cotta l
+l. cotta dicebat
+l. cotta dixit
+l. cotta est
+l. cottae profuisse
+l. cottam et
+l. cottam in
+l. crassi carebit
+l. crassi eloquentiam
+l. crassi erat
+l. crassi et
+l. crassi in
+l. crassi mor
+l. crassi morte
+l. crassi nec
+l. crassi nepotem
+l. crassi oratio
+l. crassi reli
+l. crassi unam
+l. crasso q
+l. crasso a
+l. crasso audiente
+l. crasso cantharidas
+l. crasso cole
+l. crasso consiliariis
+l. crasso illo
+l. crasso potuit
+l. crasso pudor
+l. crassum eloquentem
+l. crassum et
+l. crassum non
+l. crassum quasi
+l. crassum vis
+l. crassus cum
+l. crassus defendet
+l. crassus et
+l. custidius est
+l. domitio procos
+l. diadematus consu
+l. dicam mehercule
+l. domitio a
+l. domitium cum
+l. domitium maxime
+l. domitium praetorem
+l. domitius cn
+l. domitius ab
+l. domitius nec
+l. domitius nulla
+l. eas artis
+l. egnati rufi
+l. egnatio expressit
+l. egnatio uno
+l. egnatuleio duce
+l. egnatuleio quaestore
+l. egnatuleio quantus
+l. egnatuleio triennio
+l. ego vero
+l. est tibi
+l. et superbus
+l. flacco oratio
+l. fabatum et
+l. fadio aedili
+l. fadius aedilis
+l. figulus praeerat
+l. flacci amor
+l. flacci et
+l. flacci me
+l. flacci patris
+l. flacci poneretur
+l. flacci res
+l. flacci sanguine
+l. flacco aedili
+l. flacco consuli
+l. flacco esset
+l. flacco existiment
+l. flacco multi
+l. flacco reddita
+l. flacco sententiam
+l. flacco successerit
+l. flacco tantus
+l. flaccum 
+l. flaccum laelius
+l. flaccum aut
+l. flaccum et
+l. flaccum quidem
+l. flaccum sibi
+l. flaccus et
+l. flaccus in
+l. flaccus interrex
+l. flaccus nunc
+l. flaccus sed
+l. flaccus veterem
+l. flamininum e
+l. flavi ceterorumque
+l. flavius heres
+l. fufidium libri
+l. fufii cognita
+l. fufio venderet
+l. furio philo
+l. furium repente
+l. furius philus
+l. gelli iudicio
+l. gelli libertus
+l. gellio mortuo
+l. gellius 
+l. gellius cn
+l. gellius causam
+l. gellius consules
+l. gellius et
+l. gellius non
+l. gellius qui
+l. genucilio curvo
+l. habonio aedem
+l. herennium dicere
+l. immo vero
+l. ista vero
+l. iuli fratris
+l. iulio c
+l. iulio caesare
+l. iulium commendarem
+l. iulium et
+l. iunio et
+l. iunius classis
+l. lucceio q
+l. lucceius q
+l. laetili adventu
+l. lamia est
+l. lamia praeturam
+l. lamia uno
+l. lamiam qui
+l. lentuli l
+l. lentulo c
+l. lentulum praetorem
+l. lentulum pro
+l. libone tribuno
+l. licinio q
+l. licinius crassus
+l. ligus 
+l. livineius trypho
+l. lollio 
+l. luccei causa
+l. luccei servis
+l. lucilio balbo
+l. lucilius cum
+l. luculli exercitus
+l. luculli magnumque
+l. luculli sollicitato
+l. luculli vero
+l. lucullo 
+l. lucullo apud
+l. lucullo dimicante
+l. lucullo est
+l. lucullo fuit
+l. lucullo loquor
+l. lucullo pro
+l. lucullo tantum
+l. lucullum magnis
+l. lucullum misi
+l. lucullum similiter
+l. lucullus consul
+l. lucullus ferebatur
+l. lucullus illic
+l. lucullus virtute
+l. lvccei testimonivm
+l. mescinio gratae
+l. mvrena oratio
+l. magio et
+l. mamilium et
+l. mancino consulibus
+l. manlio a
+l. manlius est
+l. marcio m
+l. marcio sex
+l. masso aedilicius
+l. memmii fuerunt
+l. memmius et
+l. mescinio gratissimum
+l. mescinius ea
+l. metelli ac
+l. metelli auctoritate
+l. metelli cognoverit
+l. metelli manubiis
+l. metelli praetoris
+l. metelli testimonium
+l. metello q
+l. metello et
+l. metello iudicium
+l. metello legationes
+l. metello tribuno
+l. metello ut
+l. metellum fuisse
+l. metellum in
+l. metellum licitum
+l. metellum memini
+l. metellus esset
+l. metellus mentionem
+l. metellus statuerit
+l. metellus terrore
+l. metellus ut
+l. mihi vero
+l. minime ac
+l. minime vero
+l. minuci basili
+l. mummi imperio
+l. mummio certet
+l. mummius aliquem
+l. murcum et
+l. murena de
+l. murena dicere
+l. murena illa
+l. murenae apud
+l. murenae attingere
+l. murenae contra
+l. murenae dicere
+l. murenae dici
+l. murenae dignitas
+l. murenae et
+l. murenae fortuna
+l. murenae genus
+l. murenae gratia
+l. murenae populus
+l. murenae praesto
+l. murenae provincia
+l. murenae sed
+l. murenae tantis
+l. murenae verum
+l. murenam cato
+l. murenam consulem
+l. murenam et
+l. murenam fortuna
+l. murenam legatum
+l. murenam te
+l. nihil vero
+l. non mehercule
+l. nostius zoilus
+l. novi et
+l. octavi nasonis
+l. octavio et
+l. octavio iudici
+l. octavius balbus
+l. octavius c
+l. octavius reatinus
+l. octavivs ivdex
+l. opimi causam
+l. opimium et
+l. opimius aut
+l. opimius consul
+l. opimius eiectus
+l. oppium praesentem
+l. oppius m
+l. oppius praesens
+l. oreste consulibus
+l. paulo cos
+l. papirio cursore
+l. papirium crassum
+l. papirium fregellanum
+l. papirius mugillanus
+l. papirius paetus
+l. papirivs scriba
+l. pauli an
+l. pauli et
+l. pauli nepos
+l. pauli qui
+l. paullo c
+l. paullus africani
+l. paulum conlegam
+l. paulum et
+l. paulum qui
+l. paulus c
+l. paulus consul
+l. paulus duobus
+l. philippi vitrici
+l. philippo et
+l. philippo multus
+l. philippum in
+l. philippum saepe
+l. philippum summo
+l. philippus censor
+l. philippus dixisse
+l. philippus pro
+l. philippus proxumus
+l. philippus qui
+l. philo perfectius
+l. philoni in
+l. piso 
+l. piso de
+l. piso delationem
+l. piso ducebat
+l. piso ille
+l. piso multos
+l. pisone consule
+l. pisone lata
+l. pisone mentio
+l. pisonem cognorint
+l. pisonem ducem
+l. pisonem quis
+l. pisonem turpia
+l. pisonem velle
+l. pisoni aut
+l. pisoni consulari
+l. pisoni quotannis
+l. pisonis cognomen
+l. pisonis erat
+l. pisonis oratio
+l. planco imperatoribus
+l. plancus praedes
+l. plotium dilexit
+l. pontium sibi
+l. populi nulla
+l. prudentem fortasse
+l. quaenam ista
+l. quincti fictis
+l. quinctio cincinnato
+l. quinctio dicto
+l. quinctium contulisset
+l. quinctius fuit
+l. quinctius invidiam
+l. quippe vilico
+l. quo iove
+l. racili tr
+l. racilium et
+l. reguli libertus
+l. roscio et
+l. rubri de
+l. rubrius casinas
+l. rubrius q
+l. sabellio multam
+l. saturnini domi
+l. saturnini familiaritas
+l. saturnini in
+l. saturninum esse
+l. saturninum tulit
+l. saturninus quod
+l. saturninus tribunus
+l. saufeio litteras
+l. saufeium missurum
+l. scipio aequa
+l. scipio non
+l. scipione devictus
+l. scipioni auxilio
+l. scipioni consuli
+l. scipioni provincia
+l. scribonio quaestionem
+l. scribonio tribuno
+l. sempronio atratino
+l. sergium et
+l. servilium postumum
+l. sesti pansae
+l. sic plane
+l. sisennae argentum
+l. sisennae domus
+l. statilius et
+l. statio murco
+l. sulla p
+l. sulla q
+l. sulla civis
+l. sulla commisisse
+l. sulla cum
+l. sulla deduxit
+l. sulla deprecatus
+l. sulla dictatore
+l. sulla facta
+l. sulla gessit
+l. sulla huius
+l. sulla maximo
+l. sulla pecunia
+l. sulla qui
+l. sulla scelera
+l. sulla vehemens
+l. sulla victor
+l. sullae volaterras
+l. sullae a
+l. sullae discriptioni
+l. sullae domi
+l. sullae gesta
+l. sullae imperatori
+l. sullae maximi
+l. sullae maximum
+l. sullae mors
+l. sullae primum
+l. sullae sine
+l. sullae turbulenta
+l. sullae vim
+l. sullam q
+l. sullam doceantque
+l. sullam impera
+l. sullam passus
+l. tarquinius exactus
+l. tarquitio simul
+l. terentium discessisse
+l. tillius cimber
+l. titio strabone
+l. titium cognosces
+l. torquato quod
+l. torquatus elegans
+l. torquatus eundem
+l. torquatus omnibusque
+l. torquatus pater
+l. trebelli convenire
+l. tubulo dicerem
+l. tubulo putas
+l. tubulum fuisse
+l. tullium montanum
+l. tullium leg
+l. tullius legati
+l. turius parvo
+l. turseli praedia
+l. turselio hereditas
+l. turselius qua
+l. valerio iurisconsulto
+l. vareno 
+l. valerio consulibus
+l. valerium iureconsultum
+l. valerium quidem
+l. valerius flaccus
+l. vero mihi
+l. vero minus
+l. vettius in
+l. veturio philone
+l. video vero
+l. villius l
+l. volcacio cos
+l. vulcatius remanent
+l. autem lentulus
+l. autem lucullum
+l. enim piso
+l. erat mor
+l. et 
+l. et c
+l. et q
+l. et sp
+l. etiam cotta
+l. filium et
+l. frater eius
+l. fratrem exspectat
+l. ille septimius
+l. ille torquatus
+l. ipse metellus
+l. non potuit
+l. quidem antonius
+l. quidem caesar
+l. quidem cotta
+l. quidem crassus
+l. quidem phi
+l. vero apuleius
+l. vero lentulus
+l. vero scipionis
+lib. i arusianus
+lib. i non
+lib. i prisc
+lib. ii macr
+lib. ii non
+lib. iii non
+lib. iii serv
+lib. ix non
+lib. v non
+lib. vii non
+lib. viii non
+liber.  
+lvtem. si per
+lael.  atqui
+lael.  est
+lael.  volumus
+laeli. saepe enim
+laeli. sed quid
+laeli. sed tu
+largi. ille enim
+lepus. hic fugit
+locri. sed siue
+lupus.  ex
+lurco. quid igitur
+lydia. vtrum igitur
+m'. acilius facti
+m'. aquili gaique
+m'. aquili diligentiae
+m'. aquili quantum
+m'. aquilio praetores
+m'. aquilio recordatur
+m'. aquilium constituitque
+m'. aquilium et
+m'. aquilium patres
+m'. aquilium subscriptore
+m'. aquilius audivit
+m'. aquilius confecit
+m'. aquilius decessit
+m'. aquilius etiam
+m'. aquilius in
+m'. aquilius potuit
+m'. curi causa
+m'. curi defendisti
+m'. curi diligentia
+m'. curi mores
+m'. curi non
+m'. curi sequebatur
+m'. curio causam
+m'. curio con
+m'. curio dictionem
+m'. curio emissus
+m'. curium et
+m'. curium putes
+m'. curium sartum
+m'. curius aut
+m'. curius cum
+m'. curius esset
+m'. glabrione consule
+m'. glabrione praetore
+m'. glabrionem bene
+m'. glabrionem nuper
+m'. lepidum te
+m'. lepidus et
+m'. manilio consuli
+m'. manilio fuit
+m'. manilius patrum
+m'. tullio esse
+m'. quidem lepidus
+m'. vero manilium
+m.  ad
+m. antonio cos
+m. antonivm oratio
+m. aelium cura
+m. aelium nullus
+m. aemili philemonis
+m. aemilio scauro
+m. aemilio familiarissime
+m. aemilium porcinam
+m. aemilium scaurum
+m. aemilium pontificem
+m. aemilius avia
+m. aemilius lepidus
+m. aemilius cum
+m. aemilius unus
+m. alliennium paelignum
+m. annei causa
+m. anneio legato
+m. anneium deque
+m. anneium legatum
+m. anneium tanti
+m. anneius ad
+m. anneius et
+m. anneius intellegat
+m. annium appium
+m. antistio pyrgensi
+m. antius briso
+m. antoni 
+m. antoni cotylae
+m. antoni aestimationem
+m. antoni conatus
+m. antoni contionem
+m. antoni crude
+m. antoni domum
+m. antoni exemplo
+m. antoni exhausit
+m. antoni factum
+m. antoni habuisse
+m. antoni impetus
+m. antoni in
+m. antoni infinitum
+m. antoni iniuria
+m. antoni latrocinio
+m. antoni lumina
+m. antoni nefarium
+m. antoni nomen
+m. antoni opponeret
+m. antoni quo
+m. antoni rem
+m. antoni rescidistis
+m. antoni scele
+m. antoni sectam
+m. antoni simile
+m. antoni suum
+m. antoni veniendum
+m. antoni veriti
+m. antoni voluntatem
+m. antonio consulatus
+m. antonio esse
+m. antonio facultas
+m. antonio fuerint
+m. antonio illam
+m. antonio iudicavit
+m. antonio primum
+m. antonio pro
+m. antonio quantum
+m. antonio querentem
+m. antonio sunt
+m. antonio sutorio
+m. antonium consularem
+m. antonium consulari
+m. antonium consulem
+m. antonium cum
+m. antonium eorum
+m. antonium exer
+m. antonium exercitumque
+m. antonium gessisse
+m. antonium multa
+m. antonium non
+m. antonium oppresserit
+m. antonium putavi
+m. antonium quietus
+m. antonium reliquerunt
+m. antonium spe
+m. antonium vidi
+m. antonius 
+m. antonius a
+m. antonius ad
+m. antonius consulares
+m. antonius cui
+m. antonius dicitur
+m. antonius gladiator
+m. antonius id
+m. antonius in
+m. antonius nec
+m. antonius nihil
+m. antonius summam
+m. antonius tulisse
+m. antonius videretur
+m. apuleio separatim
+m. asellium quendam
+m. atilio q
+m. atilium regulum
+m. atilium qui
+m. atilius regulus
+m. atius balbus
+m. aurelio scauro
+m. aurelius scaurus
+m. aurium cum
+m. aurium esse
+m. aurium nuntiant
+m. aurius adulescentulus
+m. bruti ad
+m. brutum et
+m. brvtvm lib
+m. baebio senatore
+m. baebius de
+m. bambalionis nepotem
+m. bibuli fortunam
+m. bibulo pro
+m. bibulum adierunt
+m. bibulum consulem
+m. bibulum domo
+m. bibulum foro
+m. bibulum in
+m. bibulum pro
+m. bibulus in
+m. bibulus quaerenti
+m. bruti ac
+m. bruti atque
+m. bruti decessum
+m. bruti exercitus
+m. bruti honore
+m. bruti imperio
+m. bruti obstitisset
+m. bruti putaret
+m. bruti sceleris
+m. bruti se
+m. bruti sit
+m. bruto facere
+m. bruto negare
+m. bruto timendum
+m. brutum deserueritis
+m. brutum praecipue
+m. brutum pro
+m. brutum propter
+m. brutum retinet
+m. brutum sensisse
+m. brutum studi
+m. brutus c
+m. brutus aut
+m. brutus dissentiet
+m. brutus et
+m. brutus inter
+m. brutus referente
+m. caelio aedili
+m. caelio magno
+m. caelio oratio
+m. caelio quid
+m. cato s
+m. catoni 
+m. catoni cum
+m. catoni summa
+m. cicero 
+m. cicero allieno
+m. cicero c
+m. cicero d
+m. cicero furfano
+m. cicero iiii
+m. cicero imp
+m. cicero l
+m. cicero m
+m. cicero matio
+m. cicero p
+m. cicero pro
+m. cicero q
+m. cicero s
+m. cicero t
+m. cicero trebiano
+m. cicero vatinio
+m. ciceroni ad
+m. ciceroni eodem
+m. ciceroni hominis
+m. ciceroni imp
+m. ciceroni iam
+m. ciceroni maximo
+m. ciceroni nedum
+m. ciceroni non
+m. ciceroni nos
+m. ciceroni occupationibus
+m. ciceroni pansa
+m. ciceroni quod
+m. ciceroni s
+m. ciceroni suo
+m. caeli dare
+m. caeli longis
+m. caeli maxime
+m. caeli quidem
+m. caeli vitam
+m. caelio existimet
+m. caelio habitam
+m. caelio neque
+m. caelio petulantius
+m. caelio res
+m. caelium illis
+m. caelium in
+m. caelium libidini
+m. caelium praetereundum
+m. caelius a
+m. caelius notis
+m. caelius quod
+m. caelius ut
+m. caesio decumano
+m. calenius ad
+m. calidio dicamus
+m. calidium ab
+m. camillum hoc
+m. camurti et
+m. cascelli sermone
+m. cassio mamertinis
+m. cato sapiens
+m. cato et
+m. cato fuit
+m. cato idemque
+m. cato invisus
+m. cato legem
+m. cato modo
+m. cato perfectamque
+m. cato praetore
+m. cato qui
+m. cato sententiam
+m. catone illo
+m. catone mortuo
+m. catonem 
+m. catonem depositis
+m. catonem illum
+m. catonem in
+m. catonem patrem
+m. catonem prae
+m. catonem sed
+m. catonem statim
+m. catoni praeter
+m. catoni qui
+m. catoni seni
+m. catoni vitam
+m. catonis bellum
+m. catonis illud
+m. catonis materiem
+m. catonis quae
+m. catonis splendorem
+m. ceparium cui
+m. cicero apud
+m. cicero sedeat
+m. cicero senex
+m. cicero versvm
+m. cicerone esse
+m. ciceronem reponere
+m. clavdivs avt
+m. coelium vinicianum
+m. considio pro
+m. coponio dicentem
+m. cornelio quam
+m. cornelius cethegus
+m. cotta aut
+m. cotta consulibus
+m. crassi castissima
+m. crassi illius
+m. crassi quasi
+m. crasso auctore
+m. crasso aut
+m. crasso contentio
+m. crasso peroratam
+m. crasso praetore
+m. crasso quid
+m. crassum consules
+m. crassum et
+m. crassum videbamus
+m. crassus et
+m. crassus exercitum
+m. crassus fuit
+m. crassus solebat
+m. crepereius ex
+m. curtio et
+m. curtio tribunatum
+m. cusini sicilia
+m. drusi legibus
+m. druso adulescente
+m. drusum tuum
+m. drusus c
+m. drusus p
+m. drusus in
+m. drusus occisus
+m. drusus pr
+m. duronio de
+m. eppius m
+m. fabio gallo
+m. filivm lib
+m. fonteio oratio
+m. fabium quod
+m. fabium unice
+m. fabius pergraviter
+m. faucium m
+m. favonio audistis
+m. flaccus multis
+m. flaccus quia
+m. fontei narbonensis
+m. fontei calamitate
+m. fontei conservatam
+m. fontei vobis
+m. fonteio arbitramini
+m. fonteio ferrum
+m. fonteio imperante
+m. fonteio non
+m. fonteio nummum
+m. fonteio oppresso
+m. fonteio praetore
+m. fonteium atque
+m. fonteium et
+m. fonteium ex
+m. fonteium incolumem
+m. fonteium inermem
+m. fonteium iratis
+m. fonteium pertinere
+m. fonteius accusatur
+m. fonteius emit
+m. fonteius impediretur
+m. fonteius ita
+m. fonteius nocens
+m. fonteius praefuit
+m. fonteius quam
+m. fulcinius adulescens
+m. fulcinius fuit
+m. fulvi domum
+m. fulvio conlega
+m. fulvius flaccus
+m. fulvius nobilior
+m. fulvius consularis
+m. furium flaccum
+m. furius camillus
+m. gallius q
+m. gratidius m
+m. gratidius legatus
+m. herennio superari
+m. herennius in
+m. horatii barbati
+m. horatius ille
+m. iunio cos
+m. iunio patruo
+m. iunium q
+m. iunius sodalis
+m. iunius tutor
+m. iuventius pedo
+m. lepidus imp
+m. laberio c
+m. laecae domum
+m. laecam fuisset
+m. laecam nocte
+m. laeni flacci
+m. laenio commendando
+m. laenio tuo
+m. laenium flaccum
+m. laevino aut
+m. laterensis suo
+m. lepidi meritis
+m. lepidi scelere
+m. lepidi vel
+m. lepido q
+m. lepido consule
+m. lepido convenire
+m. lepido et
+m. lepido imperatore
+m. lepido pro
+m. lepido providendum
+m. lepido vereri
+m. lepidum res
+m. lepidus a
+m. lepidus ad
+m. lepidus servare
+m. liguri senatori
+m. lollium nominavit
+m. lucretium retinuit
+m. luculli iustissimos
+m. luculli responso
+m. luculli uxorem
+m. lucullo in
+m. lucullum et
+m. lucullus de
+m. lucullus et
+m. lucullus venit
+m. lurco quod
+m. lutatio pinthiae
+m. marcello cos
+m. marcello etsi
+m. marcello neque
+m. marcello oratio
+m. mario a
+m. mario mandatum
+m. mario persaepe
+m. mario si
+m. manli scelus
+m. manlius cum
+m. manlius et
+m. manlius necati
+m. manlius propter
+m. marcelli avus
+m. marcelli commotus
+m. marcelli et
+m. marcelli sententia
+m. marcelli tutoris
+m. marcello ser
+m. marcello conservato
+m. marcello cos
+m. marcello dixissem
+m. marcello et
+m. marcello huic
+m. marcello loquar
+m. marcello renovatum
+m. marcello sum
+m. marcellum cuius
+m. marcellum deprecantibus
+m. marcellum illum
+m. marcellum inimico
+m. marcellum ipsum
+m. marcellum senatui
+m. marcellus aesernini
+m. marcellus a
+m. marcellus armatus
+m. marcellus cos
+m. marcellus hic
+m. marcellus ille
+m. mari grati
+m. marium et
+m. marius gratidianus
+m. messalla m
+m. messallae et
+m. metelli cupide
+m. metelli locum
+m. metello obtigisset
+m. metellum amicis
+m. metellum demigrasti
+m. metellum prae
+m. metellum praetorem
+m. mihi vero
+m. mummium praetorem
+m. octavii et
+m. octavio de
+m. octavio te
+m. octavium cn
+m. octavium ligurem
+m. octavium eorum
+m. octavius cn
+m. pacuvi nova
+m. pennus facete
+m. perpernam iudicem
+m. petrei non
+m. pilio emit
+m. piso quicquid
+m. pisone cum
+m. pisone et
+m. pisone in
+m. pisonem m
+m. pisonem adulescentem
+m. pisonem ista
+m. pisoni darem
+m. pisoni quaestor
+m. pisonis cupiditas
+m. pisonis domum
+m. plaetori et
+m. plaetorio cognosces
+m. plaetorium c
+m. plani heredis
+m. pomponium scripsit
+m. pomponius tr
+m. pontidius municeps
+m. popilli ingenio
+m. postumius quaestor
+m. quam igitur
+m. regulum aerumnosum
+m. regulum anteponere
+m. regulus quem
+m. scavro oratio
+m. satrium sororis
+m. scaptio et
+m. scaptium et
+m. scaptium eumque
+m. scauri tusculanum
+m. scauro dicam
+m. scauro esse
+m. scauro et
+m. scaurum apud
+m. scaurum praefecit
+m. scaurum principem
+m. scaurus c
+m. scaurus alieni
+m. scaurus consul
+m. seio arbitror
+m. servilium praeterisse
+m. servilius 
+m. servilius postquam
+m. silano diem
+m. silanus dicebant
+m. titinivm suet
+m. tulli ciceronis
+m. tullio ciceroni
+m. tullio m
+m. tullium ciceronem
+m. tullius cicero
+m. tullius m
+m. tvllio oratio
+m. terentium et
+m. terentius in
+m. titurnius rufus
+m. tuditano consulibus
+m. tuditano cos
+m. tugionem potius
+m. tulli ciceronis
+m. tulli philinum
+m. tulli concidi
+m. tulli fuit
+m. tulli iniuria
+m. tulli nec
+m. tulli occidere
+m. tulli occiderentur
+m. tulli pulsa
+m. tulli veniant
+m. tulli viderer
+m. tullio cn
+m. tullio philinus
+m. tullio concedis
+m. tullio damnum
+m. tullio de
+m. tullio diceremus
+m. tullio fidelem
+m. tullium convenit
+m. tullius p
+m. tullius paternum
+m. tuscilio ad
+m. tvllio 
+m. tvllio aqva
+m. tvllio datvm
+m. tvllivs falsvm
+m. tvllivs in
+m. varroni s
+m. valerio a
+m. valerium dictatorem
+m. varisidius reddidisset
+m. varro voluit
+m. varrone ante
+m. varrone venisse
+m. varronis et
+m. vigellius de
+m. ad me
+m. autem antonium
+m. autem calidius
+m. enim marcello
+m. enim piso
+m. et c
+m. et n
+m. et p
+m. filii fuerunt
+m. fratre suo
+m. ille lepidus
+m. illi catoni
+m. illius auri
+m. illum scaurum
+m. quidem seio
+m. quidem valerium
+m. vero antoni
+m. vero antonium
+m. vero antonius
+m. vero caelius
+m. vero catoni
+m. vero ce
+m. vero scaurus
+mai.  terentiae
+mai. antio volo
+mai. bibulus pompeium
+mai. brundisio proficiscens
+mai. cincius noster
+mai. lentulo et
+mai. miloni dies
+mai. minturnis mansisse
+mai. rhodanum traieci
+mai. ad forum
+mai. ante eam
+mai. audiri fore
+mai. de formiano
+mai. de tarentino
+mai. dedisti fuit
+mai. dedisti modo
+mai. eo 
+mai. eo die
+mai. eos tullia
+mai. epistula est
+mai. et athenas
+mai. ex castris
+mai. ex itinere
+mai. ibi accepi
+mai. iens in
+mai. in ciliciam
+mai. in quibus
+mai. in senatum
+mai. ipse maximis
+mai. ludi enim
+mai. nos venusia
+mai. omnium dioecesium
+mai. per macedoniam
+mai. proficisci in
+mai. putare profectum
+mai. quam velim
+mai. senatus frequens
+mai. te 
+mai. te in
+mai. tu mihi
+mai. veni in
+mai. vide enim
+maia. hae tenues
+mart. brundisio profectum
+mart. brundisium veni
+mart. formiis accepi
+mart. pompeium a
+mart. a brundisio
+mart. ad senatum
+mart. adlatae sunt
+mart. adlatas esse
+mart. datis merum
+mart. de provinciis
+mart. demum a
+mart. die restitit
+mart. epistulas mihi
+mart. ex castris
+mart. ex ea
+mart. futurum sit
+mart. ibidem synnadense
+mart. legatis senatum
+mart. misisse hoc
+mart. nec post
+mart. non posse
+mart. praeterquam lepido
+mart. quae in
+mart. scribis peducaeo
+mart. se non
+me. quodnam ego
+milo.  non
+milo. dedit cuidam
+mummi. sin haec
+n. caldo q
+n. cluentio quem
+n. magium de
+n. autem aurius
+nauem. obruitur procyon
+navii. nihil debet
+nemo. atqui ei
+nemo. hic ego
+nemo. illi ipsi
+nemo. num quis
+nemo. quid ita
+nodum. andromedae laeuo
+non.  mai
+non.  quint
+non. frustra tempus
+non. romae essem
+non. thermitanum aliquem
+non. conscendens ab
+non. iam exspectabam
+non. profectus sum
+non. tua 
+non. venturus dicebatur
+non. venturus vesperi
+non. vesperi a
+nonas. tuas cottidie
+nov. actio vesperi
+nov. leucadem venimus
+nov. cum sacra
+nov. eius adventus
+nov. expugnare et
+nov. expulsi sunt
+nov. has litteras
+nov. hoc capite
+nov. in italia
+nov. inde ante
+nov. litteras datas
+nov. volebam adesse
+nulla. addictus erat
+nullo. cur fecit
+oct. amanum versus
+oct. athenas venimus
+oct. brundisium erat
+oct. epheso conscen
+oct. laenio tuas
+oct. salvius ostiam
+oct. a me
+oct. acta res
+oct. confecta britannia
+oct. cum febri
+oct. datas et
+oct. de ven
+oct. habetur senatus
+oct. has dedi
+oct. in aede
+oct. inde ad
+oct. laetatus sum
+oct. magnum numerum
+oct. noctu in
+oct. productus in
+oct. septimo quadra
+p.  servilius
+p. ac laudandi
+p. ad ceteras
+p. aeli testamento
+p. aelius habiti
+p. africani avunculi
+p. africani bonum
+p. africani discipulum
+p. africani eius
+p. africani filiam
+p. africani filius
+p. africani gestus
+p. africani monumenta
+p. africani necis
+p. africani nomen
+p. africani sororis
+p. africani tuendam
+p. africani victoria
+p. africani virtute
+p. africano l
+p. africano domi
+p. africano non
+p. africano senatus
+p. africano vim
+p. africanum carthagine
+p. africanum et
+p. africanum ex
+p. africanum fuisse
+p. africanum fuit
+p. africanum referre
+p. africanus carthagine
+p. africanus comitatu
+p. africanus compulisset
+p. africanus de
+p. africanus et
+p. africanus etiam
+p. africanus hic
+p. africanus ille
+p. africanus in
+p. africanus non
+p. africanus nudatam
+p. africanus populo
+p. africanus sol
+p. anni secundis
+p. anni senatoris
+p. annio mortuo
+p. annius asellus
+p. annius fecerat
+p. antistius fuit
+p. aponio dicam
+p. argumentationem quaerere
+p. attio quam
+p. attius cinguli
+p. attius varus
+p. auditorum eam
+p. aut iure
+p. aut totum
+p. autronius voce
+p. bagienni unam
+p. caesio s
+p. clodium et
+p. clodivm in
+p. caesetius et
+p. calpurnius lanarius
+p. cethego admonitus
+p. claudio l
+p. claudio consulibus
+p. claudius l
+p. clodi adferebat
+p. clodi bello
+p. clodi canis
+p. clodi cruentum
+p. clodi ductus
+p. clodi et
+p. clodi ferre
+p. clodi furor
+p. clodi impudicam
+p. clodi impulsu
+p. clodi insulam
+p. clodi manum
+p. clodi morte
+p. clodi mortem
+p. clodi praeturam
+p. clodi putasse
+p. clodi quod
+p. clodi salus
+p. clodi telis
+p. clodii se
+p. clodio ad
+p. clodio augur
+p. clodio conferre
+p. clodio cum
+p. clodio duce
+p. clodio fiat
+p. clodio fuit
+p. clodio gradus
+p. clodio iudicarent
+p. clodio nihil
+p. clodio ostentarint
+p. clodio vivo
+p. clodium appi
+p. clodium approbante
+p. clodium arbitrabar
+p. clodium confiteri
+p. clodium facientem
+p. clodium iam
+p. clodium in
+p. clodium interfeci
+p. clodium meo
+p. clodium omni
+p. clodium qui
+p. clodium subscripserat
+p. clodium traducit
+p. clodius m
+p. clodius a
+p. clodius eversa
+p. clodius neque
+p. clodius non
+p. clodius occisus
+p. clodius revixerit
+p. clodius vestra
+p. cominium spole
+p. communia dantur
+p. confitentur in
+p. consequentia quaedam
+p. considerandum vobis
+p. cornelio l
+p. cornelium scipionem
+p. cornelius vocatur
+p. crassi l
+p. crassi domo
+p. crassi domum
+p. crassi eloquentis
+p. crassi filia
+p. crassi illius
+p. crassi imperatoris
+p. crasso m
+p. crasso consulari
+p. crasso et
+p. crassum 
+p. crassum et
+p. crassum ex
+p. crassum ne
+p. crassum pontificem
+p. crassum valde
+p. crassus adulescens
+p. crassus cum
+p. crassus idem
+p. crassus peteret
+p. cum inveneris
+p. cuspio commendatus
+p. cuspio tecum
+p. cuspius singulari
+p. dolabellae non
+p. deci auctionem
+p. decium filius
+p. decius fuit
+p. decius ille
+p. decius primum
+p. delectationem in
+p. divinum et
+p. dolabella praetor
+p. dolabella quique
+p. dolabellam xv
+p. dolabellam bello
+p. dolabellam terra
+p. duo sunt
+p. eos in
+p. est ergo
+p. est igitur
+p. est ita
+p. est itaque
+p. figulo quaerenti
+p. fabi commissam
+p. fabi dicere
+p. fabi familia
+p. fabi fe
+p. fabi frequentes
+p. fabi noctu
+p. fabi vi
+p. fabii 
+p. fabius nuper
+p. facilior est
+p. flacco accusante
+p. fonteius vitae
+p. fulvi nerati
+p. furium qui
+p. gabinium vir
+p. gabinius qui
+p. galbam iudicem
+p. gavium quem
+p. geminus quintus
+p. granium testem
+p. gratae mihi
+p. gratulor tibi
+p. habeo communia
+p. helvidium rufum
+p. illa vero
+p. immo vero
+p. in rebus
+p. in tres
+p. in verisimilibus
+p. ita est
+p. iuni erat
+p. iunius habuit
+p. lentulo pro
+p. lentulus p
+p. lentuli beneficio
+p. lentuli con
+p. lentuli consulis
+p. lentuli esse
+p. lentuli sententiam
+p. lentuli somnum
+p. lentuli vituperatur
+p. lentulo 
+p. lentulo auctore
+p. lentulo consule
+p. lentulo esse
+p. lentulo et
+p. lentulo ferrum
+p. lentulo puniendo
+p. lentulum aeternis
+p. lentulum patrem
+p. lentulum principem
+p. lentulum proximo
+p. lentulum se
+p. lentulus p
+p. lentulus auctoritate
+p. lentulus consul
+p. lentulus ille
+p. lentulus me
+p. lentulus mihi
+p. lentulus noster
+p. lentulus suum
+p. lentvlo l
+p. licini crassi
+p. licinio l
+p. licinius varus
+p. loco quidem
+p. luccio nihil
+p. luccium mihi
+p. lupum et
+p. magio cilone
+p. magius in
+p. memmius secutus
+p. muci filius
+p. muci fratris
+p. mucii commendavit
+p. mucio l
+p. mucio neque
+p. mucium consuli
+p. mucium nominarem
+p. mucium pontificem
+p. mucius consul
+p. mucius eum
+p. mucius familiam
+p. mucius optime
+p. mummium cuiusvis
+p. murena mediocri
+p. naevio turpioni
+p. nasica aut
+p. nasica pri
+p. nasicae praeco
+p. nasicae qui
+p. nasicae tibi
+p. nigidio carneadeo
+p. nihil sane
+p. non dubium
+p. non eadem
+p. non sane
+p. numeri quidam
+p. octavio balbo
+p. omnia longe
+p. omnis molestias
+p. orbius meus
+p. pinarius censores
+p. popili et
+p. popilio l
+p. popilio p
+p. popilio decrevit
+p. popilium qui
+p. popilius neque
+p. popilius semper
+p. popillium vi
+p. primum in
+p. principia vel
+p. probabile inventum
+p. qvinctio oratio
+p. quae infixa
+p. quae inhaerent
+p. quae sine
+p. quattuor esse
+p. quia non
+p. quia quibus
+p. quincti consobrinam
+p. quincti consulere
+p. quincti deprehendis
+p. quincti ex
+p. quincti existimationem
+p. quincti fieri
+p. quincti huius
+p. quincti neminem
+p. quincti non
+p. quincti possideres
+p. quincti possideri
+p. quincti praedia
+p. quincti tibi
+p. quincti vides
+p. quinctio nemo
+p. quinctio noceat
+p. quinctio nullum
+p. quinctio pugnent
+p. quinctium absentem
+p. quinctium contra
+p. quinctium de
+p. quinctium iudicatum
+p. quinctium sisti
+p. quinctium sponsionem
+p. quinctium usque
+p. quinctium ut
+p. quinctius confugerit
+p. quinctius cupit
+p. quinctius debeat
+p. quinctius deturbandus
+p. quinctius in
+p. quinctius laborabit
+p. quinctius negetur
+p. quinctius per
+p. quinctius qui
+p. quinctius quid
+p. quinctius verbo
+p. quintilius varus
+p. quoniam narratio
+p. recte intellegis
+p. rulli similem
+p. rullo concessisse
+p. rullo visa
+p. rullum qui
+p. rullus cum
+p. rupili decreto
+p. rupilio aut
+p. rupilium fratris
+p. rupilium potuit
+p. rupilius p
+p. rupilius consul
+p. rupilius de
+p. rupilius deduxit
+p. rutili sim
+p. rutilii adulescentiam
+p. rutilio rufo
+p. rutilio zmyrnae
+p. rutilio consul
+p. rutilio damnato
+p. rutilio non
+p. rutilium rufum
+p. rutilius c
+p. rutilius rufus
+p. rutilius dixit
+p. rutilius in
+p. rutilius qui
+p. rutilius venisset
+p. servilio collegae
+p. servilio isaurico
+p. servilivm rvllvm
+p. sestio l
+p. sestio oratio
+p. silio pro
+p. sittio p
+p. sulpicio imp
+p. svlla oratio
+p. sallustio curanda
+p. saturi tabulas
+p. scaeuolae et
+p. scaevola id
+p. scaevola pontifex
+p. scaevola tribunus
+p. scaevola valde
+p. scaevolae frater
+p. scaevolam m
+p. scaevolam aiunt
+p. scaevolam pontifices
+p. scipio corneliam
+p. scipio bello
+p. scipio ceperat
+p. scipio et
+p. scipio eum
+p. scipione c
+p. scipione nasica
+p. scipione effe
+p. scipione et
+p. scipionem p
+p. scipionem consules
+p. scipioni ex
+p. scipionis defensoremque
+p. scipionis delendum
+p. scipionis familiaritatem
+p. scipionis memoriam
+p. scipionis monu
+p. scipionis qui
+p. scipionis reliquit
+p. scipionis restituatur
+p. scipionis sed
+p. septimio scaevolae
+p. septimio senatore
+p. servili 
+p. servili aut
+p. servili et
+p. servili imperio
+p. servili incredibili
+p. servili sententia
+p. servilio adsentior
+p. servilio aut
+p. servilio dicenti
+p. servilio digniorem
+p. servilio filio
+p. servilio imperatore
+p. servilio iudici
+p. servilium geminum
+p. servilium q
+p. servilium et
+p. servilius et
+p. servilius qua
+p. servilius quae
+p. servilius quam
+p. servilius quinquennium
+p. servilivs 
+p. sesti abhorrebit
+p. sesti accusandi
+p. sesti causam
+p. sesti dicere
+p. sesti esse
+p. sesti facta
+p. sesti men
+p. sesti nihil
+p. sesti perorata
+p. sesti pietas
+p. sesti scriptas
+p. sesti testimonio
+p. sesti tribunatus
+p. sesti tribunorum
+p. sestio aut
+p. sestio consiliorum
+p. sestio in
+p. sestio laborare
+p. sestio loquar
+p. sestio maximas
+p. sestio tradita
+p. sestium capua
+p. sestium introisset
+p. sestium quanti
+p. sestium queritur
+p. sestius 
+p. sestius ad
+p. sestius est
+p. sestius et
+p. sestius homini
+p. sestius natus
+p. sestius praestanti
+p. sestius quaestor
+p. sestius se
+p. sestius secutus
+p. sestius tribunus
+p. sextilio rufo
+p. sextilio quaestoribus
+p. sextius praetor
+p. silio quisquam
+p. siser reddiderat
+p. sitti praediis
+p. sulla consilium
+p. sulla consulatus
+p. sulla cum
+p. sulla et
+p. sulla facere
+p. sulla hoc
+p. sulla mitior
+p. sulla petit
+p. sulla rem
+p. sulla renuntiatus
+p. sulla subscribente
+p. sulla ut
+p. sullae causam
+p. sullae con
+p. sullae defenderet
+p. sullae fortuna
+p. sullae mihi
+p. sullae morte
+p. sullae nomen
+p. sullae persona
+p. sullae pro
+p. sullae probaturum
+p. sullae torqueatur
+p. sullae vobis
+p. sullam defendimus
+p. sullam nisi
+p. sullam patrem
+p. sullam quaeris
+p. sullam sup
+p. sulpici in
+p. sulpicii eloquentiam
+p. sulpicio ute
+p. tadio numeratum
+p. tadius decem
+p. tadius qui
+p. titio tutori
+p. titius intercessit
+p. titius tutor
+p. trebonius viros
+p. tuditano fuit
+p. tullioni syro
+p. unum igitur
+p. ut inveniat
+p. ut rationem
+p. vatinio cic
+p. vatinivm testem
+p. valerio pro
+p. valerio qui
+p. valerium flaccum
+p. valerium negat
+p. valerius et
+p. varinio missis
+p. varinio praetore
+p. vario cum
+p. vatini impera
+p. vatinius cliens
+p. ventidius suas
+p. vettio chilone
+p. vettio scatone
+p. autem africani
+p. autem vatinius
+p. enim vatinius
+p. et c
+p. et l
+p. etiam popillius
+p. etiam scipionem
+p. fratre gloria
+p. hic quinctius
+p. ille scipio
+p. quidem clodius
+pater. an est
+ph. nihil est
+ph. quaesierat ex
+pl. pro pr
+pl. senatui populo
+pl. senatui s
+pl. sch 
+pl. sera gratulatio
+pleb. ad popvlvm
+pleb. in senatv
+plur. etsi scio
+pr. cum p
+pr. cum municipibus
+pr. et in
+pr. nero meus
+pr. non moleste
+pr. non putavi
+pr. officium meum
+pansa. modo venit
+piso.  praetura
+piso. ac primum
+piso. quaestor cum
+piso. itaque mirificum
+plato. cum in
+q.  ancharium
+q.  ennius
+q.  fabi
+q. anchario q
+q. axivm iulius
+q. aelio consul
+q. aelius tubero
+q. anchari fidem
+q. annium chilonem
+q. axius in
+q. baebium tam
+q. caecilio q
+q. caecilivm oratio
+q. cicero tironi
+q. caecili bassi
+q. caecili dionis
+q. caecilium anteposueritis
+q. caecilius bassus
+q. caecilius peteret
+q. caelius latiniensis
+q. caepio brutus
+q. caepio praetor
+q. caepione bruto
+q. caepione consule
+q. caepione defensiuncula
+q. caepione propinquo
+q. caepionem brutum
+q. caepionem referrem
+q. caepionis bruti
+q. caepionis odium
+q. calidio populo
+q. calidius damnatus
+q. cassi hispania
+q. cassi familiaris
+q. cassio cur
+q. cassium sine
+q. cassius nulla
+q. cati aemiliani
+q. catuli atque
+q. catuli auctoritate
+q. catuli bene
+q. catuli nomine
+q. catulo et
+q. catulo fuerat
+q. catulum ex
+q. catulum humanitate
+q. catulum patrem
+q. catulus cn
+q. catulus m
+q. catulus armata
+q. catulus de
+q. catulus frumento
+q. catulus fuit
+q. catulus non
+q. catulus omnesque
+q. catulus quam
+q. catulus senex
+q. catvlo restitvetvr
+q. celeris mihi
+q. cicero puer
+q. cicerone puero
+q. ciceronem valde
+q. ciceroni obsisti
+q. considio constantior
+q. considium gallum
+q. cornelio locutus
+q. cornelio videbatur
+q. cornificio in
+q. crispum imp
+q. frater et
+q. fabi tarentum
+q. fabio fratre
+q. fabium labeonem
+q. fabium saguntinum
+q. fabius vergilianus
+q. fabius ad
+q. fadio gallo
+q. flacci convicio
+q. flaccus eduxit
+q. flavio panurgi
+q. flavius tarquiniensis
+q. fufi capti
+q. fufidium q
+q. fufio venit
+q. fufium tribunum
+q. fufius quo
+q. fulvi conlegam
+q. fulvium q
+q. fvlvio censoribvs
+q. gallio 
+q. gallio crimini
+q. granio praecone
+q. hippio causae
+q. hortensi admodum
+q. hortensi factum
+q. hortensi morte
+q. hortensi ne
+q. hortensi pro
+q. hortensi studio
+q. hortensi vox
+q. hortensio copiosissime
+q. hortensio praetore
+q. hortensio ut
+q. hortensium ipsius
+q. hortensium pro
+q. hortensius accusatorem
+q. hortensius contra
+q. hortensius nominaverunt
+q. hortensius pupillum
+q. hortensius qui
+q. iunium reici
+q. ligario oratio
+q. ligari scelere
+q. ligario conservando
+q. ligario signum
+q. ligarium in
+q. ligarius condemnetur
+q. ligarius in
+q. ligarius omni
+q. ligarius sit
+q. litteras a
+q. lollium coactum
+q. lucretium inde
+q. lucretius vispillo
+q. lutatio diodoro
+q. metelli 
+q. metello cos
+q. metellus nepos
+q. metellus q
+q. mamercium q
+q. manli qui
+q. manlium et
+q. marcio cn
+q. marcio crispo
+q. marcius censor
+q. maximi fuerant
+q. maximi sapientiam
+q. maximo debuerim
+q. maximo fratri
+q. maximum accepimus
+q. maximus p
+q. maximus q
+q. maximus enervavisset
+q. maximus melius
+q. maximus qui
+q. maxumo l
+q. maxumo dedicatum
+q. maxumo quintum
+q. maxumus efferens
+q. metelli pii
+q. metelli civis
+q. metelli fuisse
+q. metelli locum
+q. metelli matrimonium
+q. metelli praeclarum
+q. metelli reditu
+q. metelli s
+q. metelli sententia
+q. metello 
+q. metello l
+q. metello pio
+q. metello consul
+q. metello consulibus
+q. metello illi
+q. metello laudi
+q. metello mentio
+q. metello non
+q. metellum l
+q. metellum pium
+q. metellum et
+q. metellum praetorem
+q. metellum sine
+q. metellum tam
+q. metellus celer
+q. metellus creticus
+q. metellus luci
+q. metellus nepos
+q. metellus numidicus
+q. metellus pius
+q. metellus scipio
+q. metellus consul
+q. metellus habuit
+q. metellus huius
+q. metellus illo
+q. metellus in
+q. metellus praetor
+q. metellus quem
+q. minucium dicere
+q. muci p
+q. muci ianua
+q. muci innocentiam
+q. mucio litteras
+q. mucio magnificentissima
+q. mucius p
+q. mucius ad
+q. mucius augur
+q. mucius aut
+q. mucius dicebatur
+q. mucius enucleate
+q. mucius tribunus
+q. muttone factum
+q. nobiliorem m
+q. numitorio pullo
+q. opimi vendendis
+q. opimium per
+q. opimius consularis
+q. pedio caesarem
+q. philippo nuceriae
+q. pilius erat
+q. pompei damnatione
+q. pompei illius
+q. pompei meo
+q. pompei praetoris
+q. pompeio messalla
+q. pompeio rufo
+q. pompeio aut
+q. pompeio in
+q. pompeio pro
+q. pompeium baulis
+q. pompeium fecisse
+q. pompeius a
+q. pompeius sex
+q. pompeius in
+q. publici statuam
+q. roscio comoedo
+q. regis commiseratione
+q. roscium pro
+q. roscium quaero
+q. roscius fraudavit
+q. rubrius varro
+q. salasso p
+q. scaevola augure
+q. scaevola confectus
+q. scaevola ille
+q. scaevola tru
+q. scaevola volneraretur
+q. scaevolae p
+q. scaevolae ser
+q. scaevolae fuerint
+q. scaevolam augurem
+q. scaevolam et
+q. scaevolam pro
+q. scaevolam sibi
+q. seio contendit
+q. seio venenum
+q. sergi senatoris
+q. servilio caepione
+q. servilius tarso
+q. servilius esset
+q. servilius perbrevis
+q. sestullium et
+q. sosius splen
+q. staberi fundus
+q. thermo pro
+q. tadi 
+q. tadio cognovistis
+q. tadius 
+q. titini filium
+q. titinio sordis
+q. titinius 
+q. tubero detulit
+q. tuberone aequalibusque
+q. tuberonem de
+q. tuberoni africanum
+q. turi libertum
+q. valerio leg
+q. valerio q
+q. vari testimonium
+q. vario tri
+q. varium dicere
+q. varium seditiosis
+q. varius c
+q. varius cn
+q. varius homo
+q. varius rebus
+q. varius sua
+q. verrem romilia
+q. vettius vettianus
+q. egi per
+q. enim ligarius
+q. enim pompeius
+q. et cn
+q. etiam caepio
+q. etiam catulum
+q. etiam maxumus
+q. filiae somnio
+q. frater et
+q. fratre in
+q. illa claudia
+q. ille apronius
+q. pupillum filium
+q. quidem scaevola
+q. tu abstulisti
+q. tu aufer
+q. vero catulum
+q. vero maximum
+qq. tironi humanissimo
+qq. tironi s
+quint. puteolis essem
+quint. sufenas et
+quint. a piraeo
+quint. de procilio
+quint. dices igitur
+quint. ex castris
+quint. factum erat
+quint. faenus fuit
+quint. impedior verecundia
+quint. in tuam
+quint. is nuntiabat
+quint. proficiscens athenis
+quint. sententiis omnibus
+quint. veni in
+quint. veni spectatum
+r. numantiam delevit
+r. auctore te
+r. factum est
+r. idque diceret
+r. imperium non
+r. iustitia vicit
+r. minus diligenter
+r. natus sum
+r. non potuerunt
+r. superati essent
+r. temptare auderet
+r. tuae libidini
+rimus.  vetus
+rutum.  animadverti
+regio.  
+romae.  cura
+romae. cum id
+romae. quid enim
+romae. verum quid
+romae. cura ut
+romae. etenim litterae
+romae. nam et
+romae. si enim
+romae. sin adventu
+romae. utrum sim
+romam. etiam atque
+romam. facile me
+romam. quod censueris
+romam. sed cras
+rosea. vixi cum
+s. accepi a
+s. aegypta ad
+s. ain tandem
+s. alia epistula
+s. amabilior mihi
+s. andricus postridie
+s. asclapone patrensi
+s. auget tuus
+s. binas a
+s. brevitas tuarum
+s. cluvius puteolanus
+s. cum a
+s. cum lysone
+s. cum ad
+s. cum antea
+s. cum est
+s. cum et
+s. cum in
+s. cum ipsum
+s. cum multa
+s. cum vehementer
+s. cur igitur
+s. de tirone
+s. dederam triduo
+s. delectarunt me
+s. democritus sicyonius
+s. duabus tuis
+s. ecquando tu
+s. ego quanti
+s. ego vero
+s. ergo etiam
+s. ergo his
+s. ergo illa
+s. ergo ille
+s. ergo me
+s. ergo ne
+s. ergo non
+s. et rec
+s. etsi de
+s. etsi ex
+s. etsi iusta
+s. etsi libenter
+s. etsi mane
+s. etsi mihi
+s. etsi nihil
+s. etsi non
+s. ex provincia
+s. ex tuis
+s. exspecto tuas
+s. finem nullam
+s. grata tibi
+s. gratulabor tibi
+s. gratulor tibi
+s. hagesaretus larisaeus
+s. hiemem credo
+s. ille vero
+s. illuseras heri
+s. imitemur ergo
+s. in halaesina
+s. invideo tibi
+s. ita est
+s. libentissime legi
+s. licet eodem
+s. magnam voluptatem
+s. meum studium
+s. nihil me
+s. non concedam
+s. non diu
+s. non dubito
+s. non queo
+s. nondum satis
+s. nos hic
+s. num id
+s. o gratam
+s. omnia a
+s. plurimum valuisse
+s. post eum
+s. postea quam
+s. praeposteros habes
+s. precilium tibi
+s. probas igitur
+s. pudet me
+s. qua tu
+s. quae fecisti
+s. quam cito
+s. quam vellem
+s. quamquam tibi
+s. quanto studio
+s. quasi divinarem
+s. qui status
+s. quia animum
+s. quia semper
+s. quid ego
+s. quid ergo
+s. quid igitur
+s. quid supra
+s. quin tu
+s. quo in
+s. quo magis
+s. quod mihi
+s. quod tibi
+s. recte dicis
+s. recte quaeris
+s. sane quam
+s. scelus adfinis
+s. si mihi
+s. si quando
+s. si vales
+s. sili causam
+s. spero ex
+s. sub regno
+s. tanti non
+s. tibi gratulor
+s. tu vero
+s. tum ille
+s. vehementer laetor
+s. vel meo
+s. vellem idibus
+s. venio nunc
+s. vide quanti
+s. video quid
+s. vides igitur
+s. videsne igitur
+s. vix tandem
+sal.  miseram
+sal. a murenae
+sal. accepi 
+sal. accepi id
+sal. accepi roma
+sal. accepi aliquot
+sal. accepi tuas
+sal. acta quae
+sal. actium venimus
+sal. ad meas
+sal. ain tu
+sal. ante quam
+sal. apud te
+sal. asiam quinto
+sal. attici nostri
+sal. avere te
+sal. beneventum veni
+sal. breviloquentem iam
+sal. brundisium veni
+sal. brundisium venimus
+sal. cenantibus 
+sal. cenato mihi
+sal. cephalio mihi
+sal. commodum ad
+sal. confectus iam
+sal. cottidie vel
+sal. crebras exspectationes
+sal. cum 
+sal. cum capua
+sal. cum philogenes
+sal. cum ad
+sal. cum aliquem
+sal. cum ante
+sal. cum antea
+sal. cum dedissem
+sal. cum instituissem
+sal. cum primum
+sal. cum quod
+sal. cum tuis
+sal. cupio equidem
+sal. de eutychide
+sal. de lentulo
+sal. de quinto
+sal. de vennonianis
+sal. de geographia
+sal. de illius
+sal. de malis
+sal. de meo
+sal. de re
+sal. dederam equidem
+sal. delectarunt me
+sal. deverti ad
+sal. diligenter mihi
+sal. dionysium flagrantem
+sal. dionysius cum
+sal. dionysius quidem
+sal. domiti filius
+sal. duas a
+sal. egnatius romae
+sal. ego cum
+sal. ego dum
+sal. ego meo
+sal. ego vero
+sal. ephesum venimus
+sal. epistulam cum
+sal. epistulam meam
+sal. et mea
+sal. et res
+sal. etsi non
+sal. etsi cum
+sal. etsi diligenter
+sal. etsi in
+sal. etsi nihil
+sal. ex tuis
+sal. exanimatus tuis
+sal. exspectationem nobis
+sal. facile adsentior
+sal. facinus indignum
+sal. fecisti mihi
+sal. gaudeo mehercule
+sal. gratae tuae
+sal. iam antea
+sal. ignosce mihi
+sal. in piraeea
+sal. itineris nostri
+sal. iucundissimas tuas
+sal. laodiceam veni
+sal. lippitudinis meae
+sal. litterae mihi
+sal. magna mihi
+sal. maximis et
+sal. me adhuc
+sal. me caecum
+sal. me et
+sal. mihi molestior
+sal. mihi vero
+sal. miseriae nostrae
+sal. multa me
+sal. multas a
+sal. multas uno
+sal. narro tibi
+sal. negent illi
+sal. negotium magnum
+sal. nihil 
+sal. nihil habeo
+sal. nihil mihi
+sal. nimium raro
+sal. nisi te
+sal. non committam
+sal. non dubito
+sal. non fuerat
+sal. non me
+sal. non meo
+sal. non modo
+sal. non venit
+sal. nos in
+sal. nudius tertius
+sal. numquam ante
+sal. numquam putavi
+sal. numquid putas
+sal. nunc quidem
+sal. o exspectatas
+sal. o factum
+sal. o mi
+sal. o rem
+sal. obsecro te
+sal. obsignaram iam
+sal. obsignata iam
+sal. occupationum mearum
+sal. omnia mihi
+sal. omnis arbitror
+sal. patrem tuum
+sal. pedem in
+sal. periucundus mihi
+sal. petitionis nostrae
+sal. philotimi litterae
+sal. plane deest
+sal. plane nil
+sal. post tuum
+sal. properantibus tabellariis
+sal. prorsus ut
+sal. puto te
+sal. quaeris ex
+sal. quam vellem
+sal. quantam tu
+sal. quantis curis
+sal. quantum dolorem
+sal. quas numestio
+sal. quid hic
+sal. quid opus
+sal. quintus frater
+sal. quoad eius
+sal. quod ad
+sal. quod me
+sal. quod tibi
+sal. quoniam iustas
+sal. saepius me
+sal. sane velim
+sal. saturnalibus mane
+sal. scripseram ad
+sal. sollicitum esse
+sal. spero tibi
+sal. subito consilium
+sal. subito cum
+sal. tarentum veni
+sal. tarsum veni
+sal. te in
+sal. terentia tibi
+sal. totum iter
+sal. tranquillae tuae
+sal. trebatium 
+sal. triginta dies
+sal. tris epistulas
+sal. tu quidem
+sal. vestorius noster
+sal. vnam adhuc
+sal. vndecimo die
+sal. vnum etiam
+sal. volo ames
+sal. vt athenas
+sal. vt ab
+sal. vt scribis
+sal. vtinam illum
+sal. iii 
+sal. iiii 
+sal. v 
+sal. xvii 
+ser. sulpicio a
+ser. sulpicio accipio
+ser. sulpicio c
+ser. sulpicio ego
+ser. sulpicio m
+ser. sulpicio vehementer
+sex. roscio amerino
+seio. sed omnia
+sept. athenis non
+sept. pompeio legatum
+sept. cum venissem
+sept. dedit litteras
+sept. eo autem
+sept. iique mihi
+sept. in laterio
+sept. litteras a
+sept. nunc tu
+sept. potestas facta
+sept. venerat die
+ser. claudius reliquit
+ser. fulvio de
+ser. fulvius et
+ser. galba adsectaretur
+ser. galba eloquentia
+ser. galba praetore
+ser. galba vicino
+ser. galbae aut
+ser. galbae et
+ser. galbam ad
+ser. galbam eodem
+ser. galbam memoria
+ser. naevio diceret
+ser. sulpici q
+ser. sulpici comitum
+ser. sulpici constituta
+ser. sulpici ferre
+ser. sulpici fili
+ser. sulpici morte
+ser. sulpici multos
+ser. sulpici vita
+ser. sulpicio casus
+ser. sulpicio censuit
+ser. sulpicio cogitans
+ser. sulpicio consul
+ser. sulpicio gratias
+ser. sulpicio non
+ser. sulpicio reperietur
+ser. sulpicio repudiatae
+ser. sulpicio statuam
+ser. sulpicium cohortatus
+ser. sulpicium colloqui
+ser. sulpicium eius
+ser. sulpicium occidit
+ser. sulpicium vita
+ser. sulpicius m
+ser. sulpicius q
+ser. sulpicius aetate
+ser. sulpicius cum
+ser. sulpicius et
+ser. sulpicius inferatur
+ser. sulpicius relinquere
+ser. sulpicius viveret
+sesti. hoc idcirco
+sex. aeli commentariis
+sex. aelius tale
+sex. albio quo
+sex. alfeni l
+sex. alfenus promitteret
+sex. atilius ex
+sex. aufidius et
+sex. caesar flamen
+sex. clodi ore
+sex. clodi rem
+sex. clodio rhetori
+sex. clodio te
+sex. clodius absolutus
+sex. clodius cui
+sex. cloelium restitueret
+sex. iulius non
+sex. iulius praetor
+sex. marius et
+sex. naevi roma
+sex. naevi considerare
+sex. naevi cupiditati
+sex. naevi derogetur
+sex. naevi lacrimans
+sex. naevi ne
+sex. naevi quivis
+sex. naevi quod
+sex. naevi studio
+sex. naevio facere
+sex. naevio fecerit
+sex. naevio neque
+sex. naevium defendunt
+sex. naevium diebus
+sex. naevium non
+sex. naevium statim
+sex. naevius hominem
+sex. naevius neque
+sex. naevius non
+sex. naevius pro
+sex. naevius procura
+sex. peducaei absolutionem
+sex. peducaei instituto
+sex. pompei chlori
+sex. pompei sunt
+sex. pompeio rei
+sex. pompeium corduba
+sex. pompeium et
+sex. pompeium ipsi
+sex. pompeium restituit
+sex. pompeius chlorus
+sex. pompeius aut
+sex. properti detulit
+sex. rosci abs
+sex. rosci bono
+sex. rosci cum
+sex. rosci custodiri
+sex. rosci de
+sex. rosci domus
+sex. rosci emptor
+sex. rosci mederi
+sex. rosci nomen
+sex. rosci obstare
+sex. rosci parare
+sex. rosci peri
+sex. rosci pericula
+sex. rosci periculum
+sex. rosci quadriduo
+sex. rosci quae
+sex. rosci reciperem
+sex. rosci velut
+sex. rosci venire
+sex. rosci vita
+sex. roscio amerino
+sex. roscio dicere
+sex. roscio diceret
+sex. roscio dicta
+sex. roscio eadem
+sex. roscio et
+sex. roscio facere
+sex. roscio intentasse
+sex. roscio nullas
+sex. roscio obiecit
+sex. roscio primus
+sex. roscio quaero
+sex. roscio quis
+sex. roscio relictus
+sex. roscio temporis
+sex. roscio vitio
+sex. roscium dicturus
+sex. roscium inopem
+sex. roscium ne
+sex. roscium occiderit
+sex. roscium quo
+sex. roscium sed
+sex. roscius arguitur
+sex. roscius cum
+sex. roscius esset
+sex. roscius filio
+sex. roscius fuerit
+sex. roscius horum
+sex. roscius ibidem
+sex. roscius in
+sex. roscius man
+sex. roscius mandavit
+sex. roscius non
+sex. roscius occiderit
+sex. roscius occiditur
+sex. roscius occisus
+sex. roscius postulavit
+sex. roscius verum
+sex. serrano sanctissima
+sex. statio negavi
+sex. tarquinius uim
+sex. titi adflictam
+sex. titio attulisset
+sex. titio damnato
+sex. titius consecutus
+sex. titius se
+sex. varo pro
+sex. vennonio datam
+sex. vibium quo
+sex. enim roscius
+sex. frater eius
+sext. dyrrachio sum
+sext. ab epheso
+sext. actum iri
+sext. cum a
+sext. de attica
+sext. de ea
+sext. de provincia
+sext. dilata sunt
+sext. et referretur
+sext. ex britannia
+sext. ex castris
+sext. ex ea
+sext. his ego
+sext. ibi mihi
+sext. in provinciam
+sext. in senatu
+sext. nihil habeo
+sext. persolutum ut
+sext. primum contendam
+sext. putem me
+sext. puto me
+sext. quattuor epistulas
+sext. sed sive
+sext. usque exspectavi
+sext. venissem et
+sext. vidi de
+sexto.  de
+sosis. is fuit
+sp. albinum civemque
+sp. antio et
+sp. carvilio collega
+sp. carvilio graviter
+sp. cassi domus
+sp. cassio postumo
+sp. cassio consulibus
+sp. cassium de
+sp. lucretium sub
+sp. maecius probavisset
+sp. maeli regnum
+sp. maelium non
+sp. maelium novis
+sp. maelium qui
+sp. maelium regnum
+sp. mummium putaram
+sp. postumius t
+sp. tarpeius et
+sp. thorius satis
+sulla. hic tantum
+syria. qui licuit
+syria. quas statim
+t. annio milone
+t. accium pisaurensem
+t. agusius et
+t. albucio supplicationem
+t. albucius nonne
+t. albucius vel
+t. ampio balbo
+t. ampium menandrum
+t. ampium dilectum
+t. ampius de
+t. anicius mihi
+t. anni beneficia
+t. anni tribunatu
+t. annio cum
+t. annio tantum
+t. annium cimbrum
+t. annium luscum
+t. annium isdem
+t. annium plurimum
+t. annium tanto
+t. annius 
+t. annius velina
+t. annius ad
+t. annius esse
+t. annius et
+t. annius ipse
+t. annius qua
+t. attio auctore
+t. attius aut
+t. aufidio praetore
+t. betutius barrus
+t. brocchi de
+t. broccho avunculo
+t. caelium quendam
+t. capitonis inimici
+t. catienus circumgestat
+t. claudium centumalum
+t. claudium tecum
+t. crispinum quaestorem
+t. didi et
+t. fadio etsi
+t. fadio miror
+t. fadio scripsit
+t. flaminini fratrem
+t. flamininus admodum
+t. flamininus et
+t. flaminio q
+t. furfanio dicere
+t. furfano postumo
+t. gavi caepionis
+t. herennio vociferatio
+t. hordeonio legare
+t. iunius l
+t. iuventius nimis
+t. labienus in
+t. ligari verbis
+t. ligarius quaestor
+t. manili et
+t. manlium quam
+t. manlius is
+t. manlius praetor
+t. mario depelleretur
+t. munati prudentiam
+t. pomponium atticum
+t. pinarius amabilis
+t. pinnio familiarissime
+t. plancus et
+t. plancus in
+t. pomponio vene
+t. pomponius luciusque
+t. ponti cen
+t. quintio m
+t. roscio capitoni
+t. roscio reperio
+t. roscium recusare
+t. roscius capito
+t. roscius nomine
+t. roscius non
+t. serti galli
+t. tincam placentinum
+t. titium in
+t. torquatus t
+t. vettium ad
+t. veturius et
+t. vibi attulit
+t. autem iste
+t. erit caecilius
+t. et c
+t. quidem postu
+tauri. quem qui
+tauri. factum de
+teani. mirifica 
+teani. probata condicio
+ti. coruncani scientia
+ti. coruncanio municipe
+ti. coruncanium memoriae
+ti. coruncanium optare
+ti. gracchi p
+ti. gracchi aequitate
+ti. gracchi conatus
+ti. gracchi litteris
+ti. gracchi morte
+ti. gracchi mortem
+ti. gracchi privatus
+ti. gracchi summi
+ti. gracchi temeritati
+ti. graccho gaioque
+ti. graccho conlocasset
+ti. graccho interempto
+ti. graccho interroganti
+ti. graccho invidia
+ti. graccho tum
+ti. gracchum cum
+ti. gracchum exposita
+ti. gracchum inter
+ti. gracchum interemit
+ti. gracchum mediocriter
+ti. gracchum non
+ti. gracchum patrem
+ti. gracchum perculit
+ti. gracchum qui
+ti. gracchus p
+ti. gracchus audire
+ti. gracchus auspi
+ti. gracchus convellit
+ti. gracchus est
+ti. gracchus legem
+ti. gracchus occisus
+ti. gracchus propter
+ti. gracchus quod
+ti. gracchus reliquerat
+ti. guttam video
+ti. nero cum
+ti. neronem et
+ti. et c
+ti. fratrem visum
+tib. gracchi sustinuimus
+tib. graccho legum
+tib. gracchum fecisset
+tib. gracchum sequebantur
+tib. gracchus qui
+tib. gracchus regnum
+tib. quidem gracchum
+tiro. quoniam non
+tite.  
+tite.  tum
+tulli. sed cum
+undus.  quaerenti
+uxor. similis me
+vale.  scripta
+varro. nam nos
+verre. iste porro
+vetat. verum esto
+virgo. at uero
+virgo. cedit clara
+virgo. lactant 
+4483
