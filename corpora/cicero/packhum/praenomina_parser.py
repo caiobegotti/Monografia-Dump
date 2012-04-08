@@ -14,7 +14,7 @@ def parser():
     regex = re.compile("[A-Z]'?\w{0,4}\. [A-Z]{0,}\w{0,} [A-Z]{0,}\w{0,}")
     praenomina = []
     
-    for file in glob.glob('./*.xml'):
+    for file in glob.glob('ready/orator-*.txt'):
         content = codecs.open(file, "r", "utf8")
         text = content.read()
         for entry in regex.findall(text):
@@ -25,9 +25,10 @@ def parser():
 def replacer():
     list = parser()
     regex = re.compile("^(.*)\. ")
-    for file in glob.glob('./academica.xml'):
+    for file in glob.glob('ready/orator-5.txt'):
         content = codecs.open(file, "w", "utf8")
         text = content.read()
+        replaced = ''
         for entry in list:
             r = regex.search(entry)
             match = r.group(1)
