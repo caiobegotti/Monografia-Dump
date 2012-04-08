@@ -10,21 +10,26 @@ import codecs
 import glob
 import re
 
-praenomina = []
+def parser():
+    regex = re.compile("[A-Z]'?\w{0,4}\. [A-Z]{0,}\w{0,} [A-Z]{0,}\w{0,}")
+    praenomina = []
+    
+    for file in glob.glob('./*.xml'):
+        content = codecs.open(file, "r", "utf8")
+        text = content.read()
+        for entry in regex.findall(text):
+            praenomina.append(entry)
+    
+    return sorted(set(praenomina))
 
-regex = re.compile("[A-Z]'?\w{0,4}\. [A-Z]{0,}\w{0,} [A-Z]{0,}\w{0,}")
-
-for file in glob.glob('./*.xml'):
-    content = codecs.open(file, "r", "utf8")
-    text = content.read()
-    for entry in regex.findall(text):
-        praenomina.append(entry)
-
-praenomina = sorted(set(praenomina))
-
-for entry in praenomina:
+def replacer():
+    list = parser()
     regex = re.compile("^(.*)\. ")
-    r = regex.search(entry)
-    match = r.group(1)
-    name = re.sub('^' + match, '(' + match + ')', entry)
-    print name.replace('.', '')
+    for entry in list:
+        r = regex.search(entry)
+        match = r.group(1)
+        name = re.sub('^' + match, '(' + match + ')', entry)
+        print 'era -> "' + entry + '" e vai virar -> "' + name.replace('.', '') + '"'
+
+if __name__ == "__main__":
+    replacer()
