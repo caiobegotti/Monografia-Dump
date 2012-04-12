@@ -9,6 +9,10 @@
 \usepackage{remreset}
 \usepackage[normalem]{ulem}
 
+\usepackage{minted}
+\usemintedstyle{bw}
+\renewcommand{\theFancyVerbLine}{\sffamily \textcolor[rgb]{0.5,0.5,0.5}{\scriptsize \oldstylenums{\arabic{FancyVerbLine}}}}
+
 \makeatletter
 \@removefromreset{footnote}{chapter}
 \makeatother
@@ -653,7 +657,11 @@ TODO: kytzler: dos 20 conhecidos, possuimos 13
 
 \par Lematização (stemming Porter), etiquetamento básico dos corpora.
 
-\appendix
+% Existem ainda: abbrv, acm, alpha, amsalpha, amsplain
+\bibliographystyle{abnt-alf}	
+\bibliography{monografia}
+
+\apendice
 
 \chapter{Cronograma}
 \par As tarefas necessárias para a conclusão do trabalho devem ser divididas em etapas sequenciais, visto que uma depende da outra. Muito provavelmente as etapas serão repassadas após uma primeira ``rodada'' para afinar os resultados e aparar problemas encontrados durante o caminho, antes da conclusão total da monografia.
@@ -678,7 +686,10 @@ TODO: kytzler: dos 20 conhecidos, possuimos 13
 \chapter{Códigos}
 \par packnum scrapper.py praenomina parser.py
 
-\chapter{DUVIDAS A SEREM TIRADAS}
+\inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{packnum_scrapper.py}
+\inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{praenomina_parser.py}
+
+\chapter{Anotações}
 \begin{itemize}
 \item Devo arrumar ortografias de 'v' para 'u' e de 'j' para 'i'? Importante pras analises estatisticas!
 \item Melhor limpar ou considerar macron? Acho que limpar ja que nao ta nos originais?
@@ -686,14 +697,6 @@ TODO: kytzler: dos 20 conhecidos, possuimos 13
 \item A lista de stopwords ta exagerada? (tem que testar o modelo, deve estar sim, chodchod é interessante por exemplo)
 \item Segundo o Leumann quicum e quocum sao comuns no cicero, mas eles na sao adverbios na realidade?
 \end{itemize}
-
-% Existem ainda: abbrv, acm, alpha, amsalpha, amsplain
-\bibliographystyle{abnt-alf}	
-\bibliography{monografia}
-
-%\apendice
-%\chapter{Primeiro apêndice}
-%\par Apêndices são textos elaborados pelo autor a fim de complementar sua argumentação.
 
 %\anexo
 %\chapter{Primeiro anexo}
