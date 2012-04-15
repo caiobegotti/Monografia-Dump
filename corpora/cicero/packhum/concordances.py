@@ -27,7 +27,7 @@ def lookup():
         exit(-1)
     else:
         content = corpora_loader()
-        text = content.concordance(options.term)
+        text = content.concordance(options.term, width=150)
         print text
 
 def corpora_loader():
