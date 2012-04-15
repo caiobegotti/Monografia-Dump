@@ -9,16 +9,20 @@ import glob
 
 from nltk.tokenize import word_tokenize
 
-stopwords = []
-with file('../../stopwords/latin.txt', 'r') as content:
-    for line in content.readlines():
-        stopwords.append(line.replace('\n',''))
+def stopwords():
+    stopwords = []
+    with file('../../stopwords/latin.txt', 'r') as content:
+        for line in content.readlines():
+            stopwords.append(line.replace('\n',''))
+    return stopwords
 
-text = []
-for loop in glob.glob('ready/*.txt'):
-    with file(loop, 'r') as content:
-        text.append(content.read())
+def tokenizer():
+    text = []
+    for loop in glob.glob('ready/*.txt'):
+        with file(loop, 'r') as content:
+            text.append(content.read())
+    tokens = word_tokenize(' '.join(text))
+    return tokens
 
-tokens = word_tokenize(' '.join(text))
-print tokens
-print stopwords
+for s in stopwords():
+    print s
