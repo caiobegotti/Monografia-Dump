@@ -232,7 +232,7 @@
 \begin{document}
 
 \autor{CAIO ESDRAS DE BRITO BEGOTTI}
-\titulo{O LATIM CLÁSSICO DE CÍCERO À LUZ DA LINGUÍSTICA DE CORPUS: DESCRIÇÃO E IMPLEMENTAÇÃO DE MÉTODO COMPUTACIONAL COM NLTK}
+\titulo{O LATIM CLÁSSICO DE CÍCERO À LUZ DA LINGUÍSTICA DE CORPUS: DESCRIÇÃO E IMPLEMENTAÇÃO DE MÉTODO COMPUTACIONAL}
 \orientador{Alessandro Rolim de Moura}
 
 % Se tiver co-orientador
@@ -389,21 +389,21 @@
 
 \section{Por que Cícero?}
 
-% TODO: breve biografia de cicero
+\par Provavelmente se conhece mais a respeito da vida de Cícero do que de qualquer outra pessoa do mundo antigo, ainda assim poucas pessoas hoje saberiam dizer quem foi ele. Dessa maneira, cabe aqui uma breve biografia de Cícero, como narrada em detalhes por \citeonline{petersson} e \citeonline{everitt}.
+
+\par Nascido fora da cidade de Roma, Cícero foi levado ainda pequeno para lá. Foi em Roma onde estudou e cresceu até entrar no mundo político da cidade, quando começou a acompanhar, ainda bastante jovem, casos públicos no fórum. Aos trinta e poucos anos Cícero já era uma figura importante no meio político e jurídico da cidade. Por volta dos quarenta anos Cícero vira cônsul, o título civil mais alto que alguém poderia ter. Não é exagerado dizer que Cícero foi possivelmente o maior e melhor advogado e orador de Roma.
+
+\par Embora personagem secundário na história geral do império, Cícero esteve ligado a acontecimentos marcantes como a conspiração de Catilina contra a república e a oposição à César quando este subiu ao poder. Foi Cícero quem trouxe parte do pensamento filosófico grego para o mundo latino, e sua importância para o pensamento ocidental foi tamanha que a igreja católica o declarou um bom pagão, fato decisivo para que tantos dos seus escritos fossem preservados até os dias atuais. Cícero entrou para a história política e jurídica de Roma não por simplesmente vencer casos, mas por ser brilhante em suas exposições e pela sua capacidade de transformar o ato de falar em público em uma arma poderosa.
 
 \par A influência e a importância de Cícero como pensador jamais serão suficientemente demonstradas, porém é evidente que o latim como língua deve muito a Cícero. Ele popularizou estilos de discurso, cunhou novas palavras (e limou da língua tantas outras), criou parâmetros de expressão em latim. De certa forma, pode-se dizer que Cícero está até os dias atuais impregnado no modo como pessoas públicas se expressam, por exemplo políticos e juristas. Obviamente Cícero não exerce tanto fascínio simplesmente porque foi Cícero, mas pela qualidade da sua expressão e seus estilos \cite{fishwick}.
 
 \par É importante lembrar, entretanto, que Cícero não pode ser tomado como um autor que representa toda a grandeza do latim clássico sozinho. É necessário considerar isso por todo esse trabalho. O que será analisado pode muito bem nem mesmo representar toda a produção de Cícero de forma justa, vale dizer.
 
-\par Será estudada uma das grandes características de Cícero, a chamada \textit{elegantia}. \textit{Elegantia} se traduz não simplesmente por elegância como seria de se esperar pela aparência do cognato, mas como um refinamento lexical e uma perfeita escolha de palavras para expressar uma idéia. \textit{Elegantia} é saber utilizar a palavra certa, no momento certo, de maneira adequada \cite{palmer}. \citeonline{kennedy} também lembram elogios do próprio Cícero a César pelo uso exemplar de vocabulário que César demonstra em seu \textit{De Analogia}. Cícero declara que a escolha precisa de palavras ao falar e escrever é um dos vários requisitos para alguém ser um cidadão romano. Portanto, nada mais adequado do que tentar enxergar como isso de dava utilizando a LC.
+\par Neste trabalho será estudada uma das grandes características de Cícero, a chamada \textit{elegantia}. \textit{Elegantia} se traduz não simplesmente por elegância como seria de se esperar pelo cognato, mas como um refinamento lexical e uma perfeita escolha de palavras para expressar uma idéia. \textit{Elegantia} é saber utilizar a palavra certa, no momento certo, de maneira adequada \cite{palmer}. \citeonline{kennedy} também lembram elogios do próprio Cícero a César pelo uso exemplar de vocabulário que César demonstra em seu \textit{De Analogia}. Cícero declara que a escolha precisa de palavras ao falar e escrever é um dos vários requisitos para alguém ser um verdadeiro cidadão romano. Portanto, nada mais adequado do que tentar enxergar como isso de dava utilizando a LC.
 
-\par A lista de textos a serem analisados ainda não está totalmente definida, mas os \textit{corpora} serão construídos sempre que possível utilizando fontes abertas ou livres de restrição, a fim de que outros possam sem dificuldades utilizar os \textit{corpora} gerados por esse trabalho. Embora já se tenha visto \textit{corpora} de latim clássico --- alguns, como o do Packard Humanities Institute (\sigla{PHI}{Packard Humanities Institute}), cobrindo todos os textos e discursos de Cícero ---, pesquisadores e alunos até então somente formularam conclusões a respeito da estilística desses \textit{corpora}, e não parecem ter desenvolvido pesquisas computacionais além disso; ou seja, processamento de linguagem natural que conseguisse chegar a conclusões a partir de análises estatísticas dos textos e que fosse útil, por exemplo, em sala de aula. Vale notar ainda que, segundo \citeonline{brill} a respeito dos famosos bancos de dados de latim do PHI\footnote{O mesmo parece se aplicar aos \textit{corpora} de latim clássico do projeto Perseus, da Tufts University.}, ``citar o PHI se tornou banal em qualquer artigo trabalhando com o uso de palavras ciceriano. Talvez a facilidade em obter dados do PHI faça com que conclusões retiradas deles sejam menos valorizadas, e ainda não se vê a publicação de trabalhos sobre o vocabulário ciceriano, e seu uso, feitos especificamente com a ajuda de computadores''\footnote{Tradução livre do autor. No original, em inglês ``[...] citation of this resource has now become commonplace in any article touching upon Ciceronian word usage. Perhaps because the ease of retrieval of these data makes conclusions drawn from them less prized, publication of specifically computer-based work on Ciceronian vocabulary and usage is still in the future''.}.
+\par Ajuda entender isto algumas passagens em um de seus textos mais conhecidos, \textit{De Oratore}. Podemos ver a preocupação de Cícero com o modo rústico de se expressar de alguns romanos --- tanto no sotaque falado quanto nas palavras grosseiras utilizadas por alguns ---, como isso afetava a latinidade deles segundo Cícero e como isso devia ser expurgado da língua\footnote{\textit{De Oratore}, livro 3, parágrafo 42.}. É particularmente interessante o trecho em que Cícero destaca a importância de ser claro em um discurso, a necessidade de se evitar ambiguidades e conseguir passar o sentido literal do que se tem em mente empregando o uso exato de palavras\footnote{\textit{De Oratore}, livro 3, parágrafo 49.}. É nesse texto que Cícero nos dá embasamento para esse trabalho: segundo ele, ao resumir os bons valores de oratória, um orador precisa ter cultura abrangente, que de uma forma ou de outra se mostra em seu texto ou discurso pela riqueza de seu vocabulário, pois não é possível esgotar todos os temas com um universo lexical reduzido\footnote{\textit{De Oratore}, livro 3, a partir do parágrafo 74.}.
 
-% TODO: citar de oratore paragrafo 42: sobre sotaque as pessoas do interior (o trabalho nao vai tratar nem mesmo de oratoria no sentido que cicero e seus companheiros pensavam, e sim do ponto de visto quase clinico, do que efetivamente passaram ate nos, seus textos, por mais que priorizassem a oratoria como uma atividade presencial, em alto som e para um publico, nao uma leitura solitaria sobre o que eles falavam. entretanto, a busca por um vocabulario (logo, de um lexico que aqui estuda-se) era sempre uma preocupacao e motivo ate de angustia as vezes (paragrafo 33 de oratore).
-
-% TODO: paragrafo 49 de oratore: sobre employin words in costumary use that indicate literally the meanng that we desire to be conveye and made clear
-
-% TODO: paragrafo 74 de oratore: valores de boa oratoria resumidos: um orador precisa ter cultura abrangemente (que de uma forma ou de outra se mostra no texto em riqueza de vocabulario, ja que nao eh possivel discutir e esgotar todos os assuntos e temas com um universao lexical muito pequeno).
+\par Embora já se tenha visto \textit{corpora} de latim clássico --- alguns, como o do Packard Humanities Institute (\sigla{PHI}{Packard Humanities Institute}), cobrindo todos os textos e discursos de Cícero ---, pesquisadores e alunos até então somente formularam conclusões a respeito da estilística desses \textit{corpora}, e não parecem ter desenvolvido pesquisas computacionais além disso; ou seja, processamento de linguagem natural que conseguisse chegar a conclusões a partir de análises estatísticas dos textos e que fosse útil, por exemplo, em sala de aula. Vale notar ainda que, segundo \citeonline{brill} a respeito dos famosos bancos de dados de latim do PHI\footnote{O mesmo parece se aplicar aos \textit{corpora} de latim clássico do projeto Perseus, da Tufts University.}, ``citar o PHI se tornou banal em qualquer artigo trabalhando com o uso de palavras ciceriano. Talvez a facilidade em obter dados do PHI faça com que conclusões retiradas deles sejam menos valorizadas, e ainda não se viu a publicação de trabalhos sobre o vocabulário ciceriano, e seu uso, feitos especificamente com a ajuda de computadores''\footnote{Tradução livre do autor. No original, em inglês ``[...] citation of this resource has now become commonplace in any article touching upon Ciceronian word usage. Perhaps because the ease of retrieval of these data makes conclusions drawn from them less prized, publication of specifically computer-based work on Ciceronian vocabulary and usage is still in the future''.}.
 
 \section{Diferenciais tecnológicos}
 \par Parece que um dos motivos pelos quais isso ocorre é a falta de um catálogo linguístico cientificamente montado com as palavras de fato mais usadas da língua. Já houve tentativas de se fazer isso para o latim, porém em uma época cujos poderes da análise linguística feita pelo computador ainda não eram conhecidos \cite{diederich}, ou foram tentativas focadas em outras línguas, como o inglês \cite{almeida-dicasl} e o espanhol \cite{jacobi}. Outros autores, como \citeonline{pellegrino}, no máximo se limitaram a criar listas de palavras bastante usadas por Cícero a serem estudadas para exames de latim de escolas americanas, sem uma maior racionalização sobre os \textit{corpora} de Cícero e sem também elaborar em seus métodos. Um trabalho bastante superficial e parecendo-se mais com um manual de prova. Embora os resultados de todas essas experiências tenham sido utilizados de maneira distinta da que aqui se propõe, a motivação é similar: utilizar artefatos reais da língua para o aprendizado dela mesma.
@@ -561,8 +561,8 @@ Os discursos a seguir incluem tanto discursos de caráter jurídico quanto discurs
 TODO: kytzler: dos 20 conhecidos, possuimos 13
 
 \begin{itemize}
-\item Academica Posteriora\footnote{Também citado como \textit{Lucullus}, é a segunda parte do \textit{Academica}, aproximadamente quatro vezes maior do que restou da primeira parte. Para mais detalhes ver a introdução à tradução de Charles Duke Yonge (1875).} 
 \item Academica Priora\footnote{Também citado como \textit{Catulus}, são fragmentos da segunda parte do primeiro livro que compõe o \textit{Academica} de Cícero.} 
+\item Academica Posteriora\footnote{Também citado como \textit{Lucullus}, é a segunda parte do \textit{Academica}, aproximadamente quatro vezes maior do que restou da primeira parte. Para mais detalhes ver a introdução à tradução de Charles Duke Yonge (1875).} 
 \item Cato Maior De Senectute
 \item Consolatio
 \item De Amicitia
@@ -663,6 +663,26 @@ TODO: kytzler: dos 20 conhecidos, possuimos 13
 
 \apendice
 
+\chapter{Códigos}
+
+\section{Scrapper de dados e montador dos corpora}
+\inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{packnum_scrapper.py}
+
+\section{Filtros dos corpora}
+\par TODO: falta só adicionar aqui
+
+\section{Parser e filtro de prenomes latinos}
+\inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{praenomina_parser.py}
+
+\section{Analisador de frequências}
+\par TODO
+
+\section{Gerador de concordâncias}
+\par TODO
+
+\section{Protótipo de algoritmo de stemmer}
+\inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{stemmer.py}
+
 \chapter{Cronograma}
 \par As tarefas necessárias para a conclusão do trabalho devem ser divididas em etapas sequenciais, visto que uma depende da outra. Muito provavelmente as etapas serão repassadas após uma primeira ``rodada'' para afinar os resultados e aparar problemas encontrados durante o caminho, antes da conclusão total da monografia.
 
@@ -672,27 +692,16 @@ TODO: kytzler: dos 20 conhecidos, possuimos 13
 \par Definir o escopo do projeto e o que se pretende fazer. Especificar limites para não perder o foco em objetivos nem se perder em superficialidade. Este projeto de monografia propriamente dito. Tempo estimado: Set-Dez 2011. Complexidade: média. Concluída.
 
 \section{Coleta}
-\par Agregação do material para montagem dos \textit{corpora}, pensando já na relevância dos textos, utilidade deles e abrangência linguística. Será preciso orientação próxima para que o material coletado seja relevante e representativo. Tempo estimado: Jan-Mar 2012. Complexidade: média. Em curso.
+\par Agregação do material para montagem dos \textit{corpora}, pensando já na relevância dos textos, utilidade deles e abrangência linguística. Será preciso orientação próxima para que o material coletado seja relevante e representativo. Tempo estimado: Jan-Mar 2012. Complexidade: média. Concluída.
 
 \section{Montagem}
 \par A construção efetiva dos \textit{corpora} de acordo com os formatos esperados pelo projeto NLTK e uma categorização básica dos textos para facilitar análise futura. Nessa etapa serão disponibilizados os \textit{corpora} do trabalho para que outros do setor e departamento também possam utilizá-lo. Tempo estimado: Abr-Mai 2011. Complexidade: média. Em curso.
 
 \section{Filtragem}
-\par Especificação de certos filtros a serem utilizados em análises dos \textit{corpora} (como a necessidade de se catalogar \textit{stopwords} da língua, por exemplo). Essa etapa também precisará de orientação próxima, pois um conhecimento profundo do latim será necessário para que os dados não fiquem poluídos. Tempo estimado: Mai 2012. Complexidade: baixa.
+\par Especificação de certos filtros a serem utilizados em análises dos \textit{corpora} (como a necessidade de se catalogar \textit{stopwords} da língua, por exemplo). Essa etapa também precisará de orientação próxima, pois um conhecimento profundo do latim será necessário para que os dados não fiquem poluídos. Tempo estimado: Mai 2012. Complexidade: baixa. Em curso.
 
 \section{Análise}
-\par Etapa final da análise de todo o material organizado, bem como obtenção de dados estatísticos da língua para uso futuro em sala de aula ou pesquisa acadêmica. Gerar um modelo de uso do material resultante desse trabalho. Tempo estimado: Jun-Jul 2012. Complexidade: alta.
-
-\chapter{Códigos}
-
-\par Scrapper de dados do PHI e montador dos corpora, totalmente automatizado:
-\inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{packnum_scrapper.py}
-
-\par Parser de prenomes latinos, pra preparar os corpora para segmentação de parágrafos de forma segura:
-\inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{praenomina_parser.py}
-
-\par Protótipo do algoritmo de stemmer do latim iniciado por Schinke e Porter:
-\inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{stemmer.py}
+\par Etapa final da análise de todo o material organizado, bem como obtenção de dados estatísticos da língua para uso futuro em sala de aula ou pesquisa acadêmica. Gerar um modelo de uso do material resultante desse trabalho. Tempo estimado: Mai-Jun 2012. Complexidade: alta. Em curso.
 
 \chapter{Anotações}
 \begin{itemize}
