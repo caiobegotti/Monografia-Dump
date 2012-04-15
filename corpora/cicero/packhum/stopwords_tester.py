@@ -3,8 +3,6 @@
 # caio begotti <caio1982@gmail.com>
 # this is under public domain
 
-# prototype: cat ../../stopwords/latin.* | sort -u | while read i; do export x=$(grep -c "^${i}$" /tmp/full.txt); export t=$(wc -l /tmp/full.txt | cut -d' ' -f2); echo -e "${x}\t${t}\t${i}\t\t$(echo "(${x} / ${t}) * 100" | bc -l)"; done
-
 import glob
 
 from nltk.tokenize import word_tokenize
@@ -24,5 +22,8 @@ def tokenizer():
     tokens = word_tokenize(' '.join(text))
     return tokens
 
+tokens = tokenizer()
 for s in stopwords():
-    print s
+    counter = tokens.count(s)
+    percentage = (float(counter)/float(len(tokens)))*100
+    print "%d\t%f\t%s" % (counter, percentage, s)
