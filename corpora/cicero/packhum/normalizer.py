@@ -4,8 +4,6 @@
 # this is under public domain
 
 import codecs
-import glob
-import re
 
 def normalizer():
     for loop in glob.glob('ready/*.txt'):
