@@ -7,6 +7,8 @@ import glob
 import optparse
 
 from nltk.tokenize import word_tokenize
+from nltk.corpus.reader import XMLCorpusReader
+from nltk import Text
 
 def search():
     parser = optparse.OptionParser("Usage: %prog [options]")
@@ -20,7 +22,16 @@ def search():
         parser.print_help()
         exit(-1)
     else:
-        print options
+        content = corpora_loader()
+        text = content.concordance(options.term)
+        print text
+
+def corpora_loader():
+    data = ''
+    for loop in glob.glob('academica.xml'):
+        reader = XMLCorpusReader('./', loop)
+        data = Text(reader.words())
+    return data
 
 if __name__ == "__main__":
     search()
