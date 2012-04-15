@@ -10,12 +10,14 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus.reader import XMLCorpusReader
 from nltk import Text
 
-def search():
+def lookup():
     parser = optparse.OptionParser("Usage: %prog [options]")
-    parser.add_option("-s", "--search", type="string", dest="term",
-                      help="search concordances for a word")
+    parser.add_option("-l", "--lookup", type="string", dest="term",
+                      help="look up concordances for a word")
     parser.add_option("-f", "--fake", action="store_true", dest="fake",
                       default=False, help="considers non-ciceronian texts")
+    parser.add_option("-s", "--stem", type="string", dest="stem",
+                      help="look up the corpora for a given stem")
  
     (options, args) = parser.parse_args()
     if options.term is None:
@@ -34,4 +36,4 @@ def corpora_loader():
     return data
 
 if __name__ == "__main__":
-    search()
+    lookup()
