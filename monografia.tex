@@ -609,6 +609,8 @@ TODO: kytzler: dos 20 conhecidos, possuimos 13
 
 \par Para o latim será criado, sob orientação, um catálogo geral de \textit{stopwords} (no modelo clássico, uma lista finita de termos), e catálogos menores onde se encontrarão somente preposições, ou somente pronomes e assim por diante, para que os alunos e pesquisadores possam refinar melhor o uso de \textit{stopwords} em latim. As listas a seguir foram elaboradas pelo autor \cite{lateinische} e \cite{kuhner}, considerando resultados prévios desse trabalho e comparando os filtros com de outros autores\footnote{O projeto Perseus possui um catálogo de stopwords do Latim com cerca de 90 termos, porém os critérios para as escolhas feitas pelos responsáveis pelo projeto são desconhecidos, além de o próprio catálogo parecer incompleto.}.
 
+% TODO: 39% dos corpora do cicero sao stopwords
+
 % TODO: mencionar e listar quais items das stopwords nao foram encontrados nenhuma vez nos corpora de cicero, indicando que estao ali por completude para os outros, entretanto
 
 % TODO: conferir stopwords pela gramatica do read latin tbm
@@ -673,7 +675,7 @@ TODO: kytzler: dos 20 conhecidos, possuimos 13
 \inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{praenomina_parser.py}
 
 \section{Testador de stopwords}
-\par TODO
+\inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{stopwords_tester.py}
 
 \section{Analisador de frequências}
 \par TODO
