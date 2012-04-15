@@ -11,14 +11,14 @@ from nltk.tokenize import word_tokenize
 
 stopwords = []
 with file('../../stopwords/latin.txt', 'r') as content:
-    for line in content.read():
-        stopwords.append(line)
+    for line in content.readlines():
+        stopwords.append(line.replace('\n',''))
 
 text = []
 for loop in glob.glob('ready/*.txt'):
     with file(loop, 'r') as content:
         text.append(content.read())
 
-data = ' '.join(text)
-tokens = word_tokenize(data)
+tokens = word_tokenize(' '.join(text))
+print tokens
 print stopwords
