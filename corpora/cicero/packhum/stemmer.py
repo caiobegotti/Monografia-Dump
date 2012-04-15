@@ -1,6 +1,7 @@
 #!/usr/bin/env python
-# caio1982@gmail.com
-# public domain file
+# -*- coding: utf-8 -*-
+# caio begotti <caio1982@gmail.com>
+# this is under public domain
 
 # reference: the schinke latin stemming algorithm in python
 # http://snowball.tartarus.org/otherapps/schinke/intro.html
