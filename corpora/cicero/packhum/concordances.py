@@ -3,6 +3,8 @@
 # caio begotti <caio1982@gmail.com>
 # this is under public domain
 
+# stems: http://stackoverflow.com/questions/9777871/using-conditional-variables-with-nltks-concordance-module
+
 import glob
 import optparse
 
