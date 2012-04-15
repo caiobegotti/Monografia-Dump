@@ -39,5 +39,4 @@ def replacer():
                     content.write(replaced)
 
 if __name__ == "__main__":
-    for x in parser():
-        print x
+    replacer()
