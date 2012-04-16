@@ -6,7 +6,6 @@
 import glob
 import optparse
 
-from nltk.tokenize import word_tokenize
 from nltk.corpus.reader import XMLCorpusReader
 from nltk import Text
 
