@@ -7,10 +7,8 @@ import glob
 import optparse
 
 from nltk.corpus.reader import XMLCorpusReader
-from nltk import Text
 from nltk import ConcordanceIndex
-
-import nltk
+from nltk import Text
 
 parser = optparse.OptionParser("Usage: %prog [options]")
 parser.add_option("-l", "--lookup", type="string", dest="term",
