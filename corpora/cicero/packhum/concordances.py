@@ -8,7 +8,41 @@ import optparse
 
 from nltk.corpus.reader import XMLCorpusReader
 from nltk import Text
+from nltk import ConcordanceIndex
 
+import nltk
+
+class MyText(Text):
+    def search(self, string):
+        print self.concordance(string)
+
+    def concordance(self, word, width=150, lines=25):
+        if '_concordance_index' not in self.__dict__:
+            self._concordance_index = MyConcordanceIndex(self.tokens, key=lambda s:s.lower())           
+        self._concordance_index.print_concordance(word, width, lines)
+
+class MyConcordanceIndex(ConcordanceIndex):
+    def print_concordance(self, word, width=150, lines=25):
+        half_width = (width - len(word) - 2) / 2
+        context = width/4
+        
+        offsets = self.offsets(word)
+        if offsets:
+            lines = min(lines, len(offsets))
+            print "Displaying %s of %s matches:" % (lines, len(offsets))
+            for i in offsets:
+                if lines <= 0:
+                    break
+                left = (' ' * half_width +
+                        ' '.join(self._tokens[i-context:i]))
+                right = ' '.join(self._tokens[i+1:i+context])
+                left = left[-half_width:]
+                right = right[:half_width]
+                print left, '\033[1;31m' + self._tokens[i] + '\033[1;m', right
+                lines -= 1
+        else:
+            exit(-1)
+ 
 def lookup():
     parser = optparse.OptionParser("Usage: %prog [options]")
     parser.add_option("-l", "--lookup", type="string", dest="term",
@@ -19,7 +53,9 @@ def lookup():
                       default=150, help="width of the context data")
     parser.add_option("-c", "--count", type="int", dest="count",
                       default=25, help="how many matches to display")
- 
+    parser.add_option("-q", "--quite", action="store_true", dest="quiet",
+                      default=False, help="do not print headers or stats")
+
     (options, args) = parser.parse_args()
     if options.term is None:
         parser.print_help()
@@ -69,7 +105,7 @@ def corpora_loader(fake):
 
     list = ciceronian
     if fake is True:
-        list = list + spurious
+       list = list + spurious
 
     data = ''
     for loop in list:
@@ -78,4 +114,6 @@ def corpora_loader(fake):
     return data
 
 if __name__ == "__main__":
-    lookup()
+    #lookup()
+    instance = MyText(nltk.corpus.gutenberg.words('melville-moby_dick.txt'))
+    print instance.search('love')
