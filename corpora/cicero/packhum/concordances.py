@@ -16,6 +16,10 @@ def lookup():
                       help="look up concordances for a word")
     parser.add_option("-f", "--fake", action="store_true", dest="fake",
                       default=False, help="considers non-ciceronian texts")
+    parser.add_option("-w", "--width", type="int", dest="width",
+                      default=150, help="width of the context data")
+    parser.add_option("-c", "--count", type="int", dest="count",
+                      default=25, help="how many matches to display")
  
     (options, args) = parser.parse_args()
     if options.term is None:
@@ -23,7 +27,7 @@ def lookup():
         exit(-1)
     else:
         content = corpora_loader(fake=options.fake)
-        text = content.concordance(options.term, width=150)
+        text = content.concordance(options.term, width=options.width, lines=options.count)
         print text
 
 def corpora_loader(fake):
