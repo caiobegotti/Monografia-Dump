@@ -28,7 +28,8 @@ def lookup():
     else:
         content = corpora_loader(fake=options.fake)
         text = content.concordance(options.term, width=options.width, lines=options.count)
-        print text
+        if text is not None:
+            print text
 
 def corpora_loader(fake):
     ciceronian = [
