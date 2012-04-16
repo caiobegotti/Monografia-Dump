@@ -19,13 +19,16 @@ parser.add_option("-w", "--width", type="int", dest="width",
                   default=150, help="width of the context data")
 parser.add_option("-c", "--count", type="int", dest="count",
                   default=25, help="how many matches to display")
-parser.add_option("-q", "--quite", action="store_true", dest="quiet",
+parser.add_option("-q", "--quiet", action="store_true", dest="quiet",
                   default=False, help="do not print headers or stats")
 
 (options, args) = parser.parse_args()
 if options.term is None:
     parser.print_help()
     exit(-1)
+
+reset = '\033[1;m'
+red = '\033[1;31m'
 
 class MyText(Text):
     def search(self, word, width, lines):
@@ -56,7 +59,7 @@ class MyConcordanceIndex(ConcordanceIndex):
                 right = ' '.join(self._tokens[i+1:i+context])
                 left = left[-half_width:]
                 right = right[:half_width]
-                print left, '\033[1;31m' + self._tokens[i] + '\033[1;m', right
+                print '[' + left, red + self._tokens[i] + reset, right + ']'
                 lines -= 1
         else:
             exit(-1)
