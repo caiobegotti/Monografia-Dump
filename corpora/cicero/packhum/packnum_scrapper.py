@@ -54,7 +54,7 @@ for param in refs:
     for p in string.punctuation.replace('_',''):
         filename = filename.replace(p, '')
 
-    w = XMLWriter(filename + '.xml', encoding='utf-8')
+    w = XMLWriter('cicero_' + filename + '.xml', encoding='utf-8')
     xml = w.start("document")
  
     # metadata entries of the output files   
