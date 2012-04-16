@@ -32,7 +32,9 @@ red = '\033[1;31m'
 
 class MyText(Text):
     def search(self, word, width, lines):
-        print self.concordance(word, width, lines)
+        res = self.concordance(word, width, lines)
+        if res is not None:
+            print res
 
     def concordance(self, word, width=150, lines=25):
         if '_concordance_index' not in self.__dict__:
