@@ -61,11 +61,9 @@ def corpora_loader(fake):
     spurious = ['epistulae_fragmenta.xml', 'epistula_ad_octavianum_sp.xml',
                 'in_sallustium_sp.xml', 'rhetorica_ad_herennium_sp.xml']
 
-    list = []
+    list = ciceronian
     if fake is True:
-        list = ciceronian + spurious
-    else:
-        list = ciceronian
+        list = list + spurious
 
     data = ''
     for loop in list:
