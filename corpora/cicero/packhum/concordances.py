@@ -3,8 +3,6 @@
 # caio begotti <caio1982@gmail.com>
 # this is under public domain
 
-# stems: http://stackoverflow.com/questions/9777871/using-conditional-variables-with-nltks-concordance-module
-
 import glob
 import optparse
 
@@ -18,8 +16,6 @@ def lookup():
                       help="look up concordances for a word")
     parser.add_option("-f", "--fake", action="store_true", dest="fake",
                       default=False, help="considers non-ciceronian texts")
-    parser.add_option("-s", "--stem", type="string", dest="stem",
-                      help="look up the corpora for a given stem")
  
     (options, args) = parser.parse_args()
     if options.term is None:
