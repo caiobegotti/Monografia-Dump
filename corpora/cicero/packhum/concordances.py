@@ -64,6 +64,8 @@ class MyConcordanceIndex(ConcordanceIndex):
                 print '[' + left, red + self._tokens[i] + reset, right + ']'
                 lines -= 1
         else:
+            if options.quiet is False:
+                print "No matches found for " + word
             exit(-1)
  
 def corpora_loader(fake):
