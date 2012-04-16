@@ -35,6 +35,8 @@ class MyText(Text):
 
     def concordance(self, word, width=150, lines=25):
         if '_concordance_index' not in self.__dict__:
+            if options.quiet is False:
+                print "Building index..."
             self._concordance_index = MyConcordanceIndex(self.tokens, key=lambda s:s.lower())           
         self._concordance_index.print_concordance(word, width, lines)
 
@@ -46,7 +48,8 @@ class MyConcordanceIndex(ConcordanceIndex):
         offsets = self.offsets(word)
         if offsets:
             lines = min(lines, len(offsets))
-            print "Displaying %s of %s matches:" % (lines, len(offsets))
+            if options.quiet is False:
+                print "Displaying %s of %s matches:" % (lines, len(offsets))
             for i in offsets:
                 if lines <= 0:
                     break
@@ -108,6 +111,8 @@ def corpora_loader(fake):
 if __name__ == "__main__":
     content = corpora_loader(fake=options.fake)
     text = MyText(content)
-    print text.search(options.term,
+    res = text.search(options.term,
                       options.width,
                       options.count)
+    if res is not None:
+        print res
