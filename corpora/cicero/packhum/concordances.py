@@ -12,9 +12,26 @@ from nltk import ConcordanceIndex
 
 import nltk
 
+parser = optparse.OptionParser("Usage: %prog [options]")
+parser.add_option("-l", "--lookup", type="string", dest="term",
+                  help="look up concordances for a word")
+parser.add_option("-f", "--fake", action="store_true", dest="fake",
+                  default=False, help="considers non-ciceronian texts")
+parser.add_option("-w", "--width", type="int", dest="width",
+                  default=150, help="width of the context data")
+parser.add_option("-c", "--count", type="int", dest="count",
+                  default=25, help="how many matches to display")
+parser.add_option("-q", "--quite", action="store_true", dest="quiet",
+                  default=False, help="do not print headers or stats")
+
+(options, args) = parser.parse_args()
+if options.term is None:
+    parser.print_help()
+    exit(-1)
+
 class MyText(Text):
-    def search(self, string):
-        print self.concordance(string)
+    def search(self, word, width, lines):
+        print self.concordance(word, width, lines)
 
     def concordance(self, word, width=150, lines=25):
         if '_concordance_index' not in self.__dict__:
@@ -43,31 +60,6 @@ class MyConcordanceIndex(ConcordanceIndex):
         else:
             exit(-1)
  
-def lookup():
-    parser = optparse.OptionParser("Usage: %prog [options]")
-    parser.add_option("-l", "--lookup", type="string", dest="term",
-                      help="look up concordances for a word")
-    parser.add_option("-f", "--fake", action="store_true", dest="fake",
-                      default=False, help="considers non-ciceronian texts")
-    parser.add_option("-w", "--width", type="int", dest="width",
-                      default=150, help="width of the context data")
-    parser.add_option("-c", "--count", type="int", dest="count",
-                      default=25, help="how many matches to display")
-    parser.add_option("-q", "--quite", action="store_true", dest="quiet",
-                      default=False, help="do not print headers or stats")
-
-    (options, args) = parser.parse_args()
-    if options.term is None:
-        parser.print_help()
-        exit(-1)
-    else:
-        content = corpora_loader(fake=options.fake)
-        text = content.concordance(options.term,
-                                   width=options.width,
-                                   lines=options.count)
-        if text is not None:
-            print text
-
 def corpora_loader(fake):
     ciceronian = [
                   'academica.xml', 'arati_phaenomena.xml',
@@ -114,6 +106,8 @@ def corpora_loader(fake):
     return data
 
 if __name__ == "__main__":
-    #lookup()
-    instance = MyText(nltk.corpus.gutenberg.words('melville-moby_dick.txt'))
-    print instance.search('love')
+    content = corpora_loader(fake=options.fake)
+    text = MyText(content)
+    print text.search(options.term,
+                      options.width,
+                      options.count)
