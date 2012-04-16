@@ -27,7 +27,9 @@ def lookup():
         exit(-1)
     else:
         content = corpora_loader(fake=options.fake)
-        text = content.concordance(options.term, width=options.width, lines=options.count)
+        text = content.concordance(options.term,
+                                   width=options.width,
+                                   lines=options.count)
         if text is not None:
             print text
 
