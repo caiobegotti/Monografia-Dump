@@ -51,6 +51,9 @@ for param in refs:
     print '[%s]' % title
    
     filename = title.replace(' ', '_')
+    for p in string.punctuation.replace('_',''):
+        filename = filename.replace(p, '')
+
     w = XMLWriter(filename + '.xml', encoding='utf-8')
     xml = w.start("document")
  
