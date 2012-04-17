@@ -65,7 +65,7 @@ def stemmer():
         else:
             nouns.append(entry)
             verbs.append(entry)
-
+        
         # step 4
         for s in noun_suffix:
             if entry.endswith(s):
@@ -77,21 +77,30 @@ def stemmer():
             nouns.append(entry)
 
         # step 6
-        i = ['iuntur', 'erunt', 'untur', 'iunt', 'unt']
-        bi = ['beris', 'bor', 'bo']
-        eri = ['ero']
-        for s in verb_suffix:
-            if buffer.endswith(s):
-                if s in i:
-                    buffer.replace(s, 'i')
-                elif s in bi:
-                    buffer.replace(s, 'bi')
-                elif s in eri:
-                    buffer.replace(s, 'eri')
-                else:
-                    buffer = buffer[:-len(s)]
-                break
+        i = ['iuntur', 'erunt', 'untur', 'iunt', 'unt', 'i']
+        bi = ['beris', 'bor', 'bo', 'bi']
+        eri = ['ero', 'eri']
+        
+        # repeat removal of que for verbs
+        if buffer not in que:
+            if buffer.endswith('que'):
+                buffer = buffer[:-3]
+        else:
+            nouns.append(buffer)
+            verbs.append(buffer)
 
+        endings = [i, bi, eri]
+        for list in endings:
+            for item in list[:-1]:
+                if buffer.endswith(item):
+                    buffer = buffer.replace(item, list[-1])
+                    break
+                else:
+                    for v in verb_suffix:
+                        if buffer.endswith(v):
+                            buffer = buffer[:-len(v)]
+                            break
+        
         # step 7
         if len(buffer) >= 2:
             verbs.append(buffer)
