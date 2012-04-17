@@ -654,7 +654,13 @@ TODO: kytzler: dos 20 conhecidos, possuimos 13
 
 \chapter{Propostas de continuidade}
 
-\par Lematização (stemming Porter), etiquetamento básico dos corpora.
+\section{Stemming}
+
+\par  Chama-se de \textit{stemming} o processo de se obter, através de algoritmos, a raíz de uma palavra sem nenhum de seus afixos relevantes. É um processo conceitualmente diferente e mais simples do que encontrar o lema de uma palavra, entretanto bastante útil em LC pois permite análises mais profundas. Por exemplo, uma análise estatística de ocorrências de palavras poderia considerar não as palavras propriamente, mas seus \textit{stems}, fazendo a análise sobre termos do mesmo grupo semântico e não gramatical.
+
+\par Com o latim isso seria particularmente interessante devido ao caráter bastante flexional da língua. Ao invés de se analisar palavras isoladamente, e manualmente trabalhando declinações e casos da língua, utilizando-se \textit{stemming} nas análises reduziria bastante a complexidade da LC com latim. \citeonline{schinke} propôs regras para \textit{stemming} em latim, mas não as implementou. Coube a Martin Porter implementar o algoritmo utilizando a plataforma de \textit{stemming} Snowball\footnote{A versão do algoritmo de \textit{stemming} para latim de Porter jamais foi lançada oficialmente e permanece não testada. Ver http://snowball.tartarus.org/otherapps/schinke/intro.html para detalhes. Cabe também um agradecimento especial a Porter, por ter enviado por correio uma cópia impressa do artigo original de \citeonline{schinke}, que é excepcionalmente raro online.}.
+
+\par O apêndice A.7 demonstra uma outra proposta, que pode ser melhor desenvolvida no futuro. É uma re-implementação do algoritmo sugerido por Porter porém escrito na linguagem Python. Comparando os resultados do código aqui proposto com os de Porter a margem de erro não ultrapassa 2\% em um corpus de aproximadamente 30 mil palavras, números consideráveis mas que podem ser melhorados no futuro. Para tal, seria necessário um tempo maior analisando resultados falso-positivos e refinando o algoritmo com referências gramaticais mais precisas do latim.
 
 % Existem ainda: abbrv, acm, alpha, amsalpha, amsplain
 \bibliographystyle{abnt-alf}	
