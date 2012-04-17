@@ -25,6 +25,7 @@ verb_suffix = ['iuntur', 'beris', 'erunt', 'untur', 'iunt', 'mini', 'ntur',
 'stis', 'bor', 'ero', 'mur', 'mus', 'ris', 'sti', 'tis', 'tur', 'unt',
 'bo', 'ns', 'nt', 'ri', 'm', 'r', 's', 't']
 
+orig = []
 nouns = []
 verbs = []
 
@@ -52,6 +53,10 @@ def stemmer():
     for entry in sys.stdin.readlines():
         # step 2
         entry = multi_replace([('j', 'i'), ('v', 'u')], entry.replace('\n',''))
+        
+        # hackish buffer
+        buffer = entry
+        orig.append(buffer)
 
         # step 3
         if entry not in que:
@@ -65,6 +70,7 @@ def stemmer():
         for s in noun_suffix:
             if entry.endswith(s):
                 entry = entry[:-len(s)]
+                break
 
         # step 5
         if len(entry) >= 2:
@@ -75,22 +81,26 @@ def stemmer():
         bi = ['beris', 'bor', 'bo']
         eri = ['ero']
         for s in verb_suffix:
-            if entry.endswith(s):
+            if buffer.endswith(s):
                 if s in i:
-                    entry.replace(s, 'i')
+                    buffer.replace(s, 'i')
                 elif s in bi:
-                    entry.replace(s, 'bi')
+                    buffer.replace(s, 'bi')
                 elif s in eri:
-                    entry.replace(s, 'eri')
+                    buffer.replace(s, 'eri')
                 else:
-                    entry = entry[:-len(s)]
+                    buffer = buffer[:-len(s)]
+                break
 
         # step 7
-        if len(entry) >= 2:
-            verbs.append(entry)
+        if len(buffer) >= 2:
+            verbs.append(buffer)
 
-    print zip(verbs, nouns)
+    return zip(orig, nouns, verbs)
 
 if __name__ == "__main__":
     # step 1
-    stemmer()
+    res = stemmer()
+    if res is not None:
+        for r in res:
+            print "%s:%s:%s" % (r[0], r[1], r[2])
