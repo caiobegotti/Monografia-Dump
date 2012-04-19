@@ -430,6 +430,10 @@ A força que instiga esse trabalho a tentar responder essas questões é muito bem 
 
 \par Enfim, tal abordagem se mostra, além de eficiente, bastante realista, ao passo que aponta para os alunos somente o que vale a pena ser aprendido e aprendido não através de contextos artificiais ou idealizados da  língua.
 
+\section{Organização}
+
+\par Breve descrição da estrutura do trabalho: capítulos, seções, apêndices etc.
+
 \chapter{Fundamentação Teórica}
 
 \section{Linguística Aplicada e Computacional}
@@ -437,7 +441,7 @@ A força que instiga esse trabalho a tentar responder essas questões é muito bem 
 
 \par A história da linguística computacional está, naturalmente, ligada ao surgimento dos primeiros computadores logo após a II Guerra Mundial. Muitos problemas linguísticos hoje envolvem resolver algorítimos ou modelar dados --- com frequência em grande escala --- e foi exatamente para estes tipos de tarefas que os computadores foram criados. Dessa forma, não é surpresa alguma que ambas as áreas estejam hoje tão próximas; no mundo privado ao menos, pois na academia brasileira tenho a impressão de que ainda não alcançamos massa crítica de pesquisa. Houve trabalhos que tentaram medir essa ainda pequena produção em LC no Brasil, porém em níveis acadêmicos muito distantes dos estudantes de graduação \cite{ladeira}, e buscas em portais de pesquisa ainda mostram um número reduzido de grupos trabalhando nisso, alguns exclusivos e de acesso dificultado \cite{cnpq}.
 
-\par Do contato da linguística e da computação, então, chegamos ao Processamento de Linguagem Natural (\sigla{PLN}{Processamento de Linguagem Natural})\footnote{É digno de nota que ainda encontra-se maior diversidade bibliográfica procurando-se pelo acrônimo e termo em inglês, \sigla{NLP}{Natural Language Processing}, de Natural Language Processing.}, que basicamente foca em problemas como análise automática de discurso, tradução por máquina, análises morfo-sintáticas, reconhecimento ou geração de fala\footnote{Speech-to-text e text-to-speech.}, etiquetamento de anunciados\footnote{Tagging.}, lematização de palavras\footnote{Word stemming.}, gramática categorial, prosódia semântica de textos\footnote{Sentiment analysis.}, análises estatísticas, entre  outros. Pelo fato de a linguística computacional e PLN serem áreas que atualmete quase sempre andam juntas, poucos conseguem distinguir diferenças entre elas. A cada dia surgem novas aplicações possíveis além das listadas e convencionou-se chamar tudo isso simplesmente ``processamento de linguagem natural''.
+\par Do contato da linguística e da computação, então, chegamos ao Processamento de Linguagem Natural (\sigla{PLN}{Processamento de Linguagem Natural})\footnote{É digno de nota que ainda encontra-se maior diversidade bibliográfica procurando-se pelo acrônimo e termo em inglês, \sigla{NLP}{Natural Language Processing}, de Natural Language Processing.}, que basicamente foca em problemas como análise automática de discurso, tradução por máquina, análises morfo-sintáticas, reconhecimento ou geração de fala\footnote{Speech-to-text e text-to-speech.}, etiquetamento de anunciados\footnote{Tagging.}, radicalização de palavras\footnote{Word stemming.}, gramática categorial, prosódia semântica de textos\footnote{Sentiment analysis.}, análises estatísticas, entre  outros. Pelo fato de a linguística computacional e PLN serem áreas que atualmete quase sempre andam juntas, poucos conseguem distinguir diferenças entre elas. A cada dia surgem novas aplicações possíveis além das listadas e convencionou-se chamar tudo isso simplesmente ``processamento de linguagem natural''.
 
 \section{Linguística de Corpus}
 \subsection{Histórico}
@@ -654,11 +658,11 @@ TODO: kytzler: dos 20 conhecidos, possuimos 13
 
 \chapter{Propostas de continuidade}
 
-\section{Stemming}
+\section{Radicalização}
 
-\par  Chama-se de \textit{stemming} o processo de se obter, através de algoritmos, a raíz de uma palavra sem nenhum de seus afixos relevantes. É um processo conceitualmente diferente e mais simples do que encontrar o lema de uma palavra, entretanto bastante útil em LC pois permite análises mais profundas. Por exemplo, uma análise estatística de ocorrências de palavras poderia considerar não as palavras propriamente, mas seus \textit{stems}, fazendo a análise sobre termos do mesmo grupo semântico e não gramatical.
+\par  Chama-se de radicalização\footnote{Stemming, em inglês, é um termo mais comum na literatura.} o processo de se obter, através de algoritmos, a raíz de uma palavra sem nenhum de seus afixos relevantes. É um processo conceitualmente diferente e mais simples do que encontrar o lema de uma palavra, entretanto bastante útil em LC pois permite análises mais profundas. Por exemplo, uma análise estatística de ocorrências de palavras poderia considerar não as palavras propriamente, mas seus \textit{stems}, fazendo a análise sobre termos do mesmo grupo semântico e não gramatical.
 
-\par Com o latim isso seria particularmente interessante devido ao caráter bastante flexional da língua. Ao invés de se analisar palavras isoladamente, e manualmente trabalhando declinações e casos da língua, utilizando-se \textit{stemming} nas análises reduziria bastante a complexidade da LC com latim. \citeonline{schinke} propôs regras para \textit{stemming} em latim, mas não as implementou. Coube a Martin Porter implementar o algoritmo utilizando a plataforma de \textit{stemming} Snowball\footnote{A versão do algoritmo de \textit{stemming} para latim de Porter jamais foi lançada oficialmente e permanece não testada. Ver http://snowball.tartarus.org/otherapps/schinke/intro.html para detalhes. Cabe também um agradecimento especial a Porter, por ter enviado por correio uma cópia impressa do artigo original de \citeonline{schinke}, que é excepcionalmente raro online.}.
+\par Com o latim isso seria particularmente interessante devido ao caráter bastante flexional da língua. Ao invés de se analisar palavras isoladamente, e manualmente trabalhando declinações e casos da língua, utilizando-se radicalização nas análises reduziria bastante a complexidade da LC com latim. \citeonline{schinke} propôs regras para radicalização em latim, mas não as implementou. Coube a Martin Porter implementar o algoritmo utilizando a plataforma Snowball\footnote{A versão do algoritmo de radicalização para latim de Porter jamais foi lançada oficialmente e permanece não testada. Ver http://snowball.tartarus.org/otherapps/schinke/intro.html para detalhes. Cabe também um agradecimento especial a Porter, por ter enviado por correio uma cópia impressa do artigo original de \citeonline{schinke}, que é excepcionalmente raro online.}.
 
 \par O apêndice A.7 demonstra uma outra proposta, que pode ser melhor desenvolvida no futuro. É uma re-implementação do algoritmo sugerido por Porter porém escrito na linguagem Python. Comparando os resultados do código aqui proposto com os de Porter a margem de erro não ultrapassa 2\% em um corpus de aproximadamente 30 mil palavras, números consideráveis mas que podem ser melhorados no futuro. Para tal, seria necessário um tempo maior analisando resultados falso-positivos e refinando o algoritmo com referências gramaticais mais precisas do latim.
 
@@ -688,7 +692,7 @@ TODO: kytzler: dos 20 conhecidos, possuimos 13
 \section{Gerador de concordâncias}
 \inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{concordances.py}
 
-\section{Protótipo de algoritmo de stemming}
+\section{Protótipo de algoritmo de radicalização}
 \inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{stemmer.py}
 
 \chapter{Cronograma}
