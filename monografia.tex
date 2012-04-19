@@ -365,7 +365,26 @@
 % 5 - Discussão
 % 6 - Conclusão
 
+\chapter{Organização}
+
+\par Este trabalho está dividido em seis capítulos principais, seguidos pelas referências bibliográficas e uma série de apêndices técnicos.
+
+\par O primeiro capítulo \textit{Introdução} explica a motivação por trás do trabalho, diferenças entre pesquisas similare já realizadas e quais são os objetivos em vista.
+
+\par O capítulo \textit{Fundamentação teórica} elenca todas as principais referências linguísticas do trabalho, histórico da área de pesquisa e compara métodos da linguística aplicada, com casos de uso e propostas.
+
+\par O terceiro capítulo \textit{Metodologia} é o capítulo no qual se encontram todos os detalhes teóricos do trabalho. É nele que está a especificação de escopo, formato dele e as análises a serem feitas, bem como explicações mais técnicas sobre as ferramentas utilizadas.
+
+\par O quarto capítulo \textit{Análises} lista e documenta todas as análises linguísticas deste trabalho, estando em sintonia direta com o capítulo anterior e o seguinte. É neste capítulo que se encontram os dados resultantes do trabalho prático.
+
+\par O quinto capítulo \textit{Resultados} discute possíveis utilidades para os dados e análises realizadas. Há neste capítulo uma breve sugestão de como a linguística aplicada pode ser utilizada em sala de aula e por estudantes autônomos.
+
+\par O último capítulo \textit{Propostas de continuidade} indica caminhos a serem seguidos por pesquisadores e estudantes interessados neste trabalho, afim de que os resultados e métodos possam ser refinados e melhorados.
+
+\par Por fim, há uma série de apêndices deste trabalho que exemplificam todas as análises realizadas utilizando programação de computadores. Todos os códigos escritos para este trabalho estão nos apêndices e podem ser utilizados livremente.
+
 \chapter{Introdução}
+
 \par O projeto de monografia que aqui se apresenta foca na construção de \textit{corpora} linguísticos de textos do período clássico do latim e em uma análise computacional desses \textit{corpora}. O propósito por trás dessas duas tarefas é o de sugerir melhoras em métodos de ensino do latim e permitir uma melhor compreensão dessa língua de forma mais empírica, ou seja, uma compreensão baseada no uso que um dia foi dado à língua através da análise de textos reais em latim clássico.
 
 \par Para tal, esse trabalho se baseará no projeto \sigla{NLTK}{Natural Language Toolkit} (Natural Language Toolkit), que consiste em um conjunto de rotinas de programação de computador, em forma de kit de ferramentas\footnote{A descrição pode soar estranha em português e para não iniciados em programação; em bibliografias de computação ambos os termos aparecem simplesmente como \sigla{API}{Application Programming Interface} e toolkit, em inglês.}, para processamento de linguagem natural. Com a ajuda do NLTK e à luz da Linguística de Corpus (\sigla{LC}{Linguística de Corpus}) procurarei evidenciar os usos mais comuns do latim clássico por Cícero e irei sugerir uma abordagem para uso disso em sala de aula.
@@ -430,20 +449,16 @@ A força que instiga esse trabalho a tentar responder essas questões é muito bem 
 
 \par Enfim, tal abordagem se mostra, além de eficiente, bastante realista, ao passo que aponta para os alunos somente o que vale a pena ser aprendido e aprendido não através de contextos artificiais ou idealizados da  língua.
 
-\section{Organização}
+\chapter{Fundamentação teórica}
 
-\par Breve descrição da estrutura do trabalho: capítulos, seções, apêndices etc.
-
-\chapter{Fundamentação Teórica}
-
-\section{Linguística Aplicada e Computacional}
+\section{Linguística aplicada e computacional}
 \par Todo esse trabalho se sustenta sobre os princípios da Linguística Aplicada (\sigla{LA}{Linguística Aplicada}). A LA por sua vez remete ao uso de ferramentas linguísticas destinado à resolução e análise de problemas reais das línguas, ou seja, é o estudo prático e não teórico delas. Particularmente, o subcampo da LA mais em voga atualmente é o da linguística computacional, que de forma simplificada é um campo de estudo que envolve diversas áreas como: ciência da computação, matemática, neurologia e a própria linguística, para citar os mais populares.
 
 \par A história da linguística computacional está, naturalmente, ligada ao surgimento dos primeiros computadores logo após a II Guerra Mundial. Muitos problemas linguísticos hoje envolvem resolver algorítimos ou modelar dados --- com frequência em grande escala --- e foi exatamente para estes tipos de tarefas que os computadores foram criados. Dessa forma, não é surpresa alguma que ambas as áreas estejam hoje tão próximas; no mundo privado ao menos, pois na academia brasileira tenho a impressão de que ainda não alcançamos massa crítica de pesquisa. Houve trabalhos que tentaram medir essa ainda pequena produção em LC no Brasil, porém em níveis acadêmicos muito distantes dos estudantes de graduação \cite{ladeira}, e buscas em portais de pesquisa ainda mostram um número reduzido de grupos trabalhando nisso, alguns exclusivos e de acesso dificultado \cite{cnpq}.
 
 \par Do contato da linguística e da computação, então, chegamos ao Processamento de Linguagem Natural (\sigla{PLN}{Processamento de Linguagem Natural})\footnote{É digno de nota que ainda encontra-se maior diversidade bibliográfica procurando-se pelo acrônimo e termo em inglês, \sigla{NLP}{Natural Language Processing}, de Natural Language Processing.}, que basicamente foca em problemas como análise automática de discurso, tradução por máquina, análises morfo-sintáticas, reconhecimento ou geração de fala\footnote{Speech-to-text e text-to-speech.}, etiquetamento de anunciados\footnote{Tagging.}, radicalização de palavras\footnote{Word stemming.}, gramática categorial, prosódia semântica de textos\footnote{Sentiment analysis.}, análises estatísticas, entre  outros. Pelo fato de a linguística computacional e PLN serem áreas que atualmete quase sempre andam juntas, poucos conseguem distinguir diferenças entre elas. A cada dia surgem novas aplicações possíveis além das listadas e convencionou-se chamar tudo isso simplesmente ``processamento de linguagem natural''.
 
-\section{Linguística de Corpus}
+\section{Linguística de corpus}
 \subsection{Histórico}
 \par Dentro da linguística computacional encontramos afinal a LC, campo da linguística que estuda a língua como objeto vivo através de modelos estatísticos e amostragens de dados reais da língua, não representações idealizadas dela. É um campo da linguística totalmente empirista.
 
@@ -634,7 +649,7 @@ TODO: kytzler: dos 20 conhecidos, possuimos 13
 \section{NLTK}
 \par 	Nesse trabalho será utilizado o NLTK, um conjunto de ferramentas de programação voltado ao processamento de linguagem natural através de computação. Atualmente o NLTK é um dos projetos de maior sucesso para esse fim, pois, além de ser livre de licenças e custos, é bastante abrangente, cobre diversas línguas oficialmente e é disponível já com diversos \textit{corpora} para testes. O projeto possui livros e publicações sobre seu funcionamento, tem mais de dez anos de desenvolvimento e é utilizado em universidades há algum tempo, tornando-o ideal para uso, uma vez que se provou estar em constante evolução acompanhando novas descobertas no campo de processamento de linguagem natural \cite{bird}.
 
-\subsection{Análise de Frequência}
+\subsection{Análise de frequência}
 \par Será usado o método de análise de frequência estatística como forma básica de obter os resultados de vocabulários dos \textit{corpora}. Análise de frequência é uma forma de, através de pequenos experimentos automáticos (utilizando-se programação e tentando-se obter combinações de um termo em um texto, por exemplo), descobrir a proporção de uso de uma palavra qualquer em relação ao todo de um corpus específico. Essa é uma das atividades primordiais da LC, muitas vezes chamada simplesmente de estatística lexical por aderentes da linguística quantitativa.
 
 \par Para chegar ao ponto de usar uma análise de frequência, é preciso antes passar pela montagem dos \textit{corpora}, da criação de filtros e estipular outros parâmetros do processamento. Porém, uma vez que isso é feito, a análise de frequência se mostra relativamente simples e bastante proveitosa. É através da análise de frequência, por exemplo, que se pode tentar confirmar as Leis de Zipf para o latim clássico de Cícero, que estabelecem relações diretas entre a ordem de palavras em uma lista estatisticamente ordenada e a frequência de suas ocorrências em um corpus suficientemente grande. Em outras palavras, as leis de Zipf indicam que um número baixo de termos da língua corresponde a maior porção do uso efetivo da língua \cite{tesitelova}.
@@ -707,7 +722,7 @@ TODO: kytzler: dos 20 conhecidos, possuimos 13
 \par Agregação do material para montagem dos \textit{corpora}, pensando já na relevância dos textos, utilidade deles e abrangência linguística. Será preciso orientação próxima para que o material coletado seja relevante e representativo. Tempo estimado: Jan-Mar 2012. Complexidade: média. Concluída.
 
 \section{Montagem}
-\par A construção efetiva dos \textit{corpora} de acordo com os formatos esperados pelo projeto NLTK e uma categorização básica dos textos para facilitar análise futura. Nessa etapa serão disponibilizados os \textit{corpora} do trabalho para que outros do setor e departamento também possam utilizá-lo. Tempo estimado: Abr-Mai 2011. Complexidade: média. Em curso.
+\par A construção efetiva dos \textit{corpora} de acordo com os formatos esperados pelo projeto NLTK e uma categorização básica dos textos para facilitar análise futura. Nessa etapa serão disponibilizados os \textit{corpora} do trabalho para que outros do setor e departamento também possam utilizá-lo. Tempo estimado: Abr-Mai 2011. Complexidade: média. Concluída.
 
 \section{Filtragem}
 \par Especificação de certos filtros a serem utilizados em análises dos \textit{corpora} (como a necessidade de se catalogar \textit{stopwords} da língua, por exemplo). Essa etapa também precisará de orientação próxima, pois um conhecimento profundo do latim será necessário para que os dados não fiquem poluídos. Tempo estimado: Mai 2012. Complexidade: baixa. Em curso.
