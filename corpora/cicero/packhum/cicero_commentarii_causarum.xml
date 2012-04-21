@@ -1,1 +1,9 @@
-<document><author>marcus tullius cicero</author><title>commentarii causarum</title><source>http://latin.packhum.org/</source><page id="0"><paragraph>commentarii causarum hieron .   contra rufinum   2.11 ego cum omnes amicitias tuendas semper putaui summa religione et fide, tum eas maxime quae essent ex inimicitiis reuocatae in gratiam; propterea quod integris amicitiis officium praetermissum imprudentiae uel —ut grauius interpretemur—neglegentiae excusatione defenditur; post reditum in gratiam, si quid est commissum, id non neglectum, sed uiolatum putatur, nec imprudentiae, sed perfidiae adsignari solet.</paragraph></page></document>
+<?xml version="1.0"?>
+<document>
+  <meta name="author" value="marcus tullius cicero"/>
+  <meta name="title" value="commentarii causarum"/>
+  <meta name="source" value="http://latin.packhum.org/dx/text/474/63/0"/>
+  <page id="0">
+    <paragraph>commentarii causarum hieron .   contra rufinum   2.11 ego cum omnes amicitias tuendas semper putaui summa religione et fide, tum eas maxime quae essent ex inimicitiis reuocatae in gratiam; propterea quod integris amicitiis officium praetermissum imprudentiae uel &#x2014;ut grauius interpretemur&#x2014;neglegentiae excusatione defenditur; post reditum in gratiam, si quid est commissum, id non neglectum, sed uiolatum putatur, nec imprudentiae, sed perfidiae adsignari solet.</paragraph>
+  </page>
+</document>

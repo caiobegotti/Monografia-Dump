@@ -1,1 +1,9 @@
-<document><author>marcus tullius cicero</author><title>de iure civ. in artem redig.</title><source>http://latin.packhum.org/</source><page id="0"><paragraph>de iure ciuili in artem redigendo gel .   n . a .   1.22.7 nec uero scientia iuris maioribus suis q. aelius tubero defuit, doctrina etiam superfuit. char .   gl   1.138 k aliquo excellente ac nobile uiro.</paragraph></page></document>
+<?xml version="1.0"?>
+<document>
+  <meta name="author" value="marcus tullius cicero"/>
+  <meta name="title" value="de iure civ. in artem redig."/>
+  <meta name="source" value="http://latin.packhum.org/dx/text/474/67/0"/>
+  <page id="0">
+    <paragraph>de iure ciuili in artem redigendo gel .   n . a .   1.22.7 nec uero scientia iuris maioribus suis q. aelius tubero defuit, doctrina etiam superfuit. char .   gl   1.138 k aliquo excellente ac nobile uiro.</paragraph>
+  </page>
+</document>
