@@ -5,7 +5,11 @@
 
 import glob
 
+from nltk import Text
 from nltk.tokenize import word_tokenize
+from nltk.corpus import cicero
+
+from CatXMLReader import CategorizedXMLCorpusReader
 
 def stopwords():
     stopwords = []
@@ -15,11 +19,9 @@ def stopwords():
     return stopwords
 
 def tokenizer():
-    text = []
-    for loop in glob.glob('ready/*.txt'):
-        with file(loop, 'r') as content:
-            text.append(content.read())
-    tokens = word_tokenize(' '.join(text))
+    fileids = cicero.abspaths()
+    reader = CategorizedXMLCorpusReader('/', fileids, cat_file='cats.txt')
+    tokens = Text(reader.words(fileids))
     return tokens
 
 tokens = tokenizer()
