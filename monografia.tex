@@ -508,7 +508,13 @@ Não é fato raro, também, encontrar pesquisas feitas utilizando programas de comp
 % \par Lalala: \begin{greektext}??????????\end{greektext}
 
 \subsection{Escopo}
-\par Nesta seção encontra-se todo o escopo dos corpora para análise deste trabalho.
+\par Nesta seção encontra-se todo o escopo dos corpora para análise deste trabalho. O escopo está organizado em categorias que podem também ser manipuladas diretamente pelo NLTK, como no exemplo a seguir, permitindo um manuseio mais específico dos textos via programação:
+
+\begin{minted}[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}
+>>> from nltk.corpus import cicero
+>>> print cicero.categories()
+['letter', 'other', 'philosophy', 'poetry', 'rhetoric', 'speech', 'spurious']
+\end{minted}
 
 % TODO: procurar indice de cicero da BTL!
 
