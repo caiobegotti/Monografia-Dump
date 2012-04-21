@@ -20,7 +20,7 @@ def stopwords():
 
 def tokenizer():
     fileids = cicero.abspaths()
-    reader = CategorizedXMLCorpusReader('/', fileids, cat_file='cats.txt')
+    reader = CategorizedXMLCorpusReader('/', fileids, cat_file='categories.txt')
     tokens = Text(reader.words(fileids))
     return tokens
 
