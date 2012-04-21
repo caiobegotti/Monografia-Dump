@@ -60,7 +60,7 @@ for param in refs:
     # metadata entries of the output files   
     w.element("meta", name="author", value="marcus tullius cicero")
     w.element("meta", name="title", value=title) 
-    w.element("meta", name="source", value=base) 
+    w.element("meta", name="source", value=source + '0') 
     
     # upon checking it no text in PHI attributed to cicero
     # has more than 500 pages, so this is a safe download limit
