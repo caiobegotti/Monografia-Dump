@@ -24,8 +24,14 @@ def tokenizer():
     tokens = Text(reader.words(fileids))
     return tokens
 
+matches = []
 tokens = tokenizer()
+
 for s in stopwords():
     counter = tokens.count(s)
+    matches.append(counter)
     percentage = (float(counter)/float(len(tokens)))*100
     print "%d\t%f\t%s" % (counter, percentage, s)
+
+total_stat = (float(sum(matches))/float(len(tokens)))*100
+print "stopwords: %d (%f percent)" % (sum(matches), total_stat)
