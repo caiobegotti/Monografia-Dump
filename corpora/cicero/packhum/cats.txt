@@ -1,75 +1,75 @@
-cicero_academica.xml
-cicero_arati_phaenomena.xml
-cicero_arati_prognostica.xml
-cicero_brutus.xml
-cicero_carmina_fragmenta.xml
-cicero_cato_maior_de_senectute.xml
-cicero_commentarii_causarum.xml
-cicero_de_divinatione.xml
-cicero_de_domo_sua.xml
-cicero_de_fato.xml
-cicero_de_finibus.xml
-cicero_de_haruspicum_responso.xml
-cicero_de_inventione.xml
-cicero_de_iure_civ_in_artem_redig.xml
-cicero_de_lege_agraria.xml
-cicero_de_legibus.xml
-cicero_de_natura_deorum.xml
-cicero_de_officiis.xml
-cicero_de_optimo_genere_oratorum.xml
-cicero_de_oratore.xml
-cicero_de_partitione_oratoria.xml
-cicero_de_provinciis_consularibus.xml
-cicero_de_republica.xml
-cicero_epistula_ad_octavianum_sp.xml
-cicero_epistulae_ad_atticum.xml
-cicero_epistulae_ad_brutum.xml
-cicero_epistulae_ad_familiares.xml
-cicero_epistulae_ad_quintum_fratrem.xml
-cicero_epistulae_fragmenta.xml
-cicero_facete_dicta.xml
-cicero_hortensius.xml
-cicero_in_catilinam.xml
-cicero_in_pisonem.xml
-cicero_in_q_caecilium.xml
-cicero_in_sallustium_sp.xml
-cicero_in_vatinium.xml
-cicero_in_verrem.xml
-cicero_incertorum_librorum_fragmenta.xml
-cicero_laelius_de_amicitia.xml
-cicero_lucullus.xml
-cicero_orationum_deperditarum_frr.xml
-cicero_orationum_incertarum_frr.xml
-cicero_orator.xml
-cicero_paradoxa_stoicorum.xml
-cicero_philippicae.xml
-cicero_philosophicorum_librorum_frr.xml
-cicero_post_reditum_ad_populum.xml
-cicero_post_reditum_in_senatu.xml
-cicero_pro_archia.xml
-cicero_pro_balbo.xml
-cicero_pro_caecina.xml
-cicero_pro_caelio.xml
-cicero_pro_cluentio.xml
-cicero_pro_flacco.xml
-cicero_pro_fonteio.xml
-cicero_pro_lege_manilia.xml
-cicero_pro_ligario.xml
-cicero_pro_marcello.xml
-cicero_pro_milone.xml
-cicero_pro_murena.xml
-cicero_pro_plancio.xml
-cicero_pro_q_roscio_comoedo.xml
-cicero_pro_quinctio.xml
-cicero_pro_rabirio_perduellionis_reo.xml
-cicero_pro_rabirio_postumo.xml
-cicero_pro_rege_deiotaro.xml
-cicero_pro_s_roscio_amerino.xml
-cicero_pro_scauro.xml
-cicero_pro_sestio.xml
-cicero_pro_sulla.xml
-cicero_pro_tullio.xml
-cicero_rhetorica_ad_herennium_sp.xml
-cicero_timaeus.xml
-cicero_topica.xml
-cicero_tusculanae_disputationes.xml
+cicero_academica.xml philosophy
+cicero_arati_phaenomena.xml poetry
+cicero_arati_prognostica.xml poetry
+cicero_brutus.xml rhetoric
+cicero_carmina_fragmenta.xml poetry
+cicero_cato_maior_de_senectute.xml philosophy
+cicero_commentarii_causarum.xml other
+cicero_de_divinatione.xml philosophy
+cicero_de_domo_sua.xml speech
+cicero_de_fato.xml philosophy
+cicero_de_finibus.xml philosophy
+cicero_de_haruspicum_responso.xml speech
+cicero_de_inventione.xml rhetoric
+cicero_de_iure_civ_in_artem_redig.xml other
+cicero_de_lege_agraria.xml speech
+cicero_de_legibus.xml philosophy
+cicero_de_natura_deorum.xml philosophy
+cicero_de_officiis.xml philosophy
+cicero_de_optimo_genere_oratorum.xml rhetoric
+cicero_de_oratore.xml rhetoric
+cicero_de_partitione_oratoria.xml rhetoric
+cicero_de_provinciis_consularibus.xml speech
+cicero_de_republica.xml philosophy
+cicero_epistula_ad_octavianum_sp.xml spurious
+cicero_epistulae_ad_atticum.xml letter
+cicero_epistulae_ad_brutum.xml letter
+cicero_epistulae_ad_familiares.xml letter
+cicero_epistulae_ad_quintum_fratrem.xml letter
+cicero_epistulae_fragmenta.xml other
+cicero_facete_dicta.xml other
+cicero_hortensius.xml philosophy
+cicero_in_catilinam.xml speech
+cicero_in_pisonem.xml speech
+cicero_in_q_caecilium.xml speech
+cicero_in_sallustium_sp.xml spurious
+cicero_in_vatinium.xml speech
+cicero_in_verrem.xml speech
+cicero_incertorum_librorum_fragmenta.xml other
+cicero_laelius_de_amicitia.xml philosophy
+cicero_lucullus.xml philosophy
+cicero_orationum_deperditarum_frr.xml speech
+cicero_orationum_incertarum_frr.xml speech
+cicero_orator.xml rhetoric
+cicero_paradoxa_stoicorum.xml philosophy
+cicero_philippicae.xml speech
+cicero_philosophicorum_librorum_frr.xml other
+cicero_post_reditum_ad_populum.xml speech
+cicero_post_reditum_in_senatu.xml speech
+cicero_pro_archia.xml speech
+cicero_pro_balbo.xml speech
+cicero_pro_caecina.xml speech
+cicero_pro_caelio.xml speech
+cicero_pro_cluentio.xml speech
+cicero_pro_flacco.xml speech
+cicero_pro_fonteio.xml speech
+cicero_pro_lege_manilia.xml speech
+cicero_pro_ligario.xml speech
+cicero_pro_marcello.xml speech
+cicero_pro_milone.xml speech
+cicero_pro_murena.xml speech
+cicero_pro_plancio.xml speech
+cicero_pro_q_roscio_comoedo.xml speech
+cicero_pro_quinctio.xml speech
+cicero_pro_rabirio_perduellionis_reo.xml speech
+cicero_pro_rabirio_postumo.xml speech
+cicero_pro_rege_deiotaro.xml speech
+cicero_pro_s_roscio_amerino.xml speech
+cicero_pro_scauro.xml speech
+cicero_pro_sestio.xml speech
+cicero_pro_sulla.xml speech
+cicero_pro_tullio.xml speech
+cicero_rhetorica_ad_herennium_sp.xml spurious
+cicero_timaeus.xml philosophy
+cicero_topica.xml rhetoric
+cicero_tusculanae_disputationes.xml philosophy
