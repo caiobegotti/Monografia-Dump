@@ -58,9 +58,9 @@ for param in refs:
     xml = w.start("document")
  
     # metadata entries of the output files   
-    w.element("author", 'marcus tullius cicero')
-    w.element("title", title) 
-    w.element("source", base) 
+    w.element("meta", name="author", value="marcus tullius cicero")
+    w.element("meta", name="title", value=title) 
+    w.element("meta", name="source", value=base) 
     
     # upon checking it no text in PHI attributed to cicero
     # has more than 500 pages, so this is a safe download limit
