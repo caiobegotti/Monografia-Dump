@@ -308,7 +308,7 @@ quaenam
 quaepiam
 quaequae
 quaeque
-quaevis
+quaeuis
 qualarum
 quale
 qualem
@@ -380,7 +380,7 @@ quidqueunusquisque
 quidquid
 quidquidqui
 quidquidquis
-quidvisquilibet
+quiduisquilibet
 quilibet
 quinam
 quippe
@@ -410,7 +410,7 @@ quodpiam
 quodpiamquicumque
 quodquam
 quodqueunusquisque
-quodvisquilibet
+quoduisquilibet
 quominus
 quomodo
 quonam
@@ -450,7 +450,6 @@ sin
 sine
 siquidem
 siue
-sive
 suamet
 suarum
 sub
@@ -510,8 +509,8 @@ unaquaeque
 unicuique
 uniuscuiusque
 unumquemque
-unumquidquequivis
-unumquodquequivis
+unumquidquequiuis
+unumquodquequiuis
 unus
 unusquisque
 uobis
