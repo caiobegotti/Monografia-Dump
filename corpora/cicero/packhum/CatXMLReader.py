@@ -20,10 +20,10 @@ class CategorizedXMLCorpusReader(CategorizedCorpusReader, XMLCorpusReader):
         return XMLCorpusReader.raw(self, self._resolve(fileids, categories))
 
     def words(self, fileids=None, categories=None):
-        words=[]
+        words = []
         fileids = self._resolve(fileids, categories)
         for fileid in fileids:
-            words+=XMLCorpusReader.words(self, fileid)
+            words += XMLCorpusReader.words(self, fileid)
         return words
 
     def text(self, fileids=None, categories=None):
@@ -37,7 +37,7 @@ class CategorizedXMLCorpusReader(CategorizedCorpusReader, XMLCorpusReader):
 
     def sents(self, fileids=None, categories=None):
         text = self.words(fileids, categories)
-        sents=nltk.PunktSentenceTokenizer().tokenize(text)
+        sents = nltk.PunktSentenceTokenizer().tokenize(text)
         return sents
 
     def paras(self, fileids=None, categories=None):
