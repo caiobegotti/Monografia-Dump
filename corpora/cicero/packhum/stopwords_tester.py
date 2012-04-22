@@ -13,7 +13,7 @@ from CatXMLReader import CategorizedXMLCorpusReader
 
 def stopwords():
     stopwords = []
-    with file('../../stopwords/latin.txt', 'r') as content:
+    with file('../../stopwords/latin', 'r') as content:
         for line in content.readlines():
             stopwords.append(line.replace('\n',''))
     return stopwords
