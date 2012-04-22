@@ -11,12 +11,8 @@ from nltk.corpus import cicero
 
 from CatXMLReader import CategorizedXMLCorpusReader
 
-def tokenizer():
-    fileids = cicero.abspaths()
-    reader = CategorizedXMLCorpusReader('/', fileids, cat_file='categories.txt')
-    tokens = Text(reader.words(fileids))
-    return tokens
-
-tokens = tokenizer()
-dist = FreqDist()
+fileids = cicero.abspaths()
+reader = CategorizedXMLCorpusReader('/', fileids, cat_file='categories.txt')
+tokens = Text(reader.words(fileids))
+dist = FreqDist(tokens)
 print dist.tabulate()
