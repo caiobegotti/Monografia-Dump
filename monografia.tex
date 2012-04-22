@@ -501,7 +501,7 @@ Não é fato raro, também, encontrar pesquisas feitas utilizando programas de comp
 
 % TODO: dificuldade de textos guardados por copistas, falsarios do renascimento e erros nos textos, curadoria pesada, anos de estudo, usaremos trabalho feito por outros do passado
 
-\par A especificação dos arquivos dos corpora é bastante simples. O motivo para isso é permitir um manuseio mais direto dos dados, sem incluir complicações desnecessárias. O formato escolhido para criar os arquivos é o XML, um formato de documento extremamente flexível e simples\footnote{Ver http://www.w3.org/XML/ para mais detalhes, a discussão sobre formatos de arquivos não está no escopo desde trabalho.}. Sua principalmente vantagem sobre arquivos de texto puro é a agregação de metadados no meio do texto, mas sem poluí-lo. A seguir, um esqueleto de arquivo de corpus exemplificando seu formato:
+\par A especificação dos arquivos dos corpora é bastante simples. O motivo para isso é permitir um manuseio mais direto dos dados, sem incluir complicações desnecessárias. O formato escolhido para criar os arquivos é o \sigla{XML}{Extensible Markup Language}, um formato de documento extremamente flexível e simples\footnote{Ver http://www.w3.org/XML/ para mais detalhes, a discussão sobre formatos de arquivos não está no escopo desde trabalho.}. Sua principalmente vantagem sobre arquivos de texto puro é a agregação de metadados no meio do texto, mas sem poluí-lo. A seguir, um esqueleto de arquivo de corpus exemplificando seu formato:
 
 \inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{xml}{corpus.xml}
 
@@ -645,7 +645,7 @@ TODO: kytzler: dos 20 conhecidos, possuimos 13
 
 \par Para o latim será criado, sob orientação, um catálogo geral de \textit{stopwords} (no modelo clássico, uma lista finita de termos), e catálogos menores onde se encontrarão somente preposições, ou somente pronomes e assim por diante, para que os alunos e pesquisadores possam refinar melhor o uso de \textit{stopwords} em latim. As listas a seguir foram elaboradas pelo autor \cite{lateinische} e \cite{kuhner}, considerando resultados prévios desse trabalho e comparando os filtros com de outros autores\footnote{O projeto Perseus possui um catálogo de stopwords do Latim com cerca de 90 termos, porém os critérios para as escolhas feitas pelos responsáveis pelo projeto são desconhecidos, além de o próprio catálogo parecer incompleto.}.
 
-% TODO: 39% dos corpora do cicero sao stopwords
+% TODO: 33% dos corpora do cicero sao stopwords
 
 % TODO: mencionar e listar quais items das stopwords nao foram encontrados nenhuma vez nos corpora de cicero, indicando que estao ali por completude para os outros, entretanto
 
@@ -719,6 +719,9 @@ TODO: kytzler: dos 20 conhecidos, possuimos 13
 
 \section{Filtros dos corpora}
 \inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{normalizer.py}
+
+\section{Classe para carregamento dos corpora}
+\inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{CatXMLReader.py}
 
 \section{Parser e filtro de pré-nomes latinos}
 \inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{praenomina_parser.py}
