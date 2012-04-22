@@ -56,7 +56,10 @@ words = reader.words(fileids)
 for word in words:
     if word in stopwords or word in punct:
         words.remove(word)
-        print len(words)
+
+
+with file('./cicero.txt', 'w') as content:
+    content.write(words)
 
 print len(words), len(reader.words(fileids))
 
