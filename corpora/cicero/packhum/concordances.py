@@ -72,10 +72,16 @@ class MyConcordanceIndex(ConcordanceIndex):
             exit(-1)
  
 def corpora_loader(fake):
-    fileids = cicero.abspaths()
-    cats = cicero.root + '/categories.txt'
-    reader = CategorizedXMLCorpusReader('/', fileids, cat_file=cats)
-    data = reader.words(fileids)
+    reader = CategorizedXMLCorpusReader(cicero.root,
+                                        cicero.abspaths(),
+                                        cat_file='categories.txt')
+
+    if fake is True:
+        categories = cicero.categories()
+    else:
+        categories = cicero.categories()[:-1]
+    
+    data = Text(reader.words(categories=categories)) 
     return data
 
 if __name__ == "__main__":
