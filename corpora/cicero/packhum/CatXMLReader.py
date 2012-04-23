@@ -24,6 +24,7 @@ class MyCategorizedCorpusReader(CategorizedCorpusReader):
             for line in self.open(self._file).readlines():
                 line = line.strip()
                 file_id, categories = line.split(self._delimiter, 1)
+                # https://github.com/nltk/nltk/issues/250
                 #if file_id not in self.fileids():
                 #    raise ValueError('In category mapping file %s: %s '
                 #                     'not found' % (self._file, file_id))
