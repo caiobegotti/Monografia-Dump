@@ -3,9 +3,37 @@
 from nltk.corpus.reader import CategorizedCorpusReader
 from nltk.corpus.reader import XMLCorpusReader
 
-class CategorizedXMLCorpusReader(CategorizedCorpusReader, XMLCorpusReader):
+from nltk.compat import defaultdict
+
+class MyCategorizedCorpusReader(CategorizedCorpusReader):
+    def _init(self):
+        self._f2c = defaultdict(set)
+        self._c2f = defaultdict(set)
+
+        if self._pattern is not None:
+            for file_id in self._fileids:
+                category = re.match(self._pattern, file_id).group(1)
+                self._add(file_id, category)
+
+        elif self._map is not None:
+            for (file_id, categories) in self._map.items():
+                for category in categories:
+                    self._add(file_id, category)
+
+        elif self._file is not None:
+            for line in self.open(self._file).readlines():
+                line = line.strip()
+                file_id, categories = line.split(self._delimiter, 1)
+                #if file_id not in self.fileids():
+                #    raise ValueError('In category mapping file %s: %s '
+                #                     'not found' % (self._file, file_id))
+                for category in categories.split(self._delimiter):
+                    self._add(file_id, category)
+
+
+class CategorizedXMLCorpusReader(MyCategorizedCorpusReader, XMLCorpusReader):
     def __init__(self, *args, **kwargs):
-        CategorizedCorpusReader.__init__(self, kwargs)
+        MyCategorizedCorpusReader.__init__(self, kwargs)
         XMLCorpusReader.__init__(self, *args, **kwargs)
 
     def _resolve(self, fileids, categories):
