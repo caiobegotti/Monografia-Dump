@@ -7,7 +7,7 @@ cicero_de_iure_civ_in_artem_redig.xml other
 cicero_epistulae_fragmenta.xml other
 cicero_facete_dicta.xml other
 cicero_incertorum_librorum_fragmenta.xml other
-cicero_philosophicorum_librorum_frr.xml other
+cicero_philosophicorum_librorum_frr.xml philosophy
 cicero_academica.xml philosophy
 cicero_cato_maior_de_senectute.xml philosophy
 cicero_de_divinatione.xml philosophy
