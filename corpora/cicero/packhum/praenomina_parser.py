@@ -14,7 +14,7 @@ def parser():
     regex = re.compile("(?:A|Ap|D|C|Cn|K|L|M|Mam|N|O|P|Q|Qu|S|Sp|Ser|Sex|Sec|Seq|Sept|T|Ti|Tit|Vel|Vo)'?\. [A-Z]{0,}\w{0,} [A-Z]{0,}\w{0,}")
     praenomina = []
     
-    for loop in glob.glob('ready/*.txt'):
+    for loop in glob.glob('raw/*.txt'):
         with file(loop, 'r') as content:
             text = content.read()
             for entry in regex.findall(text):
@@ -35,8 +35,9 @@ def replacer():
                 name = re.sub('^' + match, '(' + match + ')', entry)
                 name = name.replace('.', '')
                 replaced = re.sub(entry, name, text)
-                with file(loop, 'w') as content:
-                    content.write(replaced)
+                #with file(loop, 'w') as content:
+                #    content.write(replaced)
+                print entry + ' -> ' + name
 
 if __name__ == "__main__":
     replacer()
