@@ -7,7 +7,7 @@ import codecs
 import glob
 
 def normalizer():
-    for loop in glob.glob('ready/*.txt'):
+    for loop in glob.glob('raw/*.txt'):
         text = ''
         with file(loop, 'r') as content:
             text = content.read().lower()
@@ -19,7 +19,7 @@ def normalizer():
         text = text.replace("v","u")
         text = text.replace("j","i")
        
-        with file(loop, 'w') as content:
+        with file(loop.replace('raw/', 'ready/'), 'w') as content:
             content.write(text)
 
 if __name__ == "__main__":
