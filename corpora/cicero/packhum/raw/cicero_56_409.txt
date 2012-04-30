@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>Non<span class="snum">.</span> Nov<span class="snum">.</span> <span class="snum">50</span> Alyziae</td><td></td></tr><tr class="title last  "><td>TULLIUS TIRONI SUO S.</td><td></td></tr><tr><td>Non queo ad te nec libet scribere quo animo sim adfectus.</td><td>16.2.1.1</td></tr><tr><td>tantum scribo, et tibi et mihi maximae voluptati fore si te</td><td></td></tr><tr><td>firmum quam primum videro. tertio die abs te ad Alyziam</td><td></td></tr><tr><td>accesseramus. is locus est citra Leucadem stadia CXX.</td><td></td></tr><tr><td>Leucade aut te ipsum aut tuas litteras a Marione putabam</td><td>5</td></tr><tr><td>me accepturum. quantum me diligis tantum fac ut valeas, vel</td><td></td></tr><tr><td>quantum te a me scis diligi.</td><td></td></tr><tr><td> Non. Nov. Alyzia. </td><td></td></tr>
-        </table>

@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  "><td>AD HOSTILIVM</td><td></td></tr><tr class="title last  citat"><td>Char<span class="snum">.</span> <span class="citref">GL</span> <span class="snum">1.110</span>K</td><td></td></tr><tr><td>requietem </td><td>13.1.1</td></tr>
-        </table>

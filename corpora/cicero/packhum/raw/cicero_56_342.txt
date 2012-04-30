@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>Laodiceae</td><td></td></tr><tr class="title last  "><td>M. CICERO M. CURTIO PEDUCAEANO PR. S.</td><td></td></tr><tr><td>M. Fabium unice diligo summaque mihi cum eo consuetudo</td><td>13.59.1.1</td></tr><tr><td>et familiaritas est pervetus. in eius controversiis quid decernas</td><td></td></tr><tr><td>a te non peto (servabis, ut tua fides et dignitas postulat,</td><td></td></tr><tr><td>edictum et institutum tuum), sed ut quam facillimos ad te</td><td></td></tr><tr><td>aditus habeat, quae erunt aequa libente te impetret, ut</td><td>5</td></tr><tr><td>meam amicitiam sibi, etiam cum procul absim, prodesse</td><td></td></tr><tr><td>sentiat, praesertim apud te. hoc te vehementer etiam atque</td><td></td></tr><tr><td>etiam rogo.</td><td></td></tr>
-        </table>

@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>iii Id<span class="snum">.</span> Iun<span class="snum">.</span> <span class="snum">45</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Brutus heri venit in Tusculanum post horam decimam. hodie</td><td>13.7a.1.1</td></tr><tr><td>igitur me videbit, ac vellem cum tu adesses. iussi equidem ei</td><td></td></tr><tr><td>nuntiari te, quoad potuisses, exspectasse eius adventum ven-</td><td></td></tr><tr><td>turumque si audisses meque, ut facio, continuo te certiorem esse</td><td></td></tr><tr><td>facturum. </td><td>5</td></tr>
-        </table>

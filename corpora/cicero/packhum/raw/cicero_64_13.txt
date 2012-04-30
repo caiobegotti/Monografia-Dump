@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  "><td>AD CATONEM</td><td></td></tr><tr class="title last  citat"><td>Non<span class="snum">.</span> <span class="snum">438</span>M</td><td></td></tr><tr><td>nec idcirco</td><td>11.1.1</td></tr><tr><td>mihi desiderandam esse dignitatem meam quod eam multum</td><td></td></tr><tr><td>impugnarint, sed eo magis recolendam quod plus desiderarint.</td><td></td></tr>
-        </table>

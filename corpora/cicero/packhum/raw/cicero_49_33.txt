@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr><td>  Ego vero, et quidem fecit etiam iste me epilogus</td><td>1.119.7</td></tr><tr><td>firmiorem. </td><td></td></tr><tr><td>  Optime, inquam. sed nunc quidem valetudini tri-</td><td></td></tr><tr><td>buamus aliquid, cras autem et quot dies erimus in</td><td>10</td></tr><tr><td>Tusculano, agamus haec et ea potissimum, quae leva-</td><td></td></tr><tr><td>tionem habeant aegritudinum formidinum cupidita-</td><td></td></tr><tr><td>tum, qui omnis philosophiae est fructus uberrimus. </td><td></td></tr>
-        </table>

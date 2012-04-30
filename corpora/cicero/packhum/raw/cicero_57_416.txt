@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>prid<span class="snum">.</span> Id<span class="snum">.</span> Iun<span class="snum">.</span> <span class="snum">44(?)</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Narro tibi, haec loca venusta sunt, abdita certe et, si quid</td><td>15.16a.1.1</td></tr><tr><td>scribere velis, ab arbitris libera. sed nescio quo modo οἶκος</td><td></td></tr><tr><td>φίλος. itaque me referunt pedes in Tusculanum. et tamen haec</td><td></td></tr><tr><td>ῥωπογραφία ripulae videtur habitura celerem satietatem. equi-</td><td></td></tr><tr><td>dem etiam pluvias metuo, si Prognostica nostra vera sunt;</td><td>5</td></tr><tr><td>ranae enim ῥητορεύουσιν. tu, quaeso, fac sciam ubi Brutum</td><td></td></tr><tr><td>nostrum et quo die videre possim.</td><td></td></tr>
-        </table>

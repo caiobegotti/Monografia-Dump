@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>iv Non<span class="snum">.</span> Iun<span class="snum">.</span> <span class="snum">47</span> Brundisii</td><td></td></tr><tr class="title last  "><td>TULLIUS TERENTIAE SUAE S. D.</td><td></td></tr><tr><td>S. v. b. e. v. </td><td>14.21.1.1</td></tr><tr><td>  Da operam ut convalescas; quod opus erit, ut res</td><td></td></tr><tr><td>tempusque postulat, provideas atque administres, et ad me de</td><td></td></tr><tr><td>omnibus rebus quam saepissime litteras mittas. </td><td></td></tr><tr><td>  Vale.</td><td>5</td></tr>
-        </table>

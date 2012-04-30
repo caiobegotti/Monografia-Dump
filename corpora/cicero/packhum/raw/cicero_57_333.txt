@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>v Kal<span class="snum">.</span> Quint<span class="snum">.</span> <span class="snum">45</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td><span class="caps">v</span> Kal. exspectabam Roma aliquid, non quo imperassem aliquid</td><td>13.17.1.1</td></tr><tr><td>tuis. nunc igitur eadem illa, quid Brutus cogitet, aut, si aliquid</td><td></td></tr><tr><td>egit &lt;quid egerit&gt;, ecquid a Caesare. sed quid ista quae minus </td><td></td></tr><tr><td>curo? Attica nostra quid agat scire cupio. etsi tuae litterae (sed</td><td></td></tr><tr><td>iam nimis veteres sunt) recte sperare iubent, tamen exspecto</td><td>5</td></tr><tr><td>recens aliquid.</td><td></td></tr>
-        </table>

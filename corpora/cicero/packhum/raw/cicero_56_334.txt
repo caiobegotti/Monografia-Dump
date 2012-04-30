@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>incerto</td><td></td></tr><tr class="title last  "><td>CICERO P. CAESIO S. D.</td><td></td></tr><tr><td>P. Messienum, equitem Romanum omnibus rebus ornatum</td><td>13.51.1.1</td></tr><tr><td>meumque perfamiliarem, tibi commendo ea commendatione</td><td></td></tr><tr><td>quae potest esse diligentissima. peto a te et pro nostra et pro</td><td></td></tr><tr><td>paterna amicitia ut eum in tuam fidem recipias eiusque rem</td><td></td></tr><tr><td>famamque tueare. virum bonum tuaque amicitia dignum</td><td>5</td></tr><tr><td>tibi adiunxeris mihique gratissimum feceris.</td><td></td></tr>
-        </table>

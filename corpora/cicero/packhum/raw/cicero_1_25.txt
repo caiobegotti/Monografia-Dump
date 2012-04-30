@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr><td>  Itaque hoc te obsecrat, C. Aquili, ut, quam existimationem,</td><td>99.1</td></tr><tr><td>quam honestatem in iudicium tuum prope acta iam aetate</td><td></td></tr><tr><td>decursaque attulit, eam liceat ei secum ex hoc loco efferre,</td><td></td></tr><tr><td>ne is de cuius officio nemo umquam dubitavit <span class="caps">lx</span> de-</td><td></td></tr><tr><td>nique anno dedecore, macula turpissimaque ignominia</td><td>5</td></tr><tr><td>notetur, ne ornamentis eius omnibus Sex. Naevius pro</td><td></td></tr><tr><td>spoliis abutatur, ne per te fiat quo minus, quae existimatio</td><td></td></tr><tr><td>P. Quinctium usque ad senectutem produxit, eadem usque</td><td></td></tr><tr><td>ad rogum prosequatur. </td><td></td></tr>
-        </table>

@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first last  "><td>M. CICERO C. CVPIENNIO SAL.</td><td></td></tr><tr><td>Patrem tuum plurimi feci meque ille mirifice et coluit et</td><td>16.16d.1.1</td></tr><tr><td>amavit, nec mehercule umquam mihi dubium fuit quin a te</td><td></td></tr><tr><td>diligerer; ego quidem id facere non destiti. quam ob rem peto</td><td></td></tr><tr><td>a te in maiorem modum ut civitatem Buthrotiam subleves</td><td></td></tr><tr><td>decretumque consulum quod ii secundum Buthrotios fecerunt,</td><td>5</td></tr><tr><td>cum et lege et senatus consulto statuendi potestatem haberent, </td><td></td></tr><tr><td>des operam ut Plancus noster quam primum confirmet et</td><td></td></tr><tr><td>comprobet. hoc te vehementer, mi Cupienni, etiam atque etiam</td><td></td></tr><tr><td>rogo.</td><td></td></tr>
-        </table>

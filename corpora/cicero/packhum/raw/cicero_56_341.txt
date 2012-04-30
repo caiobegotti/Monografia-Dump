@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>Febr<span class="snum">.</span> <span class="snum">50</span> Laodiceae<span class="snum">(?)</span></td><td></td></tr><tr class="title last  "><td>M. CICERO C. TITIO L. F. RUFO PR. URB. S.</td><td></td></tr><tr><td>L. Custidius est tribulis et municeps et familiaris meus. is</td><td>13.58.1.1</td></tr><tr><td>causam habet, quam causam ad te deferet. commendo tibi</td><td></td></tr><tr><td>hominem, sicut tua fides et meus pudor postulat, tantum, ut</td><td></td></tr><tr><td>facilis ad te aditus habeat, quae aequa postulabit ut libente</td><td></td></tr><tr><td>te impetret sentiatque meam sibi amicitiam, etiam cum</td><td>5</td></tr><tr><td>longissime absim, prodesse, in primis apud te. </td><td></td></tr>
-        </table>

@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  "><td>AD CAERELLIAM</td><td></td></tr><tr class="title last  citat"><td>Quint<span class="snum">.</span> <span class="citref">Inst</span><span class="snum"><span class="citref">.</span></span><span class="citref"></span> <span class="snum">6.3.112</span></td><td></td></tr><tr><td>Haec aut</td><td>12.1.1</td></tr><tr><td>animo Catonis ferenda sunt aut Ciceronis stomacho. </td><td></td></tr>
-        </table>

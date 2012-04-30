@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first last  "><td>M. CICERO S. D. CURIONI</td><td></td></tr><tr><td>Gravi teste privatus sum amoris summi erga te mei patre tuo,</td><td>2.2.1.1</td></tr><tr><td>clarissimo viro; qui cum suis laudibus tum vero te filio</td><td></td></tr><tr><td>superasset omnium fortunam si ei contigisset ut te ante videret</td><td></td></tr><tr><td>quam a vita discederet. sed spero nostram amicitiam non</td><td></td></tr><tr><td>egere testibus. tibi patrimonium di fortunent! me certe</td><td>5</td></tr><tr><td>habebis cui et carus aeque sis et iucundus ac fuisti patri.</td><td></td></tr>
-        </table>

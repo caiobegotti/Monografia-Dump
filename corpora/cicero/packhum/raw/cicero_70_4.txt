@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  "><td>CATO</td><td></td></tr><tr class="title last  citat"><td>Macr<span class="snum">.</span> <span class="citref">Sat</span><span class="snum"><span class="citref">.</span></span><span class="citref"></span> <span class="snum">6.2.33</span></td><td></td></tr><tr><td>Contingebat in eo, quod plerisque contra solet, ut maiora</td><td>6.14.1</td></tr><tr><td>omnia re quam fama viderentur, id quod non saepe</td><td></td></tr><tr><td>evenit, ut expectatio cognitione, aures ab oculis vincerentur.</td><td></td></tr><tr class="title first last  citat"><td>Prisc<span class="snum">.</span> <span class="citref">GL</span> <span class="snum">2.510</span>K</td><td></td></tr><tr><td>ignoturum alteri, quod patrem,</td><td>15.1</td></tr><tr><td>alteri, quod tutorem secutus esset.</td><td></td></tr>
-        </table>

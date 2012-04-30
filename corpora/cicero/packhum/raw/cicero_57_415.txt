@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>iii Id<span class="snum">.</span> Iun<span class="snum">.</span> <span class="snum">44(?)</span> Asturae<span class="snum">(?)</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Tandem a Cicerone tabellarius; sed mehercule litterae πεπινω-</td><td>15.16.1.1</td></tr><tr><td>μένως scriptae, id quod ipsum προκοπὴν aliquam significaret,</td><td></td></tr><tr><td>itemque ceteri praeclara scribunt. Leonides tamen retinet suum</td><td></td></tr><tr><td>illud 'adhuc'; summis vero laudibus Herodes. quid quaeris?</td><td></td></tr><tr><td>vel verba mihi dari facile patior in hoc meque libenter praebeo </td><td>5</td></tr><tr><td>credulum. tu velim, si quid tibi est a tuis scriptum quod</td><td></td></tr><tr><td>pertineat ad me, certiorem me facias.</td><td></td></tr>
-        </table>

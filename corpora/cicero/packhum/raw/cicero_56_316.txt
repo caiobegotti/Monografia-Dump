@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first last  "><td>&lt;CICERO ACILIO PRO COS. S.&gt;</td><td></td></tr><tr><td>Cn. Otacilio Nasone utor familiarissime, ita prorsus ut illius</td><td>13.33.1.1</td></tr><tr><td>ordinis nullo familiarius; nam et humanitate eius et probitate</td><td></td></tr><tr><td>in consuetudine cottidiana magno opere delector. nihil iam</td><td></td></tr><tr><td>opus est exspectare te quibus eum verbis tibi commendem</td><td></td></tr><tr><td>quo sic utar ut scripsi. habet is in provincia tua negotia quae</td><td>5</td></tr><tr><td>procurant liberti, Hilarus, Antigonus, Demostratus; quos</td><td></td></tr><tr><td>tibi negotiaque omnia Nasonis non secus commendo ac si</td><td></td></tr><tr><td>mea essent. gratissimum mihi feceris si intellexero hanc</td><td></td></tr><tr><td>commendationem magnum apud te pondus habuisse. </td><td></td></tr><tr><td>  Vale.</td><td>10</td></tr>
-        </table>

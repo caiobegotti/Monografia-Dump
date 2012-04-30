@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr><td>  Haec cum essent dicta, ita discessimus, ut Velleio</td><td>3.95.7</td></tr><tr><td>Cottae disputatio verior, mihi Balbi ad veritatis simili-</td><td></td></tr><tr><td>tudinem videretur esse propensior. </td><td></td></tr>
-        </table>

@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td><span class="snum">47</span> vel <span class="snum">46</span></td><td></td></tr><tr class="title last  "><td>CICERO APPULEIO S.</td><td></td></tr><tr><td>L. Nostius Zoilus est coheres meus, heres autem patroni sui.</td><td>13.46.1.1</td></tr><tr><td>ea re utrumque scripsi ut et mihi cum illo causam amicitiae</td><td></td></tr><tr><td>scires esse et hominem probum existimares, qui patroni</td><td></td></tr><tr><td>iudicio ornatus esset. eum tibi igitur sic commendo ut unum</td><td></td></tr><tr><td>ex nostra domo. valde mihi gratum erit si curaris ut intellegat</td><td>5</td></tr><tr><td>hanc commendationem sibi apud te magno adiumento fuisse.</td><td></td></tr>
-        </table>

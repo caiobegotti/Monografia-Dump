@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>iv vel iii Non<span class="snum">.</span> Quint<span class="snum">.</span> <span class="snum">44</span></td><td></td></tr><tr class="title last  "><td>CICERO ATTICO SAL.</td><td></td></tr><tr><td>Iucundissimas tuas legi litteras. ad Plancum scripsi, misi. habes</td><td>16.16.1.1</td></tr><tr><td>exemplum. cum Tirone quid sis locutus cognoscam ex ipso.</td><td></td></tr><tr><td>cum sorore ages attentius, si te occupatione ista relaxaris. </td><td>2.1</td></tr>
-        </table>

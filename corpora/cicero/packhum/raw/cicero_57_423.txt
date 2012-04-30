@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>ix aut viii Kal<span class="snum">.</span> Quint<span class="snum">.</span> <span class="snum">44</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Mirifice torqueor, sine dolore tamen; sed permulta mihi de</td><td>15.23.1.1</td></tr><tr><td>nostro itinere in utramque partem occurrunt. 'quousque?'</td><td></td></tr><tr><td>inquies. quoad erit integrum; erit autem usque dum ad navem. </td><td></td></tr><tr><td>  Pansa si quae rescripserit, et meam tibi et illius epistulam</td><td></td></tr><tr><td>mittam. Silium exspectabam; cui ὑπόμνημα compositum. &lt;tu&gt;</td><td>5</td></tr><tr><td>si quid novi. ego litteras misi ad Brutum; cuius de itinere etiam</td><td></td></tr><tr><td>ex te velim si quid scies cognoscere.</td><td></td></tr>
-        </table>

@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first last  "><td>CICERO MEMMIO S.</td><td></td></tr><tr><td>A. Fufium, unum ex meis intimis, observantissimum studiosis-</td><td>13.3.1.1</td></tr><tr><td>simumque nostri, eruditum hominem et summa humanitate</td><td></td></tr><tr><td>tuaque amicitia dignissimum, velim ita tractes ut mihi</td><td></td></tr><tr><td>coram recepisti. tam gratum mihi id erit quam quod</td><td></td></tr><tr><td>gratissimum. ipsum praeterea summo officio et summa</td><td>5</td></tr><tr><td>observantia tibi in perpetuum devinxeris.</td><td></td></tr>
-        </table>

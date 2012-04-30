@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>Kal<span class="snum">.</span> Sept<span class="snum">.</span> <span class="snum">47</span></td><td></td></tr><tr class="title last  "><td>TULLIUS S. D. TERENTIAE SUAE</td><td></td></tr><tr><td>S. v. b. e. v. </td><td>14.22.1.1</td></tr><tr><td>  Nos cottidie tabellarios nostros exspectamus; qui si</td><td></td></tr><tr><td>venerint, fortasse erimus certiores quid nobis faciendum sit </td><td></td></tr><tr><td>faciemusque te statim certiorem. valetudinem tuam cura</td><td></td></tr><tr><td>diligenter. </td><td>5</td></tr><tr><td>  Vale.</td><td></td></tr><tr><td> Kal. Sept.</td><td></td></tr>
-        </table>

@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>med<span class="snum">.</span> Ian<span class="snum">.</span> <span class="snum">57</span> Dyrrachi<span class="snum">(?)</span></td><td></td></tr><tr class="title last  "><td>CICERO ATTICO SAL.</td><td></td></tr><tr><td>Litterae mihi a Quinto fratre cum senatus consulto quod de</td><td>3.26.1.1</td></tr><tr><td>me est factum adlatae sunt. mihi in animo est legum lationem</td><td></td></tr><tr><td>exspectare; et si obtrectabitur, utar auctoritate senatus et potius</td><td></td></tr><tr><td>vita quam patria carebo. tu, quaeso, festina ad nos venire.</td><td></td></tr>
-        </table>

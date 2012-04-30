@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>c<span class="snum">.</span> med<span class="snum">.</span> Dec<span class="snum">.</span> <span class="snum">58</span></td><td></td></tr><tr class="title last  "><td>CICERO ATTICO SAL.</td><td></td></tr><tr><td>Post tuum datae discessum litterae mihi Roma adlatae sunt ex</td><td>3.25.1.1</td></tr><tr><td>quibus perspicio nobis in hac calamitate tabescendum esse.</td><td></td></tr><tr><td>neque enim (sed bonam in partem accipies) si ulla spes salutis</td><td></td></tr><tr><td>nostrae subesset, tu pro tuo amore in me hoc tempore discessis-</td><td></td></tr><tr><td>ses. sed ne ingrati aut ne omnia velle nobiscum una interire</td><td>5</td></tr><tr><td>videamur, haec omitto; illud abs te peto, des operam, id quod</td><td></td></tr><tr><td>mihi adfirmasti, ut te ante Kal. Ian. ubicumque erimus sistas. </td><td></td></tr>
-        </table>

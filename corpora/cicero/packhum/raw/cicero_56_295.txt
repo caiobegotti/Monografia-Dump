@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first last  "><td>CICERO BRUTO S.</td><td></td></tr><tr><td>L. Castronius Paetus, longe princeps municipi Lucensis, est</td><td>13.13.1.1</td></tr><tr><td>honestus, gravis, plenus offici, bonus plane vir et cum</td><td></td></tr><tr><td>virtutibus tum etiam fortuna, si quid hoc ad rem pertinet,</td><td></td></tr><tr><td>ornatus. meus autem est familiarissimus, sic prorsus ut nostri</td><td></td></tr><tr><td>ordinis observet neminem diligentius. qua re ut et meum</td><td>5</td></tr><tr><td>amicum et tua dignum amicitia tibi commendo. cui qui-</td><td></td></tr><tr><td>buscumque rebus commodaveris, tibi profecto iucundum,</td><td></td></tr><tr><td>mihi certe erit gratum. </td><td></td></tr><tr><td>  Vale.</td><td></td></tr>
-        </table>

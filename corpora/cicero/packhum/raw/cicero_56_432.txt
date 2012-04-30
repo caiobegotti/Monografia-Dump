@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>autumno <span class="snum">44(?)</span> Athenis</td><td></td></tr><tr class="title last  "><td>CICERO F. TIRONI SUO S.</td><td></td></tr><tr><td>Etsi iusta et idonea usus es excusatione intermissionis</td><td>16.25.1.1</td></tr><tr><td>litterarum tuarum, tamen id ne saepius facias rogo. nam</td><td></td></tr><tr><td>etsi de re publica rumoribus et nuntiis certior fio et de sua in</td><td></td></tr><tr><td>me voluntate semper ad me perscribit pater, tamen de quavis</td><td></td></tr><tr><td>minima re scripta a te ad me epistula semper fuit gratissima.</td><td>5</td></tr><tr><td>qua re, cum in primis tuas desiderem litteras, noli committere</td><td></td></tr><tr><td>ut excusatione potius expleas officium scribendi quam</td><td></td></tr><tr><td>adsiduitate epistularum. </td><td></td></tr><tr><td>  Vale.</td><td></td></tr>
-        </table>

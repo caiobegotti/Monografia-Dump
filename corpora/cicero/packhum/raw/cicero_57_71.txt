@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>in<span class="snum">.</span> Febr<span class="snum">.</span> <span class="snum">57</span></td><td></td></tr><tr class="title last  "><td>CICERO ATTICO SAL.</td><td></td></tr><tr><td>Ex tuis litteris et ex re ipsa nos funditus perisse video. te oro ut</td><td>3.27.1.1</td></tr><tr><td>quibus in rebus tui mei indigebunt nostris miseriis ne desis. ego</td><td></td></tr><tr><td>te, ut scribis, cito videbo.</td><td></td></tr>
-        </table>

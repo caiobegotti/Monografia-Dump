@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  "><td>PRO P. VATINIO</td><td></td></tr><tr class="title last  citat"><td>Cic<span class="snum">.</span> <span class="citref">Fam</span><span class="snum"><span class="citref">.</span></span><span class="citref"></span> <span class="snum">1.9.19</span></td><td></td></tr><tr><td>    Ubi nominabit Phaedriam, tu Pamphilam</td><td>17.1.1</td></tr><tr><td>    continuo; si quando illa dicet 'Phaedriam</td><td></td></tr><tr><td>    intro mittamus comisatum', Pamphilam</td><td></td></tr><tr><td>    cantatum provocemus; si laudabit haec</td><td></td></tr><tr><td>    illius formam, tu huius contra; denique</td><td>5</td></tr><tr><td>    par pro pari referto, quod eam mordeat.</td><td></td></tr>
-        </table>

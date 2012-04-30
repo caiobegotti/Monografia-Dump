@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>xix Kal<span class="snum">.</span> Sept<span class="snum">.(?)</span> <span class="snum">45</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Velim, si tibi videtur, appelles Balbum et Offilium de auctione</td><td>13.37a.1.1</td></tr><tr><td>proscribenda. equidem locutus sum cum Balbo. placebat</td><td></td></tr><tr><td>(puto conscripta habere Offilium omnia; habet et Balbus)—</td><td></td></tr><tr><td>sed Balbo placebat propinquum diem et Romae; si Caesar </td><td></td></tr><tr><td>moraretur, posse diem differri. sed is quidem adesse videtur.</td><td>5</td></tr><tr><td>totum igitur considera; placet enim Vestorio.</td><td></td></tr>
-        </table>

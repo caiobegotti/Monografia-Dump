@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>prid<span class="snum">.</span> Id<span class="snum">.</span> Quint<span class="snum">.</span> <span class="snum">45</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Ego vero utar prorogatione diei, tuque humanissime fecisti qui</td><td>13.43.1.1</td></tr><tr><td>me certiorem feceris, atque ita ut eo tempore acciperem litteras</td><td></td></tr><tr><td>quo non exspectarem, tuque ut ab ludis scriberes. sunt omnino</td><td></td></tr><tr><td>mihi quaedam agenda Romae, sed consequemur biduo post.</td><td></td></tr>
-        </table>

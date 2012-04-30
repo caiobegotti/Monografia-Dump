@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>prid<span class="snum">.</span> Id<span class="snum">.</span> Sext<span class="snum">.</span> <span class="snum">47</span></td><td></td></tr><tr class="title last  "><td>TULLIUS TERENTIAE SUAE S. D.</td><td></td></tr><tr><td>S. v. b. e. v. </td><td>14.23.1.1</td></tr><tr><td>  Redditae mihi tandem sunt a Caesare litterae satis liberales</td><td></td></tr><tr><td>et ipse opinione celerius venturus esse dicitur; cui utrum</td><td></td></tr><tr><td>obviam procedam an hic eum exspectem cum constituero,</td><td></td></tr><tr><td>faciam te certiorem. tabellarios mihi velim quam primum</td><td>5</td></tr><tr><td>remittas. valetudinem tuam cura diligenter. </td><td></td></tr><tr><td>  Vale.</td><td></td></tr><tr><td> D. prid. Id. Sext.</td><td></td></tr>
-        </table>

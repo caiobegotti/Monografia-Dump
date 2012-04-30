@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>incerto</td><td></td></tr><tr class="title last  "><td>CICERO BASILO S.</td><td></td></tr><tr><td>Tibi gratulor, mihi gaudeo. te amo, tua tueor. a te amari et</td><td>6.15.1.1</td></tr><tr><td>quid agas quidque agatur certior fieri volo.</td><td></td></tr>
-        </table>

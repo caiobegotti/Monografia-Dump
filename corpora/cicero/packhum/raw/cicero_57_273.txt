@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>vii Id<span class="snum">.</span> Mart<span class="snum">.</span> <span class="snum">45</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Apud Appuleium, quoniam in perpetuum non placet, in dies ut</td><td>12.15.1.1</td></tr><tr><td>excuser videbis. in hac solitudine careo omnium colloquio,</td><td></td></tr><tr><td>cumque mane me in silvam abstrusi densam et asperam, non</td><td></td></tr><tr><td>exeo inde ante vesperum. secundum te nihil est mihi amicius</td><td></td></tr><tr><td>solitudine. in ea mihi omnis sermo est cum litteris. eum tamen</td><td>5</td></tr><tr><td>interpellat fletus; cui repugno quoad possum, sed adhuc pares</td><td></td></tr><tr><td>non sumus. Bruto, ut suades, rescribam. eas litteras cras</td><td></td></tr><tr><td>habebis. cum erit cui des, dabis.</td><td></td></tr>
-        </table>

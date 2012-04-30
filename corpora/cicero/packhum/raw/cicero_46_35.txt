@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr><td>  Ita sermone confecto Catulus remansit, nos ad navi-</td><td>148.19</td></tr><tr><td>culas nostras descendimus. </td><td>20</td></tr>
-        </table>

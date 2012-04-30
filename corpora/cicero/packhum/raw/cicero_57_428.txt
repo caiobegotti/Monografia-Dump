@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Ego, ut ad te pridie scripseram, Nonis constitueram venire in</td><td>15.28.1.1</td></tr><tr><td>Puteolanum. ibi igitur cottidie tuas litteras exspectabo et</td><td></td></tr><tr><td>maxime de ludis; de quibus etiam ad Brutum tibi scribendum</td><td></td></tr><tr><td>est. cuius epistulae, quam interpretari ipse vix poteram,</td><td></td></tr><tr><td>exemplum pridie tibi miseram. Atticae meae velim me ita</td><td>5</td></tr><tr><td>excuses ut omnem culpam in te transferas et ei tamen con-</td><td></td></tr><tr><td>firmes me immutatum amorem meum mecum abstulisse.</td><td></td></tr>
-        </table>

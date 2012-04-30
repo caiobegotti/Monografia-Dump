@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr><td>  Quo te nunc modo appellem? ut hominem? At non es</td><td>50.1</td></tr><tr><td>inter nos. Vt mortuum? At vivis et viges, at in omnium</td><td></td></tr><tr><td>animis atque ore versaris, atque divinus animus mortale</td><td></td></tr><tr><td>nihil habuit, neque tuorum quicquam potuit emori praeter</td><td></td></tr><tr><td>corpus. Quocumque igitur te mo&lt;do&gt; . . . </td><td>5</td></tr><tr class="title first last  citat"><td>Char<span class="snum">.</span> <span class="citref">GL</span> <span class="snum">1.224</span>K</td><td></td></tr><tr><td>  Vniverse</td><td>51.1</td></tr>
-        </table>

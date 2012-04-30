@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>vi Id<span class="snum">.</span> Quint<span class="snum">.</span> <span class="snum">47</span></td><td></td></tr><tr class="title last  "><td>TULLIUS S. D. TERENTIAE SUAE</td><td></td></tr><tr><td>Quod scripsi ad te proximis litteris de nuntio remittendo,</td><td>14.13.1.1</td></tr><tr><td>quae sit istius vis hoc tempore et quae concitatio multi-</td><td></td></tr><tr><td>tudinis ignoro. si metuendus iratus est, quiesces. tamen ab</td><td></td></tr><tr><td>illo fortasse nascetur. totum iudicabis quale sit, et quod in</td><td></td></tr><tr><td>miserrimis rebus minime miserum putabis id facies. </td><td>5</td></tr><tr><td>  Vale.</td><td></td></tr><tr><td> VI Id. Quint. </td><td></td></tr>
-        </table>

@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr><td>  Iam illud perspicuum est, omnium rerum in contrarias</td><td>2.215.4</td></tr><tr><td>partis facultatem ex eisdem suppeditari locis. Sed argu-</td><td>5</td></tr><tr><td>mento resistendum est aut eis, quae comprobandi eius causa</td><td></td></tr><tr><td>sumuntur, reprehendendis aut demonstrando, id, quod con-</td><td></td></tr><tr><td>cludere illi velint, non effici ex propositis nec esse conse-</td><td></td></tr><tr><td>quens, aut, si ita non refellas, adferendum est in contrariam</td><td></td></tr><tr><td>partem, quod sit aut gravius aut aeque grave. Illa autem,</td><td>216.1</td></tr><tr><td>quae aut conciliationis causa leniter aut permotionis vehe-</td><td></td></tr><tr><td>menter aguntur, contrariis commotionibus auferenda sunt,</td><td></td></tr><tr><td>ut odio benevolentia, ut misericordia invidia tollatur. </td><td></td></tr>
-        </table>

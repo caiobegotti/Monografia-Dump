@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>post Oct<span class="snum">.</span> <span class="snum">47</span></td><td></td></tr><tr class="title last  "><td>TULLIUS TIRONI S.</td><td></td></tr><tr><td>Sollicitat, ita vivam, me tua, mi Tiro, valetudo. sed confido,</td><td>16.20.1.1</td></tr><tr><td>si diligentiam quam instituisti adhibueris, cito te firmum fore.</td><td></td></tr><tr><td>libros compone; indicem cum Metrodoro libebit, quoniam</td><td></td></tr><tr><td>eius arbitratu vivendum est. cum holitore ut videtur. tu</td><td></td></tr><tr><td>potes Kalendis spectare gladiatores, postridie redire, et ita</td><td>5</td></tr><tr><td>censeo; verum ut videbitur. cura te, si me amas, diligenter. </td><td></td></tr><tr><td>  Vale. </td><td></td></tr>
-        </table>

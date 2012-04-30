@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>viii Kal<span class="snum">.</span> Ian<span class="snum">.</span> <span class="snum">48(?)</span></td><td></td></tr><tr class="title last  "><td>TULLIUS TERENTIAE SUAE S. D.</td><td></td></tr><tr><td>S. v. b. e. v. </td><td>14.17.1.1</td></tr><tr><td>  Si quid haberem quod ad te scriberem, facerem id et</td><td></td></tr><tr><td>pluribus verbis et saepius. nunc, quae sint negotia vides.</td><td></td></tr><tr><td>ego autem quo modo sim adfectus ex Lepta et Trebatio</td><td></td></tr><tr><td>poteris cognoscere. tu fac ut tuam et Tulliae valetudinem</td><td>5</td></tr><tr><td>cures. </td><td></td></tr><tr><td>  Vale. </td><td></td></tr>
-        </table>

@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>xiv Kal<span class="snum">.</span> Iun<span class="snum">.</span> <span class="snum">45</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Vt me levarat tuus adventus sic discessus adflixit. qua re cum</td><td>12.50.1.1</td></tr><tr><td>poteris, id est cum Sexti auctioni operam dederis, revises nos.</td><td></td></tr><tr><td>vel unus dies mihi erit utilis, quid dicam gratus? ipse Romam</td><td></td></tr><tr><td>venirem ut una essemus, si satis consilium quadam de re</td><td></td></tr><tr><td>haberem.</td><td>5</td></tr>
-        </table>

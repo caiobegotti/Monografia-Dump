@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>incerto</td><td></td></tr><tr class="title last  "><td>CICERO MEMMIO S.</td><td></td></tr><tr><td>C. Avianio Evandro, qui habitat in tuo sacrario, et ipso</td><td>13.2.1.1</td></tr><tr><td>multum utor et patrono eius M. Aemilio familiarissime. peto</td><td></td></tr><tr><td>igitur a te in maiorem modum, quod sine tua molestia fiat,</td><td></td></tr><tr><td>ut ei de habitatione accommodes. nam propter opera</td><td></td></tr><tr><td>instituta multa multorum subitum est ei remigrare Kal.</td><td>5</td></tr><tr><td>Quint. impedior verecundia ne te pluribus verbis rogem;</td><td></td></tr><tr><td>neque tamen dubito quin, si tua nihil aut non multum intersit,</td><td></td></tr><tr><td>eo sis animo quo ego essem si quid tu me rogares. mihi certe</td><td></td></tr><tr><td>gratissimum feceris.</td><td></td></tr>
-        </table>

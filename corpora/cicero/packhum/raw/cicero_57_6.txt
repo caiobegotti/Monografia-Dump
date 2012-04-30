@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>ante Id<span class="snum">.</span> Febr<span class="snum">.</span> <span class="snum">67</span></td><td></td></tr><tr class="title last  "><td>&lt;CICERO ATTICO SAL.&gt;</td><td></td></tr><tr><td>Apud matrem recte est eaque nobis curae est. L. Cincio</td><td>1.7.1.1</td></tr><tr><td>HS <span class="caps"><span class="ovl">xx</span>cd</span> constitui me curaturum Id. Febr. tu velim ea quae </td><td></td></tr><tr><td>nobis emisse &lt;te&gt; et parasse scribis des operam ut quam primum</td><td></td></tr><tr><td>habeamus. et velim cogites, id quod mihi pollicitus es, quem</td><td></td></tr><tr><td>ad modum bibliothecam nobis conficere possis. omnem spem</td><td>5</td></tr><tr><td>delectationis nostrae, quam cum in otium venerimus habere</td><td></td></tr><tr><td>volumus, in tua humanitate positam habemus.</td><td></td></tr>
-        </table>

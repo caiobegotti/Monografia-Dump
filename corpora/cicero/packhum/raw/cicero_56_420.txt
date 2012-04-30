@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>iv Id<span class="snum">.</span> Apr<span class="snum">.</span> <span class="snum">53</span> in Cumano</td><td></td></tr><tr class="title last  "><td>TULLIUS TIRONI S.</td><td></td></tr><tr><td>Omnia a te data mihi putabo si te valentem videro. summa</td><td>16.13.1.1</td></tr><tr><td>cura exspectabam adventum [men] Andri&lt;ci&gt;, quem ad te</td><td></td></tr><tr><td>miseram. cura, si me diligis, ut valeas et, cum te bene</td><td></td></tr><tr><td>confirmaris, ad nos venias. </td><td></td></tr><tr><td>  Vale.</td><td>5</td></tr><tr><td> IIII Id. Apr. </td><td></td></tr>
-        </table>

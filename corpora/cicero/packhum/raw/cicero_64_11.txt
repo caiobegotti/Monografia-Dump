@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  "><td>EPP. CALVI ET BRVTI AD CICERONEM ET INVICEM</td><td></td></tr><tr class="title  "><td>DE OPTIMO GENERE DICENDI</td><td></td></tr><tr class="title last  citat"><td>Tac<span class="snum">.</span> <span class="citref">Dial</span><span class="snum"><span class="citref">.</span></span><span class="citref"></span> <span class="snum">18.4</span></td><td></td></tr><tr><td>fractum atque elumbem </td><td>9a.2.1</td></tr>
-        </table>

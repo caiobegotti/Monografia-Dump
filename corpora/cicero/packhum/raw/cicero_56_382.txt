@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>Kal<span class="snum">.</span> Oct<span class="snum">.</span> <span class="snum">47</span> in Venusino</td><td></td></tr><tr class="title last  "><td>TULLIUS S. D. TERENTIAE SUAE</td><td></td></tr><tr><td>In Tusculanum nos venturos putamus aut Nonis aut</td><td>14.20.1.1</td></tr><tr><td>postridie. ibi ut sint omnia parata. plures enim fortasse</td><td></td></tr><tr><td>nobiscum erunt et, ut arbitror, diutius ibi commorabimur.</td><td></td></tr><tr><td>labrum si in balineo non est, ut sit; item cetera quae sunt ad</td><td></td></tr><tr><td>victum et ad valetudinem necessaria. </td><td>5</td></tr><tr><td>  Vale.</td><td></td></tr><tr><td> Kal. Oct. de Ven&lt;u&gt;sino. </td><td></td></tr>
-        </table>

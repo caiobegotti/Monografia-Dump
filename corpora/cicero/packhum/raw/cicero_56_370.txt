@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>iv Non<span class="snum">.</span> Iun<span class="snum">.</span> <span class="snum">47</span> Brundisii</td><td></td></tr><tr class="title last  "><td>TULLIUS TERENTIAE SUAE S.</td><td></td></tr><tr><td>Si vales, bene est; ego valeo. </td><td>14.8.1.1</td></tr><tr><td>  Valetudinem tuam velim cures diligentissime. nam mihi</td><td></td></tr><tr><td>et scriptum et nuntiatum est te in febrim subito incidisse.</td><td></td></tr><tr><td>quod celeriter me fecisti de Caesaris litteris certiorem, fecisti</td><td></td></tr><tr><td>mihi gratum. item posthac, si quid opus erit, si quid acciderit</td><td>5</td></tr><tr><td>novi, facies ut sciam. cura ut valeas. </td><td></td></tr><tr><td>  Vale.</td><td></td></tr><tr><td> D. IIII Non. Iun. </td><td></td></tr>
-        </table>

@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr><td>  Ita, si numerus orationis quaeritur qui sit, omnis est</td><td>203.1</td></tr><tr><td>sed alius alio melior atque aptior; si locus, in omni</td><td></td></tr><tr><td>parte verborum; si unde ortus sit, ex aurium volup-</td><td></td></tr><tr><td>tate; si componendorum ratio, dicetur alio loco, quia </td><td></td></tr><tr><td>pertinet ad usum, quae pars quarta et extrema nobis</td><td>5</td></tr><tr><td>in dividendo fuit; si ad quam rem adhibeatur, ad de-</td><td></td></tr><tr><td>lectationem; si quando, semper; si quo loco, in tota</td><td></td></tr><tr><td>continuatione verborum; si quae res efficiat volup-</td><td></td></tr><tr><td>tatem, eadem quae in versibus, quorum modum notat</td><td></td></tr><tr><td>ars, sed aures ipsae tacito eum sensu sine arte de-</td><td>10</td></tr><tr><td>finiunt. </td><td></td></tr>
-        </table>

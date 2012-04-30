@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>ex<span class="snum">.</span> <span class="snum">55</span> vel <span class="snum">54</span></td><td></td></tr><tr class="title last  "><td>M. CICERO S. D. Q. ANCHARIO Q. F. PRO COS.</td><td></td></tr><tr><td>L. et C. Aurelios L. filios, quibus et ipsis et patre eorum, viro</td><td>13.40.1.1</td></tr><tr><td>optimo, familiarissime utor, commendo tibi maiorem in</td><td></td></tr><tr><td>modum, adulescentis omnibus optimis artibus ornatos, meos</td><td></td></tr><tr><td>pernecessarios, tua amicitia dignissimos. si ulla mea apud te</td><td></td></tr><tr><td>commendatio valuit, quod scio multas plurimum valuisse, haec</td><td>5</td></tr><tr><td>ut valeat rogo. quod si eos honorifice liberaliterque tractaris, et</td><td></td></tr><tr><td>tibi gratissimos optimosque adulescentis adiunxeris et mihi</td><td></td></tr><tr><td>gratissimum feceris.</td><td></td></tr>
-        </table>

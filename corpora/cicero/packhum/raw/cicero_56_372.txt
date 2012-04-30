@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>vii Id<span class="snum">.</span> Quint<span class="snum">.</span> <span class="snum">47</span></td><td></td></tr><tr class="title last  "><td>TULLIUS S. D. TERENTIAE SUAE</td><td></td></tr><tr><td>Quid fieri placeret scripsi ad Pomponium, serius quam</td><td>14.10.1.1</td></tr><tr><td>oportuit. cum eo si locuta eris, intelleges quid fieri velim.</td><td></td></tr><tr><td>apertius scribi, quoniam ad illum scripseram, necesse non</td><td></td></tr><tr><td>fuit. de ea re et de ceteris rebus quam primum velim nobis</td><td></td></tr><tr><td>litteras mittas. valetudinem tuam cura diligenter. </td><td>5</td></tr><tr><td>  Vale.</td><td></td></tr><tr><td> VII Id. Quint.</td><td></td></tr>
-        </table>

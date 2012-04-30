@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr><td>  Sed iam illius perfecti oratoris et summae elo-</td><td>61.1</td></tr><tr><td>quentiae species exprimenda est. quem hoc uno ex-</td><td></td></tr><tr><td>cellere, id est oratione, cetera in eo latere indicat</td><td></td></tr><tr><td>nomen ipsum. non enim inventor aut compositor aut</td><td></td></tr><tr><td>actor &lt;qui&gt; haec complexus est omnia, sed et Graece</td><td>5</td></tr><tr><td>ab eloquendo ῥήτωρ et Latine eloquens dictus est.</td><td></td></tr><tr><td>ceterarum enim rerum quae sunt in oratore partem</td><td></td></tr><tr><td>aliquam sibi quisque vindicat, dicendi autem, id est</td><td></td></tr><tr><td>eloquendi maxuma vis soli huic conceditur. </td><td></td></tr>
-        </table>

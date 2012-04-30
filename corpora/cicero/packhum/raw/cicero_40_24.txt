@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr><td>  De materia loquor orationis etiam nunc, non de ipso</td><td>119.1</td></tr><tr><td>genere dicendi. volo enim prius habeat orator rem</td><td></td></tr><tr><td>de qua dicat dignam auribus eruditis, quam cogitet</td><td></td></tr><tr><td>quibus verbis quidque dicat aut quo modo. quem</td><td></td></tr><tr><td>etiam, quo grandior sit et quodam modo excelsior,</td><td>5</td></tr><tr><td>ut de Pericle dixi supra, ne physicorum quidem esse</td><td></td></tr><tr><td>ignarum volo. omnia profecto, cum se a caelestibus</td><td></td></tr><tr><td>rebus referet ad humanas, excelsius magnificentiusque</td><td></td></tr><tr><td>et dicet et sentiet. </td><td></td></tr>
-        </table>

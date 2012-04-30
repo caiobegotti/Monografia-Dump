@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first last  "><td>CICERO SERVIO S.</td><td></td></tr><tr><td>Hagesaretus Larisaeus magnis meis beneficiis ornatus in</td><td>13.25.1.1</td></tr><tr><td>consulatu meo memor et gratus fuit meque postea dili-</td><td></td></tr><tr><td>gentissime coluit. eum tibi magno opere commendo ut et</td><td></td></tr><tr><td>hospitem meum et familiarem et gratum hominem et virum</td><td></td></tr><tr><td>bonum et principem civitatis suae et tua necessitudine</td><td>5</td></tr><tr><td>dignissimum. pergratum mihi feceris si dederis operam ut is</td><td></td></tr><tr><td>intellegat hanc meam commendationem magnum apud te</td><td></td></tr><tr><td>pondus habuisse.</td><td></td></tr>
-        </table>

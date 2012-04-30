@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  "><td>CUM A LUDIS CONTIONEM AVOCAVIT</td><td></td></tr><tr class="title  "><td>[DE OTHONE] </td><td></td></tr><tr class="title last  citat"><td>Arusianus Messius <span class="citref">GL</span> <span class="snum">7.490</span>K</td><td></td></tr><tr><td>  Cerealia, Floralia ludosque Apollinares deorum</td><td>10.1.1</td></tr><tr><td>immortalium esse, non nostros. </td><td></td></tr>
-        </table>

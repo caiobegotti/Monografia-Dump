@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>iv Non<span class="snum">.</span> Sept<span class="snum">.</span> <span class="snum">44(?)</span></td><td></td></tr><tr class="title last  "><td>CICERO CORNIFICIO</td><td></td></tr><tr><td>Gratae mihi tuae litterae, nisi quod Sinuessanum deversori-</td><td>12.20.1.1</td></tr><tr><td>olum contempsisti. quam quidem contumeliam villa pusilla </td><td></td></tr><tr><td>iniquo animo feret, nisi in Cumano et Pompeiano reddideris</td><td></td></tr><tr><td>πάντα περὶ πάντων. sic igitur facies, meque amabis et</td><td></td></tr><tr><td>scripto aliquo lacesses. ego enim respondere facilius possum</td><td>5</td></tr><tr><td>quam provocare. quod si, ut es, cessabis, lacessam, nec tua</td><td></td></tr><tr><td>ignavia etiam &lt;mihi&gt; inertiam adferet. plura otiosus; haec</td><td></td></tr><tr><td>cum essem in senatu exaravi.</td><td></td></tr>
-        </table>

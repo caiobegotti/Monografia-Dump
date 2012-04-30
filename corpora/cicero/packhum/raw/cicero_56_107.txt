@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>xiii Kal<span class="snum">.</span> Dec<span class="snum">.(?)</span> <span class="snum">46</span> in Cumano</td><td></td></tr><tr class="title last  "><td>M. CICERO S. D. M. MARIO</td><td></td></tr><tr><td>A. d. XIIII Kal. in Cumanum veni cum Libone tuo, vel</td><td>7.4.1.1</td></tr><tr><td>nostro potius. in Pompeianum statim cogito, sed faciam ante</td><td></td></tr><tr><td>te certiorem. te cum semper valere cupio tum certe dum hic</td><td></td></tr><tr><td>sumus; vides enim quanto post una futuri simus. qua re, si</td><td></td></tr><tr><td>quod constitutum cum podagra habes, fac ut in alium diem</td><td>5</td></tr><tr><td>differas. cura igitur ut valeas, et me hoc biduo aut triduo</td><td></td></tr><tr><td>exspecta.</td><td></td></tr>
-        </table>

@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr><td>  Iam vero ea quae invenerit qua diligentia con-</td><td>50.1</td></tr><tr><td>locabit. quoniam id secundum erat de tribus. ve-</td><td></td></tr><tr><td>stibula nimirum honesta aditusque ad causam faciet</td><td></td></tr><tr><td>illustris; cumque animos prima aggressione occupa-</td><td></td></tr><tr><td>verit, infirmabit excludetque contraria, * de firmis-</td><td>5</td></tr><tr><td>simis alia prima ponet alia postrema inculcabitque</td><td></td></tr><tr><td>leviora. </td><td></td></tr>
-        </table>

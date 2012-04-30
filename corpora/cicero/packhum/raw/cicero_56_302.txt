@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first last  "><td>CICERO SERVIO S.</td><td></td></tr><tr><td>Asclapone Patrensi medico utor familiariter eiusque cum</td><td>13.20.1.1</td></tr><tr><td>consuetudo mihi iucunda fuit tum ars etiam, quam sum</td><td></td></tr><tr><td>expertus in valetudine meorum; in qua mihi cum ipsa</td><td></td></tr><tr><td>scientia tum etiam fidelitate benevolentiaque satis fecit.</td><td></td></tr><tr><td>hunc igitur tibi commendo et a te peto ut des operam ut</td><td>5</td></tr><tr><td>intellegat diligenter me scripsisse de sese meamque com-</td><td></td></tr><tr><td>mendationem usui magno sibi fuisse. erit id mihi vehementer</td><td></td></tr><tr><td>gratum. </td><td></td></tr>
-        </table>

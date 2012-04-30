@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  "><td>AD C. LICINIVM CALVVM</td><td></td></tr><tr class="title  "><td>LIB. I</td><td></td></tr><tr class="title last  citat"><td>Prisc<span class="snum">.</span> <span class="citref">GL</span> <span class="snum">2.490</span>K</td><td></td></tr><tr><td>Tuli moleste quod litterae</td><td>9.1.1</td></tr><tr><td>delitae mihi a te redditae sunt.</td><td></td></tr><tr class="title first  "><td>EX LIBRO INCERTO</td><td></td></tr><tr class="title last  citat"><td>Non<span class="snum">.</span> <span class="snum">469</span>M</td><td></td></tr><tr><td>Praesentit animus et augurat quodam modo quae</td><td>3.1</td></tr><tr><td>futura sit suavitas. </td><td></td></tr>
-        </table>

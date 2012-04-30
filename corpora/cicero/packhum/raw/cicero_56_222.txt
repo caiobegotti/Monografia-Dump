@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>c<span class="snum">.</span> ex<span class="snum">.</span> Sept<span class="snum">.</span> <span class="snum">44</span></td><td></td></tr><tr class="title last  "><td>M. CICERO S. D. D. BRUTO IMP. COS. DESIG.</td><td></td></tr><tr><td>Lupus noster cum Romam sexto die Mutina venisset,</td><td>11.6.1.1</td></tr><tr><td>postridie me mane convenit; tua mihi mandata diligentis-</td><td></td></tr><tr><td>sime exposuit et litteras reddidit. quod mihi tuam dignitatem</td><td></td></tr><tr><td>commendas, eodem tempore existimo te mihi meam digni-</td><td></td></tr><tr><td>tatem commendare, quam mehercule non habeo tua</td><td>5</td></tr><tr><td>cariorem. qua re mihi gratissimum facies si exploratum</td><td></td></tr><tr><td>habebis tuis laudibus nullo loco nec consilium nec studium</td><td></td></tr><tr><td>meum defuturum. </td><td></td></tr>
-        </table>

@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr><td>  Nunc quoniam omne in causae genus argumentan-</td><td>2.178.8</td></tr><tr><td>di ratio tradita est, de inventione, prima ac maxima</td><td></td></tr><tr><td>parte rhetoricae, satis dictum videtur. quare, quoniam</td><td>10</td></tr><tr><td>et una pars ad exitum hoc ac superiore libro per-</td><td></td></tr><tr><td>ducta est et hic liber non parum continet litterarum,</td><td></td></tr><tr><td>quae restant, in reliquis dicemus. </td><td></td></tr>
-        </table>

@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>in<span class="snum">.</span> <span class="snum">49(?)</span> in Italia</td><td></td></tr><tr class="title last  "><td>CICERO C. SEXTILIO RUFO QUAESTORI S. D.</td><td></td></tr><tr><td>Omnis tibi commendo Cyprios, sed magis Paphios, quibus tu</td><td>13.48.1.1</td></tr><tr><td>quaecumque commodaris erunt mihi gratissima; eoque facio</td><td></td></tr><tr><td>libentius ut eos tibi commendem quod et tuae laudi, cuius</td><td></td></tr><tr><td>ego fautor sum, conducere arbitror, cum primus in eam</td><td></td></tr><tr><td>insulam quaestor veneris, ea te instituere quae sequantur alii.</td><td>5</td></tr><tr><td>quod, ut spero, facilius consequere si et P. Lentuli, necessari</td><td></td></tr><tr><td>tui, legem et ea quae a me constituta sunt sequi volueris. quam</td><td></td></tr><tr><td>rem tibi confido magnae laudi fore. </td><td></td></tr>
-        </table>

@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first last  "><td>&lt;CICERO CORNIFICIO S.&gt;</td><td></td></tr><tr><td>Sex. Aufidius et observantia qua me colit accedit ad proximos</td><td>12.27.1.1</td></tr><tr><td>et splendore equiti Romano nemini cedit. est autem ita</td><td></td></tr><tr><td>temperatis moderatisque moribus ut summa severitas summa</td><td></td></tr><tr><td>cum humanitate iungatur. cuius tibi negotia quae sunt in</td><td></td></tr><tr><td>Africa ita commendo ut maiore studio magisve ex animo</td><td>5</td></tr><tr><td>commendare non possim. pergratum mihi feceris si dederis</td><td></td></tr><tr><td>operam ut is intellegat meas apud te litteras maximum</td><td></td></tr><tr><td>pondus habuisse. hoc te vehementer, mi Cornifici, rogo.</td><td></td></tr>
-        </table>

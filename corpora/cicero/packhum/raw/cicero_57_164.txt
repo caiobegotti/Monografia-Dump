@@ -1,4 +1,0 @@
-<table>
-          <script>targetHit=0;</script>
-          <tr class="title first  date"><td>x Kal<span class="snum">.</span> Mart<span class="snum">.</span> <span class="snum">49</span> Canusi</td><td></td></tr><tr class="title last  "><td>CN. MAGNVS PROCOS. S. D. M. CICERONI IMP.</td><td></td></tr><tr><td>S. v. b. Tuas litteras libenter legi; recognovi enim tuam pri-</td><td>8.11c.1.1</td></tr><tr><td>stinam virtutem etiam in salute communi. consules ad eum</td><td></td></tr><tr><td>exercitum quem in Apulia habui venerunt. magno opere te</td><td></td></tr><tr><td>hortor pro tuo singulari perpetuoque studio in rem publicam</td><td></td></tr><tr><td>ut te ad nos conferas, ut communi consilio rei publicae ad-</td><td>5</td></tr><tr><td>flictae opem atque auxilium feramus. censeo via Appia iter</td><td></td></tr><tr><td>facias et celeriter Brundisium venias. </td><td></td></tr>
-        </table>
