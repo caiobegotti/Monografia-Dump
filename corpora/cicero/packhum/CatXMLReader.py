@@ -1,9 +1,17 @@
 # http://stackoverflow.com/questions/6849600/does-anyone-have-a-categorized-xml-corpus-reader-for-nltk
 
+# standard nltk classes
 from nltk.corpus.reader import CategorizedCorpusReader
 from nltk.corpus.reader import XMLCorpusReader
 
+# stopwords (i.e. latin ones)
+from nltk.corpus import stopwords
+
+# for CategorizedCorpusReader's init
 from nltk.compat import defaultdict
+
+# punctuations load
+import string
 
 class MyCategorizedCorpusReader(CategorizedCorpusReader):
     def _init(self):
@@ -71,3 +79,34 @@ class CategorizedXMLCorpusReader(MyCategorizedCorpusReader, XMLCorpusReader):
 
     def paras(self, fileids=None, categories=None):
         return CategorizedCorpusReader.paras(self, self._resolve(fileids, categories))
+
+
+def stopless(wordslist):
+    stop = stopwords.words('latin')
+    filtered = [x for x in wordslist if x not in stop]
+    return filtered
+
+def punctless(wordslist):
+    punct = string.punctuation
+    
+    punct += u'\u00a7' # SECTION SIGN
+    punct += u'\u00b3' # SUPERSCRIPT THREE
+    punct += u'\u00b2' # SUPERSCRIPT TWO
+    punct += u'\u00b7' # MIDDLE DOT
+    punct += u'\u00b9' # SUPERSCRIPT ONE
+    punct += u'\u2014' # EM DASH
+    punct += u'\u2019' # RIGHT SINGLE QUOTATION MARK
+    punct += u'\u2020' # DAGGER
+    punct += u'\u2184' # LATIN SMALL LETTER REVERSED C
+    punct += u'\u221e' # INFINITY
+    punct += u'\u23d1' # METRICAL BREVE
+
+    punctuation = list(punct)
+
+    words = []
+    for w in wordslist:
+        if w.isalpha():
+            words.append(w)
+
+    filtered = [x for x in words if x not in punctuation]
+    return filtered

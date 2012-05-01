@@ -9,6 +9,9 @@ from itertools import islice
 
 from CatXMLReader import CategorizedXMLCorpusReader
 
+from CatXMLReader import stopless
+from CatXMLReader import punctless
+
 from nltk.corpus import stopwords
 from nltk.corpus import cicero
 
@@ -29,7 +32,6 @@ class MyFreqDist(FreqDist):
             freqs = [self[sample] for sample in samples]
         
         for i in range(len(samples)):
-            print '4s'
             print "%4s" % str(samples[i]),
         print
         
@@ -37,39 +39,26 @@ class MyFreqDist(FreqDist):
             print "%4d" % freqs[i],
         print
 
+def _get_kwarg(kwargs, key, default):
+    if key in kwargs:
+        arg = kwargs[key]
+        del kwargs[key]
+    else:
+        arg = default
+    return arg
+
 fileids = cicero.abspaths()
 cats = cicero.root + '/categories.txt'
 reader = CategorizedXMLCorpusReader('/', fileids, cat_file=cats)
 
 data = reader.words(fileids)
-stop = stopwords.words('latin')
-words = Text(reader.words(fileids))
+filtered = punctless(stopless(data))
+dist = MyFreqDist(Text(filtered))
 
-punct = string.punctuation
-punct += u'\u00a7'
-punct += u'\u00b3'
-punct += u'\u00b2'
-punct += u'\u00b7'
-punct += u'\u00b9'
-punct += u'\u2014'
-punct += u'\u2019'
-punct += u'\u2020'
-punct += u'\u2184'
-punct += u'\u221e'
-punct += u'\u23d1'
+for item in dist.items():
+    if len(item[0]) > 1 and item[1] >= 100:
+        print item[0] + ':' + str(item[1])
 
-punctuation = list(punct)
+dist.plot(500, cumulative=False)
 
-list = [x for x in data if x not in stop]
-filtered = [x for x in list if x not in punctuation]
-
-final = []
-for f in filtered:
-    if f.isalpha():
-        final.append(f)
-
-dist = MyFreqDist(Text(final))
-keys = dist.keys()
-
-for k in keys[0:100]:
-    print k
+#dist.tabulate(conditions=cicero.categories(), samples=filtered[:10], cumulative=False)
