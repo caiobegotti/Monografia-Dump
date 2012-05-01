@@ -60,5 +60,3 @@ for item in dist.items():
         print item[0] + ':' + str(item[1])
 
 dist.plot(500, cumulative=False)
-
-#dist.tabulate(conditions=cicero.categories(), samples=filtered[:10], cumulative=False)
