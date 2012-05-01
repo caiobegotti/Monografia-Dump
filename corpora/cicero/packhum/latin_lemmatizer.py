@@ -20,7 +20,7 @@ parser = etree.HTMLParser()
 
 try:
     tree = etree.parse('http://www.ilc.cnr.it/lemlat/cgi-bin/LemLat_cgi.cgi?World+Form=' + term, parser)
-    element = tree.xpath('//tr/td/ol/li/u//text()')
+    element = tree.xpath('//u//text()')
     print element[0]
 except:
     exit('Word form not recognized or lemlat service is unavailable now')
