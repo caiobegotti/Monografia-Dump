@@ -148,9 +148,9 @@
 \renewcommand*\l@subsubsection{\@dottedtocline{3}{0em}{4.1em}}
 
 % Cria um comando auxiliar para montagem da lista de figuras
-%\newcommand{\figfillnum}[1]{%
-%  {\hspace{1em}\normalfont\dotfill}\nobreak
-%  \hb@xt@\@pnumwidth{\hfil\normalfont #1}{}\par}
+\newcommand{\figfillnum}[1]{%
+  {\hspace{1em}\normalfont\dotfill}\nobreak
+  \hb@xt@\@pnumwidth{\hfil\normalfont #1}{}\par}
 
 % Cria um comando auxiliar para montagem da lista de tabelas
 %\newcommand{\tabfillnum}[1]{%
@@ -330,7 +330,7 @@
 \sumario
 
 % 1 - Lista de Figuras
-%\listadefiguras
+\listadefiguras
 
 % 2 - Lista de Tabelas
 %\listadetabelas
@@ -449,7 +449,7 @@
 
 \par Teremos também um objetivo secundário que deriva das propostas anteriores: a criação de \textit{corpora} e um catálogo de \textit{stopwords} do latim. Os \textit{corpora} poderão ser utilizados para processamento de linguagem natural por terceiros, da mesma forma que serão utilizados neste trabalho. O catálogo de \textit{stopwords} poderá também ser utilizado por terceiros, e tentará ser abrangente, pois atualmente não se tem um catálogo completo para o latim assim como se tem para outras línguas.
 
-\par Além de responder às perguntas acima e de chegar a alguns resultados possíveis já citados, será possível gerar uma lista ordenada de palavras mais comuns do latim clássico de Cícero que possam ser utilizadas em sala de aula e eventualmente em concordâncias. Chama-se de concordâncias os extratos de um ou mais textos, geralmente de uma única linha, contendo uma palavra procurada alinhada verticalmente com todas as suas ocorrências nos \textit{corpora}. O uso disso permite ajudar não só em um ganho de vocabulário por estudantes do latim, mas também para os pesquisadores que precisam de uma boa e imediata visualização do uso de determinadas palavras em textos. Embora existam livros impressos de concordâncias para os grandes autores (não só da antiguidade), estes são de difícil acesso por estudantes comuns, quando não são também caros.
+\par Além de responder às perguntas acima e de chegar a alguns resultados possíveis já citados, será possível gerar uma lista ordenada de palavras mais comuns do latim clássico de Cícero que possam ser utilizadas em sala de aula e eventualmente em concordâncias.
 
 \par A força que instiga este trabalho ao desenvolvimento de LC é muito bem explicada por \citeonline{sapir}\footnote{Tradução própria. No original, em inglês ``vocabulary is a very sensitive index of the culture of a people and changes of meaning, loss of old words, the creation and borrowing of new ones are all dependent on the history of culture itself. Languages differ widely in the nature of their vocabularies. Distinctions which seem inevitable to us may be utterly ignored in languages which reflect an entirely different type of culture, while these in turn insist on distinctions which are all but unintelligible to us. Such differences of vocabulary go far beyond the names of cultural objects, such as arrow point, coat of armor or gunboat. They apply just as well to the mental world''.}, que também acreditava que ``o vocabulário é um índice bastante sensível da cultura de um povo, e mudanças de significado, perda de palavras, a criação e o empréstimo de novas outras são todos fatos dependentes das histórias de suas próprias culturas. Línguas diferem grandemente pela natureza de seus vocabulários. Distinções que parecem inevitáveis para nós podem ser solenemente ignoradas em línguas que refletem um tipo de cultura totalmente diferente, ao passo que elas podem também insistir em distinções que são incompreensíveis para nós. Tais diferenças de vocabulário vão muito além de nomes de objetos como a ponta de uma flecha, uma armadura ou canhoneira. Elas se aplicam também ao mundo mental''.
 
@@ -499,7 +499,7 @@
 
 \par O escopo dos textos escolhido para compor os \textit{corpora} deste trabalho abrange o período clássico da literatura latina, da qual Cícero é um dos maiores expoentes, senão o maior. A escolha de Cícero se deu por sua produção ter sido bastante variada, tendo ele escrito desde tratados até cartas pessoais, de textos jurídicos até filosofia. Cícero teve uma grande influência no pensamento moderno, e é ainda um dos autores mais estudados em cursos de latim, o que o torna ideal para uma análise linguística do latim.
 
-\par Quanto ao tamanho dos \textit{corpora}, que indiretamente determina a utilidade deles, em um teste preliminar chegou-se à marca de 80 mil termos. No teste, apenas alguns textos de Cícero facilmente encontráveis publicamente foram processados, sem muito método. De acordo com estimativas de \citeonline{sardinha-wordsmith}, isso já garante a este trabalho \textit{corpora} de tamanhos razoáveis. O tamanho final dos \textit{corpora} deverá ser muito maior que esse número, porém. Quase 1.4 milhão de tokens, sendo que destes aproximadamente 950 mil são termos relevantes (desconsiderando-se \textit{stopwords} e pontuações). Finalmente, deste número se obtêm cerca de 82 mil termos únicos, ignorando-se repetições nos corpora.
+\par Quanto ao tamanho dos \textit{corpora}, que indiretamente determina a utilidade deles, em um teste preliminar chegou-se à marca de 80 mil termos. No teste, apenas alguns textos de Cícero facilmente encontráveis publicamente foram processados, sem muito método. De acordo com estimativas de \citeonline{sardinha-wordsmith}, isso já garante a este trabalho \textit{corpora} de tamanhos razoáveis. O tamanho final dos \textit{corpora} deverá ser muito maior que esse número, porém. Quase 1.4 milhão de tokens, sendo que destes aproximadamente 900 mil são termos relevantes (desconsiderando-se \textit{stopwords} e pontuações). Finalmente, deste número se obtêm cerca de 82 mil termos únicos, ignorando-se repetições nos corpora.
 
 \par Todavia, é importante salientar que os textos dos corpora não são originais. Naturalmente não era de se esperar que textos tão antigos sobrevivessem até hoje, logo é preciso considerar o trabalho de copistas ao lê-los. Isso significa que podem haver erros de grafia ou até edições nas construções das frases. Não é parte deste trabalho entrar nesses detalhes, mas vale a nota a respeito disto.
 
@@ -521,6 +521,19 @@
 >>> from nltk.corpus import cicero
 >>> print cicero.categories()
 ['letter', 'other', 'philosophy', 'poetry', 'rhetoric', 'speech', 'spurious']
+\end{minted}
+
+\par Os apêndices do trabalho se encarregam de demonstrar com detalhes alguma formas possíveis de manuseio desses corpora. Entretanto, vale salientar que eles não precisam ser trabalhados sempre como um todo. Os corpora podem ser manuseados isoladamente também, como no exemplo a seguir, permitindo análises mais profundas em um ou outro texto de Cícero:
+
+\begin{minted}[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}
+>>> from CatXMLReader import CategorizedXMLCorpusReader
+>>> from nltk.corpus import cicero
+>>>
+>>> reader = CategorizedXMLCorpusReader(cicero.root, cicero.abspaths(), cat_file='categories.txt')
+>>> list = ['cicero_in_verrem.xml']
+>>> text = reader.words(list)
+>>> print text[:10]
+['in', 'c', '.', 'uerrem', 'actio', 'prima', 'quod', 'erat', 'optandum', 'maxime']
 \end{minted}
 
 \subsection{Escopo}
@@ -646,7 +659,19 @@
 
 \par Para o latim clássico de Cícero foi criado um catálogo geral de \textit{stopwords} (no modelo tradicional, uma lista finita de termos), e catálogos menores onde se encontrarão somente preposições, ou somente pronomes e assim por diante, para que os alunos e pesquisadores possam refinar melhor o uso de \textit{stopwords} em latim. As listas a seguir foram elaboradas pelo autor a partir das gramáticas latinas de \citeonline{lateinische} e \citeonline{kuhner}, e considerando resultados prévios deste trabalho comparando os filtros com os de outros autores\footnote{O projeto Perseus possui um catálogo de stopwords do Latim com cerca de 90 termos, porém os critérios para as escolhas feitas pelos responsáveis pelo projeto são desconhecidos, além de o próprio catálogo parecer incompleto.}.
 
-\par Todo o verbo \textit{sum} está incluído nas \textit{stopwords} (mas não listado abaixo) por sua enorme e óbvia frequência. Apenas 3 de suas 70 declinações possíveis não aparece nos corpora. Ainda sobre os números, chegou-se a um resultado preliminar que comprova a necessidade de filtrar \textit{stopwords} nos corpora de Cícero: as cerca de 500 a seguir representam aproximadamente 33\% de todas as ocorrências de palavras dos textos. 
+\par As stopwords podem ser carregadas e filtradas, por exemplo, com um código similar ao abaixo:
+
+\begin{minted}[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}
+>>> from nltk.corpus import cicero
+>>> from nltk.corpus import stopwords
+>>> stop = stopwords.words('latin')
+>>> words = ['et', 'sum', 'loquor', 'cum', 'res']
+>>> filtered = [x for x in words if x not in stop]
+>>> print filtered
+>>> ['loquor']
+\end{minted}
+
+\par Todo o verbo \textit{sum} está incluído nas \textit{stopwords} (mas não listado abaixo) por sua enorme e óbvia frequência. Apenas 3 de suas 70 declinações possíveis não aparece nos corpora. Foram incluídas nas \textit{stopwords} também todas as formas do adjetivo \textit{omnis} e do substantivo \textit{res}, por serem igualmente comuns (ao menos nos \textit{corpora} de Cícero).
 
 \par O apêndice A.5 contém a implementação de um testador para as \textit{stopwords} abaixo. Ele foi desenvolvido para que se tivesse certeza que a) as \textit{stopwords} fossem aplicáveis ao latim clássico, e não ao medieval, por exemplo e que b) cada uma tivesse ao menos uma ocorrência nos corpora, para evitar \textit{stopwords} sem uso real.
 
@@ -664,6 +689,8 @@
 
 \par Uma característica do NLTK que levou à sua escolha como ferramenta deste trabalho é que ele foi desenvolvido pensando na interação entre professores, pesquisadores e alunos \cite{nltk}. É programado de forma simples e elegante. Chama-se o NLTK de uma plataforma Pythônica \cite{pythonic}, isto é, que segue à risca os princípios da linguagem de programação Python, que será detalhada a seguir: os programadores do projeto NLTK não tentaram reinventar a roda recriando métodos de programação se a linguagem na qual ele foi criado já os possuía prontos. Além disso, o projeto é muito bem documentado e conta com comunidade aberta e disposta a ajudar quem se aventura com o NLTK. Tecnicamente falando, estas são vantagens consideráveis sobre quaisquer concorrentes.
 
+\par TODO introduzir os metodos a seguir e mencionar o que sao metodos de programacao e classes, e mencionar alguns legais do nltk para uso ou estudo futuro
+
 \subsection{Análise de frequência}
 \par Será usado o método de análise de frequência estatística como forma básica de obter os resultados de vocabulários dos \textit{corpora}. Análise de frequência é uma forma de, através de pequenos experimentos automáticos (utilizando-se programação e tentando-se obter combinações de um termo em um texto, por exemplo), descobrir a proporção de uso de uma palavra qualquer em relação ao todo de um corpus específico. Essa é uma das atividades primordiais da LC, muitas vezes chamada simplesmente de estatística lexical por aderentes da linguística quantitativa.
 
@@ -671,7 +698,9 @@
 
 \subsection{Concordâncias}
 
-\par TODO
+\par Chama-se de concordâncias os extratos de um ou mais textos, geralmente de uma única linha, contendo uma palavra procurada alinhada verticalmente com todas as suas ocorrências nos \textit{corpora}. O uso disso permite ajudar não só em um ganho de vocabulário por estudantes do latim, mas também para os pesquisadores que precisam de uma boa e imediata visualização do uso de determinadas palavras em textos. Embora existam livros impressos de concordâncias para os grandes autores (não só da antiguidade), estes são de difícil acesso por estudantes comuns, quando não são também caros.
+
+\par Através do NLTK será demonstrado como pode-se visualizar e realizar buscas nos corpora de Cícero, de forma bastante simples e rápida, que pode ainda ser utilizada em sala de aula no ensino do latim clássico. A forma como concordâncias serão montadas é bastante particular a este trabalho, logo servirão também como exemplos de LA.
 
 \section{Python}
 \par Tanto o NLTK quanto ferramentas auxiliares deste trabalho serão feitos utilizando a linguagem de programação Python. A escolha dessa linguagem de programação se dá, entre outros motivos, pelo fato de o NLTK utilizá-la internamente para processar línguas naturais. Também, a facilidade de leitura dos código-fonte da linguagem por pessoas que não são da área de computação é um fator chave \cite{perkins}. Pelo fator de Python ser uma linguagem de alto nível, ou seja, de alta abstração ao se programar com ela, o desenvolvimento de programas é mais rápido com ela e permite que ele seja menos críptico para terceiros que precisem analisá-lo.
@@ -682,11 +711,43 @@
 
 \chapter{Análises}
 
+\par Uma vez que se tenha construído e organizado os \textit{corpora}, é preciso remover os ruídos dos dados. No caso de um corpus linguístico esses ruídos são as \textit{stopwords}. A necessidade de se filtrá-las dos \textit{corpora} de Cícero se comprova através de alguns números: as cerca de 500 \textit{stopwords}, catalogadas nas seções anteriores, representam aproximadamente 33\% de todas as ocorrências de palavras dos textos. Parece um número bastante alto, mas compatível com análises de outras línguas. É comum que termos funcionais (preposições, conjunções etc) sejam maioria no uso real da língua. Todavia, ainda que isso possa indicar que o verdadeiro léxico a ser aprendido por estudantes de latim clássico seja os outros 67\%, pode-se entender os números por outro ângulo: por serem tão comuns, as \textit{stopwords} obrigatoriamente precisam ser dominadas pelos estudantes de latim clássico antes de tentarem aumentar seu vocabulário, pois já garantiriam acesso a boa parte dos textos existentes.
+
+\begin{figure}[hbtp]
+\includegraphics[width=160mm]{graficos/frequencia_100_com_stopwords.pdf}
+\caption{Gráfico de frequência (100 termos mais usados, incluindo stopwords)}
+\end{figure}
+
+\begin{figure}[hbtp]
+\includegraphics[width=160mm]{graficos/frequencia_100_apos_limpeza.pdf}
+\caption{Gráfico de frequência (100 termos mais usados)}
+\end{figure}
+
+\par Explicar FreqDist
+
+\par Daria pra usar FreqDist e verbos "modais" ou "reflexivos" pra analisar a estilistica dos textos?
+
+\par Graficos dist.plot() com e sem stopwords
+
+\par Lista de 500 palavras mais comuns, apos remover declinacoes e casos
+
+\par Concordancias
+
 \par TODO: explicacao dos codigos escritos com python e nltk
 
 \chapter{Resultados}
 
 \par Propostas de uso em ambiente acadêmico e para aprendizagem do latim.
+
+\par Gerar puzzles com NLTK pra sala de aula?
+
+\par Lembrar que sao resultados iniciais, precisa melhorar os corpora, pensar em problemas que a LC pode ajudar etc
+
+\par Embora seja uma lingua altamente flexional, o FreqDist bota o latim classico de cicero no mesmo patamar estatistico de linguas modernas, no qual stopwords dominam totalmente as listas de termos mais frequentes da lingua. A ideia de que seria possivel se expressar em latim com um numero bastante reduzido de conjuncoes e preposicoes, por exemplo, nao somente eh uma ilusao comum que se tem, mas estatisticamente esta bastante longe da verdade.
+
+\par Mencionar que os resultados serao mais uteis se forem expandidos os corpora
+
+\par Dizer algo como: Although there are many advantages to having all these data stored electronically, the real power of this format comes not from the mere storage of data, but from the "relational"aspect, viz. the database program's ability to perform various operations on the material, creating new sets of data at lightning speed without disturbingtheoriginalset. Ittakesonlyafewsimplecommandsto create, for example, frequency lists for the whole database or any specifiable subset thereof. 
 
 \chapter{Propostas de continuidade}
 
@@ -697,6 +758,8 @@
 \par Com o latim isso seria particularmente interessante devido ao caráter bastante flexional da língua. Ao invés de se analisar palavras isoladamente, e manualmente trabalhando declinações e casos da língua, utilizando-se radicalização nas análises reduziria bastante a complexidade da LC com latim. \citeonline{schinke} propôs regras para radicalização em latim, mas não as implementou. Coube a Martin Porter implementar o algoritmo utilizando a plataforma Snowball\footnote{A versão do algoritmo de radicalização para latim de Porter jamais foi lançada oficialmente e permanece não testada. Ver http://snowball.tartarus.org/otherapps/schinke/intro.html para detalhes. Cabe também um agradecimento especial a Porter, por ter enviado por correio uma cópia impressa do artigo original de \citeonline{schinke}, que é excepcionalmente raro online.}.
 
 \par O apêndice A.7 demonstra uma outra proposta, que pode ser melhor desenvolvida no futuro. É uma re-implementação do algoritmo sugerido por Porter porém escrito na linguagem Python. Comparando os resultados do código aqui proposto com os de Porter a margem de erro não ultrapassa 2\% em um corpus de aproximadamente 30 mil palavras, números consideráveis mas que podem ser melhorados no futuro. Para tal, seria necessário um tempo maior analisando resultados falso-positivos e refinando o algoritmo com referências gramaticais mais precisas do latim.
+
+\par O apêndice A.8 também apresenta uma ferramenta simples de consulta ao LemLat, um serviço online para lematização de palavras em latim do Istituto di Linguistica Computazionale, do CNR italiano. Os dois códigos apresentados nesses apêndices podem ser combinados para automatizar e melhorar o processo de radicalização de palavras do latim no futuro.
 
 \section{Performance dos métodos}
 
@@ -740,6 +803,9 @@
 
 \section{Protótipo de algoritmo de radicalização}
 \inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{stemmer.py}
+
+\section{Consulta automatizada ao LemLat}
+\inputminted[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}{latin_lemmatizer.py}
 
 %\anexo
 %\chapter{Primeiro anexo}
