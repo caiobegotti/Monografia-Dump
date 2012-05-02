@@ -19,25 +19,35 @@ from nltk import FreqDist
 from nltk import Text
 
 class MyFreqDist(FreqDist):
-    def tabulate(self, *args, **kwargs):
+    def plot(self, *args, **kwargs):
+        try:
+            import pylab
+        except ImportError:
+            raise ValueError('The plot function requires the matplotlib package (pylab).')
+        
         if len(args) == 0:
             args = [len(self)]
-        
         samples = list(islice(self, *args))
-        cumulative = _get_kwarg(kwargs, 'cumulative', False)
         
+        cumulative = _get_kwarg(kwargs, 'cumulative', False)
         if cumulative:
             freqs = list(self._cumulative_frequencies(samples))
+            ylabel = u'Ocorrências Cumulativas'
         else:
             freqs = [self[sample] for sample in samples]
+            ylabel = u'Ocorrências'
         
-        for i in range(len(samples)):
-            print "%4s" % str(samples[i]),
-        print
-        
-        for i in range(len(samples)):
-            print "%4d" % freqs[i],
-        print
+        pylab.grid(True, color="silver")
+        if not "linewidth" in kwargs:
+            kwargs["linewidth"] = 2
+        if "title" in kwargs:
+            pylab.title(kwargs["title"])
+            del kwargs["title"]
+        pylab.plot(freqs, **kwargs)
+        pylab.xticks(range(len(samples)), [str(s) for s in samples], rotation=90)
+        pylab.xlabel("Termos")
+        pylab.ylabel(ylabel)
+        pylab.show()
 
 def _get_kwarg(kwargs, key, default):
     if key in kwargs:
@@ -46,7 +56,7 @@ def _get_kwarg(kwargs, key, default):
     else:
         arg = default
     return arg
-
+        
 fileids = cicero.abspaths()
 cats = cicero.root + '/categories.txt'
 reader = CategorizedXMLCorpusReader('/', fileids, cat_file=cats)
@@ -56,7 +66,7 @@ filtered = punctless(stopless(data))
 dist = MyFreqDist(Text(filtered))
 
 for item in dist.items():
-    if len(item[0]) > 1 and item[1] >= 100:
+    if len(item[0]) > 1 and item[1] >= 300:
         print item[0] + ':' + str(item[1])
 
-dist.plot(500, cumulative=False)
+dist.plot(100, cumulative=False, title=u'Gráfico de frequência (100 termos mais usados)')
