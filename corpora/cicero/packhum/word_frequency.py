@@ -4,6 +4,7 @@
 # this is under public domain
 
 import string
+import optparse
 
 from itertools import islice
 
@@ -17,6 +18,19 @@ from nltk.corpus import cicero
 
 from nltk import FreqDist
 from nltk import Text
+
+parser = optparse.OptionParser("Usage: %prog [options]")
+parser.add_option("-s", "--stopwords", action="store_true", dest="stopwords",
+                  default=False, help="include stopwords in the calculations")
+parser.add_option("-p", "--plot", action="store_true", dest="plot",
+                  default=False, help="plot the frequency distribution of terms")
+parser.add_option("-c", "--count", type="int", dest="count",
+                  default=100, help="count only for this many terms (default: 100)")
+
+(options, args) = parser.parse_args()
+#if options is None:
+#    parser.print_help()
+#    exit(-1)
 
 class MyFreqDist(FreqDist):
     def plot(self, *args, **kwargs):
@@ -60,20 +74,29 @@ def _get_kwarg(kwargs, key, default):
         arg = default
     return arg
         
-fileids = cicero.abspaths()
-cats = cicero.root + '/categories.txt'
-reader = CategorizedXMLCorpusReader('/', fileids, cat_file=cats)
+categories = 'categories.txt'
+reader = CategorizedXMLCorpusReader(cicero.root,
+                                    cicero.abspaths(),
+                                    cat_file=categories)
 
-data = reader.words(fileids)
-filtered = punctless(stopless(data))
+data = reader.words(cicero.fileids())
+
+if options.stopwords is True:
+    print 'com stop'
+    filtered = punctless(data)
+else:
+    filtered = punctless(stopless(data))
+
 dist = MyFreqDist(Text(filtered))
 
-for item in dist.items():
-    if len(item[0]) > 1 and item[1] >= 300:
-        print item[0] + ':' + str(item[1])
-
-dist.plot(100,
-          cumulative=False,
-          title=u'Gráfico de frequência (100 termos mais usados)',
-          ylabel=u'Ocorrências',
-          xlabel=u'Termos')
+if options.plot is True:
+    print 'vou plotar'
+    dist.plot(100,
+              cumulative=False,
+              title=u'Gráfico de frequência (100 termos mais usados)',
+              ylabel=u'Ocorrências',
+              xlabel=u'Termos')
+else:
+    for item in dist.items():
+        if len(item[0]) > 1 and item[1] >= options.count:
+            print item[0] + ':' + str(item[1])
