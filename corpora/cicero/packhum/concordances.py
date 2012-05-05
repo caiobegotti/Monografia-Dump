@@ -23,7 +23,7 @@ parser.add_option("-f", "--fake", action="store_true", dest="fake",
 parser.add_option("-w", "--width", type="int", dest="width",
                   default=150, help="width of the context data")
 parser.add_option("-c", "--count", type="int", dest="count",
-                  default=25, help="how many matches to display")
+                  default=1, help="how many matches to display")
 parser.add_option("-v", "--verbose", action="store_true", dest="verbose",
                   default=False, help="print headers or stats")
 
@@ -44,7 +44,7 @@ class MyText(Text):
         if res is not None:
             print res
 
-    def concordance(self, corpus, word, width=150, lines=25):
+    def concordance(self, corpus, word, width=150, lines=1):
         if '_concordance_index' not in self.__dict__:
             if options.verbose is True:
                 print "Building index..."
@@ -52,7 +52,7 @@ class MyText(Text):
         self._concordance_index.print_concordance(width, lines, corpus, word)
 
 class MyConcordanceIndex(ConcordanceIndex):
-    def print_concordance(self, corpus, word, width=150, lines=25):
+    def print_concordance(self, corpus, word, width=150, lines=1):
         half_width = (width - len(word) - 2) / 2
         context = width/4
         
