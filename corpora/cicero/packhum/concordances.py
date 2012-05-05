@@ -47,7 +47,7 @@ class MyText(Text):
     def concordance(self, corpus, word, width=150, lines=1):
         if '_concordance_index' not in self.__dict__:
             if options.verbose is True:
-                print "Building index..."
+                print "\nBuilding index..."
             self._concordance_index = MyConcordanceIndex(self.tokens, key=lambda s:s.lower())           
         self._concordance_index.print_concordance(width, lines, corpus, word)
 
