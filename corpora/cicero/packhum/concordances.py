@@ -94,6 +94,8 @@ def corpora_loader(corpus, fake):
 
 if __name__ == "__main__":
     for corpus in cicero.fileids():
+        if corpus in cicero.fileids(['spurious']) and options.fake is False:
+            continue
         content = corpora_loader(corpus, fake=options.fake)
         text = MyText(content)
         res = text.search(options.term,
