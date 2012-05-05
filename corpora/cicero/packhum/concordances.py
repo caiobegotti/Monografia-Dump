@@ -83,12 +83,6 @@ def corpora_loader(corpus, fake):
     reader = CategorizedXMLCorpusReader(cicero.root,
                                         cicero.abspaths(),
                                         cat_file='categories.txt')
-
-    if fake is True:
-        categories = cicero.categories()
-    else:
-        categories = cicero.categories()[:-1]
-   
     data = Text(reader.words([corpus]))
     return data
 
