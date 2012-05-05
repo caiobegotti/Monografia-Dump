@@ -5,64 +5,75 @@
 
 import string
 
-from nltk import Text
-from nltk import FreqDist
+from itertools import islice
 
-from nltk.tokenize import word_tokenize
+from CatXMLReader import CategorizedXMLCorpusReader
+
+from CatXMLReader import stopless
+from CatXMLReader import punctless
 
 from nltk.corpus import stopwords
 from nltk.corpus import cicero
 
-from CatXMLReader import CategorizedXMLCorpusReader
+from nltk import FreqDist
+from nltk import Text
 
 class MyFreqDist(FreqDist):
-    def tabulate(self, *args, **kwargs):
+    def plot(self, *args, **kwargs):
+        try:
+            import pylab
+        except ImportError:
+            raise ValueError('The plot function requires the matplotlib package (pylab).')
+        
         if len(args) == 0:
             args = [len(self)]
-        
         samples = list(islice(self, *args))
-        cumulative = _get_kwarg(kwargs, 'cumulative', False)
         
+        cumulative = _get_kwarg(kwargs, 'cumulative', False)
         if cumulative:
             freqs = list(self._cumulative_frequencies(samples))
         else:
             freqs = [self[sample] for sample in samples]
         
-        for i in range(len(samples)):
-            print '4s'
-            print "%4s" % str(samples[i]),
-        print
+        if not "linewidth" in kwargs:
+            kwargs["linewidth"] = 2
+        if "title" in kwargs:
+            pylab.title(kwargs["title"])
+            del kwargs["title"]
+        if "xlabel" in kwargs:
+            pylab.xlabel(kwargs["xlabel"])
+            del kwargs["xlabel"]
+        if "ylabel" in kwargs:
+            pylab.xlabel(kwargs["ylabel"])
+            del kwargs["ylabel"]
         
-        for i in range(len(samples)):
-            print "%4d" % freqs[i],
-        print
+        pylab.grid(True, color="silver")
+        pylab.plot(freqs, **kwargs)
+        pylab.xticks(range(len(samples)), [str(s) for s in samples], rotation=90)
+        pylab.show()
 
+def _get_kwarg(kwargs, key, default):
+    if key in kwargs:
+        arg = kwargs[key]
+        del kwargs[key]
+    else:
+        arg = default
+    return arg
+        
 fileids = cicero.abspaths()
-reader = CategorizedXMLCorpusReader('/', fileids, cat_file='categories.txt')
-stopwords = stopwords.words('latin')
-punct = string.punctuation
-punct += u'\u00a7'
-punct += u'\u00b3'
-punct += u'\u00b2'
-punct += u'\u00b7'
-punct += u'\u00b9'
-punct += u'\u2014'
-punct += u'\u2019'
-punct += u'\u2020'
-punct += u'\u2184'
-punct += u'\u221e'
-punct += u'\u23d1'
-words = reader.words(fileids)
-for word in words:
-    if word in stopwords or word in punct:
-        words.remove(word)
+cats = cicero.root + '/categories.txt'
+reader = CategorizedXMLCorpusReader('/', fileids, cat_file=cats)
 
+data = reader.words(fileids)
+filtered = punctless(stopless(data))
+dist = MyFreqDist(Text(filtered))
 
-with file('./cicero.txt', 'w') as content:
-    content.write(words)
+for item in dist.items():
+    if len(item[0]) > 1 and item[1] >= 300:
+        print item[0] + ':' + str(item[1])
 
-print len(words), len(reader.words(fileids))
-
-#tokens = Text(filtered)[0:200]
-#dist = MyFreqDist(tokens)
-#print dist.tabulate()
+dist.plot(100,
+          cumulative=False,
+          title=u'Gráfico de frequência (100 termos mais usados)',
+          ylabel=u'Ocorrências',
+          xlabel=u'Termos')
