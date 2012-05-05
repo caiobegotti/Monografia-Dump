@@ -5,8 +5,10 @@
 
 import glob
 import optparse
+import string
 
 from CatXMLReader import CategorizedXMLCorpusReader
+from CatXMLReader import ciceroabbr
 
 from nltk.corpus import cicero
 
@@ -22,8 +24,8 @@ parser.add_option("-w", "--width", type="int", dest="width",
                   default=150, help="width of the context data")
 parser.add_option("-c", "--count", type="int", dest="count",
                   default=25, help="how many matches to display")
-parser.add_option("-q", "--quiet", action="store_true", dest="quiet",
-                  default=False, help="do not print headers or stats")
+parser.add_option("-v", "--verbose", action="store_true", dest="verbose",
+                  default=False, help="print headers or stats")
 
 (options, args) = parser.parse_args()
 if options.term is None:
@@ -32,29 +34,32 @@ if options.term is None:
 
 reset = '\033[1;m'
 red = '\033[1;31m'
+green = '\033[1;32m'
+yellow = '\033[1;33m'
+blue = '\033[1;34m'
 
 class MyText(Text):
-    def search(self, word, width, lines):
-        res = self.concordance(word, width, lines)
+    def search(self, corpus, word, width, lines):
+        res = self.concordance(word, width, lines, corpus)
         if res is not None:
             print res
 
-    def concordance(self, word, width=150, lines=25):
+    def concordance(self, corpus, word, width=150, lines=25):
         if '_concordance_index' not in self.__dict__:
-            if options.quiet is False:
+            if options.verbose is True:
                 print "Building index..."
             self._concordance_index = MyConcordanceIndex(self.tokens, key=lambda s:s.lower())           
-        self._concordance_index.print_concordance(word, width, lines)
+        self._concordance_index.print_concordance(width, lines, corpus, word)
 
 class MyConcordanceIndex(ConcordanceIndex):
-    def print_concordance(self, word, width=150, lines=25):
+    def print_concordance(self, corpus, word, width=150, lines=25):
         half_width = (width - len(word) - 2) / 2
         context = width/4
         
         offsets = self.offsets(word)
         if offsets:
             lines = min(lines, len(offsets))
-            if options.quiet is False:
+            if options.verbose is True:
                 print "Displaying %s of %s matches:" % (lines, len(offsets))
             for i in offsets:
                 if lines <= 0:
@@ -64,14 +69,17 @@ class MyConcordanceIndex(ConcordanceIndex):
                 right = ' '.join(self._tokens[i+1:i+context])
                 left = left[-half_width:]
                 right = right[:half_width]
-                print '[' + left, red + self._tokens[i] + reset, right + ']'
+                abbr = ciceroabbr(corpus)
+                abbrinfo = '[' + abbr + ']'
+                abbrinfo = abbrinfo.center(12, ' ').replace(abbr, green + abbr + reset)
+                print abbrinfo + '[' + left, yellow + self._tokens[i] + reset, right + ']'
                 lines -= 1
         else:
-            if options.quiet is False:
-                print "No matches found for " + word
-            exit(-1)
+            if options.verbose is True:
+                print "No matches found for " + word + " in " + corpus
+            #exit(-1)
  
-def corpora_loader(fake):
+def corpora_loader(corpus, fake):
     reader = CategorizedXMLCorpusReader(cicero.root,
                                         cicero.abspaths(),
                                         cat_file='categories.txt')
@@ -80,15 +88,17 @@ def corpora_loader(fake):
         categories = cicero.categories()
     else:
         categories = cicero.categories()[:-1]
-    
-    data = Text(reader.words(categories=categories)) 
+   
+    data = Text(reader.words([corpus]))
     return data
 
 if __name__ == "__main__":
-    content = corpora_loader(fake=options.fake)
-    text = MyText(content)
-    res = text.search(options.term,
-                      options.width,
-                      options.count)
-    if res is not None:
-        print res
+    for corpus in cicero.fileids():
+        content = corpora_loader(corpus, fake=options.fake)
+        text = MyText(content)
+        res = text.search(options.term,
+                          options.width,
+                          options.count,
+                          corpus)
+        if res is not None:
+            print res
