@@ -5,6 +5,7 @@
 
 import string
 import optparse
+import pylab
 
 from itertools import islice
 
@@ -24,6 +25,8 @@ parser.add_option("-s", "--stopwords", action="store_true", dest="stopwords",
                   default=False, help="include stopwords in the calculations")
 parser.add_option("-p", "--plot", action="store_true", dest="plot",
                   default=False, help="plot the frequency distribution of terms")
+parser.add_option("-z", "--zipf", action="store_true", dest="zipf",
+                  default=False, help="plots a zipf's law log.log graph")
 parser.add_option("-l", "--limit", type="int", dest="limit",
                   default=100, help="prints calculation of first (default: 100) terms")
 parser.add_option("-c", "--count", type="int", dest="count",
@@ -36,11 +39,6 @@ parser.add_option("-c", "--count", type="int", dest="count",
 
 class MyFreqDist(FreqDist):
     def plot(self, *args, **kwargs):
-        try:
-            import pylab
-        except ImportError:
-            raise ValueError('The plot function requires the matplotlib package (pylab).')
-        
         if len(args) == 0:
             args = [len(self)]
         samples = list(islice(self, *args))
@@ -99,6 +97,25 @@ if options.plot is True:
               ylabel=u'Ocorrências',
               xlabel=u'Termos')
 else:
-    for item in dist.items()[:options.limit]:
+    limit = options.limit
+    if limit == 0:
+        limit = len(dist.items())
+    for item in dist.items()[:limit]:
         if len(item[0]) > 1 and item[1] >= options.count:
             print item[0] + ':' + str(item[1])
+
+if options.zipf is True:
+    ranks = []
+    freqs = []
+    for rank, word in enumerate(dist):
+        ranks.append(rank+1)
+        freqs.append(dist[word])
+
+    pylab.loglog(ranks, freqs, 'k-')
+    pylab.grid(True, color="silver")
+    pylab.title(u'Lei de Zipf (' + str(len(dist.items())) + ' termos)')
+    pylab.ylabel(u'Frequência')
+    pylab.xlabel(u'Ordem')
+    pylab.tight_layout()
+    pylab.savefig('word_frequency_zipf.pdf', dpi=300)
+    pylab.show()
