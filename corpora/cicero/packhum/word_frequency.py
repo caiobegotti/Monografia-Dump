@@ -95,7 +95,7 @@ dist = MyFreqDist(Text(filtered))
 if options.plot is True:
     dist.plot(options.limit,
               cumulative=False,
-              title=u'Gráfico de frequência (100 termos mais usados)',
+              title= u'Gráfico de frequência (' + str(options.limit) + ' termos)',
               ylabel=u'Ocorrências',
               xlabel=u'Termos')
 else:
