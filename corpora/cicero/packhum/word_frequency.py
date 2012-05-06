@@ -60,12 +60,14 @@ class MyFreqDist(FreqDist):
             pylab.xlabel(kwargs["xlabel"])
             del kwargs["xlabel"]
         if "ylabel" in kwargs:
-            pylab.xlabel(kwargs["ylabel"])
+            pylab.ylabel(kwargs["ylabel"])
             del kwargs["ylabel"]
         
         pylab.grid(True, color="silver")
-        pylab.plot(freqs, **kwargs)
+        pylab.plot(freqs, 'ko-', **kwargs)
         pylab.xticks(range(len(samples)), [str(s) for s in samples], rotation=90)
+        pylab.tight_layout()
+        pylab.savefig('word_frequency.pdf', dpi=300)
         pylab.show()
 
 def _get_kwarg(kwargs, key, default):
