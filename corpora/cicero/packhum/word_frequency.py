@@ -24,8 +24,10 @@ parser.add_option("-s", "--stopwords", action="store_true", dest="stopwords",
                   default=False, help="include stopwords in the calculations")
 parser.add_option("-p", "--plot", action="store_true", dest="plot",
                   default=False, help="plot the frequency distribution of terms")
+parser.add_option("-l", "--limit", type="int", dest="limit",
+                  default=100, help="prints calculation of first (default: 100) terms")
 parser.add_option("-c", "--count", type="int", dest="count",
-                  default=100, help="count only for this many terms (default: 100)")
+                  default=100, help="shows only counts higher than (default: 100)")
 
 (options, args) = parser.parse_args()
 #if options is None:
@@ -82,7 +84,6 @@ reader = CategorizedXMLCorpusReader(cicero.root,
 data = reader.words(cicero.fileids())
 
 if options.stopwords is True:
-    print 'com stop'
     filtered = punctless(data)
 else:
     filtered = punctless(stopless(data))
@@ -90,13 +91,12 @@ else:
 dist = MyFreqDist(Text(filtered))
 
 if options.plot is True:
-    print 'vou plotar'
-    dist.plot(100,
+    dist.plot(options.limit,
               cumulative=False,
               title=u'Gráfico de frequência (100 termos mais usados)',
               ylabel=u'Ocorrências',
               xlabel=u'Termos')
 else:
-    for item in dist.items():
+    for item in dist.items()[:options.limit]:
         if len(item[0]) > 1 and item[1] >= options.count:
             print item[0] + ':' + str(item[1])
