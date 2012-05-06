@@ -49,20 +49,21 @@ class MyFreqDist(FreqDist):
         else:
             freqs = [self[sample] for sample in samples]
         
-        if not "linewidth" in kwargs:
-            kwargs["linewidth"] = 2
+        fig = pylab.figure(figsize=(12.5, 5))
+        ax = fig.add_subplot(1, 1, 1)
+         
         if "title" in kwargs:
-            pylab.title(kwargs["title"])
+            ax.set_title(kwargs["title"])
             del kwargs["title"]
         if "xlabel" in kwargs:
-            pylab.xlabel(kwargs["xlabel"])
+            ax.set_xlabel(kwargs["xlabel"])
             del kwargs["xlabel"]
         if "ylabel" in kwargs:
-            pylab.ylabel(kwargs["ylabel"])
+            ax.set_ylabel(kwargs["ylabel"])
             del kwargs["ylabel"]
         
-        pylab.grid(True, color="silver")
-        pylab.plot(freqs, 'ko-', **kwargs)
+        ax.plot(freqs, 'k+-', **kwargs)
+        ax.grid(True, color="silver")
         pylab.xticks(range(len(samples)), [str(s) for s in samples], rotation=90)
         pylab.tight_layout()
         pylab.savefig('word_frequency.pdf', dpi=300)
@@ -119,11 +120,13 @@ if options.zipf is True:
         ranks.append(rank+1)
         freqs.append(dist[word])
 
-    pylab.loglog(ranks, freqs, 'k-')
-    pylab.grid(True, color="silver")
-    pylab.title(u'Lei de Zipf (' + str(len(dist.items())) + ' termos)')
-    pylab.ylabel(u'Frequência')
-    pylab.xlabel(u'Ordem')
+    fig = pylab.figure(figsize=(7.5, 5))
+    ax = fig.add_subplot(1, 1, 1)
+    ax.loglog(ranks, freqs, 'k-')
+    ax.grid(True, color="silver")
+    ax.set_title(u'Lei de Zipf (' + str(len(dist.items())) + ' termos)')
+    ax.set_ylabel(u'Frequência')
+    ax.set_xlabel(u'Ordem')
     pylab.tight_layout()
     pylab.savefig('word_frequency_zipf.pdf', dpi=300)
     pylab.show()
