@@ -66,7 +66,7 @@ class MyFreqDist(FreqDist):
         ax.grid(True, color="silver")
         pylab.xticks(range(len(samples)), [str(s) for s in samples], rotation=90)
         pylab.tight_layout()
-        pylab.savefig('word_frequency.pdf', dpi=300)
+        pylab.savefig('word_frequency.eps', dpi=300)
         pylab.show()
 
 def _get_kwarg(kwargs, key, default):
@@ -128,5 +128,5 @@ if options.zipf is True:
     ax.set_ylabel(u'Frequência')
     ax.set_xlabel(u'Ordem')
     pylab.tight_layout()
-    pylab.savefig('word_frequency_zipf.pdf', dpi=300)
+    pylab.savefig('word_frequency_zipf.eps', dpi=300)
     pylab.show()
