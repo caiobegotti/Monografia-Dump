@@ -97,13 +97,18 @@ if options.plot is True:
               ylabel=u'Ocorrências',
               xlabel=u'Termos')
 else:
+    print 'Data lenght: ' + str(len(data))
+    print 'Filtered data: ' + str(len(filtered))
+    print 'Distribution of: ' + str(len(dist))
+    print '\nCOUNT\tP(%)\tTERM'
+
     total = len(dist.items())
     limit = options.limit
     if limit == 0:
         limit = total
     for item in dist.items()[:limit]:
         if len(item[0]) >= 1 and item[1] >= options.count:
-            percentage = (float(item[1]) * 100) / float(total)
+            percentage = dist.freq(item[0]) * 100
             percentage = '{0:.3}'.format(percentage)
             print '%d\t%s\t%s' % (item[1], percentage + '%', item[0])
 
