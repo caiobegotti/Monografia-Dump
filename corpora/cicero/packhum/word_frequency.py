@@ -97,12 +97,15 @@ if options.plot is True:
               ylabel=u'Ocorrências',
               xlabel=u'Termos')
 else:
+    total = len(dist.items())
     limit = options.limit
     if limit == 0:
-        limit = len(dist.items())
+        limit = total
     for item in dist.items()[:limit]:
-        if len(item[0]) > 1 and item[1] >= options.count:
-            print item[0] + ':' + str(item[1])
+        if len(item[0]) >= 1 and item[1] >= options.count:
+            percentage = (float(item[1]) * 100) / float(total)
+            percentage = '{0:.3}'.format(percentage)
+            print '%d\t%s\t%s' % (item[1], percentage + '%', item[0])
 
 if options.zipf is True:
     ranks = []
