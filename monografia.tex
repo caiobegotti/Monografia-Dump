@@ -705,22 +705,35 @@
 \section{Python}
 \par Tanto o NLTK quanto ferramentas auxiliares deste trabalho serão feitos utilizando a linguagem de programação Python. A escolha dessa linguagem de programação se dá, entre outros motivos, pelo fato de o NLTK utilizá-la internamente para processar línguas naturais. Também, a facilidade de leitura dos código-fonte da linguagem por pessoas que não são da área de computação é um fator chave \cite{perkins}. Pelo fator de Python ser uma linguagem de alto nível, ou seja, de alta abstração ao se programar com ela, o desenvolvimento de programas é mais rápido com ela e permite que ele seja menos críptico para terceiros que precisem analisá-lo.
 
-\par Criada por volta de 1989 por Guido van Rossum, a linguagem de programação Python sempre teve como objetivo facilitar a criação de soluções rápidas e práticas em computação. Todo o seu desenvolvimento estreve centrado na máxima \textit{programação de computadores pode ser feita por qualquer pessoa} \cite{guido}. Uma de outras suas grandes vantagens frente à outras linguagens de programação é sua extensibilidade, ou seja, sua capacidade de crescimento através de códigos de terceiros, que enriquecem-na. É precisamente esse o caso do NLTK.
+\par Criada por volta de 1989 por Guido van Rossum, a linguagem de programação Python sempre teve como objetivo facilitar a criação de soluções rápidas e práticas em computação. Todo o seu desenvolvimento esteve centrado na máxima que diz que ``programação de computadores pode ser feita por qualquer pessoa'' \cite{guido}. Uma de outras suas grandes vantagens frente à outras linguagens de programação é sua extensibilidade, ou seja, sua capacidade de crescimento através de códigos de terceiros, que enriquecem-na. É precisamente esse o caso do NLTK.
 
 \par Utilizar a linguagem de programação Python junto com o NLTK vai permitir uma autonomia muito grande para se criar, analisar e trabalhar de forma geral os \textit{corpora} de latim clássico. Algumas alternativas para análise linguística de \textit{corpora}\footnote{Em http://linguistlist.org/sp/GetWRListings.cfm?WRAbbrev=Software há uma lista mais completa.} incluem os programas WordSmith Tools, Perseus Hopper (a versão web do projeto Perseus), Diogenes, Wmatrix, LanguageWare da IBM e LIWC. Infelizmente, quase todos esses programas possuem limitações tecnológicas, quando não de preço também. Utilizando a linguagem Python junto com o NLTK se tem uma possibilidade de desenvolvimento, customização e aprendizado muito grande. Digamos que se precise corrigir algum componente interno de um desses softwares, seja porque o erro é aparente, seja porque o pesquisador suspeita do seu comportamento. Isso não é possível com eles, mas é com a linguagem Python e o NLTK, tornando estes até mesmo mais cientificamente confiáveis.
 
 \chapter{Análises}
 
-\par Uma vez que se tenha construído e organizado os \textit{corpora}, é preciso remover os ruídos dos dados. No caso de um corpus linguístico esses ruídos são as \textit{stopwords}. A necessidade de se filtrá-las dos \textit{corpora} de Cícero se comprova através de alguns números: as cerca de 500 \textit{stopwords}, catalogadas nas seções anteriores, representam aproximadamente 33\% de todas as ocorrências de palavras dos textos. Parece um número bastante alto, mas compatível com análises de outras línguas. É comum que termos funcionais (preposições, conjunções etc) sejam maioria no uso real da língua. Todavia, ainda que isso possa indicar que o verdadeiro léxico a ser aprendido por estudantes de latim clássico seja os outros 67\%, pode-se entender os números por outro ângulo: por serem tão comuns, as \textit{stopwords} obrigatoriamente precisam ser dominadas pelos estudantes de latim clássico antes de tentarem aumentar seu vocabulário, pois já garantiriam acesso a boa parte dos textos existentes.
+\par Uma vez que se tenha construído e organizado os \textit{corpora}, é preciso remover os ruídos dos dados. No caso de um corpus linguístico esses ruídos são as \textit{stopwords}. A necessidade de se filtrá-las dos \textit{corpora} de Cícero se comprova através de alguns números: as cerca de 500 \textit{stopwords}, catalogadas nas seções anteriores, representam aproximadamente 33\% de todas as ocorrências de palavras dos textos. Parece um número bastante alto, mas compatível com análises de outras línguas.
+
+\par É comum que termos funcionais (preposições, conjunções etc) sejam maioria no uso real da língua. Todavia, ainda que isso possa indicar que o verdadeiro léxico a ser aprendido por estudantes de latim clássico seja os outros 67\%, pode-se entender os números por outro ângulo: por serem tão comuns, as \textit{stopwords} obrigatoriamente precisam ser dominadas pelos estudantes de latim clássico antes de tentarem aumentar seu vocabulário, pois já garantiriam acesso a boa parte dos textos existentes.
 
 \begin{figure}[hbtp]
-\includegraphics[width=160mm]{graficos/frequencia_100_com_stopwords.pdf}
+\begin{center}
+\includegraphics[width=160mm]{graficos/frequencia_100_com_stopwords.eps}
 \caption{Gráfico de frequência (100 termos mais usados, incluindo stopwords)}
+\end{center}
 \end{figure}
 
 \begin{figure}[hbtp]
-\includegraphics[width=160mm]{graficos/frequencia_100_apos_limpeza.pdf}
+\begin{center}
+\includegraphics[width=160mm]{graficos/frequencia_100_apos_limpeza.eps}
 \caption{Gráfico de frequência (100 termos mais usados)}
+\end{center}
+\end{figure}
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=100mm]{graficos/frequencia_zipf.eps}
+\caption{Gráfico atestando Lei de Zipf aos corpora}
+\end{center}
 \end{figure}
 
 \par Explicar FreqDist
