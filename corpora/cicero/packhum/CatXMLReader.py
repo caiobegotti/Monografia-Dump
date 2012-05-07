@@ -108,7 +108,7 @@ def punctless(wordslist):
         if w.isalpha():
             words.append(w)
 
-    filtered = [x for x in words if x not in punctuation]
+    filtered = [x.encode('utf-8', 'replace') for x in words if x not in punctuation]
     return filtered
 
 def ciceroabbr(filename):
