@@ -12,15 +12,19 @@ from sys import exit
 
 from lxml import etree
 
-if not len(argv) == 2:
-    exit('Usage: ' + argv[0] + " 'latin word to lemmatize'")
+def lemmatize(term):
+    term = term.lower().strip()
+    parser = etree.HTMLParser()
 
-term = argv[1].lower().strip()
-parser = etree.HTMLParser()
+    try:
+        tree = etree.parse('http://www.ilc.cnr.it/lemlat/cgi-bin/LemLat_cgi.cgi?World+Form=' + term, parser)
+        element = tree.xpath('//u//text()')
+        return element[0]
+    except:
+        exit('Word form not recognized or lemlat service is unavailable now')
 
-try:
-    tree = etree.parse('http://www.ilc.cnr.it/lemlat/cgi-bin/LemLat_cgi.cgi?World+Form=' + term, parser)
-    element = tree.xpath('//u//text()')
-    print element[0]
-except:
-    exit('Word form not recognized or lemlat service is unavailable now')
+if __name__ == "__main__":
+    if not len(argv) == 2:
+        exit('Usage: ' + argv[0] + " 'latin word to lemmatize'")
+    else:
+        print lemmatize(argv[1])
