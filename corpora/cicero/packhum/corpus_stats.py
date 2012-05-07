@@ -23,7 +23,9 @@ for corpus in cicero.fileids():
         break
 
     rank = []
-    for item in dist.items()[:100]:
-        if len(item[0]) >= 2:
-            rank.append(item[0])
-    print '\n%s: %s' % (corpus, ', '.join(rank))
+    stat = reader.words([corpus])
+    if len(stat) >= 25000:
+        for item in dist.items()[:100]:
+            if len(item[0]) >= 2:
+                rank.append(item[0])
+        print '\n%s: %s' % (corpus, ', '.join(rank))
