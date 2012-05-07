@@ -4,11 +4,9 @@
 # this is under public domain
 
 from CatXMLReader import CategorizedXMLCorpusReader
-
 from CatXMLReader import stopless
 from CatXMLReader import punctless
 
-from nltk.corpus import stopwords
 from nltk.corpus import cicero
 
 from nltk import FreqDist
@@ -21,10 +19,11 @@ for corpus in cicero.fileids():
     try:
         dist = FreqDist(Text(punctless(stopless(reader.words([corpus])))))
     except UnicodeEncodeError as e:
-        print '\nXXX ERROR XXX\n' + str(e)
+        print str(e)
+        break
 
     rank = []
     for item in dist.items()[:100]:
         if len(item[0]) >= 2:
             rank.append(item[0])
-    print corpus + ': ' + ', '.join(rank)
+    print '\n%s: %s' % (corpus, ', '.join(rank))
