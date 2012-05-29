@@ -15,17 +15,20 @@ from nltk import Text
 # experimental
 from latin_lemmatizer import lemmatize
 
+# fancy dictionary
+from collections import defaultdict
+
 list = [
-'cicero_de_republica.xml',
-'cicero_brutus.xml',
-'cicero_de_divinatione.xml',
-'cicero_rhetorica_ad_herennium_sp.xml',
-'cicero_de_inventione.xml',
-'cicero_de_natura_deorum.xml',
-'cicero_de_officiis.xml',
-'cicero_tusculanae_disputationes.xml',
-'cicero_de_finibus.xml',
-'cicero_philippicae.xml',
+#'cicero_de_republica.xml',
+#'cicero_brutus.xml',
+#'cicero_de_divinatione.xml',
+#'cicero_rhetorica_ad_herennium_sp.xml',
+#'cicero_de_inventione.xml',
+#'cicero_de_natura_deorum.xml',
+#'cicero_de_officiis.xml',
+#'cicero_tusculanae_disputationes.xml',
+#'cicero_de_finibus.xml',
+#'cicero_philippicae.xml',
 'cicero_de_oratore.xml',
 'cicero_in_verrem.xml',
 'cicero_epistulae_ad_familiares.xml',
@@ -33,7 +36,7 @@ list = [
 'cicero_tusculanae_disputationes.xml'
 ]
 
-total = []
+total = defaultdict(int)
 for corpus in list:
     reader = CategorizedXMLCorpusReader(cicero.root,
                                         cicero.abspaths(),
@@ -46,12 +49,14 @@ for corpus in list:
 
     definitions = {}
     stat = reader.words([corpus])
-    if len(stat) >= 25000:
-        for item in dist.items()[:150]:
-            if len(item[0]) >= 2:
-                lemma = lemmatize(item[0])
-                if lemma is not None:
-                    if lemma not in total:
-                        definitions[item[0]] = lemma
-                        total.append(lemma)
+    for item in dist.items()[:150]:
+        entry = item[0]
+        if len(entry) >= 2:
+            lemma = lemmatize(item[0])
+            if lemma is not None:
+                if lemma not in total:
+                    definitions[entry] = lemma
+                num = dist[entry]
+                total[lemma] += num
+    #print sum(total.values()), len(stat)
     print corpus + ': ' + ', '.join(sorted(definitions.values()))
