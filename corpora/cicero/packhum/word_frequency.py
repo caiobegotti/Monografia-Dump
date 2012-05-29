@@ -123,6 +123,7 @@ if options.zipf is True:
     fig = pylab.figure(figsize=(7.5, 5))
     ax = fig.add_subplot(1, 1, 1)
     ax.loglog(ranks, freqs, 'k-')
+    ax.loglog(range(1, len(freqs)+1), [len(freqs)/x for x in range(1, len(freqs)+1)], 'k--')
     ax.grid(True, color="silver")
     ax.set_title(u'Lei de Zipf (' + str(len(dist.items())) + ' termos)')
     ax.set_ylabel(u'Frequência')
