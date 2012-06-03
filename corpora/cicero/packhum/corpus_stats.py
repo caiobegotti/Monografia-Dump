@@ -26,7 +26,6 @@ list = [
 #'cicero_de_inventione.xml',
 #'cicero_de_natura_deorum.xml',
 #'cicero_de_officiis.xml',
-#'cicero_tusculanae_disputationes.xml',
 #'cicero_de_finibus.xml',
 #'cicero_philippicae.xml',
 'cicero_de_oratore.xml',
@@ -49,7 +48,7 @@ for corpus in list:
 
     definitions = {}
     stat = reader.words([corpus])
-    for item in dist.items()[:150]:
+    for item in dist.items()[:100]:
         entry = item[0]
         if len(entry) >= 2:
             lemma = lemmatize(item[0])
@@ -59,4 +58,10 @@ for corpus in list:
                 num = dist[entry]
                 total[lemma] += num
     #print sum(total.values()), len(stat)
-    print corpus + ': ' + ', '.join(sorted(definitions.values()))
+    #print corpus + ': ' + ', '.join(sorted(definitions.values()))
+
+res = sorted(total.items(), key=lambda x: x[1], reverse=True)
+for r in res:
+    print str(r[1]) + ':' +  r[0]
+
+print sum(total.values())
