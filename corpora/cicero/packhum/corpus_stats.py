@@ -48,7 +48,7 @@ for corpus in list:
 
     definitions = {}
     stat = reader.words([corpus])
-    for item in dist.items()[:100]:
+    for item in dist.items()[:1000]:
         entry = item[0]
         if len(entry) >= 2:
             lemma = lemmatize(item[0])
