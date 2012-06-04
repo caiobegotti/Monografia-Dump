@@ -671,7 +671,9 @@
 \par epistulae ad atticum
 \par tusculanae disputationes
 
-\par TODO 42\% de termos unicos em cicero, nos 5 maiores textos acima
+\par TODO: comparar 150 palavras sugeridas com vocabulario obrigatorio do reading latin
+
+\par TODO: 42\% de termos unicos em cicero, nos 5 maiores textos acima
 
 \par TODO: corpora nao sao perfeitos, pode haver sujeira nao esperada ainda
 
@@ -693,7 +695,7 @@
 
 \par  Chama-se de radicalização\footnote{Stemming, em inglês, é um termo mais comum na literatura.} o processo de se obter, através de algoritmos, a raíz de uma palavra sem nenhum de seus afixos relevantes. É um processo conceitualmente diferente e mais simples do que encontrar o lema de uma palavra, entretanto bastante útil em LC pois permite análises mais profundas. Por exemplo, uma análise estatística de ocorrências de palavras poderia considerar não as palavras propriamente, mas seus \textit{stems}, fazendo a análise sobre termos do mesmo grupo semântico e não gramatical.
 
-\par Com o latim isso seria particularmente interessante devido ao caráter bastante flexional da língua. Ao invés de se analisar palavras isoladamente, e manualmente trabalhando declinações e casos da língua, utilizando-se radicalização nas análises reduziria bastante a complexidade da LC com latim. \citeonline{schinke} propôs regras para radicalização em latim, mas não as implementou. Coube a Martin Porter implementar o algoritmo utilizando a plataforma Snowball\footnote{A versão do algoritmo de radicalização para latim de Porter jamais foi lançada oficialmente e permanece não testada. Ver http://snowball.tartarus.org/otherapps/schinke/intro.html para detalhes. Cabe também um agradecimento especial a Porter, por ter enviado por correio uma cópia impressa do artigo original de \citeonline{schinke}, que é excepcionalmente raro online.}.
+\par Com o latim isso seria particularmente interessante devido ao caráter bastante flexional da língua. Ao invés de se analisar palavras isoladamente, e manualmente trabalhando declinações e casos da língua, utilizando-se radicalização nas análises reduziria bastante a complexidade da LC com latim. Houve quem propusesse regras para radicalização em latim, mas elas nunca foram implementadas de fato \cite{schinke}. Coube a Martin Porter implementar um algoritmo funcional utilizando a plataforma Snowball\footnote{A versão do algoritmo de radicalização para latim de Porter jamais foi lançada oficialmente e permanece não testada. Ver http://snowball.tartarus.org/otherapps/schinke/intro.html para detalhes. Cabe também um agradecimento especial a Porter, por ter enviado por correio uma cópia impressa do artigo original de \citeonline{schinke}, que é excepcionalmente raro online.}.
 
 \par O apêndice A.7 demonstra uma outra proposta, que pode ser melhor desenvolvida no futuro. É uma re-implementação do algoritmo sugerido por Porter porém escrito na linguagem Python. Comparando os resultados do código aqui proposto com os de Porter a margem de erro não ultrapassa 2\% em um corpus de aproximadamente 30 mil palavras, números consideráveis mas que podem ser melhorados no futuro. Para tal, seria necessário um tempo maior analisando resultados falso-positivos e refinando o algoritmo com referências gramaticais mais precisas do latim.
 
@@ -724,87 +726,144 @@
 \hline
 Termo & Tradução \\ \hline
 adhuc & x \\ \hline
-aegritudo & x \\ \hline
+ago & x \\ \hline
+alter & x \\ \hline
+anima & x \\ \hline
 animo & x \\ \hline
 animus & x \\ \hline
 antea & x \\ \hline
 arator & x \\ \hline
+arbitror & x \\ \hline
 ars & x \\ \hline
+auctoritas & x \\ \hline
+audio & x \\ \hline
 bene & x \\ \hline
 bonus & x \\ \hline
+brutus & x \\ \hline
 causa & x \\ \hline
+ceterus & x \\ \hline
+ciuis & x \\ \hline
+ciuitas & x \\ \hline
+cognosco & x \\ \hline
 consilium & x \\ \hline
+consul & x \\ \hline
 crassus & x \\ \hline
-cura & x \\ \hline
-dico & x \\ \hline
-dies & x \\ \hline
-dolor & x \\ \hline
-epistula & x \\ \hline
-facilis & x \\ \hline
-facio & x \\ \hline
-fio & x \\ \hline
-fors & x \\ \hline
-gener & x \\ \hline
-habeo & x \\ \hline
-homo & x \\ \hline
-inquam & x \\ \hline
-is & x \\ \hline
-itaque & x \\ \hline
-iudex & x \\ \hline
-ius & x \\ \hline
-littera & x \\ \hline
-loco & x \\ \hline
-magnus & x \\ \hline
-malis & x \\
+credo & x \\ \hline
+cura & x \\
 \hline
 \end{tabular}
 \quad
 \begin{tabular}{|c|c|}
 \hline
 Termo & Tradução \\ \hline
+debeo & x \\ \hline
+dico & x \\ \hline
+dies & x \\ \hline
+dignitas & x \\ \hline
+diligo & x \\ \hline
+diu & x \\ \hline
+do & x \\ \hline
+dolor & x \\ \hline
+epistula & x \\ \hline
+exercitus & x \\ \hline
+facia & x \\ \hline
+facilis & x \\ \hline
+facio & x \\ \hline
+fero & x \\ \hline
+fio & x \\ \hline
+fors & x \\ \hline
+fortuna & x \\ \hline
+frater & x \\ \hline
+gener & x \\ \hline
+gratia & x \\ \hline
+gratus & x \\ \hline
+habeo & x \\ \hline
+homo & x \\ \hline
+iniuria & x \\ \hline
+inquam & x \\
+\hline
+\end{tabular}
+\quad
+\begin{tabular}{|c|c|}
+\hline
+Termo & Tradução \\ \hline
+intellego & x \\ \hline
+is & x \\ \hline
+itaque & x \\ \hline
+iudex & x \\ \hline
+iudicium & x \\ \hline
+ius & x \\ \hline
+lego & x \\ \hline
+littera & x \\ \hline
+loco & x \\ \hline
+locus & x \\ \hline
+magnus & x \\ \hline
+maior & x \\ \hline
+malis & x \\ \hline
+malo & x \\ \hline
 maximus & x \\ \hline
-mehercule & x \\ \hline
 meus & x \\ \hline
 minor & x \\ \hline
 mitto & x \\ \hline
 modius & x \\ \hline
 modus & x \\ \hline
-mors & x \\ \hline
 multa & x \\ \hline
 multus & x \\ \hline
 natura & x \\ \hline
+necesse & x \\ \hline
+negotium & x \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[ht]
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+Termo & Tradução \\ \hline
+nescio & x \\ \hline
 nomen & x \\ \hline
+nullus & x \\ \hline
 numquam & x \\ \hline
 nunc & x \\ \hline
 omnino & x \\ \hline
+opera & x \\ \hline
+oportet & x \\ \hline
 opus & x \\ \hline
 oratio & x \\ \hline
 orator & x \\ \hline
+pars & x \\ \hline
 pecunia & x \\ \hline
 planus & x \\ \hline
 plus & x \\ \hline
-po'pulus & x \\ \hline
+populus & x \\ \hline
 pono & x \\ \hline
 possum & x \\ \hline
-potis/-e & x \\ \hline
+potis & x \\ \hline
 praesertim & x \\ \hline
 praetor & x \\ \hline
+pridie & x \\ \hline
 primus & x \\ \hline
-prouincia & x \\ \hline
-publica & x \\ \hline
-publico & x \\ \hline
-puto & x \\ \hline
-quantus & x \\
+proficiscor & x \\ \hline
+prouincia & x \\
 \hline
 \end{tabular}
 \quad
 \begin{tabular}{|c|c|}
 \hline
 Termo & Tradução \\ \hline
+publica & x \\ \hline
+publico & x \\ \hline
+puto & x \\ \hline
+quaero & x \\ \hline
+quantus & x \\ \hline
 quin & x \\ \hline
 ratio & x \\ \hline
+reliquus & x \\ \hline
 saepe & x \\ \hline
 sal & x \\ \hline
+salus & x \\ \hline
 sanus & x \\ \hline
 satis & x \\ \hline
 scio & x \\ \hline
@@ -812,28 +871,44 @@ scriba & x \\ \hline
 scribo & x \\ \hline
 semper & x \\ \hline
 senatus & x \\ \hline
-sicilis & x \\ \hline
+sententia & x \\ \hline
+sermo & x \\ \hline
+soleo & x \\ \hline
 solus & x \\ \hline
+spes & x \\ \hline
 studium & x \\ \hline
-sum & x \\ \hline
-summo & x \\ \hline
-suo & x \\ \hline
-sus/suis & x \\ \hline
-suus/-os & x \\ \hline
+summo & x \\
+\hline
+\end{tabular}
+\quad
+\begin{tabular}{|c|c|}
+\hline
+Termo & Tradução \\ \hline
+sentio & x \\ \hline
+simul & x \\ \hline
+spero & x \\ \hline
 tantus & x \\ \hline
 tempus & x \\ \hline
-to"tus & x \\ \hline
-tuus/-os & x \\ \hline
+testis & x \\ \hline
+totus & x \\ \hline
 ualde & x \\ \hline
 ualeo & x \\ \hline
 uehemens & x \\ \hline
-uerbum/-us & x \\ \hline
-uerres/-is & x \\ \hline
+ueneo & x \\ \hline
+uerbum & x \\ \hline
+uerres & x \\ \hline
 uideo & x \\ \hline
+uir & x \\ \hline
+uirtus & x \\ \hline
 uis & x \\ \hline
 uita & x \\ \hline
+ullus & x \\ \hline
 umquam & x \\ \hline
-unus & x \\
+unus & x \\ \hline
+uolo & x \\ \hline
+uoluntas & x \\ \hline
+urbs & x \\ \hline
+utor & x \\
 \hline
 \end{tabular}
 \end{center}
