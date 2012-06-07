@@ -18,17 +18,14 @@
 1816:nunc
 1809:senatus
 1765:uis
-1676:unus
 1665:multa
 1641:natura
 1588:puto
 1580:magnus
 1541:alter
-1481:fio
 1458:uerbum/-us
 1456:po'pulus
 1436:uita
-1434:is
 1423:animus
 1419:tuus/-os
 1417:scribo
@@ -97,7 +94,6 @@
 716:fortuna
 686:ullus
 682:omnino
-669:sum
 659:orator
 654:salus
 650:utor/-o
@@ -173,7 +169,6 @@
 413:amicitia
 413:frater
 410:efficio
-407:meus
 403:grauis
 403:appello
 403:uehemens
@@ -187,7 +182,6 @@
 387:ualeo
 386:hostis
 386:arma
-386:quisque
 382:nescio
 382:nascor/-o
 381:simul
@@ -237,9 +231,7 @@
 291:paene
 291:statim
 288:crassus
-288:idem
 287:peto
-287:et
 286:nosco
 284:plurimus
 283:pertineo
@@ -381,7 +373,6 @@
 178:consequor
 177:laus
 177:defensio
-176:aliqui
 173:turpis
 172:dubito
 171:decimus
@@ -407,7 +398,6 @@
 162:lentulus
 161:facultas
 160:inde
-160:ego
 159:aequus/-os
 159:domo
 157:aduersarius
@@ -454,7 +444,6 @@
 137:relinqo
 136:libido
 135:pauci
-135:uterque
 135:acte
 135:nauis
 134:otion
@@ -585,7 +574,6 @@
 100:claudus
 99:uiror
 99:aufero
-99:hic
 98:fugio
 98:commune
 98:suffero
@@ -672,7 +660,6 @@
 80:certo/-or
 80:piso
 79:memini
-79:eo
 79:industria
 79:proprio
 79:humanus
@@ -680,7 +667,6 @@
 79:existimatio
 79:confero
 78:doleo/-eor
-78:item
 78:disputo
 78:prorsus
 78:os
@@ -692,7 +678,6 @@
 77:quaestor
 77:nobilis
 77:quinque
-77:cum
 76:quem-ad-modum
 76:fateor
 76:colo
@@ -848,7 +833,6 @@
 55:laboro
 55:colloco
 55:alo
-55:quicumque
 55:uinco
 55:torquatus
 55:maleficium
@@ -975,7 +959,6 @@
 42:fortitudo
 41:libero/-or
 41:digno/-or
-41:etiam
 41:reprehendo
 41:familiaritas
 41:adimo
@@ -986,7 +969,6 @@
 40:hirtus
 40:bibulus
 40:affectus
-40:ecquis
 40:collegium
 40:parias
 40:deduco
@@ -1059,7 +1041,6 @@
 36:claros
 36:sors/sortis
 36:idoneus
-36:omnis
 35:consisto
 35:laterens
 35:excipio
@@ -1131,7 +1112,6 @@
 32:obscurus
 32:egregius
 32:cras
-32:tam
 32:exta
 32:creber
 32:numerius
@@ -1222,10 +1202,8 @@
 28:lucrius
 27:rescribo
 27:elegans
-27:sicut
 27:numerosus
 27:uario
-27:prope
 27:cor
 27:frux
 27:carus
@@ -1349,13 +1327,11 @@
 22:spatior/-o
 22:perditor
 22:egero
-22:ei
 22:descendo
 22:continentia
 22:insignis
 22:ardeo
 22:obseruantia
-22:contra
 22:commodo
 22:obtineo
 22:funus
@@ -1395,7 +1371,6 @@
 21:labor
 21:inimico
 20:hora
-20:tu
 20:carmen
 20:clueo/-eor
 20:innocentia
@@ -1528,7 +1503,6 @@
 17:prodeo
 17:legitimus
 17:publicana
-17:ante
 17:iudicialis
 17:terni
 17:petesso
@@ -1634,7 +1608,6 @@
 15:fulgeo
 15:persaepe
 15:iacio
-15:alius
 15:aduerso
 15:praesentia
 15:arcesso
@@ -1706,7 +1679,6 @@
 13:paries
 13:reicio
 13:incendo
-13:quispiam
 13:lustro/-or
 13:dulcis
 13:uinum/-us
@@ -1736,10 +1708,8 @@
 13:delictum
 13:maledictum
 13:rarus
-13:quis
 13:eruditus
 13:pondus
-13:deinde
 13:auctio
 13:fre'tus
 12:caneo
@@ -1816,7 +1786,6 @@
 12:admitto
 12:expleo
 12:debilito
-12:iuxta
 12:impono
 11:ibidem
 11:poema
@@ -1852,7 +1821,6 @@
 11:praeficio
 11:color/colos
 11:arx/arcs
-11:supra
 11:caecus
 11:fulgor
 11:deci'do
@@ -2124,12 +2092,10 @@
 8:solitudo
 8:materies
 8:angor
-8:ita
 8:dedicatio
 8:clamo
 8:fatum
 8:oblino
-8:quiuis
 8:cruciatus
 8:umbra
 8:diadema
@@ -2196,7 +2162,6 @@
 7:magnificus
 7:subsidium
 7:dispar
-7:uos
 7:explicatio
 7:ales
 7:uexo
@@ -2269,7 +2234,6 @@
 7:adulter
 7:dimico
 7:dactylus/-os
-7:tamen
 7:alligo
 7:nudus
 7:conscius
@@ -2710,7 +2674,6 @@
 4:poculum
 4:conclaue
 4:uocalis
-4:ipse
 4:polleo
 4:excolo
 4:haurio
@@ -2922,7 +2885,6 @@
 4:muliebris
 4:corrigium
 4:ames
-4:ad
 4:particeps
 4:apis/-es
 4:canorus
@@ -3249,7 +3211,6 @@
 3:igneo
 3:sextula
 3:defetiscor
-3:haud
 3:asclepias
 3:subscriptio
 3:demitto
@@ -3375,7 +3336,6 @@
 2:dispensatio
 2:ostentarius
 2:destringo
-2:in
 2:atriensis
 2:uolutatus
 2:inexplicabilis
@@ -3410,7 +3370,6 @@
 2:cessio
 2:lucror/-o
 2:meretrix
-2:cuius
 2:coniugatio
 2:extremitas
 2:hospitia
@@ -3459,13 +3418,11 @@
 2:peiurus
 2:st
 2:cynosurus
-2:se
 2:procedo
 2:ianua
 2:oscen
 2:aerumnosus
 2:exsarcio
-2:nos
 2:adorior/-io
 2:impudicitia
 2:uicinus
@@ -3477,7 +3434,6 @@
 2:cessator
 2:reficio
 2:fauor
-2:iam
 2:collacrimo/-or
 2:prandium
 2:proteruus
