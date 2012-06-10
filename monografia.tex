@@ -621,11 +621,13 @@
 
 \chapter{Análises}
 
-\par Uma vez que se tenha construído e organizado os \textit{corpora}, é preciso remover os ruídos dos dados. No caso de um corpus linguístico esses ruídos são as \textit{stopwords}. A necessidade de se filtrá-las dos \textit{corpora} de Cícero se comprova através de alguns números: as cerca de 500 \textit{stopwords}, catalogadas nas seções anteriores, representam aproximadamente 33\% de todas as ocorrências de palavras dos corpora de Cícero. Parece um número bastante alto, mas é bastante razoável se lembrarmos que no nosso catálogo elas são um número considerável. A porcentagem delas em um texto obviamente depende da sua abrangência (que nesse trabalho foi exagerada propositadamente pois \textit{stopwords} não são o foco das análises).
+\section{Stopwords}
 
-\par É comum que termos funcionais (preposições, conjunções etc) ocorram em grande número, muitas línguas dependem gramaticalmente desses termos. Todavia, ainda que isso possa indicar que o verdadeiro léxico a ser aprendido por estudantes de latim clássico seja os outros 67\% livres de \textit{stopwords}, pode-se entender os números por outro ângulo: por serem incrivelmente comuns, as \textit{stopwords} obrigatoriamente precisam ser dominadas pelos estudantes de latim clássico antes de tentarem aumentar seu vocabulário, pois já garantiriam o acesso a boa parte dos textos existentes. 
+\par Uma vez que se tenha construído e organizado os \textit{corpora}, é preciso remover os ruídos dos dados. No caso de um corpus linguístico esses ruídos são as \textit{stopwords}. A necessidade de se filtrá-las dos \textit{corpora} de Cícero se comprova através de alguns números: as cerca de 500 \textit{stopwords}, catalogadas nas seções anteriores, representam aproximadamente 33\% de todas as ocorrências de palavras dos corpora de Cícero. Parece um número bastante alto, mas é bastante razoável se lembrarmos que no nosso catálogo elas são um número expressivo. A porcentagem delas em um texto obviamente depende da sua abrangência, que nesse trabalho foi exagerada propositadamente pois \textit{stopwords} não são o foco das análises. Para outras línguas ou pesquisas mais pontuais o número de \textit{stopwords} irá variar bastante.
 
-\par A partir do código do apêndice B.6 foi possível gerar um gráfico de frequência dos 100 termos mais utilizados por cícero, incluindo \textit{stopwords}. O código se baseia primariamente na classe de programação FreqDist, parte do módulo de probabilidade do NLTK. Basicamente, a FreqDist permite gerar distribuições de frequência a partir do resultado de um determinado evento, neste caso traduzível para ``o termo X é encontrado N vezes no texto Z''. Tendo gerado uma distribuição de frequência dos termos de todos os corpora combinados, o resultado na figura abaixo comprova o nível de ruído que as \textit{stopwords} criam:
+\par É comum que termos funcionais (preposições, conjunções etc) ocorram em grande número, muitas línguas dependem gramaticalmente desses termos. Todavia, ainda que isso possa indicar que o verdadeiro léxico a ser aprendido por estudantes de latim clássico seja os outros 67\% livres de \textit{stopwords}, é preferível entender os números por outro ângulo: por serem incrivelmente comuns, as \textit{stopwords} obrigatoriamente precisam ser dominadas pelos estudantes de latim clássico antes de tentarem aumentar seu vocabulário, pois já garantiriam o acesso a boa parte dos textos existentes. 
+
+\par A partir do código do apêndice B.6 foi possível gerar um gráfico de frequência dos 100 termos mais utilizados por Cícero, incluindo \textit{stopwords}. O código se baseia primariamente na classe de programação FreqDist, parte do módulo de probabilidade do NLTK. Basicamente, a FreqDist permite gerar distribuições de frequência a partir do resultado de um determinado evento, neste caso traduzível para ``o termo X é encontrado N vezes no texto Z''. Tendo gerado uma distribuição de frequência dos termos de todos os corpora combinados, o resultado na figura abaixo comprova o nível de ruído que as \textit{stopwords} criam.
 
 \begin{figure}[hbtp]
 \begin{center}
@@ -634,11 +636,7 @@
 \end{center}
 \end{figure}
 
-\par O pico inicial de termos é formado principalmente por \textit{stopwords}, o que significa muito pouco para uma análise lexical que queremos fazer. Entretanto, já podemos perceber, mesmo com \textit{stopwords} presentes, uma curva acentuada que mostra um número cada vez menor de ocorrências para a maioria dos termos. Isso será analisado em breve.
-
-\par Excluindo-se as \textit{stopwords}, enfim, chegamos a um gráfico de distribuição de frequência mais realista. A figura abaixo agora nos permite ver, por exemplo, que o termo mais usado nos corpora de Cícero seria na realidade um termo que antes aparecia no meio do gráfico. Nota-se ainda a diferença enorme no volume das primeiras frequências, demonstrando o predomínio das \textit{stopwords} até então. É possível reparar também termos de uma letra só. Isso não é um erro, mas uma anomalia dos corpora pelo uso de pré-nomes romanos abreviados. Assim, onde se vê \textit{c} deve-se entender \textit{gaius}, onde se vê \textit{m} deve-se entender \textit{marcus} etc.
-
-\par Entretanto, aqui temos um novo problema particular ao latim: o caráter flexional da língua faz com que declinações de um verbo ou casos de um nome tenham suas frequências calculadas separadamente. Isso não é de todo ruim, caso se esteja analisando as declinações e os casos. Neste trabalho, porém, podemos entender isso como um outro tipo de ruído nos dados, e que também será tratado em breve.
+\par O pico inicial de termos é formado principalmente por \textit{stopwords}, o que significa muito pouco para uma análise lexical que queremos fazer. Entretanto, já podemos perceber, mesmo com \textit{stopwords} presentes, uma curva acentuada que mostra um número cada vez menor de ocorrências para a maioria dos termos. Isso será analisado em breve.  É possível reparar também termos de uma letra só. Isso não é um erro, mas uma anomalia dos corpora pelo uso de pré-nomes romanos abreviados. Assim, onde se vê \textit{c} deve-se entender \textit{gaius}, onde se vê \textit{m} deve-se entender \textit{marcus} e assim por diante, seguindo as convenções romanas.
 
 \begin{figure}[hbtp]
 \begin{center}
@@ -647,9 +645,24 @@
 \end{center}
 \end{figure}
 
-\par Retomando o ``fenômeno'' da curva do gráfico na primeira figura, pode-se perceber uma semelhança desses corpora de Cícero com outros corpora de outras línguas. Essa curva linear pode ser explicada pela Lei de Zipf, que por ser de ordem matemática além do escopo desse trabalho somente terá seus resultados avaliados, e não seu métodos. \citeonline{tesitelova} explica claramente os efeitos da Lei de Zipf. Dado um corpus suficientemente grande, alguns poucos termos serão utilizados em uma ordem de grandeza bem maior que a maioria dos termos únicos deste corpus, levando a uma distribuição desproporcional do uso lexical. Em todo caso, essa desproporção é sempre a mesma, em todas as línguas naturais. Logo, é possível dizer que um corpus é mal formado, ou não representativo, se ele não bater com a Lei de Zipf.
+\par Excluindo-se as \textit{stopwords}, enfim, chegamos a um gráfico de distribuição de frequência mais realista. A figura acima agora nos permite ver, por exemplo, que o termo mais usado nos corpora de Cícero seria na realidade um termo que antes aparecia no meio do gráfico. Nota-se ainda a diferença enorme no volume das primeiras frequências, demonstrando o predomínio das \textit{stopwords} até então e a baixa frequência de termos ``úteis''.
 
-\par A figura abaixo é a representação da Lei de Zipf aplicada a todos os corpora deste trabalho. O gráfico está em escalas logarítimicas, e a linha tracejada aponta os valores ideais do corpus segundo a referida lei. Pode-se ver claramente que os corpora do trabalho praticamente batem com os valores esperados deles.
+\par Entretanto, aqui temos um novo problema particular ao latim: o caráter flexional da língua faz com que declinações de um verbo ou casos de um nome tenham suas frequências calculadas separadamente. Isso não é de todo ruim, caso se esteja analisando as declinações e os casos. Neste trabalho, porém, podemos entender isso como um outro tipo de ruído nos dados, e que também será tratado em breve.
+
+\section{Lei de Zipf}
+
+\par Retomando o ``fenômeno'' da curva do gráfico na primeira figura, pode-se perceber nela uma semelhança dos corpora de Cícero com outros de outras línguas. Essa curva linear pode ser explicada pela Lei de Zipf. Por ser de ordem matemática, além do escopo desse trabalho, somente avaliaremos os resultados da lei, e não seu métodos, embora \citeonline{tesitelova} sirva como uma boa referência pois explica em detalhes o funcionamento da Lei de Zipf.
+
+\par Dado um corpus suficientemente grande, alguns poucos termos serão utilizados em uma ordem de grandeza bem maior que a maioria dos termos únicos deste corpus. Estatisticamente, quando mais usado um termo for, maior sua posição em uma lista ordenada de termos, sendo que, em geral, o número de ocorrências de um termo cai pela metade a cada posição nesse lista ordenada.
+
+\par Isso leva à uma distribuição desproporcional do uso lexical. Em todo caso, essa desproporção é sempre a mesma, em todas as línguas naturais. Logo, é possível dizer que um corpus é mal formado, filtrado demais, ou não representativo, se ele não bater com a Lei de Zipf.
+
+\par A figura a seguir é a aplicação da Lei de Zipf a todos os corpora deste trabalho. O gráfico está em escalas logarítimicas, e a linha tracejada aponta os valores ideais dos corpora segundo os cálculos da lei. A aplicação do gráfico está no final do apêndice B.6. A parte específica dos cálculos segue abaixo, onde \textit{ranks} e \textit{freqs} são a ordem dos termos e sua ocorrências, respectivamente.
+
+\begin{minted}[linenos=true,frame=single,fontsize=\scriptsize,fontshape=it]{python}
+>>> ax.loglog(ranks, freqs, 'k-')
+>>> ax.loglog(range(1, len(freqs)+1), [len(freqs)/x for x in range(1, len(freqs)+1)], 'k--')
+\end{minted}
 
 \begin{figure}[hbtp]
 \begin{center}
@@ -658,54 +671,48 @@
 \end{center}
 \end{figure}
 
-\par À princípio a Lei de Zipf não resolve nenhum problema linguístico, ela é simplesmente uma forma matemática de testar empiricamente um corpus contendo linguagem natural. Virtualmente toda língua natural, tendo um corpus suficientemente grande para amostragens estatísticas, irá bater com a Lei de Zipf. Isso significa dizer que os corpora desse trabalho são plenamente utilizáveis em LC e linguística computacional. Um corpus contendo problemas de transcrição, muito ruído de \textit{stopwords} etc dificilmente bateria com a Lei de Zipf dessa maneira. De fato, se analisarmos os corpora de Cícero individualmente, veríamos que alguns ficariam bastante ``fora da curva'', como é o caso do pequeno \textit{Academica}. Outros, como \textit{Epistulae Ad Atticum}, batem perfeitamente por terem tamanhos consideráveis.
+\par Pode-se ver claramente que os corpora do trabalho praticamente batem com os valores esperados deles. O resultado é bastante satisfatório, pois, embora a Lei de Zipf não resolva nenhum problema linguístico, ela é uma forma matemática eficiente para testar empiricamente um corpus de linguagem natural.
 
-\par Concordancias como uso pras frequencias em sala de aula
+\par Virtualmente toda língua natural, tendo um corpus suficientemente grande para amostragens estatísticas, irá bater com a Lei de Zipf. Isso significa dizer que os corpora desse trabalho são plenamente utilizáveis em LC e linguística computacional. Um corpus contendo problemas de transcrição, muito ruído de \textit{stopwords} etc dificilmente bateria com a Lei de Zipf dessa maneira.
 
-\par TODO: explicacao dos codigos escritos com python e nltk
-
-\par TODO: comparar 150 palavras sugeridas com vocabulario obrigatorio do reading latin
-
-\par TODO: 42\% de termos unicos em cicero, nos 5 maiores textos acima
-
-\par TODO: corpora nao sao perfeitos, pode haver sujeira nao esperada ainda
-
-\par Propostas de uso em ambiente acadêmico e para aprendizagem do latim.
-
-\par Gerar puzzles com NLTK pra sala de aula?
-
-\par Falar que listas a seguir pra sala de aulas sao bem diversas, comentar corpus de cada uma
-
-\par Lembrar que sao resultados iniciais, precisa melhorar os corpora, pensar em problemas que a LC pode ajudar etc
-
-\par Embora seja uma lingua altamente flexional, o FreqDist bota o latim classico de cicero no mesmo patamar estatistico de linguas modernas, no qual stopwords dominam totalmente as listas de termos mais frequentes da lingua. A ideia de que seria possivel se expressar em latim com um numero bastante reduzido de conjuncoes e preposicoes, por exemplo, nao somente eh uma ilusao comum que se tem, mas estatisticamente esta bastante longe da verdade.
-
-\par Mencionar que os resultados serao mais uteis se forem expandidos os corpora
-
-\par Dizer algo como: Although there are many advantages to having all these data stored electronically, the real power of this format comes not from the mere storage of data, but from the "relational"aspect, viz. the database program's ability to perform various operations on the material, creating new sets of data at lightning speed without disturbingtheoriginalset. Ittakesonlyafewsimplecommandsto create, for example, frequency lists for the whole database or any specifiable subset thereof. 
-
-\chapter{Propostas de continuidade}
+\par De fato, se analisarmos os corpora de Cícero individualmente, veríamos que alguns ficariam bastante ``fora da curva'', como é o caso do pequeno \textit{Academica}. Outros, como \textit{Epistulae Ad Atticum}, batem perfeitamente por terem tamanhos consideráveis. Este gráfico apresenta a média geral dos corpora.
 
 \section{Radicalização}
 
-\par  Chama-se de radicalização\footnote{Stemming, em inglês, é um termo mais comum na literatura.} o processo de se obter, através de algoritmos, a raíz de uma palavra sem nenhum de seus afixos relevantes. É um processo conceitualmente diferente e mais simples do que encontrar o lema de uma palavra, entretanto bastante útil em LC pois permite análises mais profundas. Por exemplo, uma análise estatística de ocorrências de palavras poderia considerar não as palavras propriamente, mas seus \textit{stems}, fazendo a análise sobre termos do mesmo grupo semântico e não gramatical.
+\par Chama-se de radicalização\footnote{Stemming, em inglês, é um termo mais comum na literatura.} o processo de se obter, através de algoritmos, a raíz de uma palavra sem nenhum de seus afixos relevantes. É um processo conceitualmente diferente e mais simples do que encontrar o lema de uma palavra, entretanto bastante útil em LC pois permite análises mais profundas. Por exemplo, uma análise estatística de ocorrências de palavras poderia considerar não as palavras propriamente, mas seus \textit{stems}, fazendo a análise sobre termos do mesmo grupo semântico e não gramatical.
 
 \par Com o latim isso seria particularmente interessante devido ao caráter bastante flexional da língua. Ao invés de se analisar palavras isoladamente, e manualmente trabalhando declinações e casos da língua, utilizando-se radicalização nas análises reduziria bastante a complexidade da LC com latim. Houve quem propusesse regras para radicalização em latim, mas elas nunca foram implementadas de fato \cite{schinke}. Coube a Martin Porter implementar um algoritmo funcional utilizando a plataforma Snowball\footnote{A versão do algoritmo de radicalização para latim de Porter jamais foi lançada oficialmente e permanece não testada. Ver http://snowball.tartarus.org/otherapps/schinke/intro.html para detalhes. Cabe também um agradecimento especial a Porter, por ter enviado por correio uma cópia impressa do artigo original de \citeonline{schinke}, que é excepcionalmente raro online.}.
 
-\par O apêndice A.7 demonstra uma outra proposta, que pode ser melhor desenvolvida no futuro. É uma re-implementação do algoritmo sugerido por Porter porém escrito na linguagem Python. Comparando os resultados do código aqui proposto com os de Porter a margem de erro não ultrapassa 2\% em um corpus de aproximadamente 30 mil palavras, números consideráveis mas que podem ser melhorados no futuro. Para tal, seria necessário um tempo maior analisando resultados falso-positivos e refinando o algoritmo com referências gramaticais mais precisas do latim.
+\par O apêndice A.7 demonstra uma outra proposta, que pode ser melhor desenvolvida no futuro. É uma re-implementação do algoritmo sugerido por Porter porém escrito na linguagem Python. Comparando os resultados do código aqui proposto com os de Porter a margem de erro não ultrapassa 2\% em um corpus de aproximadamente 30 mil palavras, números consideráveis mas que podem ser melhorados no futuro. Para tal, seria necessário um tempo maior analisando resultados falso-positivos e refinando o algoritmo com referências gramaticais mais precisas do latim. O apêndice A.8 também apresenta uma ferramenta simples de consulta ao LemLat, um serviço online para lematização de palavras em latim do Istituto di Linguistica Computazionale, do CNR italiano
 
-\par O apêndice A.8 também apresenta uma ferramenta simples de consulta ao LemLat, um serviço online para lematização de palavras em latim do Istituto di Linguistica Computazionale, do CNR italiano. Os dois códigos apresentados nesses apêndices podem ser combinados para automatizar e melhorar o processo de radicalização de palavras do latim no futuro.
+\par Os dois códigos apresentados nesses apêndices podem ser combinados para automatizar e melhorar o processo de radicalização de palavras do latim no futuro. Entende-se que estão longe do ideal em questão de performance e acuidade dos resultados, porém são um bom começo para quem desejar melhorá-los.
 
-\section{Performance dos métodos}
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=160mm]{graficos/frequencia_100_lemmas.eps}
+\caption{Gráfico de frequência (100 termos radicalizados)}
+\end{center}
+\end{figure}
 
-\par Limpar stopwords e pontuação dos corpora todos de uma vez é bem demorado:
+\par Embora ainda imperfeitos, os códigos desses dois apêndices nos permitem, finalmente, tentar resolver o tal problema particular ao latim clássico no que toca a medição de frequências dos termos: ser flexional demais. Agora podemos tentar gerar um gráfico a partir dos verdadeiros radicais dos termos mais usados. O gráfico acima apresenta isso.
 
-\section{Formato dos corpora}
+\par Para a geração do gráfico com termos radicalizados, ocorrências de \textit{uideo} e \textit{uidebunt}, por exemplo, são somadas e consideradas uma só. Em geral usou-se a primeira pessoa do presente singular para verbos, e nominativo singular para nomes.
 
-\par Leitor de corpus NLTK pro PHI5?
+\par O resultado do gráfico não deve ser encarado como definitivo, porém é o mais próximo do verdadeiro uso lexical de Cícero em seus textos. A representatividade deles é baixa no gráfico, porém no apêndice A consta uma lista de mais de 500 termos selecionados de modo similar. É justamente essa lista de termos que pode ser utilizada em sala de aula para aquisição de vocabulário.
+
+\par O apêndice A não contém instruções ou comentários, é uma lista dos principais termos radicalizados de Cícero e ela deve ser avaliada e utilizada com cuidado. Embora seja representativa e bem construída, é necessário algum conhecimento básico de latim clássico para saber separar alguns verbos ou nomes para iniciantes e estudantes avançados, para que haja uma progressão de dificuldade na aquisição lexical.
+
+\section{Concordâncias}
+
+\par Uma outra abordagem de estudo e análise dos \textit{corpora}, é o uso de concordâncias, mencionadas nas seções anteriores. Para Cícero
+
+\par TODO: explicacao dos codigos escritos com python e nltk
 
 \chapter{Conclusão}
 \par Pro fim de maio...
+\par Gerar puzzles com NLTK pra sala de aula?
+\par TODO: corpora nao sao perfeitos, pode haver sujeira nao esperada ainda
+\par Dizer algo como: Although there are many advantages to having all these data stored electronically, the real power of this format comes not from the mere storage of data, but from the "relational"aspect, viz. the database program's ability to perform various operations on the material, creating new sets of data at lightning speed without disturbingtheoriginalset. Ittakesonlyafewsimplecommandsto create, for example, frequency lists for the whole database or any specifiable subset thereof. 
 
 % Existem ainda: abbrv, acm, alpha, amsalpha, amsplain
 \bibliographystyle{abnt-alf}	
