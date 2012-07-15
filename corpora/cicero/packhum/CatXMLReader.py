@@ -1,4 +1,4 @@
-# http://stackoverflow.com/questions/6849600/does-anyone-have-a-categorized-xml-corpus-reader-for-nltk
+# stackoverflow.com/questions/6849600/does-anyone-have-a-categorized-xml-corpus-reader-for-nltk
 
 # standard nltk classes
 from nltk.corpus.reader import CategorizedCorpusReader

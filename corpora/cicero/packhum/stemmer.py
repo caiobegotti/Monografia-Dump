@@ -29,7 +29,7 @@ orig = []
 nouns = []
 verbs = []
 
-# http://stackoverflow.com/questions/3411006/fastest-implementation-to-do-multiple-string-substitutions-in-python
+# stackoverflow.com/questions/3411006/fastest-implementation-to-do-multiple-string-substitutions-in-python
 # this is the multiple replacing algorithm proposed by matt anderson at stackoverflow in 2010
 # it should perform faster than python's native replace method on huge corpora
 def multi_replace(pairs, text):
