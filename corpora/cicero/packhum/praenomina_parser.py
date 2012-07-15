@@ -11,7 +11,9 @@ import glob
 import re
 
 def parser():
-    regex = re.compile("(?:A|Ap|D|C|Cn|K|L|M|Mam|N|O|P|Q|Qu|S|Sp|Ser|Sex|Sec|Seq|Sept|T|Ti|Tit|Vel|Vo)'?\. [A-Z]{0,}\w{0,} [A-Z]{0,}\w{0,}")
+    regex = re.compile("(?:A|Ap|D|C|Cn|K|L|M|Mam|N|O|P|Q|Qu|
+                         S|Sp|Ser|Sex|Sec|Seq|Sept|T|Ti|Tit|
+                         Vel|Vo)'?\. [A-Z]{0,}\w{0,} [A-Z]{0,}\w{0,}")
     praenomina = []
     
     for loop in glob.glob('raw/*.txt'):
