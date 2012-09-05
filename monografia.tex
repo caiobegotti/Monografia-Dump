@@ -1,15 +1,26 @@
 % Numeração de acordo com UFPR
 \documentclass[pnumromarab,normaltoc]{abnt}	
 
+% Para inserir palavras com alfabeto grego no texto
 \usepackage[polutonikogreek,brazil]{babel}
+
+% Pra suportar acentuação direito
+
 \usepackage[latin1]{inputenc}
 \usepackage{abnt-alf}
+
+% Para inserção de imagens
 \usepackage{graphicx}
+
+% Para links web serem clicáveis
 \usepackage{url}
 \usepackage{remreset}
 \usepackage[normalem]{ulem}
 
+% Minted para coloração de sintaxe dos códigos de programação (syntax highlighting)
 \usepackage{minted}
+
+% Estilo preferido do Minted pra Python
 \usemintedstyle{bw}
 \renewcommand{\theFancyVerbLine}{\sffamily \textcolor[rgb]{0.5,0.5,0.5}{\scriptsize \oldstylenums{\arabic{FancyVerbLine}}}}
 
@@ -17,33 +28,34 @@
 \@removefromreset{footnote}{chapter}
 \makeatother
 
-\makeatletter	% Para que ele entenda o @
+% Para que ele entenda o @
+\makeatletter
 
-% CAPA
-%\renewcommand{\capa} {
-%\begin{titlepage}
-%	\espaco{1.1}
-%	
-%	\begin{center}
-%		\large\ABNTchapterfont\ABNTautordata
-%	\end{center}
-%	
-%	\vspace{7.5cm}
-%	
-%	\begin{center}
-%		\large\ABNTchapterfont\ABNTtitulodata\par
-%	\end{center}
-%	
-%	\vfill
-%	
-%	\begin{center}
-%		\textbf{\ABNTlocaldata}\par
-%		\textbf{\ABNTdatadata}
-%	\end{center}
-%\end{titlepage}
-%}
+% Capa da monografia
+\renewcommand{\capa} {
+\begin{titlepage}
+	\espaco{1.1}
+	
+	\begin{center}
+		\large\ABNTchapterfont\ABNTautordata
+	\end{center}
+	
+	\vspace{7.5cm}
+	
+	\begin{center}
+		\large\ABNTchapterfont\ABNTtitulodata\par
+	\end{center}
+	
+	\vfill
+	
+	\begin{center}
+		\textbf{\ABNTlocaldata}\par
+		\textbf{\ABNTdatadata}
+	\end{center}
+\end{titlepage}
+}
 
-% FOLHA DE ROSTO
+% Folha de rosto
 \newcommand{\esporient}[2] {
 	\leftskip 0em
 	\@tempdima 5.5em
@@ -228,14 +240,15 @@
 % Altera o tamanho do parágrafo
 \setlength{\parindent}{1.5cm}
 
-% DOCUMENTO
+% Início do documento
 \begin{document}
 
 \autor{CAIO ESDRAS DE BRITO BEGOTTI}
 \titulo{O LATIM CLÁSSICO DE CÍCERO À LUZ DA LINGUÍSTICA DE CORPUS: DESCRIÇÃO E IMPLEMENTAÇÃO DE MÉTODOS COMPUTACIONAIS}
+
 \orientador{Alessandro Rolim de Moura}
 
-% Se tiver co-orientador
+% Se tiver co-orientador, descomente a linha abaixo
 %\coorientador{Co-orientador 1\protect\\Co-orientador 2}
 
 \comentario{Monografia apresentada à disciplina Orientação Monográfica II como requisito parcial para obtenção do título de Bacharel em Letras, com ênfase em Estudos Linguísticos, do Setor de Ciências Humanas, Letras e Artes, Universidade Federal do Paraná.}
@@ -244,49 +257,50 @@
 
 \data{2012}
 
-%\capa
+\capa
+
 \folhaderosto
 
-% TERMO DE APROVAÇÃO
-%\begin{titlepage}
-%	\espaco{1.1}
-%	
-%	\begin{center}
-%		\Large\textbf{{Termo de Aprovação}}
-%	\end{center}
-%	
-%	\vspace{0.75cm}
-%	
-%	\begin{center}
-%		\large\ABNTautordata
-%	\end{center}
-%	
-%	\vspace{1cm}
-%	
-%	\begin{center}
-%		\large\ABNTtitulodata
-%	\end{center}
-%	
-%	\vspace{1cm}
-%	
-%	\noindent Monografia aprovada como requisito parcial para obtenção do título de Bacharel em Letras, com ênfase em %Estudos Linguísticos, do Setor de Ciências Humanas, Letras e Artes, Universidade Federal do Paraná, pela seguinte banca %examinadora:
-%	
-%	\setlength{\ABNTsignthickness}{0.4pt}
-%	\setlength{\ABNTsignskip}{2cm}
-%	
-%	\vspace{-0.5cm}
-%	\assinatura{Prof. Dr. Alessandro Rolim de Moura\\Universidade Federal do Paraná}
-%	
-%	\vspace{-0.5cm}
-%	\assinatura{Prof. Dr. José Borges Neto\\Universidade Federal do Paraná} 
-%	
-%	\vfill
-%	
-%	\begin{center}
-%		Curitiba, 2012
-%	\end{center}
-%
-%\end{titlepage}
+% Termo de aprovação, após defesa da monografia
+\begin{titlepage}
+	\espaco{1.1}
+	
+	\begin{center}
+		\Large\textbf{{Termo de Aprovação}}
+	\end{center}
+	
+	\vspace{0.75cm}
+	
+	\begin{center}
+		\large\ABNTautordata
+	\end{center}
+	
+	\vspace{1cm}
+	
+	\begin{center}
+		\large\ABNTtitulodata
+	\end{center}
+	
+	\vspace{1cm}
+	
+	\noindent Monografia aprovada como requisito parcial para obtenção do título de Bacharel em Letras, com ênfase em Estudos Linguísticos, do Setor de Ciências Humanas, Letras e Artes, Universidade Federal do Paraná, pela seguinte banca examinadora:
+	
+	\setlength{\ABNTsignthickness}{0.4pt}
+	\setlength{\ABNTsignskip}{2cm}
+	
+	\vspace{-0.5cm}
+	\assinatura{Prof. Dr. Alessandro Rolim de Moura\\Universidade Federal do Paraná}
+	
+	\vspace{-0.5cm}
+	\assinatura{Prof. Dr. José Borges Neto\\Universidade Federal do Paraná} 
+	
+	\vfill
+	
+	\begin{center}
+		Curitiba, 2012
+	\end{center}
+
+\end{titlepage}
 
 % Deve ser adicionado ao contador de páginas um, referente a folha de rosto.
 % A folha de aprovação não recebe número, nem é contada.
@@ -341,7 +355,7 @@
 % 4 - Lista de Símbolos, e.g. \simbolo{símbolo}{Descrição}
 %\listadesimbolos
 
-% RESUMO
+% Resumo
 \begin{resumo}
 	$\phantom{linha em branco}$\\
 	Este trabalho apresenta a construção de \textit{corpora} linguísticos de textos de Cícero, do período clássico do latim, e possibilidades de análise computacional desses \textit{corpora} por meio da linguagem de programação Python e do projeto NLTK. A motivação deste trabalho é sugerir melhorias em métodos de ensino do latim e permitir uma melhor compreensão dessa língua de forma mais empírica, ou seja, uma compreensão da língua por meio da análise de textos reais utilizando conceitos de processamento de linguagem natural.\\
@@ -349,7 +363,7 @@
 	Palavras-chave: Linguística Aplicada; PLN; Linguística de Corpus; Latim Clássico; Cícero; Python; NLTK.
 \end{resumo}
 
-% ABSTRACT
+% Abstract
 \begin{abstract}
 	$\phantom{linha em branco}$\\
 		This work presents the construction of linguistics \textit{corpora} of the texts of Cicero, from the classical period of Latin, and also possibilities for computational analysis of such \textit{corpora} through the Python programming language and the NLTK project. The motivation of this work is to suggest improvements in Latin teaching methods and to also acquire a better understanding of this language by empirical means, i.e. an understanding of the language through the analysis of texts by means and concepts of natural language processing.\\
@@ -357,6 +371,7 @@
 	Keywords: Applied Linguistics; NLP; Corpus Linguistics; Classical Latin; Cicero; Python; NLTK.
 \end{abstract}
 
+% Início do conteúdo textual
 \chapter{Organização}
 
 \par Este trabalho está dividido em cinco capítulos principais, seguidos pelas referências bibliográficas e uma série de apêndices técnicos.
@@ -744,6 +759,7 @@
 \bibliographystyle{abnt-alf}	
 \bibliography{monografia}
 
+% Início dos apêndices
 \apendice
 
 \chapter{Sugestão de léxico para estudo}
