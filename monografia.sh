@@ -1,6 +1,6 @@
 #!/bin/bash
 
-latex -shell-escape monografia.tex
+pdflatex -shell-escape monografia.tex
 bibtex monografia
 sed '/@\(.*\){\(.*\),/!d;s//\2/' monografia.bib | while read c; do grep -q ${c} monografia.aux || echo cite ${c}; done
 
