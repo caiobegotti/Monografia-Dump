@@ -1,6 +1,6 @@
 # O latim clássico de Cícero à luz da linguística de corpus: descrição e implementação de métodos computacionais
 
-Este trabalho apresenta a construção de a linguísticos de textos de Cícero, do período clássico do latim, e possibilidades de análise computacional desses corpora por meio da linguagem de programação Python e do projeto NLTK. A motivação deste trabalho é sugerir melhorias em métodos de ensino do latim e permitir uma melhor compreensão dessa língua de forma mais empírica, ou seja, uma compreensão da língua por meio da análise de textos reais utilizando conceitos de processamento de língua natural.
+Este trabalho apresenta a construção de corpora linguísticos de textos de Cícero, do período clássico do latim, e possibilidades de análise computacional desses corpora por meio da linguagem de programação Python e do projeto NLTK. A motivação deste trabalho é sugerir melhorias em métodos de ensino do latim e permitir uma melhor compreensão dessa língua de forma mais empírica, ou seja, uma compreensão da língua por meio da análise de textos reais utilizando conceitos de processamento de língua natural.
 
 Palavras-chave: Linguística Aplicada; PLN; Linguística de Corpus; Latim Clássico; Cícero; Python; NLTK.
 
