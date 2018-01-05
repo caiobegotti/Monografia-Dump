@@ -115,9 +115,17 @@ def ending_fixer(buffer, ending):
 if __name__ == "__main__":
     # step 1
     with open(sys.argv[1], 'r') as joined:
+        total = 0
+        ok = 0
         for line in joined:
+            total += 1
             res = stemmer(line)
             if res is not None:
                 for r in res:
-                    outline = '{0: <30}{1: <25}{2: <25}'.format(r[0], r[1], r[2])
+                    outline = '{0: <30}{1: <25}{2}'.format(r[0], r[1], r[2])
                     print(outline)
+                    if cmp(line.rstrip(), outline) == 0:
+                        ok += 1
+        print("ACCURACY: {}").format(float(100*ok)/float(total))
+        print("TOTAL: {}").format(total)
+        print("OK: {}").format(ok)
