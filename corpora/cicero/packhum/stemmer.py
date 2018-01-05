@@ -90,26 +90,30 @@ def stemmer():
             verbs.append(buffer)
 
         endings = [i, bi, eri]
-        for list in endings:
-            for item in list[:-1]:
-                if buffer.endswith(item):
-                    buffer = buffer.replace(item, list[-1])
-                    break
-                else:
-                    for v in verb_suffix:
-                        if buffer.endswith(v):
-                            buffer = buffer[:-len(v)]
-                            break
-        
+        for ending in [i]:
+            buffer = ending_fixer(buffer, ending)
+
+        for v in verb_suffix:
+            if buffer.endswith(v):
+                buffer = buffer[:-len(v)]
+
         # step 7
         if len(buffer) >= 2:
             verbs.append(buffer)
 
     return zip(orig, nouns, verbs)
 
+def ending_fixer(buffer, ending):
+    items = ending[:-1]
+    toremove = ending[-1]
+    for item in items:
+        if buffer.endswith(item):
+            buffer = buffer.replace(item, toremove)
+    return buffer
+ 
 if __name__ == "__main__":
     # step 1
     res = stemmer()
     if res is not None:
         for r in res:
-            print "%s:%s:%s" % (r[0], r[1], r[2])
+            print '{0: <30}{1: <25}{2: <25}'.format(r[0], r[1], r[2])
