@@ -124,8 +124,11 @@ if __name__ == "__main__":
                 for r in res:
                     outline = '{0: <30}{1: <25}{2}'.format(r[0], r[1], r[2])
                     print(outline)
-                    if cmp(line.rstrip(), outline) == 0:
+                    compareto = multi_replace([('j', 'i'), ('v', 'u')], line.replace('\n',''))
+                    if cmp(compareto, outline) == 0:
                         ok += 1
+                    else:
+                        print("ERROR: {} | {}").format(compareto, outline)
         print("ACCURACY: {}").format(float(100*ok)/float(total))
         print("TOTAL: {}").format(total)
         print("OK: {}").format(ok)
