@@ -49,8 +49,8 @@ def multi_replace(pairs, text):
         return parts
     return replace(stack, [text])[0]
 
-def stemmer():
-    for entry in sys.stdin.readlines():
+def stemmer(voc):
+    for entry in voc:
         # step 2
         entry = multi_replace([('j', 'i'), ('v', 'u')], entry.replace('\n',''))
         
@@ -113,7 +113,8 @@ def ending_fixer(buffer, ending):
  
 if __name__ == "__main__":
     # step 1
-    res = stemmer()
-    if res is not None:
-        for r in res:
-            print '{0: <30}{1: <25}{2: <25}'.format(r[0], r[1], r[2])
+    with open('joined.txt', 'r') as joined:
+        res = stemmer(zip(*[line.split() for line in joined])[0])
+        if res is not None:
+            for r in res:
+                print '{0: <30}{1: <25}{2: <25}'.format(r[0], r[1], r[2])
