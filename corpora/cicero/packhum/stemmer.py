@@ -25,10 +25,6 @@ verb_suffix = ['iuntur', 'beris', 'erunt', 'untur', 'iunt', 'mini', 'ntur',
 'stis', 'bor', 'ero', 'mur', 'mus', 'ris', 'sti', 'tis', 'tur', 'unt',
 'bo', 'ns', 'nt', 'ri', 'm', 'r', 's', 't']
 
-orig = []
-nouns = []
-verbs = []
-
 # stackoverflow.com/questions/3411006/fastest-implementation-to-do-multiple-string-substitutions-in-python
 # this is the multiple replacing algorithm proposed by matt anderson at stackoverflow in 2010
 # it should perform faster than python's native replace method on huge corpora
@@ -49,57 +45,62 @@ def multi_replace(pairs, text):
         return parts
     return replace(stack, [text])[0]
 
-def stemmer(voc):
-    for entry in voc:
-        # step 2
-        entry = multi_replace([('j', 'i'), ('v', 'u')], entry.replace('\n',''))
+def stemmer(entry):
+    orig = []
+    nouns = []
+    verbs = []
+
+    entry = entry.split()[0]
+
+    # step 2
+    entry = multi_replace([('j', 'i'), ('v', 'u')], entry.replace('\n',''))
         
-        # hackish buffer
-        buffer = entry
-        orig.append(buffer)
+    # hackish buffer
+    buffer = entry
+    orig.append(buffer)
 
-        # step 3
-        if entry not in que:
-            if entry.endswith('que'):
-                entry = entry[:-3]
-        else:
-            nouns.append(entry)
-            verbs.append(entry)
+    # step 3
+    if entry not in que:
+        if entry.endswith('que'):
+            entry = entry[:-3]
+    else:
+        nouns.append(entry)
+        verbs.append(entry)
         
-        # step 4
-        for s in noun_suffix:
-            if entry.endswith(s):
-                entry = entry[:-len(s)]
-                break
+    # step 4
+    for s in noun_suffix:
+        if entry.endswith(s):
+            entry = entry[:-len(s)]
+            break
 
-        # step 5
-        if len(entry) >= 2:
-            nouns.append(entry)
+    # step 5
+    if len(entry) >= 2:
+        nouns.append(entry)
 
-        # step 6
-        i = ['iuntur', 'erunt', 'untur', 'iunt', 'unt', 'i']
-        bi = ['beris', 'bor', 'bo', 'bi']
-        eri = ['ero', 'eri']
+    # step 6
+    i = ['iuntur', 'erunt', 'untur', 'iunt', 'unt', 'i']
+    bi = ['beris', 'bor', 'bo', 'bi']
+    eri = ['ero', 'eri']
         
-        # repeat removal of que for verbs
-        if buffer not in que:
-            if buffer.endswith('que'):
-                buffer = buffer[:-3]
-        else:
-            nouns.append(buffer)
-            verbs.append(buffer)
+    # repeat removal of que for verbs
+    if buffer not in que:
+        if buffer.endswith('que'):
+            buffer = buffer[:-3]
+    else:
+        nouns.append(buffer)
+        verbs.append(buffer)
 
-        endings = [i, bi, eri]
-        for ending in [i]:
-            buffer = ending_fixer(buffer, ending)
+    endings = [i, bi, eri]
+    for ending in [i]:
+        buffer = ending_fixer(buffer, ending)
 
-        for v in verb_suffix:
-            if buffer.endswith(v):
-                buffer = buffer[:-len(v)]
+    for v in verb_suffix:
+        if buffer.endswith(v):
+            buffer = buffer[:-len(v)]
 
-        # step 7
-        if len(buffer) >= 2:
-            verbs.append(buffer)
+    # step 7
+    if len(buffer) >= 2:
+        verbs.append(buffer)
 
     return zip(orig, nouns, verbs)
 
@@ -113,8 +114,10 @@ def ending_fixer(buffer, ending):
  
 if __name__ == "__main__":
     # step 1
-    with open('joined.txt', 'r') as joined:
-        res = stemmer(zip(*[line.split() for line in joined])[0])
-        if res is not None:
-            for r in res:
-                print '{0: <30}{1: <25}{2: <25}'.format(r[0], r[1], r[2])
+    with open(sys.argv[1], 'r') as joined:
+        for line in joined:
+            res = stemmer(line)
+            if res is not None:
+                for r in res:
+                    outline = '{0: <30}{1: <25}{2: <25}'.format(r[0], r[1], r[2])
+                    print(outline)
