@@ -129,6 +129,4 @@ if __name__ == "__main__":
                         ok += 1
                     else:
                         print("ERROR: {} | {}").format(compareto, outline)
-        print("ACCURACY: {}").format(float(100*ok)/float(total))
-        print("TOTAL: {}").format(total)
-        print("OK: {}").format(ok)
+        print("ACCURACY: {}% ({}/{})").format(float(100*ok)/float(total), ok, total)
