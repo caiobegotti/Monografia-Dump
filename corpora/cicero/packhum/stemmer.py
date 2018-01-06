@@ -93,13 +93,13 @@ def stemmer(entry):
         verbs.append(buffer)
 
     endings = [i, bi, eri]
-
     for ending in endings:
         buffer = ending_fixer(buffer, ending)
 
     for v in verb_suffix:
         if buffer.endswith(v):
             buffer = buffer[:-len(v)]
+            break
 
     # step 7
     if len(buffer) >= 2:
