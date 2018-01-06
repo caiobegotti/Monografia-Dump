@@ -21,9 +21,8 @@ que = ['atque', 'quoque', 'neque', 'itaque', 'absque', 'apsque', 'abusque',
 noun_suffix = ['ibus', 'ius', 'ae', 'am', 'as', 'em', 'es', 'ia', 'is',
                'nt', 'os', 'ud', 'um', 'us', 'a', 'e', 'i', 'o', 'u']
 
-verb_suffix = ['iuntur', 'beris', 'erunt', 'untur', 'iunt', 'mini', 'ntur',
-               'stis', 'bor', 'ero', 'mur', 'mus', 'ris', 'sti', 'tis', 'tur', 'unt',
-               'bo', 'ns', 'nt', 'ri', 'm', 'r', 's', 't']
+verb_suffix = ['mini', 'ntur', 'stis', 'mur', 'mus', 'ris', 'sti',
+               'tis', 'tur', 'ns', 'nt', 'ri', 'm', 'r', 's', 't']
 
 
 # stackoverflow.com/questions/3411006/fastest-implementation-to-do-multiple-string-substitutions-in-python
@@ -94,6 +93,7 @@ def stemmer(entry):
         verbs.append(buffer)
 
     endings = [i, bi, eri]
+
     for ending in endings:
         buffer = ending_fixer(buffer, ending)
 
