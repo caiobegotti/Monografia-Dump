@@ -94,7 +94,7 @@ def stemmer(entry):
         verbs.append(buffer)
 
     endings = [i, bi, eri]
-    for ending in [i]:
+    for ending in endings:
         buffer = ending_fixer(buffer, ending)
 
     for v in verb_suffix:
