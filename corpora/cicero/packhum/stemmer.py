@@ -54,9 +54,6 @@ def stemmer(entry):
 
     entry = entry.split()[0]
 
-    # step 2
-    entry = multi_replace([('j', 'i'), ('v', 'u')], entry.replace('\n', ''))
-
     # hackish buffer
     buffer = entry
     orig.append(buffer)
@@ -124,14 +121,15 @@ if __name__ == "__main__":
         ok = 0
         for line in joined:
             total += 1
+            # step 2
+            line = multi_replace([('j', 'i'), ('v', 'u')], line.replace('\n', ''))
             res = stemmer(line)
             if res is not None:
                 for r in res:
                     outline = '{0: <30}{1: <25}{2}'.format(r[0], r[1], r[2])
                     print(outline)
-                    compareto = multi_replace([('j', 'i'), ('v', 'u')], line.replace('\n', ''))
-                    if cmp(compareto, outline) == 0:
+                    if cmp(line, outline) == 0:
                         ok += 1
                     else:
-                        print("ERROR: {} | {}").format(compareto, outline)
+                        print("ERROR: {} | {}").format(line, outline)
         print("ACCURACY: {}% ({}/{})").format(float(100*ok)/float(total), ok, total)
